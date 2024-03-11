@@ -689,7 +689,7 @@ def Process_GenMatching_Wcb(self,nt):
 
             W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt,ik);
             W_daughter_PDG = [nt.GenPart_pdgId[W_daughter_index[0]],nt.GenPart_pdgId[W_daughter_index[1]]]
-            print("W daughter is",W_daughter_PDG)
+            # print("W daughter is",W_daughter_PDG)
             if (not (W_daughter_PDG == [4,-5])) and (not (W_daughter_PDG == [-4,5])) : 
                 isWcb = False
             self.out.fillBranch("genWcb_pt", nt.GenPart_pt[ik]);
