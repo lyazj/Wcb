@@ -14,7 +14,7 @@ class VVVProducer(Module):
     def __init__(self , year, MODE = "inclusive" ):
         self.year = year
         self.MODE = MODE
-        self.Process_Genparticles = False
+        self.Process_Genparticles = True
 
     def beginJob(self):
         pass
@@ -26,85 +26,87 @@ class VVVProducer(Module):
         self.out = wrappedOutputTree
 
         if self.MODE == "Wcb":
-            self.out.branch("genH_pt","F")
-            self.out.branch("genH_eta","F")
-            self.out.branch("genH_phi","F")
-            self.out.branch("genH_mass","F")
+            self.out.branch("genWcb_pt","F")
+            self.out.branch("genWcb_eta","F")
+            self.out.branch("genWcb_phi","F")
+            self.out.branch("genWcb_mass","F")
+            
+            self.out.branch("isWcb","B")
 
-            self.out.branch("genH_w1_pt","F")
-            self.out.branch("genH_w1_eta","F")
-            self.out.branch("genH_w1_phi","F")
-            self.out.branch("genH_w1_mass","F")
+            # self.out.branch("genH_w1_pt","F")
+            # self.out.branch("genH_w1_eta","F")
+            # self.out.branch("genH_w1_phi","F")
+            # self.out.branch("genH_w1_mass","F")
 
-            self.out.branch("genH_w2_pt","F")
-            self.out.branch("genH_w2_eta","F")
-            self.out.branch("genH_w2_phi","F")
-            self.out.branch("genH_w2_mass","F")
+            # self.out.branch("genH_w2_pt","F")
+            # self.out.branch("genH_w2_eta","F")
+            # self.out.branch("genH_w2_phi","F")
+            # self.out.branch("genH_w2_mass","F")
 
-            self.out.branch("genH_b1_pt","F")
-            self.out.branch("genH_b1_eta","F")
-            self.out.branch("genH_b1_phi","F")
-            self.out.branch("genH_b1_mass","F")
+            # self.out.branch("genH_b1_pt","F")
+            # self.out.branch("genH_b1_eta","F")
+            # self.out.branch("genH_b1_phi","F")
+            # self.out.branch("genH_b1_mass","F")
 
-            self.out.branch("genH_b2_pt","F")
-            self.out.branch("genH_b2_eta","F")
-            self.out.branch("genH_b2_phi","F")
-            self.out.branch("genH_b2_mass","F")
+            # self.out.branch("genH_b2_pt","F")
+            # self.out.branch("genH_b2_eta","F")
+            # self.out.branch("genH_b2_phi","F")
+            # self.out.branch("genH_b2_mass","F")
 
 
-            self.out.branch("genH_w1_tag","F") 
-            self.out.branch("genH_w2_tag","F")
+            # self.out.branch("genH_w1_tag","F") 
+            # self.out.branch("genH_w2_tag","F")
 
-            self.out.branch("genH_w1_q1_pt","F")
-            self.out.branch("genH_w1_q1_eta","F")
-            self.out.branch("genH_w1_q1_phi","F")
-            self.out.branch("genH_w1_q1_mass","F")
-            self.out.branch("genH_w1_q1_pdg","F")
+            # self.out.branch("genH_w1_q1_pt","F")
+            # self.out.branch("genH_w1_q1_eta","F")
+            # self.out.branch("genH_w1_q1_phi","F")
+            # self.out.branch("genH_w1_q1_mass","F")
+            # self.out.branch("genH_w1_q1_pdg","F")
 
-            self.out.branch("genH_w1_q2_pt","F")
-            self.out.branch("genH_w1_q2_eta","F")
-            self.out.branch("genH_w1_q2_phi","F")
-            self.out.branch("genH_w1_q2_mass","F")
-            self.out.branch("genH_w1_q2_pdg","F")
+            # self.out.branch("genH_w1_q2_pt","F")
+            # self.out.branch("genH_w1_q2_eta","F")
+            # self.out.branch("genH_w1_q2_phi","F")
+            # self.out.branch("genH_w1_q2_mass","F")
+            # self.out.branch("genH_w1_q2_pdg","F")
 
-            self.out.branch("genH_w2_q1_pt","F")
-            self.out.branch("genH_w2_q1_eta","F")
-            self.out.branch("genH_w2_q1_phi","F")
-            self.out.branch("genH_w2_q1_mass","F")
-            self.out.branch("genH_w2_q1_pdg","F")
+            # self.out.branch("genH_w2_q1_pt","F")
+            # self.out.branch("genH_w2_q1_eta","F")
+            # self.out.branch("genH_w2_q1_phi","F")
+            # self.out.branch("genH_w2_q1_mass","F")
+            # self.out.branch("genH_w2_q1_pdg","F")
 
-            self.out.branch("genH_w2_q2_pt","F")
-            self.out.branch("genH_w2_q2_eta","F")
-            self.out.branch("genH_w2_q2_phi","F")
-            self.out.branch("genH_w2_q2_mass","F")
-            self.out.branch("genH_w2_q2_pdg","F")
+            # self.out.branch("genH_w2_q2_pt","F")
+            # self.out.branch("genH_w2_q2_eta","F")
+            # self.out.branch("genH_w2_q2_phi","F")
+            # self.out.branch("genH_w2_q2_mass","F")
+            # self.out.branch("genH_w2_q2_pdg","F")
 
-            self.out.branch("genH_b1_tag","F") 
-            self.out.branch("genH_b2_tag","F")
+            # self.out.branch("genH_b1_tag","F") 
+            # self.out.branch("genH_b2_tag","F")
 
-            self.out.branch("genH_b1_q1_pt","F")
-            self.out.branch("genH_b1_q1_eta","F")
-            self.out.branch("genH_b1_q1_phi","F")
-            self.out.branch("genH_b1_q1_mass","F")
-            self.out.branch("genH_b1_q1_pdg","F")
+            # self.out.branch("genH_b1_q1_pt","F")
+            # self.out.branch("genH_b1_q1_eta","F")
+            # self.out.branch("genH_b1_q1_phi","F")
+            # self.out.branch("genH_b1_q1_mass","F")
+            # self.out.branch("genH_b1_q1_pdg","F")
 
-            self.out.branch("genH_b1_q2_pt","F")
-            self.out.branch("genH_b1_q2_eta","F")
-            self.out.branch("genH_b1_q2_phi","F")
-            self.out.branch("genH_b1_q2_mass","F")
-            self.out.branch("genH_b1_q2_pdg","F")
+            # self.out.branch("genH_b1_q2_pt","F")
+            # self.out.branch("genH_b1_q2_eta","F")
+            # self.out.branch("genH_b1_q2_phi","F")
+            # self.out.branch("genH_b1_q2_mass","F")
+            # self.out.branch("genH_b1_q2_pdg","F")
 
-            self.out.branch("genH_b2_q1_pt","F")
-            self.out.branch("genH_b2_q1_eta","F")
-            self.out.branch("genH_b2_q1_phi","F")
-            self.out.branch("genH_b2_q1_mass","F")
-            self.out.branch("genH_b2_q1_pdg","F")
+            # self.out.branch("genH_b2_q1_pt","F")
+            # self.out.branch("genH_b2_q1_eta","F")
+            # self.out.branch("genH_b2_q1_phi","F")
+            # self.out.branch("genH_b2_q1_mass","F")
+            # self.out.branch("genH_b2_q1_pdg","F")
 
-            self.out.branch("genH_b2_q2_pt","F")
-            self.out.branch("genH_b2_q2_eta","F")
-            self.out.branch("genH_b2_q2_phi","F")
-            self.out.branch("genH_b2_q2_mass","F")
-            self.out.branch("genH_b2_q2_pdg","F")
+            # self.out.branch("genH_b2_q2_pt","F")
+            # self.out.branch("genH_b2_q2_eta","F")
+            # self.out.branch("genH_b2_q2_phi","F")
+            # self.out.branch("genH_b2_q2_mass","F")
+            # self.out.branch("genH_b2_q2_pdg","F")
 
         if self.Process_Genparticles : 
             self.out.branch("gentop_pt", "F")
@@ -315,12 +317,12 @@ class VVVProducer(Module):
         if self.is_mc:
             if self.MODE == "Wcb" :
                 # Process_1Lepton_GenMatching_Top(self,event);
-                isWcb = Process_1Lepton_GenMatching_Wcb(self,event)
+                isWcb = Process_GenMatching_Wcb(self,event)
                 # Process_1Lepton_GenMatching_W(self,event);
                 # Process_1Lepton_GenMatching_Z(self,event);
                 # Process_1Lepton_GenMatching_g(self,event);
                 # Process_1Lepton_GenMatching_q(self,event);
-                if isWcb == False : return False
+                # if isWcb == False : return False
         lep_pt,lep_eta,lep_phi,lep_m,trackIso,muisolation=-99,-99,-99,-99,-99,-99
 
         # Muon selection: Highpt ID
@@ -357,8 +359,8 @@ class VVVProducer(Module):
 
         Nj8 = ( fatjet1.Pt()>200 ) + ( fatjet2.Pt()>200 ) + ( fatjet3.Pt()>200 )
         if not ( Nj8 >= 2 ) : return False
-        if not ( ( fatjet1.M()>40 ) | (fatjet2.M()>40) | (fatjet3.M()>40) ): return False
-        if not ( fatjet1.Pt()>400 ): return False
+        if not ( ( fatjet1.M()>30 ) | (fatjet2.M()>30) | (fatjet3.M()>30) ): return False
+        if not ( fatjet1.Pt()>300 ): return False
         self.out.fillBranch("Nj8", Nj8)
 
         return True
@@ -651,7 +653,7 @@ def Process_1Lepton_GenMatching_H(self,nt):
     return isHWW
 
 def Process_GenMatching_Wcb(self,nt):
-    isWcb = False
+    isWcb = True
     genw_q1_eta=[]
     phigenwl=[]
     etagenwl=[]
@@ -688,12 +690,13 @@ def Process_GenMatching_Wcb(self,nt):
             W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt,ik);
             W_daughter_PDG = [nt.GenPart_pdgId[W_daughter_index[0]],nt.GenPart_pdgId[W_daughter_index[1]]]
             print("W daughter is",W_daughter_PDG)
-            if (abs(W_daughter_PDG) != [5,4]) and ( abs(W_daughter_PDG) != [4,5]) : 
+            if (not (W_daughter_PDG == [4,-5])) and (not (W_daughter_PDG == [-4,5])) : 
                 isWcb = False
             self.out.fillBranch("genWcb_pt", nt.GenPart_pt[ik]);
             self.out.fillBranch("genWcb_eta", nt.GenPart_eta[ik]);
             self.out.fillBranch("genWcb_phi", nt.GenPart_phi[ik]);
             self.out.fillBranch("genWcb_mass", nt.GenPart_mass[ik]);
+            self.out.fillBranch("isWcb", isWcb);
             NW_daughter = len(W_daughter_index)
             if ( NW_daughter == 2):
                 if( abs(nt.GenPart_pdgId[W_daughter_index[0]])<=6 ):  taggenwl.append(4)
@@ -748,6 +751,7 @@ def Process_GenMatching_Wcb(self,nt):
     self.out.fillBranch("genw_q2_eta", genw_q2_eta)
     self.out.fillBranch("phigenwl", phigenwl)
     self.out.fillBranch("genw_q2_pdg", genw_q2_pdg)
+    return isWcb
 
 def Process_1Lepton_GenMatching_W(self,nt):
     genw_q1_eta=[]
