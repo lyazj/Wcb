@@ -28,7 +28,7 @@
 
    scram b
    ```
-    Noticed that the `crab_help.py` is written in python3, hence the `scram b` in CMSSW would leave some error message. Since this crab helper normally would not be included by other codes, you can ignore these errors.
+    
 
 4. Substitute some outdated files with `init.sh`
 (refer to Meng's code: https://github.com/menglu21/TTC)
@@ -38,8 +38,11 @@
    source init.sh
    ```
 
-<!-- ## test
+## test
    ```bash
    cd analysis/test
-   source run.sh
-   ``` -->
+   ```
+   and then run like:
+   ```bash
+   python run_condor.py -o path/to/output -i path/to/input -M Wcb -m --year 2018
+   ```
