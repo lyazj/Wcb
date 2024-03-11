@@ -38,8 +38,8 @@
    source init.sh
    ```
 
-## test
+<!-- ## test
    ```bash
    cd analysis/test
    source run.sh
-   ```
+   ``` -->
