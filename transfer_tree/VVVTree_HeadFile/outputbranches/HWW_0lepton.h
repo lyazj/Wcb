@@ -5,7 +5,7 @@ void EDBR2PKUTree::OutputBranches_HWW() {
    if (IsData > 100){
       //Added genH information;
 
-      ExTree->Branch("genH_pt", &genH_pt, "genH_pt/F");
+      //ExTree->Branch("genH_pt", &genH_pt, "genH_pt/F");
 
       ExTree->Branch("matchingt_a", &matchingt_a, "matchingt_a/I");
       ExTree->Branch("matchingW_a", &matchingW_a, "matchingW_a/I");
@@ -418,28 +418,44 @@ void EDBR2PKUTree::OutputBranches_HWW() {
    ExTree->Branch("b_HWWvsQCD_V2",&b_HWWvsQCD_V2,"b_HWWvsQCD_V2/F");
    ExTree->Branch("c_HWWvsQCD_V2",&c_HWWvsQCD_V2,"c_HWWvsQCD_V2/F");
 
+ExTree->Branch("a_Hbb", &a_Hbb, "a_Hbb/F");
+ExTree->Branch("a_Hbc", &a_Hbc, "a_Hbc/F");
+ExTree->Branch("a_Hbs", &a_Hbs, "a_Hbs/F");
+ExTree->Branch("a_Hcc", &a_Hcc, "a_Hcc/F");
+ExTree->Branch("a_Hcs", &a_Hcs, "a_Hcs/F");
+ExTree->Branch("a_Hss", &a_Hss, "a_Hss/F");
+ExTree->Branch("a_Hqq", &a_Hqq, "a_Hqq/F");
+ExTree->Branch("a_QCDb", &a_QCDb, "a_QCDb/F");
+ExTree->Branch("a_QCDbb", &a_QCDbb, "a_QCDbb/F");
+ExTree->Branch("a_QCDc", &a_QCDc, "a_QCDc/F");
+ExTree->Branch("a_QCDcc", &a_QCDcc, "a_QCDcc/F");
+ExTree->Branch("a_QCDothers", &a_QCDothers, "a_QCDothers/F");
 
+ExTree->Branch("b_Hbb", &b_Hbb, "b_Hbb/F");
+ExTree->Branch("b_Hbc", &b_Hbc, "b_Hbc/F");
+ExTree->Branch("b_Hbs", &b_Hbs, "b_Hbs/F");
+ExTree->Branch("b_Hcc", &b_Hcc, "b_Hcc/F");
+ExTree->Branch("b_Hcs", &b_Hcs, "b_Hcs/F");
+ExTree->Branch("b_Hss", &b_Hss, "b_Hss/F");
+ExTree->Branch("b_Hqq", &b_Hqq, "b_Hqq/F");
+ExTree->Branch("b_QCDb", &b_QCDb, "b_QCDb/F");
+ExTree->Branch("b_QCDbb", &b_QCDbb, "b_QCDbb/F");
+ExTree->Branch("b_QCDc", &b_QCDc, "b_QCDc/F");
+ExTree->Branch("b_QCDcc", &b_QCDcc, "b_QCDcc/F");
+ExTree->Branch("b_QCDothers", &b_QCDothers, "b_QCDothers/F");
 
-ExTree->Branch("a_Hbc",&a_Hbc            , "a_Hbc/F");
-ExTree->Branch("a_QCDbb",&a_QCDbb          , "a_QCDbb/F");
-ExTree->Branch("a_QCDcc",&a_QCDcc          , "a_QCDcc/F");
-ExTree->Branch("a_QCDb",&a_QCDb           , "a_QCDb/F");
-ExTree->Branch("a_QCDc",&a_QCDc           , "a_QCDc/F");
-ExTree->Branch("a_QCDothers",&a_QCDothers      , "a_QCDothers/F");
-
-ExTree->Branch("b_Hbc",&b_Hbc            , "b_Hbc/F");
-ExTree->Branch("b_QCDbb",&b_QCDbb          , "b_QCDbb/F");
-ExTree->Branch("b_QCDcc",&b_QCDcc          , "b_QCDcc/F");
-ExTree->Branch("b_QCDb",&b_QCDb           , "b_QCDb/F");
-ExTree->Branch("b_QCDc",&b_QCDc           , "b_QCDc/F");
-ExTree->Branch("b_QCDothers",&b_QCDothers      , "b_QCDothers/F");
-
-ExTree->Branch("c_Hbc",&c_Hbc            , "c_Hbc/F");
-ExTree->Branch("c_QCDbb",&c_QCDbb          , "c_QCDbb/F");
-ExTree->Branch("c_QCDcc",&c_QCDcc          , "c_QCDcc/F");
-ExTree->Branch("c_QCDb",&c_QCDb           , "c_QCDb/F");
-ExTree->Branch("c_QCDc",&c_QCDc           , "c_QCDc/F");
-ExTree->Branch("c_QCDothers",&c_QCDothers      , "c_QCDothers/F");
+ExTree->Branch("c_Hbb", &c_Hbb, "c_Hbb/F");
+ExTree->Branch("c_Hbc", &c_Hbc, "c_Hbc/F");
+ExTree->Branch("c_Hbs", &c_Hbs, "c_Hbs/F");
+ExTree->Branch("c_Hcc", &c_Hcc, "c_Hcc/F");
+ExTree->Branch("c_Hcs", &c_Hcs, "c_Hcs/F");
+ExTree->Branch("c_Hss", &c_Hss, "c_Hss/F");
+ExTree->Branch("c_Hqq", &c_Hqq, "c_Hqq/F");
+ExTree->Branch("c_QCDb", &c_QCDb, "c_QCDb/F");
+ExTree->Branch("c_QCDbb", &c_QCDbb, "c_QCDbb/F");
+ExTree->Branch("c_QCDc", &c_QCDc, "c_QCDc/F");
+ExTree->Branch("c_QCDcc", &c_QCDcc, "c_QCDcc/F");
+ExTree->Branch("c_QCDothers", &c_QCDothers, "c_QCDothers/F");
 
 ExTree->Branch("FatJet_tau1_HWW_a",&FatJet_tau1_HWW_a, "FatJet_tau1_HWW_a/F");
 ExTree->Branch("FatJet_tau2_HWW_a",&FatJet_tau2_HWW_a, "FatJet_tau2_HWW_a/F");
@@ -456,17 +472,17 @@ ExTree->Branch("FatJet_tau4_HWW_c",&FatJet_tau4_HWW_c, "FatJet_tau4_HWW_c/F");
 
     ExTree->Branch("isWcb", &isWcb, "isWcb/B");
 
-    ExTree->Branch("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,"HLT_PFHT650_WideJetMJJ900DEtaJJ1p5/B");
-    ExTree->Branch("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,"HLT_PFHT650_WideJetMJJ950DEtaJJ1p5/B");
-    ExTree->Branch("HLT_PFHT800",&HLT_PFHT800,"HLT_PFHT800/B");
-    ExTree->Branch("HLT_PFHT900",&HLT_PFHT900,"HLT_PFHT900/B");
+    //ExTree->Branch("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,"HLT_PFHT650_WideJetMJJ900DEtaJJ1p5/B");
+    //ExTree->Branch("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,"HLT_PFHT650_WideJetMJJ950DEtaJJ1p5/B");
+    //ExTree->Branch("HLT_PFHT800",&HLT_PFHT800,"HLT_PFHT800/B");
+    //ExTree->Branch("HLT_PFHT900",&HLT_PFHT900,"HLT_PFHT900/B");
     ExTree->Branch("HLT_PFJet450",&HLT_PFJet450,"HLT_PFJet450/B");
     ExTree->Branch("HLT_AK8PFJet400",&HLT_AK8PFJet400,"HLT_AK8PFJet400/B");
     ExTree->Branch("HLT_AK8PFJet450",&HLT_AK8PFJet450,"HLT_AK8PFJet450/B");
     ExTree->Branch("HLT_AK8PFJet500",&HLT_AK8PFJet500,"HLT_AK8PFJet500/B");
     ExTree->Branch("HLT_PFJet500",&HLT_PFJet500,"HLT_PFJet500/B");
     ExTree->Branch("HLT_AK8PFJet360_TrimMass30",&HLT_AK8PFJet360_TrimMass30,"HLT_AK8PFJet360_TrimMass30/B");
-    ExTree->Branch("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,"HLT_AK8PFHT700_TrimR0p1PT0p03Mass50/B");
+    //ExTree->Branch("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,"HLT_AK8PFHT700_TrimR0p1PT0p03Mass50/B");
     ExTree->Branch("HLT_PFHT1050",&HLT_PFHT1050,"HLT_PFHT1050/B");
     ExTree->Branch("HLT_AK8PFJet380_TrimMass30",&HLT_AK8PFJet380_TrimMass30,"HLT_AK8PFJet380_TrimMass30/B");
     ExTree->Branch("HLT_AK8PFJet400_TrimMass30",&HLT_AK8PFJet400_TrimMass30,"HLT_AK8PFJet400_TrimMass30/B");
@@ -476,13 +492,13 @@ ExTree->Branch("FatJet_tau4_HWW_c",&FatJet_tau4_HWW_c, "FatJet_tau4_HWW_c/F");
     ExTree->Branch("HLT_AK8PFHT850_TrimMass50",&HLT_AK8PFHT850_TrimMass50,"HLT_AK8PFHT850_TrimMass50/B");
     ExTree->Branch("HLT_AK8PFHT900_TrimMass50",&HLT_AK8PFHT900_TrimMass50,"HLT_AK8PFHT900_TrimMass50/B");
 
-   ExTree->Branch("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,"HLT_PFMET110_PFMHT110_IDTight/B");
-   ExTree->Branch("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,"HLT_PFMET120_PFMHT120_IDTight/B");
-   ExTree->Branch("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,"HLT_PFMET130_PFMHT130_IDTight/B");
-   ExTree->Branch("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,"HLT_PFMET140_PFMHT140_IDTight/B");
-   ExTree->Branch("HLT_Mu50",                     &HLT_Mu50,                     "HLT_Mu50/B");
-   ExTree->Branch("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,"HLT_Ele115_CaloIdVT_GsfTrkIdT/B");
-   ExTree->Branch("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,"HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165/B");
+   //ExTree->Branch("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,"HLT_PFMET110_PFMHT110_IDTight/B");
+   //ExTree->Branch("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,"HLT_PFMET120_PFMHT120_IDTight/B");
+   //ExTree->Branch("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,"HLT_PFMET130_PFMHT130_IDTight/B");
+   //ExTree->Branch("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,"HLT_PFMET140_PFMHT140_IDTight/B");
+   //ExTree->Branch("HLT_Mu50",                     &HLT_Mu50,                     "HLT_Mu50/B");
+   //ExTree->Branch("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,"HLT_Ele115_CaloIdVT_GsfTrkIdT/B");
+   //ExTree->Branch("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,"HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165/B");
    // define ExTree for HWW output.
 
    ExTree->Branch("MET_phi_NoXYCorr",&MET_phi_NoXYCorr,"MET_phi_NoXYCorr/F");

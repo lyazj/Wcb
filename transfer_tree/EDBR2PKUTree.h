@@ -328,25 +328,43 @@ float Mj_corr_V2_b;
 float Mj_corr_V2_c;
 
 
+float a_Hbb             ;
 float a_Hbc             ;
-float a_QCDbb           ;
-float a_QCDcc           ;
+float a_Hbs             ;
+float a_Hcc             ;
+float a_Hcs             ;
+float a_Hss             ;
+float a_Hqq             ;
 float a_QCDb            ;
+float a_QCDbb           ;
 float a_QCDc            ;
+float a_QCDcc           ;
 float a_QCDothers       ;
 
+float b_Hbb             ;
 float b_Hbc             ;
-float b_QCDbb           ;
-float b_QCDcc           ;
+float b_Hbs             ;
+float b_Hcc             ;
+float b_Hcs             ;
+float b_Hss             ;
+float b_Hqq             ;
 float b_QCDb            ;
+float b_QCDbb           ;
 float b_QCDc            ;
+float b_QCDcc           ;
 float b_QCDothers       ;
 
+float c_Hbb             ;
 float c_Hbc             ;
-float c_QCDbb           ;
-float c_QCDcc           ;
+float c_Hbs             ;
+float c_Hcc             ;
+float c_Hcs             ;
+float c_Hss             ;
+float c_Hqq             ;
 float c_QCDb            ;
+float c_QCDbb           ;
 float c_QCDc            ;
+float c_QCDcc           ;
 float c_QCDothers       ;
 
 float a_HWW_V2             ;
@@ -872,30 +890,48 @@ TBranch *b_Jet_rawFactor_;
 
 //Added HWW tagger
 
-float FatJet_inclParTMDV2_probHbc_         [NFATJET_MAX];
-float FatJet_inclParTMDV2_probQCDbb_       [NFATJET_MAX];
-float FatJet_inclParTMDV2_probQCDcc_       [NFATJET_MAX];
-float FatJet_inclParTMDV2_probQCDb_        [NFATJET_MAX];
-float FatJet_inclParTMDV2_probQCDc_        [NFATJET_MAX];
-float FatJet_inclParTMDV2_probQCDothers_   [NFATJET_MAX];
+float FatJet_inclParTMDV2_probHbb_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHbc_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHbs_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHcc_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHcs_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHss_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probHqq_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probQCDb_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probQCDbb_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probQCDc_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probQCDcc_[NFATJET_MAX];
+float FatJet_inclParTMDV2_probQCDothers_[NFATJET_MAX];
 
 
  //Define hidden neurons.
 
-vector<float> v_FatJet_inclParTMDV2_probHbc_         ;
-vector<float> v_FatJet_inclParTMDV2_probQCDbb_       ;
-vector<float> v_FatJet_inclParTMDV2_probQCDcc_       ;
-vector<float> v_FatJet_inclParTMDV2_probQCDb_        ;
-vector<float> v_FatJet_inclParTMDV2_probQCDc_        ;
-vector<float> v_FatJet_inclParTMDV2_probQCDothers_   ;
+vector<float> v_FatJet_inclParTMDV2_probHbb_;
+vector<float> v_FatJet_inclParTMDV2_probHbc_;
+vector<float> v_FatJet_inclParTMDV2_probHbs_;
+vector<float> v_FatJet_inclParTMDV2_probHcc_;
+vector<float> v_FatJet_inclParTMDV2_probHcs_;
+vector<float> v_FatJet_inclParTMDV2_probHss_;
+vector<float> v_FatJet_inclParTMDV2_probHqq_;
+vector<float> v_FatJet_inclParTMDV2_probQCDb_;
+vector<float> v_FatJet_inclParTMDV2_probQCDbb_;
+vector<float> v_FatJet_inclParTMDV2_probQCDc_;
+vector<float> v_FatJet_inclParTMDV2_probQCDcc_;
+vector<float> v_FatJet_inclParTMDV2_probQCDothers_;
 
 
-TBranch *b_FatJet_inclParTMDV2_probHbc_          ;
-TBranch *b_FatJet_inclParTMDV2_probQCDbb_        ;
-TBranch *b_FatJet_inclParTMDV2_probQCDcc_        ;
-TBranch *b_FatJet_inclParTMDV2_probQCDb_         ;
-TBranch *b_FatJet_inclParTMDV2_probQCDc_         ;
-TBranch *b_FatJet_inclParTMDV2_probQCDothers_    ;
+TBranch *b_FatJet_inclParTMDV2_probHbb_;
+TBranch *b_FatJet_inclParTMDV2_probHbc_;
+TBranch *b_FatJet_inclParTMDV2_probHbs_;
+TBranch *b_FatJet_inclParTMDV2_probHcc_;
+TBranch *b_FatJet_inclParTMDV2_probHcs_;
+TBranch *b_FatJet_inclParTMDV2_probHss_;
+TBranch *b_FatJet_inclParTMDV2_probHqq_;
+TBranch *b_FatJet_inclParTMDV2_probQCDb_;
+TBranch *b_FatJet_inclParTMDV2_probQCDbb_;
+TBranch *b_FatJet_inclParTMDV2_probQCDc_;
+TBranch *b_FatJet_inclParTMDV2_probQCDcc_;
+TBranch *b_FatJet_inclParTMDV2_probQCDothers_;
 
 
 

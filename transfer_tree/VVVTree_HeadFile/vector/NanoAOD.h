@@ -297,12 +297,20 @@ void EDBR2PKUTree::fatJets_GetEntry(Long64_t jentry) {
 
 
     //V2
-    if(b_FatJet_inclParTMDV2_probHbc_         ){int bytes_FatJet_inclParTMDV2_probHbc          =  b_FatJet_inclParTMDV2_probHbc_         ->GetEntry(jentry); v_FatJet_inclParTMDV2_probHbc_          = vector<float>(FatJet_inclParTMDV2_probHbc_         ,FatJet_inclParTMDV2_probHbc_          + bytes_FatJet_inclParTMDV2_probHbc/sizeof(FatJet_inclParTMDV2_probHbc_[0])) ;}
-    if(b_FatJet_inclParTMDV2_probQCDbb_       ){int bytes_FatJet_inclParTMDV2_probQCDbb        =  b_FatJet_inclParTMDV2_probQCDbb_       ->GetEntry(jentry); v_FatJet_inclParTMDV2_probQCDbb_        = vector<float>(FatJet_inclParTMDV2_probQCDbb_       ,FatJet_inclParTMDV2_probQCDbb_        + bytes_FatJet_inclParTMDV2_probQCDbb/sizeof(FatJet_inclParTMDV2_probQCDbb_[0])) ;}
-    if(b_FatJet_inclParTMDV2_probQCDcc_       ){int bytes_FatJet_inclParTMDV2_probQCDcc        =  b_FatJet_inclParTMDV2_probQCDcc_       ->GetEntry(jentry); v_FatJet_inclParTMDV2_probQCDcc_        = vector<float>(FatJet_inclParTMDV2_probQCDcc_       ,FatJet_inclParTMDV2_probQCDcc_        + bytes_FatJet_inclParTMDV2_probQCDcc/sizeof(FatJet_inclParTMDV2_probQCDcc_[0])) ;}
-    if(b_FatJet_inclParTMDV2_probQCDb_        ){int bytes_FatJet_inclParTMDV2_probQCDb         =  b_FatJet_inclParTMDV2_probQCDb_        ->GetEntry(jentry); v_FatJet_inclParTMDV2_probQCDb_         = vector<float>(FatJet_inclParTMDV2_probQCDb_        ,FatJet_inclParTMDV2_probQCDb_         + bytes_FatJet_inclParTMDV2_probQCDb/sizeof(FatJet_inclParTMDV2_probQCDb_[0])) ;}
-    if(b_FatJet_inclParTMDV2_probQCDc_        ){int bytes_FatJet_inclParTMDV2_probQCDc         =  b_FatJet_inclParTMDV2_probQCDc_        ->GetEntry(jentry); v_FatJet_inclParTMDV2_probQCDc_         = vector<float>(FatJet_inclParTMDV2_probQCDc_        ,FatJet_inclParTMDV2_probQCDc_         + bytes_FatJet_inclParTMDV2_probQCDc/sizeof(FatJet_inclParTMDV2_probQCDc_[0])) ;}
-    if(b_FatJet_inclParTMDV2_probQCDothers_   ){int bytes_FatJet_inclParTMDV2_probQCDothers    =  b_FatJet_inclParTMDV2_probQCDothers_   ->GetEntry(jentry); v_FatJet_inclParTMDV2_probQCDothers_    = vector<float>(FatJet_inclParTMDV2_probQCDothers_   ,FatJet_inclParTMDV2_probQCDothers_    + bytes_FatJet_inclParTMDV2_probQCDothers/sizeof(FatJet_inclParTMDV2_probQCDothers_[0])) ;}
+#define OP(b, v, p)  ({ if(b) { size_t s = b->GetEntry(jentry); v = vector<float>(p, p + (s / sizeof(float))); } })
+OP(b_FatJet_inclParTMDV2_probHbb_,       v_FatJet_inclParTMDV2_probHbb_,       FatJet_inclParTMDV2_probHbb_      );
+OP(b_FatJet_inclParTMDV2_probHbc_,       v_FatJet_inclParTMDV2_probHbc_,       FatJet_inclParTMDV2_probHbc_      );
+OP(b_FatJet_inclParTMDV2_probHbs_,       v_FatJet_inclParTMDV2_probHbs_,       FatJet_inclParTMDV2_probHbs_      );
+OP(b_FatJet_inclParTMDV2_probHcc_,       v_FatJet_inclParTMDV2_probHcc_,       FatJet_inclParTMDV2_probHcc_      );
+OP(b_FatJet_inclParTMDV2_probHcs_,       v_FatJet_inclParTMDV2_probHcs_,       FatJet_inclParTMDV2_probHcs_      );
+OP(b_FatJet_inclParTMDV2_probHss_,       v_FatJet_inclParTMDV2_probHss_,       FatJet_inclParTMDV2_probHss_      );
+OP(b_FatJet_inclParTMDV2_probHqq_,       v_FatJet_inclParTMDV2_probHqq_,       FatJet_inclParTMDV2_probHqq_      );
+OP(b_FatJet_inclParTMDV2_probQCDb_,      v_FatJet_inclParTMDV2_probQCDb_,      FatJet_inclParTMDV2_probQCDb_     );
+OP(b_FatJet_inclParTMDV2_probQCDbb_,     v_FatJet_inclParTMDV2_probQCDbb_,     FatJet_inclParTMDV2_probQCDbb_    );
+OP(b_FatJet_inclParTMDV2_probQCDc_,      v_FatJet_inclParTMDV2_probQCDc_,      FatJet_inclParTMDV2_probQCDc_     );
+OP(b_FatJet_inclParTMDV2_probQCDcc_,     v_FatJet_inclParTMDV2_probQCDcc_,     FatJet_inclParTMDV2_probQCDcc_    );
+OP(b_FatJet_inclParTMDV2_probQCDothers_, v_FatJet_inclParTMDV2_probQCDothers_, FatJet_inclParTMDV2_probQCDothers_);
+
 }
 
 void EDBR2PKUTree::Electron_GetEntry(Long64_t jentry) {

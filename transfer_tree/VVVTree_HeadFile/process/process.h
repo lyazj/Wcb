@@ -34,12 +34,18 @@ void EDBR2PKUTree::initFatJet_Collection(){
         //HWW tagger.
         //V2
 
-        &v_FatJet_inclParTMDV2_probHbc_          ,
-        &v_FatJet_inclParTMDV2_probQCDbb_        ,
-        &v_FatJet_inclParTMDV2_probQCDcc_        ,
-        &v_FatJet_inclParTMDV2_probQCDb_         ,
-        &v_FatJet_inclParTMDV2_probQCDc_         ,
-        &v_FatJet_inclParTMDV2_probQCDothers_    ,
+        &v_FatJet_inclParTMDV2_probHbb_,
+        &v_FatJet_inclParTMDV2_probHbc_,
+        &v_FatJet_inclParTMDV2_probHbs_,
+        &v_FatJet_inclParTMDV2_probHcc_,
+        &v_FatJet_inclParTMDV2_probHcs_,
+        &v_FatJet_inclParTMDV2_probHss_,
+        &v_FatJet_inclParTMDV2_probHqq_,
+        &v_FatJet_inclParTMDV2_probQCDb_,
+        &v_FatJet_inclParTMDV2_probQCDbb_,
+        &v_FatJet_inclParTMDV2_probQCDc_,
+        &v_FatJet_inclParTMDV2_probQCDcc_,
+        &v_FatJet_inclParTMDV2_probQCDothers_,
  
 
     } ;
@@ -245,26 +251,44 @@ void EDBR2PKUTree::FatJets_P4_HWWV2_Order() {
 
 void EDBR2PKUTree::FatJets_HWWV2_Order(){
 
-    a_Hbc                       = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probHbc"         ,         0);
-    a_QCDbb                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDbb"       ,         0);
-    a_QCDcc                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDcc"       ,         0);
-    a_QCDb                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDb"        ,         0);
-    a_QCDc                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDc"        ,         0);
-    a_QCDothers                 = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDothers"   ,         0);
+    a_Hbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbb", 0);
+    a_Hbc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbc", 0);
+    a_Hbs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbs", 0);
+    a_Hcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcc", 0);
+    a_Hcs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcs", 0);
+    a_Hss = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHss", 0);
+    a_Hqq = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHqq", 0);
+    a_QCDb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDb", 0);
+    a_QCDbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDbb", 0);
+    a_QCDc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDc", 0);
+    a_QCDcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDcc", 0);
+    a_QCDothers = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDothers", 0);
 
-    b_Hbc                       = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probHbc"         ,         1);
-    b_QCDbb                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDbb"       ,         1);
-    b_QCDcc                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDcc"       ,         1);
-    b_QCDb                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDb"        ,         1);
-    b_QCDc                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDc"        ,         1);
-    b_QCDothers                 = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDothers"   ,         1);
+    b_Hbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbb", 1);
+    b_Hbc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbc", 1);
+    b_Hbs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbs", 1);
+    b_Hcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcc", 1);
+    b_Hcs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcs", 1);
+    b_Hss = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHss", 1);
+    b_Hqq = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHqq", 1);
+    b_QCDb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDb", 1);
+    b_QCDbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDbb", 1);
+    b_QCDc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDc", 1);
+    b_QCDcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDcc", 1);
+    b_QCDothers = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDothers", 1);
 
-    c_Hbc                       = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probHbc"         ,         2);
-    c_QCDbb                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDbb"       ,         2);
-    c_QCDcc                     = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDcc"       ,         2);
-    c_QCDb                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDb"        ,         2);
-    c_QCDc                      = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDc"        ,         2);
-    c_QCDothers                 = FatJets.Get("HWW-V2-MD",     "inclParTMDV2_probQCDothers"   ,         2);
+    c_Hbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbb", 2);
+    c_Hbc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbc", 2);
+    c_Hbs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHbs", 2);
+    c_Hcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcc", 2);
+    c_Hcs = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHcs", 2);
+    c_Hss = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHss", 2);
+    c_Hqq = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probHqq", 2);
+    c_QCDb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDb", 2);
+    c_QCDbb = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDbb", 2);
+    c_QCDc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDc", 2);
+    c_QCDcc = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDcc", 2);
+    c_QCDothers = FatJets.Get("HWW-V2-MD", "inclParTMDV2_probQCDothers", 2);
 
     FatJet_tau1_HWW_a           = FatJets.Get("HWW-V2-MD","tau1",0);
     FatJet_tau2_HWW_a           = FatJets.Get("HWW-V2-MD","tau2",0);
@@ -491,15 +515,15 @@ if ( IsData==0 ){
 
 else{
     if (YEAR_g.Contains("2016")){
-        if (HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT900 || HLT_PFJet450 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 ){
+        //if (HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT900 || HLT_PFJet450 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 ){
             TriggerSF = 1;
-        }
-        else if ( HLT_AK8PFJet450 || HLT_AK8PFJet500 ){
-            TriggerSF = 33.64/36.47;
-        }
-        else if ( HLT_PFHT800 ) {
-             TriggerSF = 27.71/36.47;
-        }
+        //}
+        //else if ( HLT_AK8PFJet450 || HLT_AK8PFJet500 ){
+        //    TriggerSF = 33.64/36.47;
+        //}
+        //else if ( HLT_PFHT800 ) {
+        //     TriggerSF = 27.71/36.47;
+        //}
         // For test;
         // cout << "Now the 2016 TriggerSF is " << TriggerSF << endl;
     }

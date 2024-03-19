@@ -1,0 +1,9 @@
+stdbuf -oL python2 Scripts/TransMergedMC_part1.py --year 2018 2>&1 | tee Scripts/TransMergedMC_part1.log
+stdbuf -oL python2 Scripts/TransMergedMC_part2.py --year 2018 2>&1 | tee Scripts/TransMergedMC_part2.log
+stdbuf -oL python2 Scripts/TransMergedMC_part3.py --year 2018 2>&1 | tee Scripts/TransMergedMC_part3.log
+stdbuf -oL python2 Scripts/TransSig_S.py          --year 2018 2>&1 | tee Scripts/TransSig_S.log
+
+hadd /data/bond/lyazj/Tree/Wcb_V1/Merged/2018/MC/Tree_QCD.root $(ls /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/QCD*/*.root) &
+hadd /data/bond/lyazj/Tree/Wcb_V1/Merged/2018/MC/Tree_Top.root $(ls /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/TT*/*.root /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/ST*/*.root) &
+hadd /data/bond/lyazj/Tree/Wcb_V1/Merged/2018/MC/Tree_WJets.root $(ls /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/WJets*/*.root) &
+hadd /data/bond/lyazj/Tree/Wcb_V1/Merged/2018/MC/Tree_Rest.root $(ls /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/WW*/*.root /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/WZ*/*.root /data/bond/lyazj/Tree/Wcb_V1/Splitted/2018/MC/Z*/*.root) &

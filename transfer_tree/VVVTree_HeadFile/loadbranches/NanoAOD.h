@@ -130,19 +130,31 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
 
 
-    b_FatJet_inclParTMDV2_probHbc_          = fChain->GetBranch("FatJet_inclParTMDV2_probHbc"           );
-    b_FatJet_inclParTMDV2_probQCDbb_        = fChain->GetBranch("FatJet_inclParTMDV2_probQCDbb"         );
-    b_FatJet_inclParTMDV2_probQCDcc_        = fChain->GetBranch("FatJet_inclParTMDV2_probQCDcc"         );
-    b_FatJet_inclParTMDV2_probQCDb_         = fChain->GetBranch("FatJet_inclParTMDV2_probQCDb"          );
-    b_FatJet_inclParTMDV2_probQCDc_         = fChain->GetBranch("FatJet_inclParTMDV2_probQCDc"          );
-    b_FatJet_inclParTMDV2_probQCDothers_    = fChain->GetBranch("FatJet_inclParTMDV2_probQCDothers"     );
+    b_FatJet_inclParTMDV2_probHbb_ = fChain->GetBranch("FatJet_inclParTMDV2_probHbb");
+    b_FatJet_inclParTMDV2_probHbc_ = fChain->GetBranch("FatJet_inclParTMDV2_probHbc");
+    b_FatJet_inclParTMDV2_probHbs_ = fChain->GetBranch("FatJet_inclParTMDV2_probHbs");
+    b_FatJet_inclParTMDV2_probHcc_ = fChain->GetBranch("FatJet_inclParTMDV2_probHcc");
+    b_FatJet_inclParTMDV2_probHcs_ = fChain->GetBranch("FatJet_inclParTMDV2_probHcs");
+    b_FatJet_inclParTMDV2_probHss_ = fChain->GetBranch("FatJet_inclParTMDV2_probHss");
+    b_FatJet_inclParTMDV2_probHqq_ = fChain->GetBranch("FatJet_inclParTMDV2_probHqq");
+    b_FatJet_inclParTMDV2_probQCDb_ = fChain->GetBranch("FatJet_inclParTMDV2_probQCDb");
+    b_FatJet_inclParTMDV2_probQCDbb_ = fChain->GetBranch("FatJet_inclParTMDV2_probQCDbb");
+    b_FatJet_inclParTMDV2_probQCDc_ = fChain->GetBranch("FatJet_inclParTMDV2_probQCDc");
+    b_FatJet_inclParTMDV2_probQCDcc_ = fChain->GetBranch("FatJet_inclParTMDV2_probQCDcc");
+    b_FatJet_inclParTMDV2_probQCDothers_ = fChain->GetBranch("FatJet_inclParTMDV2_probQCDothers");
 
-    if(b_FatJet_inclParTMDV2_probHbc_         ){  b_FatJet_inclParTMDV2_probHbc_->SetAddress(&FatJet_inclParTMDV2_probHbc_         );}
-    if(b_FatJet_inclParTMDV2_probQCDbb_       ){  b_FatJet_inclParTMDV2_probQCDbb_->SetAddress(&FatJet_inclParTMDV2_probQCDbb_       );}
-    if(b_FatJet_inclParTMDV2_probQCDcc_       ){  b_FatJet_inclParTMDV2_probQCDcc_->SetAddress(&FatJet_inclParTMDV2_probQCDcc_       );}
-    if(b_FatJet_inclParTMDV2_probQCDb_        ){  b_FatJet_inclParTMDV2_probQCDb_->SetAddress(&FatJet_inclParTMDV2_probQCDb_        );}
-    if(b_FatJet_inclParTMDV2_probQCDc_        ){  b_FatJet_inclParTMDV2_probQCDc_->SetAddress(&FatJet_inclParTMDV2_probQCDc_        );}
-    if(b_FatJet_inclParTMDV2_probQCDothers_   ){  b_FatJet_inclParTMDV2_probQCDothers_->SetAddress(&FatJet_inclParTMDV2_probQCDothers_   );}    
+    if(b_FatJet_inclParTMDV2_probHbb_) b_FatJet_inclParTMDV2_probHbb_->SetAddress(&FatJet_inclParTMDV2_probHbb_);
+    if(b_FatJet_inclParTMDV2_probHbc_) b_FatJet_inclParTMDV2_probHbc_->SetAddress(&FatJet_inclParTMDV2_probHbc_);
+    if(b_FatJet_inclParTMDV2_probHbs_) b_FatJet_inclParTMDV2_probHbs_->SetAddress(&FatJet_inclParTMDV2_probHbs_);
+    if(b_FatJet_inclParTMDV2_probHcc_) b_FatJet_inclParTMDV2_probHcc_->SetAddress(&FatJet_inclParTMDV2_probHcc_);
+    if(b_FatJet_inclParTMDV2_probHcs_) b_FatJet_inclParTMDV2_probHcs_->SetAddress(&FatJet_inclParTMDV2_probHcs_);
+    if(b_FatJet_inclParTMDV2_probHss_) b_FatJet_inclParTMDV2_probHss_->SetAddress(&FatJet_inclParTMDV2_probHss_);
+    if(b_FatJet_inclParTMDV2_probHqq_) b_FatJet_inclParTMDV2_probHqq_->SetAddress(&FatJet_inclParTMDV2_probHqq_);
+    if(b_FatJet_inclParTMDV2_probQCDb_) b_FatJet_inclParTMDV2_probQCDb_->SetAddress(&FatJet_inclParTMDV2_probQCDb_);
+    if(b_FatJet_inclParTMDV2_probQCDbb_) b_FatJet_inclParTMDV2_probQCDbb_->SetAddress(&FatJet_inclParTMDV2_probQCDbb_);
+    if(b_FatJet_inclParTMDV2_probQCDc_) b_FatJet_inclParTMDV2_probQCDc_->SetAddress(&FatJet_inclParTMDV2_probQCDc_);
+    if(b_FatJet_inclParTMDV2_probQCDcc_) b_FatJet_inclParTMDV2_probQCDcc_->SetAddress(&FatJet_inclParTMDV2_probQCDcc_);
+    if(b_FatJet_inclParTMDV2_probQCDothers_) b_FatJet_inclParTMDV2_probQCDothers_->SetAddress(&FatJet_inclParTMDV2_probQCDothers_);
 
     //New tagger ends.
 
@@ -246,7 +258,7 @@ void EDBR2PKUTree::loadVectorBranches_MET() {
 }
 
 void EDBR2PKUTree::loadVectorBranches_genH() {
-   fChain->SetBranchAddress("genH_pt",&genH_pt,&b_genH_pt);
+   //fChain->SetBranchAddress("genH_pt",&genH_pt,&b_genH_pt);
 }
 
 
@@ -266,17 +278,17 @@ void EDBR2PKUTree::loadVectorBranches_Flag() {
 void EDBR2PKUTree::loadVectorBranches_HLT() {
     fChain->SetBranchAddress("isWcb",   &isWcb, &b_isWcb);
     
-    fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ900DEtaJJ1p5);
-    fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ950DEtaJJ1p5);
-    fChain->SetBranchAddress("HLT_PFHT800",&HLT_PFHT800,&b_HLT_PFHT800);
-    fChain->SetBranchAddress("HLT_PFHT900",&HLT_PFHT900,&b_HLT_PFHT900);
+    //fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ900DEtaJJ1p5);
+    //fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ950DEtaJJ1p5);
+    //fChain->SetBranchAddress("HLT_PFHT800",&HLT_PFHT800,&b_HLT_PFHT800);
+    //fChain->SetBranchAddress("HLT_PFHT900",&HLT_PFHT900,&b_HLT_PFHT900);
     fChain->SetBranchAddress("HLT_PFJet450",&HLT_PFJet450,&b_HLT_PFJet450);
     fChain->SetBranchAddress("HLT_AK8PFJet400",&HLT_AK8PFJet400,&b_HLT_AK8PFJet400);
     fChain->SetBranchAddress("HLT_AK8PFJet450",&HLT_AK8PFJet450,&b_HLT_AK8PFJet450);
     fChain->SetBranchAddress("HLT_AK8PFJet500",&HLT_AK8PFJet500,&b_HLT_AK8PFJet500);
     fChain->SetBranchAddress("HLT_PFJet500",&HLT_PFJet500,&b_HLT_PFJet500);
     fChain->SetBranchAddress("HLT_AK8PFJet360_TrimMass30",&HLT_AK8PFJet360_TrimMass30,&b_HLT_AK8PFJet360_TrimMass30);
-    fChain->SetBranchAddress("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,&b_HLT_AK8PFHT700_TrimR0p1PT0p03Mass50);
+    //fChain->SetBranchAddress("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,&b_HLT_AK8PFHT700_TrimR0p1PT0p03Mass50);
     fChain->SetBranchAddress("HLT_PFHT1050",&HLT_PFHT1050,&b_HLT_PFHT1050);
     fChain->SetBranchAddress("HLT_AK8PFJet380_TrimMass30",&HLT_AK8PFJet380_TrimMass30,&b_HLT_AK8PFJet380_TrimMass30);
     fChain->SetBranchAddress("HLT_AK8PFJet400_TrimMass30",&HLT_AK8PFJet400_TrimMass30,&b_HLT_AK8PFJet400_TrimMass30);
@@ -286,14 +298,14 @@ void EDBR2PKUTree::loadVectorBranches_HLT() {
     fChain->SetBranchAddress("HLT_AK8PFHT850_TrimMass50",&HLT_AK8PFHT850_TrimMass50,&b_HLT_AK8PFHT850_TrimMass50);
     fChain->SetBranchAddress("HLT_AK8PFHT900_TrimMass50",&HLT_AK8PFHT900_TrimMass50,&b_HLT_AK8PFHT900_TrimMass50);
 
-    fChain->SetBranchAddress("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,&b_HLT_PFMET110_PFMHT110_IDTight);
-    fChain->SetBranchAddress("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,&b_HLT_PFMET120_PFMHT120_IDTight);
-    fChain->SetBranchAddress("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,&b_HLT_PFMET130_PFMHT130_IDTight);
-    fChain->SetBranchAddress("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,&b_HLT_PFMET140_PFMHT140_IDTight);
+    //fChain->SetBranchAddress("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,&b_HLT_PFMET110_PFMHT110_IDTight);
+    //fChain->SetBranchAddress("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,&b_HLT_PFMET120_PFMHT120_IDTight);
+    //fChain->SetBranchAddress("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,&b_HLT_PFMET130_PFMHT130_IDTight);
+    //fChain->SetBranchAddress("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,&b_HLT_PFMET140_PFMHT140_IDTight);
     
-    fChain->SetBranchAddress("HLT_Mu50",&HLT_Mu50,&b_HLT_Mu50);
-    fChain->SetBranchAddress("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,&b_HLT_Ele115_CaloIdVT_GsfTrkIdT);
-    fChain->SetBranchAddress("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,&b_HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165);
+    //fChain->SetBranchAddress("HLT_Mu50",&HLT_Mu50,&b_HLT_Mu50);
+    //fChain->SetBranchAddress("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,&b_HLT_Ele115_CaloIdVT_GsfTrkIdT);
+    //fChain->SetBranchAddress("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,&b_HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165);
 
 }
 
