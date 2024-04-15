@@ -57,11 +57,17 @@ struct FatJet_P //define the necessary struct used by
 
     vector<float>* v_FatJet_pt_nom_;
     
+    vector<float>* v_FatJet_inclParTMDV2_probHbb_;
     vector<float>* v_FatJet_inclParTMDV2_probHbc_;
-    vector<float>* v_FatJet_inclParTMDV2_probQCDbb_;
-    vector<float>* v_FatJet_inclParTMDV2_probQCDcc_;
+    vector<float>* v_FatJet_inclParTMDV2_probHbs_;
+    vector<float>* v_FatJet_inclParTMDV2_probHcc_;
+    vector<float>* v_FatJet_inclParTMDV2_probHcs_;
+    vector<float>* v_FatJet_inclParTMDV2_probHss_;
+    vector<float>* v_FatJet_inclParTMDV2_probHqq_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDb_;
+    vector<float>* v_FatJet_inclParTMDV2_probQCDbb_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDc_;
+    vector<float>* v_FatJet_inclParTMDV2_probQCDcc_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDothers_;
 
     //Start Hidden.
@@ -112,13 +118,18 @@ class FatJet_Collection {
 
         //Tagger V2
 
+    vector<float>* v_FatJet_inclParTMDV2_probHbb_;
     vector<float>* v_FatJet_inclParTMDV2_probHbc_;
-    vector<float>* v_FatJet_inclParTMDV2_probQCDbb_;
-    vector<float>* v_FatJet_inclParTMDV2_probQCDcc_;
+    vector<float>* v_FatJet_inclParTMDV2_probHbs_;
+    vector<float>* v_FatJet_inclParTMDV2_probHcc_;
+    vector<float>* v_FatJet_inclParTMDV2_probHcs_;
+    vector<float>* v_FatJet_inclParTMDV2_probHss_;
+    vector<float>* v_FatJet_inclParTMDV2_probHqq_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDb_;
+    vector<float>* v_FatJet_inclParTMDV2_probQCDbb_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDc_;
+    vector<float>* v_FatJet_inclParTMDV2_probQCDcc_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDothers_;
-
 
     //Start Hidden.
 
@@ -158,11 +169,17 @@ class FatJet_Collection {
 
         //Tagger V2
 
+    vector<float> FatJet_inclParTMDV2_probHbb;
     vector<float> FatJet_inclParTMDV2_probHbc;
-    vector<float> FatJet_inclParTMDV2_probQCDbb;
-    vector<float> FatJet_inclParTMDV2_probQCDcc;
+    vector<float> FatJet_inclParTMDV2_probHbs;
+    vector<float> FatJet_inclParTMDV2_probHcc;
+    vector<float> FatJet_inclParTMDV2_probHcs;
+    vector<float> FatJet_inclParTMDV2_probHss;
+    vector<float> FatJet_inclParTMDV2_probHqq;
     vector<float> FatJet_inclParTMDV2_probQCDb;
+    vector<float> FatJet_inclParTMDV2_probQCDbb;
     vector<float> FatJet_inclParTMDV2_probQCDc;
+    vector<float> FatJet_inclParTMDV2_probQCDcc;
     vector<float> FatJet_inclParTMDV2_probQCDothers;
 
     //Start Hidden.
@@ -241,12 +258,18 @@ FatJet_Collection::FatJet_Collection(FatJet_P FatJet_ , int NMAXFatJet_, int fil
 
     v_FatJet_pt_nom_                         = FatJet_.v_FatJet_pt_nom_;
 
-    v_FatJet_inclParTMDV2_probHbc_            = FatJet_.v_FatJet_inclParTMDV2_probHbc_           ;
-    v_FatJet_inclParTMDV2_probQCDbb_          = FatJet_.v_FatJet_inclParTMDV2_probQCDbb_         ;
-    v_FatJet_inclParTMDV2_probQCDcc_          = FatJet_.v_FatJet_inclParTMDV2_probQCDcc_         ;
-    v_FatJet_inclParTMDV2_probQCDb_           = FatJet_.v_FatJet_inclParTMDV2_probQCDb_          ;
-    v_FatJet_inclParTMDV2_probQCDc_           = FatJet_.v_FatJet_inclParTMDV2_probQCDc_          ;
-    v_FatJet_inclParTMDV2_probQCDothers_      = FatJet_.v_FatJet_inclParTMDV2_probQCDothers_     ;
+    v_FatJet_inclParTMDV2_probHbb_           = FatJet_.v_FatJet_inclParTMDV2_probHbb_;
+    v_FatJet_inclParTMDV2_probHbc_           = FatJet_.v_FatJet_inclParTMDV2_probHbc_;
+    v_FatJet_inclParTMDV2_probHbs_           = FatJet_.v_FatJet_inclParTMDV2_probHbs_;
+    v_FatJet_inclParTMDV2_probHcc_           = FatJet_.v_FatJet_inclParTMDV2_probHcc_;
+    v_FatJet_inclParTMDV2_probHcs_           = FatJet_.v_FatJet_inclParTMDV2_probHcs_;
+    v_FatJet_inclParTMDV2_probHss_           = FatJet_.v_FatJet_inclParTMDV2_probHss_;
+    v_FatJet_inclParTMDV2_probHqq_           = FatJet_.v_FatJet_inclParTMDV2_probHqq_;
+    v_FatJet_inclParTMDV2_probQCDb_          = FatJet_.v_FatJet_inclParTMDV2_probQCDb_;
+    v_FatJet_inclParTMDV2_probQCDbb_         = FatJet_.v_FatJet_inclParTMDV2_probQCDbb_;
+    v_FatJet_inclParTMDV2_probQCDc_          = FatJet_.v_FatJet_inclParTMDV2_probQCDc_;
+    v_FatJet_inclParTMDV2_probQCDcc_         = FatJet_.v_FatJet_inclParTMDV2_probQCDcc_;
+    v_FatJet_inclParTMDV2_probQCDothers_     = FatJet_.v_FatJet_inclParTMDV2_probQCDothers_;
 
 
 
@@ -311,12 +334,18 @@ void FatJet_Collection::brances_map(){
 
 
 
-    FatJet_Branches["inclParTMDV2_probHbc"]           =  FatJet_inclParTMDV2_probHbc                ;        
-    FatJet_Branches["inclParTMDV2_probQCDbb"]         =  FatJet_inclParTMDV2_probQCDbb              ;     
-    FatJet_Branches["inclParTMDV2_probQCDcc"]         =  FatJet_inclParTMDV2_probQCDcc              ;     
-    FatJet_Branches["inclParTMDV2_probQCDb"]          =  FatJet_inclParTMDV2_probQCDb               ; 
-    FatJet_Branches["inclParTMDV2_probQCDc"]          =  FatJet_inclParTMDV2_probQCDc               ; 
-    FatJet_Branches["inclParTMDV2_probQCDothers"]     =  FatJet_inclParTMDV2_probQCDothers          ;        
+    FatJet_Branches["inclParTMDV2_probHbb"]            = FatJet_inclParTMDV2_probHbb;
+    FatJet_Branches["inclParTMDV2_probHbc"]            = FatJet_inclParTMDV2_probHbc;
+    FatJet_Branches["inclParTMDV2_probHbs"]            = FatJet_inclParTMDV2_probHbs;
+    FatJet_Branches["inclParTMDV2_probHcc"]            = FatJet_inclParTMDV2_probHcc;
+    FatJet_Branches["inclParTMDV2_probHcs"]            = FatJet_inclParTMDV2_probHcs;
+    FatJet_Branches["inclParTMDV2_probHss"]            = FatJet_inclParTMDV2_probHss;
+    FatJet_Branches["inclParTMDV2_probHqq"]            = FatJet_inclParTMDV2_probHqq;
+    FatJet_Branches["inclParTMDV2_probQCDb"]           = FatJet_inclParTMDV2_probQCDb;
+    FatJet_Branches["inclParTMDV2_probQCDbb"]          = FatJet_inclParTMDV2_probQCDbb;
+    FatJet_Branches["inclParTMDV2_probQCDc"]           = FatJet_inclParTMDV2_probQCDc;
+    FatJet_Branches["inclParTMDV2_probQCDcc"]          = FatJet_inclParTMDV2_probQCDcc;
+    FatJet_Branches["inclParTMDV2_probQCDothers"]      = FatJet_inclParTMDV2_probQCDothers;
       
 
 }
@@ -429,12 +458,18 @@ void FatJet_Collection::Filter_1(){
         FatJet_tau4.push_back(v_FatJet_tau4_->at(iFJ));
 
         //V2
-        FatJet_inclParTMDV2_probHbc.push_back( v_FatJet_inclParTMDV2_probHbc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDbb.push_back( v_FatJet_inclParTMDV2_probQCDbb_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDcc.push_back( v_FatJet_inclParTMDV2_probQCDcc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDb.push_back( v_FatJet_inclParTMDV2_probQCDb_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDc.push_back( v_FatJet_inclParTMDV2_probQCDc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDothers.push_back( v_FatJet_inclParTMDV2_probQCDothers_->at(iFJ));
+        FatJet_inclParTMDV2_probHbb.push_back(v_FatJet_inclParTMDV2_probHbb_->at(iFJ));
+        FatJet_inclParTMDV2_probHbc.push_back(v_FatJet_inclParTMDV2_probHbc_->at(iFJ));
+        FatJet_inclParTMDV2_probHbs.push_back(v_FatJet_inclParTMDV2_probHbs_->at(iFJ));
+        FatJet_inclParTMDV2_probHcc.push_back(v_FatJet_inclParTMDV2_probHcc_->at(iFJ));
+        FatJet_inclParTMDV2_probHcs.push_back(v_FatJet_inclParTMDV2_probHcs_->at(iFJ));
+        FatJet_inclParTMDV2_probHss.push_back(v_FatJet_inclParTMDV2_probHss_->at(iFJ));
+        FatJet_inclParTMDV2_probHqq.push_back(v_FatJet_inclParTMDV2_probHqq_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDb.push_back(v_FatJet_inclParTMDV2_probQCDb_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDbb.push_back(v_FatJet_inclParTMDV2_probQCDbb_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDc.push_back(v_FatJet_inclParTMDV2_probQCDc_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDcc.push_back(v_FatJet_inclParTMDV2_probQCDcc_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDothers.push_back(v_FatJet_inclParTMDV2_probQCDothers_->at(iFJ));
 
         if( v_FatJet_msoftdrop_raw_->size() > iFJ ){
             FatJet_msoftdrop_raw.push_back(v_FatJet_msoftdrop_raw_->at(iFJ));
@@ -572,12 +607,18 @@ void FatJet_Collection::Filter_2(){
 
         //New tagger.
 
-        FatJet_inclParTMDV2_probHbc.push_back( v_FatJet_inclParTMDV2_probHbc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDbb.push_back( v_FatJet_inclParTMDV2_probQCDbb_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDcc.push_back( v_FatJet_inclParTMDV2_probQCDcc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDb.push_back( v_FatJet_inclParTMDV2_probQCDb_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDc.push_back( v_FatJet_inclParTMDV2_probQCDc_->at(iFJ));
-        FatJet_inclParTMDV2_probQCDothers.push_back( v_FatJet_inclParTMDV2_probQCDothers_->at(iFJ));
+        FatJet_inclParTMDV2_probHbb.push_back(v_FatJet_inclParTMDV2_probHbb_->at(iFJ));
+        FatJet_inclParTMDV2_probHbc.push_back(v_FatJet_inclParTMDV2_probHbc_->at(iFJ));
+        FatJet_inclParTMDV2_probHbs.push_back(v_FatJet_inclParTMDV2_probHbs_->at(iFJ));
+        FatJet_inclParTMDV2_probHcc.push_back(v_FatJet_inclParTMDV2_probHcc_->at(iFJ));
+        FatJet_inclParTMDV2_probHcs.push_back(v_FatJet_inclParTMDV2_probHcs_->at(iFJ));
+        FatJet_inclParTMDV2_probHss.push_back(v_FatJet_inclParTMDV2_probHss_->at(iFJ));
+        FatJet_inclParTMDV2_probHqq.push_back(v_FatJet_inclParTMDV2_probHqq_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDb.push_back(v_FatJet_inclParTMDV2_probQCDb_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDbb.push_back(v_FatJet_inclParTMDV2_probQCDbb_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDc.push_back(v_FatJet_inclParTMDV2_probQCDc_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDcc.push_back(v_FatJet_inclParTMDV2_probQCDcc_->at(iFJ));
+        FatJet_inclParTMDV2_probQCDothers.push_back(v_FatJet_inclParTMDV2_probQCDothers_->at(iFJ));
 
         if( v_FatJet_msoftdrop_raw_->size() > iFJ ){
             FatJet_msoftdrop_raw.push_back(v_FatJet_msoftdrop_raw_->at(iFJ));

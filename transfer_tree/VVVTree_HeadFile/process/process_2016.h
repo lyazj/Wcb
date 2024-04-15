@@ -33,12 +33,18 @@ void EDBR2PKUTree::initFatJet_Collection_2016(){
 
         //New tagger.
                 //V2
-        &v_FatJet_inclParTMDV2_probHbc_          ,
-        &v_FatJet_inclParTMDV2_probQCDbb_        ,
-        &v_FatJet_inclParTMDV2_probQCDcc_        ,
-        &v_FatJet_inclParTMDV2_probQCDb_         ,
-        &v_FatJet_inclParTMDV2_probQCDc_         ,
-        &v_FatJet_inclParTMDV2_probQCDothers_    ,
+        &v_FatJet_inclParTMDV2_probHbb_,
+        &v_FatJet_inclParTMDV2_probHbc_,
+        &v_FatJet_inclParTMDV2_probHbs_,
+        &v_FatJet_inclParTMDV2_probHcc_,
+        &v_FatJet_inclParTMDV2_probHcs_,
+        &v_FatJet_inclParTMDV2_probHss_,
+        &v_FatJet_inclParTMDV2_probHqq_,
+        &v_FatJet_inclParTMDV2_probQCDb_,
+        &v_FatJet_inclParTMDV2_probQCDbb_,
+        &v_FatJet_inclParTMDV2_probQCDc_,
+        &v_FatJet_inclParTMDV2_probQCDcc_,
+        &v_FatJet_inclParTMDV2_probQCDothers_,
 
     } ;
     FatJets = FatJet_Collection( FatJet_P_, 3, 1 );
