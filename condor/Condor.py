@@ -9,7 +9,22 @@ from samples import DAS_2018_SingleMuon,DAS_2017_SingleMuon,DAS_2016APV_SingleMu
 from samples import DAS_2018MET,DAS_2017MET,DAS_2016MET,DAS_2016APVMET
 from samples import DAS_ttbar_2018,DAS_ttbar_2017,DAS_ttbar_2016,DAS_ttbar_2016APV
 from samples import CMSC_Wcb_2018,DAS_Wcb_bkg_2018
+from samples import DAS_Wcb_sig_2017,DAS_Wcb_bkg_2017
 from samples import DAS_2016_0lepton, DAS_2017_0lepton, DAS_2018_0lepton, DAS_2016APV_0lepton
+
+from samples import DAS_2017B_SingleMuon
+from samples import DAS_2017C_SingleMuon
+from samples import DAS_2017D_SingleMuon
+from samples import DAS_2017E_SingleMuon
+from samples import DAS_2017F_SingleMuon
+from samples import DAS_2017G_SingleMuon
+from samples import DAS_2017H_SingleMuon
+
+from samples import DAS_2017B_JetHT
+from samples import DAS_2017C_JetHT
+from samples import DAS_2017D_JetHT
+from samples import DAS_2017E_JetHT
+from samples import DAS_2017F_JetHT
 
 from optparse   import OptionParser
 import time

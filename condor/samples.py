@@ -80,6 +80,41 @@ DAS_Wcb_bkg_missing_ = [
     '/ZJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM',
 ]
 
+
+DAS_Wcb_sig_2017_ = [
+    "/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+
+    "/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+
+]
+DAS_Wcb_bkg_2017_ = [
+    "/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+
+    "/ZJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/ZJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/ZJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    
+    "/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+    "/QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM",
+
+    "/WW_TuneCP5_13TeV-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+    "/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/MINIAODSIM",
+]
+
 DAS_Wcb_bkg_2018_ = [
     '/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/MINIAODSIM',
     '/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM',
@@ -381,6 +416,23 @@ DAS_2018D_JetHT_ =[
     "/JetHT/Run2018D-UL2018_MiniAODv2-v2/MINIAOD",
 ]
 
+DAS_2017B_JetHT_ = [
+    "/JetHT/Run2017B-UL2017_MiniAODv2-v1/MINIAOD",
+]
+DAS_2017C_JetHT_ = [
+    "/JetHT/Run2017C-UL2017_MiniAODv2-v1/MINIAOD",
+]
+DAS_2017D_JetHT_ = [
+    "/JetHT/Run2017D-UL2017_MiniAODv2-v1/MINIAOD",
+]
+DAS_2017E_JetHT_ = [
+    "/JetHT/Run2017E-UL2017_MiniAODv2-v1/MINIAOD",
+]
+DAS_2017F_JetHT_ = [
+    "/JetHT/Run2017F-UL2017_MiniAODv2-v1/MINIAOD",
+]
+
+
 DAS_2018_SingleMuon_ = [
 	    "/SingleMuon/Run2018A-UL2018_MiniAODv2-v3/MINIAOD",
         "/SingleMuon/Run2018B-UL2018_MiniAODv2-v2/MINIAOD",
@@ -397,6 +449,30 @@ DAS_2017_SingleMuon_ = [
     "/SingleMuon/Run2017G-UL2017_MiniAODv2_GT36-v1/MINIAOD",
     "/SingleMuon/Run2017H-UL2017_MiniAODv2_GT36-v1/MINIAOD",
 ]
+
+
+DAS_2017B_SingleMuon_ = [
+    "/SingleMuon/Run2017B-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017C_SingleMuon_ = [
+    "/SingleMuon/Run2017C-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017D_SingleMuon_ = [
+    "/SingleMuon/Run2017D-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017E_SingleMuon_ = [
+    "/SingleMuon/Run2017E-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017F_SingleMuon_ = [
+    "/SingleMuon/Run2017F-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017G_SingleMuon_ = [
+    "/SingleMuon/Run2017G-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+DAS_2017H_SingleMuon_ = [
+    "/SingleMuon/Run2017H-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+]
+
 
 DAS_2016APV_SingleMuon_ = [
     "/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD",
@@ -510,6 +586,22 @@ DAS_2018B_JetHT = lambda : DAS(DAS_2018B_JetHT_)
 DAS_2018C_JetHT = lambda : DAS(DAS_2018C_JetHT_)
 DAS_2018D_JetHT = lambda : DAS(DAS_2018D_JetHT_)
 
+#split 2017 JetHT to eras
+DAS_2017B_JetHT = lambda : DAS(DAS_2017B_JetHT_)
+DAS_2017C_JetHT = lambda : DAS(DAS_2017C_JetHT_)
+DAS_2017D_JetHT = lambda : DAS(DAS_2017D_JetHT_)
+DAS_2017E_JetHT = lambda : DAS(DAS_2017E_JetHT_)
+DAS_2017F_JetHT = lambda : DAS(DAS_2017F_JetHT_)
+
+#split 2017 SingleMuon to eras
+DAS_2017B_SingleMuon = lambda : DAS(DAS_2017B_SingleMuon_)
+DAS_2017C_SingleMuon = lambda : DAS(DAS_2017C_SingleMuon_)
+DAS_2017D_SingleMuon = lambda : DAS(DAS_2017D_SingleMuon_)
+DAS_2017E_SingleMuon = lambda : DAS(DAS_2017E_SingleMuon_)
+DAS_2017F_SingleMuon = lambda : DAS(DAS_2017F_SingleMuon_)
+DAS_2017G_SingleMuon = lambda : DAS(DAS_2017G_SingleMuon_)
+DAS_2017H_SingleMuon = lambda : DAS(DAS_2017H_SingleMuon_)
+
 #ttbar validation for Lund Plane reweighting
 DAS_ttbar_2018 = lambda: DAS(DAS_ttbar_2018_)
 DAS_ttbar_2017 = lambda: DAS(DAS_ttbar_2017_)
@@ -522,6 +614,8 @@ CMSC_Wcb_2018 = lambda: DAS(CMSC_Wcb_2018_)
 #Wcb DAS samples
 DAS_Wcb_bkg_2018 = lambda : DAS(DAS_Wcb_bkg_2018_)
 DAS_Wcb_bkg_missing = lambda : DAS(DAS_Wcb_bkg_missing_)
+DAS_Wcb_bkg_2017 = lambda : DAS(DAS_Wcb_bkg_2017_)
+DAS_Wcb_sig_2017 = lambda : DAS(DAS_Wcb_sig_2017_)
 
 if __name__ == '__main__':
 

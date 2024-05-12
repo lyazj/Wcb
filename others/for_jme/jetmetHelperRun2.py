@@ -31,7 +31,7 @@ archiveTagsDATA = {
     '2018': 'Autumn18_V19_DATA',
     'UL2016_preVFP': 'Summer19UL16APV_V7_DATA',
     'UL2016': 'Summer19UL16_V7_DATA',
-    'UL2017': 'Summer19UL17_V6_DATA',
+    'UL2017': 'Summer19UL17_V5_DATA',
     'UL2018': 'Summer19UL18_V5_DATA'
 }
 
@@ -60,11 +60,11 @@ jecTagsDATA = {
     'UL2016F': 'Summer19UL16_RunFGH_V7_DATA',
     'UL2016G': 'Summer19UL16_RunFGH_V7_DATA',
     'UL2016H': 'Summer19UL16_RunFGH_V7_DATA',
-    'UL2017B': 'Summer19UL17_RunB_V6_DATA',
-    'UL2017C': 'Summer19UL17_RunC_V6_DATA',
-    'UL2017D': 'Summer19UL17_RunD_V6_DATA',
-    'UL2017E': 'Summer19UL17_RunE_V6_DATA',
-    'UL2017F': 'Summer19UL17_RunF_V6_DATA',
+    'UL2017B': 'Summer19UL17_RunB_V5_DATA',
+    'UL2017C': 'Summer19UL17_RunC_V5_DATA',
+    'UL2017D': 'Summer19UL17_RunD_V5_DATA',
+    'UL2017E': 'Summer19UL17_RunE_V5_DATA',
+    'UL2017F': 'Summer19UL17_RunF_V5_DATA',
     'UL2018A': 'Summer19UL18_RunA_V5_DATA',
     'UL2018B': 'Summer19UL18_RunB_V5_DATA',
     'UL2018C': 'Summer19UL18_RunC_V5_DATA',
@@ -134,8 +134,14 @@ def createJMECorrector(isMC=True,
 
     jmeUncert_ = [x for x in jesUncert.split(",")]
     jerTag_ = jerTagsMC[dataYear]
-    jmrValues_ = jmrValues[dataYear]
-    jmsValues_ = jmsValues[dataYear]
+    if not isMC:
+        jmrValues_ = jmrValues[dataYear]
+        jmsValues_ = jmsValues[dataYear]
+    else: 
+        jmrValues_ = jmrValues[dataYear[2:]]
+        jmsValues_ = jmsValues[dataYear[2:]]
+        print("Now JMR value is",jmrValues_)
+        print("Now JMS value is",jmsValues_)
     archiveTag_ = archiveTagsDATA[dataYear]
     met_ = metBranchName
     print('JEC : ' + str(jecTag_) + '\t JER : ' + str(jerTag_))
@@ -199,9 +205,9 @@ def createJMECorrector(isMC=True,
 #jmeCorrections = createJMECorrector(False, "2016", "B", "Total", True, "AK4PFchs", False)
 # include jmeCorrections() in the list of modules to run.
 ###
-jmeCorrections_UL2017MC = createJMECorrector(True, "UL2017", "B", "Total", "AK4PFchs", False)
-jmeCorrections_UL2017B = createJMECorrector(False, "UL2017", "B", "Total", "AK4PFchs", False)
-jmeCorrections_UL2017C = createJMECorrector(False, "UL2017", "C", "Total", "AK4PFchs", False)
-jmeCorrections_UL2017D = createJMECorrector(False, "UL2017", "D", "Total", "AK4PFchs", False)
-jmeCorrections_UL2017E = createJMECorrector(False, "UL2017", "E", "Total", "AK4PFchs", False)
-jmeCorrections_UL2017F = createJMECorrector(False, "UL2017", "F", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017MC = createJMECorrector(True, "UL2017", "B", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017B = createJMECorrector(False, "UL2017", "B", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017C = createJMECorrector(False, "UL2017", "C", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017D = createJMECorrector(False, "UL2017", "D", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017E = createJMECorrector(False, "UL2017", "E", "Total", "AK4PFchs", False)
+# jmeCorrections_UL2017F = createJMECorrector(False, "UL2017", "F", "Total", "AK4PFchs", False)
