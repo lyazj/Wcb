@@ -228,6 +228,10 @@ void EDBR2PKUTree::OutputBranches_HWW() {
    ExTree->Branch("puWeightDown", &puWeightDown, "puWeightDown/F");
    ExTree->Branch("puWeightUp", &puWeightUp, "puWeightUp/F");
 
+   // prefire weight
+   ExTree->Branch("PrefireWeight", &PrefireWeight, "PrefireWeight/F");
+   ExTree->Branch("PrefireWeightDown", &PrefireWeightDown, "PrefireWeightDown/F");
+   ExTree->Branch("PrefireWeightUp", &PrefireWeightUp, "PrefireWeightUp/F");
 
    // LHE weight
 
@@ -243,6 +247,9 @@ void EDBR2PKUTree::OutputBranches_HWW() {
    ExTree->Branch("LHEScaleWeight_6", &LHEScaleWeight_6, "LHEScaleWeight_6/F");
    ExTree->Branch("LHEScaleWeight_7", &LHEScaleWeight_7, "LHEScaleWeight_7/F");
    ExTree->Branch("LHEScaleWeight_8", &LHEScaleWeight_8, "LHEScaleWeight_8/F");
+
+   // PDF weight
+   ExTree->Branch("LHEPdfWeight",&v_LHEPdfWeight_);
 
    // PS weight
 
@@ -366,6 +373,82 @@ void EDBR2PKUTree::OutputBranches_HWW() {
    ExTree->Branch("Mj_jesTotalDown_a",&Mj_jesTotalDown_a,"Mj_jesTotalDown_a/F");
    ExTree->Branch("Mj_jesTotalDown_b",&Mj_jesTotalDown_b,"Mj_jesTotalDown_b/F");
    ExTree->Branch("Mj_jesTotalDown_c",&Mj_jesTotalDown_c,"Mj_jesTotalDown_c/F");
+
+   //Split JES
+   
+ExTree->Branch("Mj_jesAbsoluteUp_a",&Mj_jesAbsoluteUp_a,"Mj_jesAbsoluteUp_a/F"),
+ExTree->Branch("Mj_jesAbsoluteDown_a",&Mj_jesAbsoluteDown_a,"Mj_jesAbsoluteDown_a/F"),
+ExTree->Branch("Mj_jesAbsolute_yearUp_a",&Mj_jesAbsolute_yearUp_a,"Mj_jesAbsolute_yearUp_a/F"),
+ExTree->Branch("Mj_jesAbsolute_yearDown_a",&Mj_jesAbsolute_yearDown_a,"Mj_jesAbsolute_yearDown_a/F"),
+ExTree->Branch("Mj_jesBBEC1Down_a",&Mj_jesBBEC1Down_a,"Mj_jesBBEC1Down_a/F"),
+ExTree->Branch("Mj_jesBBEC1Up_a",&Mj_jesBBEC1Up_a,"Mj_jesBBEC1Up_a/F"),
+ExTree->Branch("Mj_jesBBEC1_yearUp_a",&Mj_jesBBEC1_yearUp_a,"Mj_jesBBEC1_yearUp_a/F"),
+ExTree->Branch("Mj_jesBBEC1_yearDown_a",&Mj_jesBBEC1_yearDown_a,"Mj_jesBBEC1_yearDown_a/F"),
+ExTree->Branch("Mj_jesEC2Up_a",&Mj_jesEC2Up_a,"Mj_jesEC2Up_a/F"),
+ExTree->Branch("Mj_jesEC2Down_a",&Mj_jesEC2Down_a,"Mj_jesEC2Down_a/F"),
+ExTree->Branch("Mj_jesEC2_yearUp_a",&Mj_jesEC2_yearUp_a,"Mj_jesEC2_yearUp_a/F"),
+ExTree->Branch("Mj_jesEC2_yearDown_a",&Mj_jesEC2_yearDown_a,"Mj_jesEC2_yearDown_a/F"),
+ExTree->Branch("Mj_jesFlavorQCDUp_a",&Mj_jesFlavorQCDUp_a,"Mj_jesFlavorQCDUp_a/F"),
+ExTree->Branch("Mj_jesFlavorQCDDown_a",&Mj_jesFlavorQCDDown_a,"Mj_jesFlavorQCDDown_a/F"),
+ExTree->Branch("Mj_jesHFDown_a",&Mj_jesHFDown_a,"Mj_jesHFDown_a/F"),
+ExTree->Branch("Mj_jesHFUp_a",&Mj_jesHFUp_a,"Mj_jesHFUp_a/F"),
+ExTree->Branch("Mj_jesHF_yearUp_a",&Mj_jesHF_yearUp_a,"Mj_jesHF_yearUp_a/F"),
+ExTree->Branch("Mj_jesHF_yearDown_a",&Mj_jesHF_yearDown_a,"Mj_jesHF_yearDown_a/F"),
+ExTree->Branch("Mj_jesRelativeBalUp_a",&Mj_jesRelativeBalUp_a,"Mj_jesRelativeBalUp_a/F"),
+ExTree->Branch("Mj_jesRelativeBalDown_a",&Mj_jesRelativeBalDown_a,"Mj_jesRelativeBalDown_a/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearUp_a",&Mj_jesRelativeSample_yearUp_a,"Mj_jesRelativeSample_yearUp_a/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearDown_a",&Mj_jesRelativeSample_yearDown_a,"Mj_jesRelativeSample_yearDown_a/F"),
+
+ExTree->Branch("Mj_jesAbsoluteUp_b",&Mj_jesAbsoluteUp_b,"Mj_jesAbsoluteUp_b/F"),
+ExTree->Branch("Mj_jesAbsoluteDown_b",&Mj_jesAbsoluteDown_b,"Mj_jesAbsoluteDown_b/F"),
+ExTree->Branch("Mj_jesAbsolute_yearUp_b",&Mj_jesAbsolute_yearUp_b,"Mj_jesAbsolute_yearUp_b/F"),
+ExTree->Branch("Mj_jesAbsolute_yearDown_b",&Mj_jesAbsolute_yearDown_b,"Mj_jesAbsolute_yearDown_b/F"),
+ExTree->Branch("Mj_jesBBEC1Down_b",&Mj_jesBBEC1Down_b,"Mj_jesBBEC1Down_b/F"),
+ExTree->Branch("Mj_jesBBEC1Up_b",&Mj_jesBBEC1Up_b,"Mj_jesBBEC1Up_b/F"),
+ExTree->Branch("Mj_jesBBEC1_yearUp_b",&Mj_jesBBEC1_yearUp_b,"Mj_jesBBEC1_yearUp_b/F"),
+ExTree->Branch("Mj_jesBBEC1_yearDown_b",&Mj_jesBBEC1_yearDown_b,"Mj_jesBBEC1_yearDown_b/F"),
+ExTree->Branch("Mj_jesEC2Up_b",&Mj_jesEC2Up_b,"Mj_jesEC2Up_b/F"),
+ExTree->Branch("Mj_jesEC2Down_b",&Mj_jesEC2Down_b,"Mj_jesEC2Down_b/F"),
+ExTree->Branch("Mj_jesEC2_yearUp_b",&Mj_jesEC2_yearUp_b,"Mj_jesEC2_yearUp_b/F"),
+ExTree->Branch("Mj_jesEC2_yearDown_b",&Mj_jesEC2_yearDown_b,"Mj_jesEC2_yearDown_b/F"),
+ExTree->Branch("Mj_jesFlavorQCDUp_b",&Mj_jesFlavorQCDUp_b,"Mj_jesFlavorQCDUp_b/F"),
+ExTree->Branch("Mj_jesFlavorQCDDown_b",&Mj_jesFlavorQCDDown_b,"Mj_jesFlavorQCDDown_b/F"),
+ExTree->Branch("Mj_jesHFDown_b",&Mj_jesHFDown_b,"Mj_jesHFDown_b/F"),
+ExTree->Branch("Mj_jesHFUp_b",&Mj_jesHFUp_b,"Mj_jesHFUp_b/F"),
+ExTree->Branch("Mj_jesHF_yearUp_b",&Mj_jesHF_yearUp_b,"Mj_jesHF_yearUp_b/F"),
+ExTree->Branch("Mj_jesHF_yearDown_b",&Mj_jesHF_yearDown_b,"Mj_jesHF_yearDown_b/F"),
+ExTree->Branch("Mj_jesRelativeBalUp_b",&Mj_jesRelativeBalUp_b,"Mj_jesRelativeBalUp_b/F"),
+ExTree->Branch("Mj_jesRelativeBalDown_b",&Mj_jesRelativeBalDown_b,"Mj_jesRelativeBalDown_b/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearUp_b",&Mj_jesRelativeSample_yearUp_b,"Mj_jesRelativeSample_yearUp_b/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearDown_b",&Mj_jesRelativeSample_yearDown_b,"Mj_jesRelativeSample_yearDown_b/F"),
+
+ExTree->Branch("Mj_jesAbsoluteUp_c",&Mj_jesAbsoluteUp_c,"Mj_jesAbsoluteUp_c/F"),
+ExTree->Branch("Mj_jesAbsoluteDown_c",&Mj_jesAbsoluteDown_c,"Mj_jesAbsoluteDown_c/F"),
+ExTree->Branch("Mj_jesAbsolute_yearUp_c",&Mj_jesAbsolute_yearUp_c,"Mj_jesAbsolute_yearUp_c/F"),
+ExTree->Branch("Mj_jesAbsolute_yearDown_c",&Mj_jesAbsolute_yearDown_c,"Mj_jesAbsolute_yearDown_c/F"),
+ExTree->Branch("Mj_jesBBEC1Down_c",&Mj_jesBBEC1Down_c,"Mj_jesBBEC1Down_c/F"),
+ExTree->Branch("Mj_jesBBEC1Up_c",&Mj_jesBBEC1Up_c,"Mj_jesBBEC1Up_c/F"),
+ExTree->Branch("Mj_jesBBEC1_yearUp_c",&Mj_jesBBEC1_yearUp_c,"Mj_jesBBEC1_yearUp_c/F"),
+ExTree->Branch("Mj_jesBBEC1_yearDown_c",&Mj_jesBBEC1_yearDown_c,"Mj_jesBBEC1_yearDown_c/F"),
+ExTree->Branch("Mj_jesEC2Up_c",&Mj_jesEC2Up_c,"Mj_jesEC2Up_c/F"),
+ExTree->Branch("Mj_jesEC2Down_c",&Mj_jesEC2Down_c,"Mj_jesEC2Down_c/F"),
+ExTree->Branch("Mj_jesEC2_yearUp_c",&Mj_jesEC2_yearUp_c,"Mj_jesEC2_yearUp_c/F"),
+ExTree->Branch("Mj_jesEC2_yearDown_c",&Mj_jesEC2_yearDown_c,"Mj_jesEC2_yearDown_c/F"),
+ExTree->Branch("Mj_jesFlavorQCDUp_c",&Mj_jesFlavorQCDUp_c,"Mj_jesFlavorQCDUp_c/F"),
+ExTree->Branch("Mj_jesFlavorQCDDown_c",&Mj_jesFlavorQCDDown_c,"Mj_jesFlavorQCDDown_c/F"),
+ExTree->Branch("Mj_jesHFDown_c",&Mj_jesHFDown_c,"Mj_jesHFDown_c/F"),
+ExTree->Branch("Mj_jesHFUp_c",&Mj_jesHFUp_c,"Mj_jesHFUp_c/F"),
+ExTree->Branch("Mj_jesHF_yearUp_c",&Mj_jesHF_yearUp_c,"Mj_jesHF_yearUp_c/F"),
+ExTree->Branch("Mj_jesHF_yearDown_c",&Mj_jesHF_yearDown_c,"Mj_jesHF_yearDown_c/F"),
+ExTree->Branch("Mj_jesRelativeBalUp_c",&Mj_jesRelativeBalUp_c,"Mj_jesRelativeBalUp_c/F"),
+ExTree->Branch("Mj_jesRelativeBalDown_c",&Mj_jesRelativeBalDown_c,"Mj_jesRelativeBalDown_c/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearUp_c",&Mj_jesRelativeSample_yearUp_c,"Mj_jesRelativeSample_yearUp_c/F"),
+ExTree->Branch("Mj_jesRelativeSample_yearDown_c",&Mj_jesRelativeSample_yearDown_c,"Mj_jesRelativeSample_yearDown_c/F"),
+
+
+   // Done Split
+
+
 
    ExTree->Branch("Mj_jerUp_a",&Mj_jerUp_a,"Mj_jerUp_a/F");
    ExTree->Branch("Mj_jerUp_b",&Mj_jerUp_b,"Mj_jerUp_b/F");

@@ -31,6 +31,7 @@ using namespace std;
 #define NJET_MAX 100 // for FatJet collection
 #define NLEPTON_MAX 100 // for FatJet collection
 #define NGENPART_MAX 502 // for FatJet collection
+#define NUM_PDF 103 // for pdf weight
 
 // Header file for the classes stored in the TTree if any.
 
@@ -224,6 +225,85 @@ float Mj_jesTotalUp_c  ;
 float Mj_jesTotalDown_c;
 float Mj_jerUp_c       ;
 float Mj_jerDown_c     ;
+
+
+// Split JES
+
+// a
+float Mj_jesAbsoluteUp_a;
+float Mj_jesAbsoluteDown_a;
+float Mj_jesAbsolute_yearUp_a;
+float Mj_jesAbsolute_yearDown_a;
+float Mj_jesBBEC1Down_a;
+float Mj_jesBBEC1Up_a;
+float Mj_jesBBEC1_yearUp_a;
+float Mj_jesBBEC1_yearDown_a;
+float Mj_jesEC2Up_a;
+float Mj_jesEC2Down_a;
+float Mj_jesEC2_yearUp_a;
+float Mj_jesEC2_yearDown_a;
+float Mj_jesFlavorQCDUp_a;
+float Mj_jesFlavorQCDDown_a;
+float Mj_jesHFDown_a;
+float Mj_jesHFUp_a;
+float Mj_jesHF_yearUp_a;
+float Mj_jesHF_yearDown_a;
+float Mj_jesRelativeBalUp_a;
+float Mj_jesRelativeBalDown_a;
+float Mj_jesRelativeSample_yearUp_a;
+float Mj_jesRelativeSample_yearDown_a;
+
+// b
+float Mj_jesAbsoluteUp_b;
+float Mj_jesAbsoluteDown_b;
+float Mj_jesAbsolute_yearUp_b;
+float Mj_jesAbsolute_yearDown_b;
+float Mj_jesBBEC1Down_b;
+float Mj_jesBBEC1Up_b;
+float Mj_jesBBEC1_yearUp_b;
+float Mj_jesBBEC1_yearDown_b;
+float Mj_jesEC2Up_b;
+float Mj_jesEC2Down_b;
+float Mj_jesEC2_yearUp_b;
+float Mj_jesEC2_yearDown_b;
+float Mj_jesFlavorQCDUp_b;
+float Mj_jesFlavorQCDDown_b;
+float Mj_jesHFDown_b;
+float Mj_jesHFUp_b;
+float Mj_jesHF_yearUp_b;
+float Mj_jesHF_yearDown_b;
+float Mj_jesRelativeBalUp_b;
+float Mj_jesRelativeBalDown_b;
+float Mj_jesRelativeSample_yearUp_b;
+float Mj_jesRelativeSample_yearDown_b;
+
+//c
+
+float Mj_jesAbsoluteUp_c;
+float Mj_jesAbsoluteDown_c;
+float Mj_jesAbsolute_yearUp_c;
+float Mj_jesAbsolute_yearDown_c;
+float Mj_jesBBEC1Down_c;
+float Mj_jesBBEC1Up_c;
+float Mj_jesBBEC1_yearUp_c;
+float Mj_jesBBEC1_yearDown_c;
+float Mj_jesEC2Up_c;
+float Mj_jesEC2Down_c;
+float Mj_jesEC2_yearUp_c;
+float Mj_jesEC2_yearDown_c;
+float Mj_jesFlavorQCDUp_c;
+float Mj_jesFlavorQCDDown_c;
+float Mj_jesHFDown_c;
+float Mj_jesHFUp_c;
+float Mj_jesHF_yearUp_c;
+float Mj_jesHF_yearDown_c;
+float Mj_jesRelativeBalUp_c;
+float Mj_jesRelativeBalDown_c;
+float Mj_jesRelativeSample_yearUp_c;
+float Mj_jesRelativeSample_yearDown_c;
+
+// done split
+
 
 float Mj_jmsUp_a   ;
 float Mj_jmsDown_a ;
@@ -749,7 +829,110 @@ vector<float> v_FatJet_msoftdrop_jerDown_;
 TBranch *b_FatJet_msoftdrop_jerDown_;
 
 
+//Abs
+float FatJet_msoftdrop_jesAbsoluteUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesAbsoluteUp_;
+TBranch *b_FatJet_msoftdrop_jesAbsoluteUp_;
+
+float FatJet_msoftdrop_jesAbsoluteDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesAbsoluteDown_;
+TBranch *b_FatJet_msoftdrop_jesAbsoluteDown_;
+
+float FatJet_msoftdrop_jesAbsolute_yearUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesAbsolute_yearUp_;
+TBranch *b_FatJet_msoftdrop_jesAbsolute_yearUp_;
+
+float FatJet_msoftdrop_jesAbsolute_yearDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesAbsolute_yearDown_;
+TBranch *b_FatJet_msoftdrop_jesAbsolute_yearDown_;
+
+//BBEC1
+float FatJet_msoftdrop_jesBBEC1Down_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesBBEC1Down_;
+TBranch *b_FatJet_msoftdrop_jesBBEC1Down_;
+
+float FatJet_msoftdrop_jesBBEC1Up_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesBBEC1Up_;
+TBranch *b_FatJet_msoftdrop_jesBBEC1Up_;
+
+float FatJet_msoftdrop_jesBBEC1_yearDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesBBEC1_yearDown_;
+TBranch *b_FatJet_msoftdrop_jesBBEC1_yearDown_;
+
+float FatJet_msoftdrop_jesBBEC1_yearUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesBBEC1_yearUp_;
+TBranch *b_FatJet_msoftdrop_jesBBEC1_yearUp_;
+
+//EC2
+float FatJet_msoftdrop_jesEC2Down_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesEC2Down_;
+TBranch *b_FatJet_msoftdrop_jesEC2Down_;
+
+float FatJet_msoftdrop_jesEC2Up_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesEC2Up_;
+TBranch *b_FatJet_msoftdrop_jesEC2Up_;
+
+float FatJet_msoftdrop_jesEC2_yearDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesEC2_yearDown_;
+TBranch *b_FatJet_msoftdrop_jesEC2_yearDown_;
+
+float FatJet_msoftdrop_jesEC2_yearUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesEC2_yearUp_;
+TBranch *b_FatJet_msoftdrop_jesEC2_yearUp_;
+
+//Flavor QCD
+float FatJet_msoftdrop_jesFlavorQCDDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesFlavorQCDDown_;
+TBranch *b_FatJet_msoftdrop_jesFlavorQCDDown_;
+
+float FatJet_msoftdrop_jesFlavorQCDUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesFlavorQCDUp_;
+TBranch *b_FatJet_msoftdrop_jesFlavorQCDUp_;
+
+//HF
+float FatJet_msoftdrop_jesHFDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesHFDown_;
+TBranch *b_FatJet_msoftdrop_jesHFDown_;
+
+float FatJet_msoftdrop_jesHFUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesHFUp_;
+TBranch *b_FatJet_msoftdrop_jesHFUp_;
+
+float FatJet_msoftdrop_jesHF_yearDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesHF_yearDown_;
+TBranch *b_FatJet_msoftdrop_jesHF_yearDown_;
+
+float FatJet_msoftdrop_jesHF_yearUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesHF_yearUp_;
+TBranch *b_FatJet_msoftdrop_jesHF_yearUp_;
+
+//RelativeBal
+float FatJet_msoftdrop_jesRelativeBalDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesRelativeBalDown_;
+TBranch *b_FatJet_msoftdrop_jesRelativeBalDown_;
+
+float FatJet_msoftdrop_jesRelativeBalUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesRelativeBalUp_;
+TBranch *b_FatJet_msoftdrop_jesRelativeBalUp_;
+
+//RelativeSample
+float FatJet_msoftdrop_jesRelativeSample_yearDown_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesRelativeSample_yearDown_;
+TBranch *b_FatJet_msoftdrop_jesRelativeSample_yearDown_;
+
+float FatJet_msoftdrop_jesRelativeSample_yearUp_[NFATJET_MAX];
+vector<float> v_FatJet_msoftdrop_jesRelativeSample_yearUp_;
+TBranch *b_FatJet_msoftdrop_jesRelativeSample_yearUp_;
+
+//Done JES difference sources
+
+
 // Add JES, JER up and down branch on 26/2/2024, over
+
+float LHEPdfWeight_[NUM_PDF]; 
+vector<float> v_LHEPdfWeight_;
+TBranch *b_LHEPdfWeight_;
+
 
 // Add LHE Scale Weight on 29/2/2024
 
@@ -1361,6 +1544,11 @@ Double_t        pileupWeight;
 Float_t        puWeight;
 Float_t        puWeightDown;
 Float_t        puWeightUp;
+
+Float_t        PrefireWeight;
+Float_t        PrefireWeightDown;
+Float_t        PrefireWeightUp;
+
 
 Double_t        delPhilepmet;
 Double_t        deltaRlepjet;
@@ -2244,6 +2432,11 @@ TBranch        *b_isWcb;
 TBranch        *b_puWeight;   //!
 TBranch        *b_puWeightDown;   //!
 TBranch        *b_puWeightUp;   //!
+
+TBranch        *b_PrefireWeight;   //!
+TBranch        *b_PrefireWeightDown;   //!
+TBranch        *b_PrefireWeightUp;   //!
+
 
 TBranch        *b_METraw_et;   //!
 TBranch        *b_METraw_phi;   //!

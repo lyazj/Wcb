@@ -97,7 +97,10 @@ void EDBR2PKUTree::fatJets_GetEntry(Long64_t jentry) {
 //Because it's used in the process.h, in GKK_process_1(jentry,YEAR);
 
 //Here is already jentry involved.
-
+    if(b_LHEPdfWeight_){
+        int bytes_LHEPdfWeight_ = b_LHEPdfWeight_->GetEntry(jentry);
+        v_LHEPdfWeight_ = vector<float>(LHEPdfWeight_ , LHEPdfWeight_ + bytes_LHEPdfWeight_/sizeof(LHEPdfWeight_[0]));
+    }
     //LHE Scale Weight
     if(b_LHEScaleWeight_){
         int bytes_LHEScaleWeight_ = b_LHEScaleWeight_->GetEntry(jentry);
@@ -195,6 +198,107 @@ void EDBR2PKUTree::fatJets_GetEntry(Long64_t jentry) {
         int bytes_FatJet_msoftdrop_jmrDown = b_FatJet_msoftdrop_jmrDown_->GetEntry(jentry);
         v_FatJet_msoftdrop_jmrDown_ = vector<float>(FatJet_msoftdrop_jmrDown_,FatJet_msoftdrop_jmrDown_+bytes_FatJet_msoftdrop_jmrDown/sizeof(FatJet_msoftdrop_jmrDown_[0]));
     }
+
+
+    //split JES
+
+    //Absolute
+    if(b_FatJet_msoftdrop_jesAbsoluteUp_){
+        int bytes_FatJet_msoftdrop_jesAbsoluteUp = b_FatJet_msoftdrop_jesAbsoluteUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesAbsoluteUp_ = vector<float>(FatJet_msoftdrop_jesAbsoluteUp_,FatJet_msoftdrop_jesAbsoluteUp_ + bytes_FatJet_msoftdrop_jesAbsoluteUp/sizeof(FatJet_msoftdrop_jesAbsoluteUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesAbsoluteDown_){
+        int bytes_FatJet_msoftdrop_jesAbsoluteDown = b_FatJet_msoftdrop_jesAbsoluteDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesAbsoluteDown_ = vector<float>(FatJet_msoftdrop_jesAbsoluteDown_,FatJet_msoftdrop_jesAbsoluteDown_ + bytes_FatJet_msoftdrop_jesAbsoluteDown/sizeof(FatJet_msoftdrop_jesAbsoluteDown_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesAbsolute_yearUp_){
+        int bytes_FatJet_msoftdrop_jesAbsolute_yearUp = b_FatJet_msoftdrop_jesAbsolute_yearUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesAbsolute_yearUp_ = vector<float>(FatJet_msoftdrop_jesAbsolute_yearUp_,FatJet_msoftdrop_jesAbsolute_yearUp_ + bytes_FatJet_msoftdrop_jesAbsolute_yearUp/sizeof(FatJet_msoftdrop_jesAbsolute_yearUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesAbsolute_yearDown_){
+        int bytes_FatJet_msoftdrop_jesAbsolute_yearDown = b_FatJet_msoftdrop_jesAbsolute_yearDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesAbsolute_yearDown_ = vector<float>(FatJet_msoftdrop_jesAbsolute_yearDown_,FatJet_msoftdrop_jesAbsolute_yearDown_ + bytes_FatJet_msoftdrop_jesAbsolute_yearDown/sizeof(FatJet_msoftdrop_jesAbsolute_yearDown_[0]));
+    }
+    //BBEC1
+    if(b_FatJet_msoftdrop_jesBBEC1Up_){
+        int bytes_FatJet_msoftdrop_jesBBEC1Up = b_FatJet_msoftdrop_jesBBEC1Up_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesBBEC1Up_ = vector<float>(FatJet_msoftdrop_jesBBEC1Up_,FatJet_msoftdrop_jesBBEC1Up_ + bytes_FatJet_msoftdrop_jesBBEC1Up/sizeof(FatJet_msoftdrop_jesBBEC1Up_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesBBEC1Down_){
+        int bytes_FatJet_msoftdrop_jesBBEC1Down = b_FatJet_msoftdrop_jesBBEC1Down_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesBBEC1Down_ = vector<float>(FatJet_msoftdrop_jesBBEC1Down_,FatJet_msoftdrop_jesBBEC1Down_ + bytes_FatJet_msoftdrop_jesBBEC1Down/sizeof(FatJet_msoftdrop_jesBBEC1Down_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesBBEC1_yearUp_){
+        int bytes_FatJet_msoftdrop_jesBBEC1_yearUp = b_FatJet_msoftdrop_jesBBEC1_yearUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesBBEC1_yearUp_ = vector<float>(FatJet_msoftdrop_jesBBEC1_yearUp_,FatJet_msoftdrop_jesBBEC1_yearUp_ + bytes_FatJet_msoftdrop_jesBBEC1_yearUp/sizeof(FatJet_msoftdrop_jesBBEC1_yearUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesBBEC1_yearDown_){
+        int bytes_FatJet_msoftdrop_jesBBEC1_yearDown = b_FatJet_msoftdrop_jesBBEC1_yearDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesBBEC1_yearDown_ = vector<float>(FatJet_msoftdrop_jesBBEC1_yearDown_,FatJet_msoftdrop_jesBBEC1_yearDown_ + bytes_FatJet_msoftdrop_jesBBEC1_yearDown/sizeof(FatJet_msoftdrop_jesBBEC1_yearDown_[0]));
+    }
+    //EC2
+    if(b_FatJet_msoftdrop_jesEC2Up_){
+        int bytes_FatJet_msoftdrop_jesEC2Up = b_FatJet_msoftdrop_jesEC2Up_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesEC2Up_ = vector<float>(FatJet_msoftdrop_jesEC2Up_,FatJet_msoftdrop_jesEC2Up_ + bytes_FatJet_msoftdrop_jesEC2Up/sizeof(FatJet_msoftdrop_jesEC2Up_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesEC2Down_){
+        int bytes_FatJet_msoftdrop_jesEC2Down = b_FatJet_msoftdrop_jesEC2Down_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesEC2Down_ = vector<float>(FatJet_msoftdrop_jesEC2Down_,FatJet_msoftdrop_jesEC2Down_ + bytes_FatJet_msoftdrop_jesEC2Down/sizeof(FatJet_msoftdrop_jesEC2Down_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesEC2_yearUp_){
+        int bytes_FatJet_msoftdrop_jesEC2_yearUp = b_FatJet_msoftdrop_jesEC2_yearUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesEC2_yearUp_ = vector<float>(FatJet_msoftdrop_jesEC2_yearUp_,FatJet_msoftdrop_jesEC2_yearUp_ + bytes_FatJet_msoftdrop_jesEC2_yearUp/sizeof(FatJet_msoftdrop_jesEC2_yearUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesEC2_yearDown_){
+        int bytes_FatJet_msoftdrop_jesEC2_yearDown = b_FatJet_msoftdrop_jesEC2_yearDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesEC2_yearDown_ = vector<float>(FatJet_msoftdrop_jesEC2_yearDown_,FatJet_msoftdrop_jesEC2_yearDown_ + bytes_FatJet_msoftdrop_jesEC2_yearDown/sizeof(FatJet_msoftdrop_jesEC2_yearDown_[0]));
+    }
+    //FlavorQCD
+    if(b_FatJet_msoftdrop_jesFlavorQCDUp_){
+        int bytes_FatJet_msoftdrop_jesFlavorQCDUp = b_FatJet_msoftdrop_jesFlavorQCDUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesFlavorQCDUp_ = vector<float>(FatJet_msoftdrop_jesFlavorQCDUp_,FatJet_msoftdrop_jesFlavorQCDUp_ + bytes_FatJet_msoftdrop_jesFlavorQCDUp/sizeof(FatJet_msoftdrop_jesFlavorQCDUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesFlavorQCDDown_){
+        int bytes_FatJet_msoftdrop_jesFlavorQCDDown = b_FatJet_msoftdrop_jesFlavorQCDDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesFlavorQCDDown_ = vector<float>(FatJet_msoftdrop_jesFlavorQCDDown_,FatJet_msoftdrop_jesFlavorQCDDown_ + bytes_FatJet_msoftdrop_jesFlavorQCDDown/sizeof(FatJet_msoftdrop_jesFlavorQCDDown_[0]));
+    }
+    //HF
+    if(b_FatJet_msoftdrop_jesHFUp_){
+        int bytes_FatJet_msoftdrop_jesHFUp = b_FatJet_msoftdrop_jesHFUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesHFUp_ = vector<float>(FatJet_msoftdrop_jesHFUp_,FatJet_msoftdrop_jesHFUp_ + bytes_FatJet_msoftdrop_jesHFUp/sizeof(FatJet_msoftdrop_jesHFUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesHFDown_){
+        int bytes_FatJet_msoftdrop_jesHFDown = b_FatJet_msoftdrop_jesHFDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesHFDown_ = vector<float>(FatJet_msoftdrop_jesHFDown_,FatJet_msoftdrop_jesHFDown_ + bytes_FatJet_msoftdrop_jesHFDown/sizeof(FatJet_msoftdrop_jesHFDown_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesHF_yearUp_){
+        int bytes_FatJet_msoftdrop_jesHF_yearUp = b_FatJet_msoftdrop_jesHF_yearUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesHF_yearUp_ = vector<float>(FatJet_msoftdrop_jesHF_yearUp_,FatJet_msoftdrop_jesHF_yearUp_ + bytes_FatJet_msoftdrop_jesHF_yearUp/sizeof(FatJet_msoftdrop_jesHF_yearUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesHF_yearDown_){
+        int bytes_FatJet_msoftdrop_jesHF_yearDown = b_FatJet_msoftdrop_jesHF_yearDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesHF_yearDown_ = vector<float>(FatJet_msoftdrop_jesHF_yearDown_,FatJet_msoftdrop_jesHF_yearDown_ + bytes_FatJet_msoftdrop_jesHF_yearDown/sizeof(FatJet_msoftdrop_jesHF_yearDown_[0]));
+    }
+    //RelativeBal
+    if(b_FatJet_msoftdrop_jesRelativeBalUp_){
+        int bytes_FatJet_msoftdrop_jesRelativeBalUp = b_FatJet_msoftdrop_jesRelativeBalUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesRelativeBalUp_ = vector<float>(FatJet_msoftdrop_jesRelativeBalUp_,FatJet_msoftdrop_jesRelativeBalUp_ + bytes_FatJet_msoftdrop_jesRelativeBalUp/sizeof(FatJet_msoftdrop_jesRelativeBalUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesRelativeBalDown_){
+        int bytes_FatJet_msoftdrop_jesRelativeBalDown = b_FatJet_msoftdrop_jesRelativeBalDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesRelativeBalDown_ = vector<float>(FatJet_msoftdrop_jesRelativeBalDown_,FatJet_msoftdrop_jesRelativeBalDown_ + bytes_FatJet_msoftdrop_jesRelativeBalDown/sizeof(FatJet_msoftdrop_jesRelativeBalDown_[0]));
+    }
+    //RelativeSample
+    if(b_FatJet_msoftdrop_jesRelativeSample_yearUp_){
+        int bytes_FatJet_msoftdrop_jesRelativeSample_yearUp = b_FatJet_msoftdrop_jesRelativeSample_yearUp_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesRelativeSample_yearUp_ = vector<float>(FatJet_msoftdrop_jesRelativeSample_yearUp_,FatJet_msoftdrop_jesRelativeSample_yearUp_ + bytes_FatJet_msoftdrop_jesRelativeSample_yearUp/sizeof(FatJet_msoftdrop_jesRelativeSample_yearUp_[0]));
+    }
+    if(b_FatJet_msoftdrop_jesRelativeSample_yearDown_){
+        int bytes_FatJet_msoftdrop_jesRelativeSample_yearDown = b_FatJet_msoftdrop_jesRelativeSample_yearDown_->GetEntry(jentry);
+        v_FatJet_msoftdrop_jesRelativeSample_yearDown_ = vector<float>(FatJet_msoftdrop_jesRelativeSample_yearDown_,FatJet_msoftdrop_jesRelativeSample_yearDown_ + bytes_FatJet_msoftdrop_jesRelativeSample_yearDown/sizeof(FatJet_msoftdrop_jesRelativeSample_yearDown_[0]));
+    }
+
+    //Done split
 
 
     // if(b_FatJet_ParticleNetMDraw_probQCDb_){
