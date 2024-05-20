@@ -22,7 +22,7 @@
 
    ##clone this repository
 
-   git clone https://github.com/StephenChao/Wcb.git analysis
+   git clone https://github.com/lyazj/Wcb.git analysis
 
    cd $CMSSW_BASE/src
 

@@ -3,31 +3,27 @@ import json
 import re
 from commands import getoutput
 from samples import DAS_2016APV_JetHT,DAS_2016_JetHT,DAS_2017_JetHT,DAS_2018_JetHT
-from samples import DAS_2018A_JetHT,DAS_2018B_JetHT,DAS_2018C_JetHT,DAS_2018D_JetHT
 from samples import DAS_2016_Signal,DAS_2016APV_Signal,DAS_2018_Signal,DAS_2017_Signal
 from samples import DAS_2018_SingleMuon,DAS_2017_SingleMuon,DAS_2016APV_SingleMuon,DAS_2016_SingleMuon
 from samples import DAS_2018MET,DAS_2017MET,DAS_2016MET,DAS_2016APVMET
 from samples import DAS_ttbar_2018,DAS_ttbar_2017,DAS_ttbar_2016,DAS_ttbar_2016APV
-from samples import CMSC_Wcb_2018,DAS_Wcb_bkg_2018
+from samples import DAS_2016_0lepton,DAS_2017_0lepton,DAS_2018_0lepton,DAS_2016APV_0lepton
 from samples import DAS_Wcb_sig_2017,DAS_Wcb_bkg_2017
-from samples import DAS_2016_0lepton, DAS_2017_0lepton, DAS_2018_0lepton, DAS_2016APV_0lepton
+from samples import DAS_Wcb_sig_2018,DAS_Wcb_bkg_2018
+from samples import DAS_2018A_JetHT,DAS_2018B_JetHT,DAS_2018C_JetHT,DAS_2018D_JetHT
+from samples import DAS_2018A_SingleMuon,DAS_2018B_SingleMuon,DAS_2018C_SingleMuon,DAS_2018D_SingleMuon
+from samples import DAS_2017B_JetHT,DAS_2017C_JetHT,DAS_2017D_JetHT,DAS_2017E_JetHT,DAS_2017F_JetHT
+from samples import DAS_2017B_SingleMuon,DAS_2017C_SingleMuon,DAS_2017D_SingleMuon,DAS_2017E_SingleMuon,DAS_2017F_SingleMuon,DAS_2017G_SingleMuon,DAS_2017H_SingleMuon
 
-from samples import DAS_2017B_SingleMuon
-from samples import DAS_2017C_SingleMuon
-from samples import DAS_2017D_SingleMuon
-from samples import DAS_2017E_SingleMuon
-from samples import DAS_2017F_SingleMuon
-from samples import DAS_2017G_SingleMuon
-from samples import DAS_2017H_SingleMuon
-
-from samples import DAS_2017B_JetHT
-from samples import DAS_2017C_JetHT
-from samples import DAS_2017D_JetHT
-from samples import DAS_2017E_JetHT
-from samples import DAS_2017F_JetHT
-
-from optparse   import OptionParser
+from optparse import OptionParser
 import time
+
+def makedirs(path, *args, **kwargs):
+    if path[:4] == '/eos':
+        if os.system("xrdfs eosuser.cern.ch mkdir '%s'" % path):
+            raise RuntimeError('xrdfs mkdir failed')
+        return
+    return os.makedirs(path, *args, **kwargs)
  
 parser = OptionParser()
 parser.add_option('--Filesjson', action="store",type="string",dest="Filesjson"    ,default=None)
@@ -51,8 +47,9 @@ class jdl_writter:
         self.path = "%s/%s/"%(path,ds)
         self.ds = ds
         self.filename = self.path+filename
-        self.init_templete = '''
-universe=Vanilla
+        self.init_templete = '''universe=Vanilla
++ProjectName = "cms.org"
+requirements = (OpSysAndVer =?= "CentOS7")
 RequestMemory = 2048
 RequestCpus = 1
 executable={TaskFolder}/{DatasetFolder}/{excutable}
@@ -60,19 +57,21 @@ transfer_executable=True
 transfer_input_files={transfer_input_files}
 transfer_output_files={transfer_output_files}
 log={log}/$(Cluster).log
-output={std_logs}/$(Cluster).$(Process).out
-error={std_logs}/$(Cluster).$(Process).err
+output={log}/$(Cluster).out
+error={log}/$(Cluster).err
 notification=Never
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-x509userproxy=x509up_u12976
+x509userproxy=x509up_u{uid}
 +MaxRuntime={MaxRuntime}
-        '''
-        self.queue_templete = '''
-arguments={arguments}
-transfer_output_remaps={transfer_output_remaps}
+on_exit_remove        = (ExitBySignal == False) && (ExitCode == 0)
+on_exit_hold          = (ExitBySignal == True) || (ExitCode != 0)
+on_exit_hold_reason   = strcat("Job held by ON_EXIT_HOLD due to ", ifThenElse((ExitBySignal == True), strcat("exit signal ", ExitSignal), strcat("exit code ", ExitCode)), ".")
+periodic_release      = (NumJobStarts < 3) && ((CurrentTime - EnteredCurrentStatus) > 60*60)
+'''
+        self.queue_templete = '''arguments={arguments}
 queue
-        '''
+'''
 
     # this jdl_writter also 
     # create folder and copy corresponding executable
@@ -86,7 +85,7 @@ queue
         PATHS += ["%s/%s/"%(ioutputPath,replace["DatasetFolder"]) for ioutputPath in outputPath]
         for ipath in PATHS:
             if not os.path.isdir(ipath):
-                os.makedirs(ipath)
+                makedirs(ipath)
 
         os.system("cp %s/%s %s"%( exePath, excutable, self.path))
         with open(self.filename,"w") as fout:
@@ -108,8 +107,8 @@ class Condor(object):
         self.outputPath = outputPath.split(",")
         for ipath in self.outputPath:
             if not os.path.isdir(ipath):
-                os.makedirs(ipath)
-        self.transfer_output_files = [ "out_%s.root"%(str(i+1)) for i in range(len(self.outputPath))]
+                makedirs(ipath)
+        self.transfer_output_files = [ ]
         self.YEAR = YEAR
         self.addtional = addtional
         self.maxnJobs = kwargs.get("maxnJobs",-1)
@@ -148,21 +147,19 @@ class Condor(object):
                 "DatasetFolder" : ds,
                 "excutable" : self.excutable,
                 "transfer_input_files" : self.transfer_input_files,
-                "transfer_output_files" : ",".join(self.transfer_output_files),
+                "transfer_output_files" : ",".join(self.transfer_output_files) or '""',
                 "log" : "%s/%s/%s/"%(self.TaskFolder,ds,self.log),
                 "std_logs" : os.path.dirname("%s/%s/%s/"%(self.TaskFolder,ds,self.std_logs)),
                 "MaxRuntime" : self.MaxRuntime,
+                "uid": str(os.getuid()),
             }
             self.jdl_writter.init(replace, self.log, self.std_logs, self.exePath, self.excutable, self.outputPath, )
             for nn,index in enumerate(self.samples[ds]):
                 if ( self.maxnJobs > 0 ) & (nn > self.maxnJobs) : break
-                outputPath = ""
-                for i,ioutputPath in enumerate(self.outputPath):
-                    outputPath += "out_%s.root = %s/{ds}/out_{index}.root ; "%(str(i+1),ioutputPath)
-                outputPath = outputPath.rstrip(" ").rstrip(";")
+                assert len(self.outputPath) == 1
+                outputPath = "%s/{ds}/out_{index}.root" % self.outputPath[0]
                 replace = {
-                    "arguments" : '"-f {INPUTFILE} {addtional}"'.format(addtional = self.addtional(ds), INPUTFILE = (",".join(self.samples[ds][index])).rstrip(",") ),
-                    "transfer_output_remaps" : '"%s"'%(outputPath).format(index = index,ds = ds),
+                    "arguments" : '"-f {INPUTFILE} -o {OUTPUTFILE} {addtional}"'.format(addtional = self.addtional(ds), INPUTFILE = (",".join(self.samples[ds][index])).rstrip(","), OUTPUTFILE="%s" % outputPath.format(index = index,ds = ds)),
                 }
                 self.jdl_writter.add_queue(replace)
                 self.Njobs += 1
@@ -256,7 +253,7 @@ class FakeCondorTest(Condor):
         super(FakeCondorTest,self).__init__(Filejson, samples_toRun, transfer_input_files, outputPath, YEAR, addtional, **kwargs)
         self.debugpath = kwargs.get("debug",None)
         if not self.debugpath: sys.exit("debug path is not given")
-        if ( self.debugpath != None ) & ( not os.path.isdir(self.debugpath) ) : os.makedirs(self.debugpath)
+        if ( self.debugpath != None ) & ( not os.path.isdir(self.debugpath) ) : makedirs(self.debugpath)
     
     def extract(self,jdl):
         exe = re.compile(r'(/s)*^executable(/s)*=(/s)*(.*)')
@@ -291,7 +288,7 @@ class FakeCondorTest(Condor):
         for i,iarg in enumerate(info["arguments"]):
             RUN_ = ""
             RUNPATH = "%s/%s/%s/"%(self.debugpath,ds,str(i))
-            os.system("rm -rf "+RUNPATH) ; os.makedirs(RUNPATH)
+            os.system("rm -rf "+RUNPATH) ; makedirs(RUNPATH)
             RUN_ += "cd %s \n"%(RUNPATH)
             for iinput in (info["InputFile"]+[info["exe"]]):
                 RUN_ += "cp %s %s\n"%(iinput,RUNPATH)
@@ -317,7 +314,7 @@ if options.createfilejson:
     PATH = "/".join(options.Filesjson.split("/")[:-1])
     if not os.path.isdir(PATH):
         print PATH
-        os.makedirs(PATH)
+        makedirs(PATH)
     samples_toRun = [ds for ds in eval(options.DAS)().DAS]
     File_json_ = File_json( options.Filesjson, eval(options.DAS)().DAS, Samples_ToRun = samples_toRun, debug = options.debug, debugkeepN = options.debugkeepN )
     File_json_.Configer()
@@ -332,8 +329,8 @@ if options.Condor:
     def additional(ds):
         return additional_(ds,options.AddtionalArgs)
     samples_toRun = [ds for ds in eval(options.DAS)().DAS]
-    Input = ["x509up_u12976","Scripts/fetchFiles.py"]
-    os.system("cp /tmp/x509up_u12976 .")
+    Input = ["x509up_u%d" % os.getuid(),"Scripts/fetchFiles.py"]
+    os.system("cp /tmp/x509up_u%d ." % os.getuid())
     Input = [ "%s/%s"%(os.getcwd(),i) for i in Input ]
     Condor_ = Condor(
         options.Filesjson, # Files.json
@@ -358,8 +355,8 @@ if options.FakeCondor:
     def additional(ds):
         return additional_(ds,options.AddtionalArgs)
     samples_toRun = [ds for ds in eval(options.DAS)().DAS]
-    Input = ["x509up_u12976","Scripts/fetchFiles.py"]
-    os.system("cp /tmp/x509up_u12976 .")
+    Input = ["x509up_u%d" % os.getuid(),"Scripts/fetchFiles.py"]
+    os.system("cp /tmp/x509up_u%d ." % os.getuid())
     Input = [ "%s/%s"%(os.getcwd(),i) for i in Input ]
     FakeCondorTest_ = FakeCondorTest(
         options.Filesjson, # Files.json
