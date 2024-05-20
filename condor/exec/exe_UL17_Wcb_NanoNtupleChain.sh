@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -ev
 
 OPTIND=1
 
@@ -14,6 +14,8 @@ while getopts "h?f:i:o:s:e:x:cy:a:" opt; do
     i)  IFILE=$OPTARG
         # e.g. WWW_dim8, WZZ_dim8, WWZ_dim8 or ZZZ_dim8
         ;;
+    o)  OFILE=$OPTARG
+        ;;
     y)  YEAR=$OPTARG
         ;;
     e)  EOSPATH=$OPTARG
@@ -26,6 +28,10 @@ while getopts "h?f:i:o:s:e:x:cy:a:" opt; do
         ;;
     esac
 done
+
+#duplicate processing avoidance
+[ -f "${OFILE}" ] && exit 0
+xrdfs eosuser.cern.ch stat "${OFILE}" && exit 0
 
 #first we produce Customized NanoAOD
 
@@ -62,7 +68,6 @@ fi
 LOCALInputFile=`cat $BASEPATH/Localfile.txt`
 echo $LOCALInputFile
 
-
 cmsDriver.py mc2017 \
 -n -1 \
 --mc \
@@ -77,10 +82,9 @@ cmsDriver.py mc2017 \
 --fileout file:out_Nano_1.root \
 --no_exec
 cmsRun mc2017_NANO.py
+
 pwd
 ls -lth
-
-
 
 # Rigorous sweeproot which checks ALL branches for ALL events.
 # If GetEntry() returns -1, then there was an I/O problem, so we will delete it
@@ -111,7 +115,6 @@ echo $BASEPATH
 ls -lth $BASEPATH
 echo "Finish to produce the Customized NanoAOD"
 
-
 #Second, we produce Ntuple
 cd $BASEPATH
 echo "The BASEPATH for ntuple production is $BASEPATH"
@@ -140,7 +143,7 @@ ls -lth
 cd python/postprocessing
 # git clone https://github.com/StephenChao/XWWNano.git analysis
 # git clone --branch MiniIsoBtagLatest --single-branch http://github.com/StephenChao/XWWNano.git analysis
-git clone http://github.com/StephenChao/Wcb.git analysis
+git clone http://github.com/lyazj/Wcb.git analysis
 
 echo "Successfully git clone the miniIso branch"
 
@@ -183,6 +186,9 @@ try:
     f1 = r.TFile("tree.root")
     t = f1.Get("Events")
     nevts = t.GetEntries()
+    #if nevts == 0:
+    #    print "[RSR] empty output is rejected"
+    #    foundBad = True
     for i in range(0,t.GetEntries(),1):
         if t.GetEntry(i) < 0:
             foundBad = True
@@ -195,11 +201,24 @@ if foundBad:
 else: print "[RSR] passed the rigorous sweeproot"
 EOL
 
-mv tree.root $BASEPATH/out_1.root
+#if ! [ -f tree.root ]; then
+#    if [ "${OFILE:0:4}" = "/eos" ]; then
+#        xrdcp $LOCALInputFile root://eosuser.cern.ch/${OFILE/Ntuple/NanoAOD}
+#        xrdcp $BASEPATH/_condor_stdout root://eosuser.cern.ch/${OFILE}.out
+#        xrdcp $BASEPATH/_condor_stderr root://eosuser.cern.ch/${OFILE}.err
+#    else
+#        makedir -p $(dirname ${OFILE/Ntuple/NanoAOD})
+#        rsync $LOCALInputFile ${OFILE/Ntuple/NanoAOD}
+#        rsync $BASEPATH/_condor_stdout ${OFILE}.out
+#        rsync $BASEPATH/_condor_stderr ${OFILE}.err
+#    fi
+#    exit 0  # We didn't succeed. But we don't want to try again.
+#fi
+if [ "${OFILE:0:4}" = "/eos" ]; then
+    xrdcp tree.root root://eosuser.cern.ch/${OFILE}
+else
+    rsync tree.root ${OFILE}
+fi
 
 cd $BASEPATH
 ls -lth
-
-
-
-
