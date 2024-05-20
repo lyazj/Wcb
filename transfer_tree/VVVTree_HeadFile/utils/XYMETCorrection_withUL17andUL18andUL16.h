@@ -17,7 +17,7 @@ enum TheRunEra{
 std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_phi, int runnb, TString year, bool isMC, int npv, bool isUL =false,bool ispuppi=false){
 
   std::pair<double,double>  TheXYCorr_Met_MetPhi(uncormet,uncormet_phi);
-  
+
   if(npv>100) npv=100;
   int runera =-1;
   bool usemetv2 =false;
@@ -28,8 +28,8 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
   else if(isMC && year == "2016nonAPV" && isUL) runera = yUL2016MCnonAPV;
   else if(isMC && year == "2017" && isUL) runera = yUL2017MC;
   else if(isMC && year == "2018" && isUL) runera = yUL2018MC;
-  
-  
+
+
   else if(!isMC && runnb >=272007 && runnb <=275376 && !isUL) runera = y2016B;
   else if(!isMC && runnb >=275657 && runnb <=276283 && !isUL) runera = y2016C;
   else if(!isMC && runnb >=276315 && runnb <=276811 && !isUL) runera = y2016D;
@@ -37,13 +37,13 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
   else if(!isMC && runnb >=277772 && runnb <=278808 && !isUL) runera = y2016F;
   else if(!isMC && runnb >=278820 && runnb <=280385 && !isUL) runera = y2016G;
   else if(!isMC && runnb >=280919 && runnb <=284044 && !isUL) runera = y2016H;
-  
+
   else if(!isMC && runnb >=297020 && runnb <=299329 && !isUL){ runera = y2017B; usemetv2 =true;}
   else if(!isMC && runnb >=299337 && runnb <=302029 && !isUL){ runera = y2017C; usemetv2 =true;}
   else if(!isMC && runnb >=302030 && runnb <=303434 && !isUL){ runera = y2017D; usemetv2 =true;}
   else if(!isMC && runnb >=303435 && runnb <=304826 && !isUL){ runera = y2017E; usemetv2 =true;}
   else if(!isMC && runnb >=304911 && runnb <=306462 && !isUL){ runera = y2017F; usemetv2 =true;}
-  
+
   else if(!isMC && runnb >=315252 && runnb <=316995 && !isUL) runera = y2018A;
   else if(!isMC && runnb >=316998 && runnb <=319312 && !isUL) runera = y2018B;
   else if(!isMC && runnb >=319313 && runnb <=320393 && !isUL) runera = y2018C;
@@ -74,7 +74,7 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
     //Couldn't find data/MC era => no correction applied
     return TheXYCorr_Met_MetPhi;
   }
-  
+
   double METxcorr(0.),METycorr(0.);
 
   if(!usemetv2){//Current recommendation for 2016 and 2018
@@ -117,7 +117,7 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
     if(runera==y2017MC) METycorr = -(0.177058*npv -0.336648);
     if(runera==y2018MC) METxcorr = -(0.296713*npv -0.141506);
     if(runera==y2018MC) METycorr = -(0.115685*npv +0.0128193);
-    
+
     //UL2017
     if(runera==yUL2017B) METxcorr = -(-0.211161*npv +0.419333);
     if(runera==yUL2017B) METycorr = -(0.251789*npv +-1.28089);
@@ -169,7 +169,7 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
 
 
     }
-    
+
     //UL2017Puppi
     if(ispuppi){
     if(runera==yUL2017B) METxcorr = -(-0.00382117*npv +-0.666228);
@@ -267,7 +267,7 @@ std::pair<double,double> METXYCorr_Met_MetPhi(double uncormet, double uncormet_p
 
 
 
-    
+
   }
 
   double CorrectedMET_x = uncormet *cos( uncormet_phi)+METxcorr;

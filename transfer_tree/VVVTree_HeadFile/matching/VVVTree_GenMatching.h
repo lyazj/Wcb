@@ -5,7 +5,7 @@
 vector<size_t> EDBR2PKUTree::GenParticles_Daughterindex(size_t Genpart_index) {
     vector<size_t> W_daughter_index_tmp;
     for (size_t id=0; id<v_GenPart_pt_.size();id++){
-        if (v_GenPart_genPartIdxMother_[id] == Genpart_index){
+        if (v_GenPart_genPartIdxMother_[id] == (Int_t)Genpart_index){
             W_daughter_index_tmp.push_back(id);
         }
     }
@@ -29,9 +29,9 @@ vector<size_t> EDBR2PKUTree::GenParticles_Daughterindex(size_t Genpart_index) {
 int EDBR2PKUTree::GenParticles_Lastcopy(size_t Genpart_index) {
     // use the same method miniAOD-framework used
     int LastCopyID = Genpart_index;     //Lastcopy index id corresponding to genpart index.
-    int PGDID      = v_GenPart_pdgId_[Genpart_index]; //PDGID corresponding to Genpart index 
+    int PGDID      = v_GenPart_pdgId_[Genpart_index]; //PDGID corresponding to Genpart index
     int PGDID_daughter = -99;
-    vector<size_t> daughterindex = GenParticles_Daughterindex(Genpart_index); //Daughters' index vector. 
+    vector<size_t> daughterindex = GenParticles_Daughterindex(Genpart_index); //Daughters' index vector.
 
     for (size_t id = 0; id < daughterindex.size();id++){
         if(v_GenPart_pdgId_[daughterindex[id]]==PGDID){
@@ -48,9 +48,9 @@ int EDBR2PKUTree::GenParticles_Lastcopy(size_t Genpart_index) {
 int EDBR2PKUTree::GenParticles_FindW(size_t Genpart_index) {
     // use the same method miniAOD-framework used
     int LastCopyID = Genpart_index;     //Lastcopy index id corresponding to genpart index.
-    int PGDID      = v_GenPart_pdgId_[Genpart_index]; //PDGID corresponding to Genpart index 
+    int PGDID      = v_GenPart_pdgId_[Genpart_index]; //PDGID corresponding to Genpart index
     int PGDID_daughter = -99;
-    vector<size_t> daughterindex = GenParticles_Daughterindex(Genpart_index); //Daughters' index vector. 
+    vector<size_t> daughterindex = GenParticles_Daughterindex(Genpart_index); //Daughters' index vector.
     // if (daughterindex.size() == 0){
     //     return -99;
     // }
@@ -112,47 +112,47 @@ void EDBR2PKUTree::loadGenpart(Long64_t jentry) {
         int bytes_GenPart_eta = b_GenPart_eta_->GetEntry(jentry);
         v_GenPart_eta_ = vector<float>(GenPart_eta_,GenPart_eta_+bytes_GenPart_eta/sizeof(GenPart_eta_[0]));
     }
-    
+
     if (b_GenPart_genPartIdxMother_) {
         int bytes_GenPart_genPartIdxMother = b_GenPart_genPartIdxMother_->GetEntry(jentry);
         v_GenPart_genPartIdxMother_ = vector<int>(GenPart_genPartIdxMother_,GenPart_genPartIdxMother_+bytes_GenPart_genPartIdxMother/sizeof(GenPart_genPartIdxMother_[0]));
     }
-    
+
     if (b_GenPart_mass_) {
         int bytes_GenPart_mass = b_GenPart_mass_->GetEntry(jentry);
         v_GenPart_mass_ = vector<float>(GenPart_mass_,GenPart_mass_+bytes_GenPart_mass/sizeof(GenPart_mass_[0]));
     }
-    
+
     if (b_GenPart_pdgId_) {
         int bytes_GenPart_pdgId = b_GenPart_pdgId_->GetEntry(jentry);
         v_GenPart_pdgId_ = vector<int>(GenPart_pdgId_,GenPart_pdgId_+bytes_GenPart_pdgId/sizeof(GenPart_pdgId_[0]));
     }
-    
+
     if (b_GenPart_phi_) {
         int bytes_GenPart_phi = b_GenPart_phi_->GetEntry(jentry);
         v_GenPart_phi_ = vector<float>(GenPart_phi_,GenPart_phi_+bytes_GenPart_phi/sizeof(GenPart_phi_[0]));
     }
-    
+
     if (b_GenPart_pt_) {
         int bytes_GenPart_pt = b_GenPart_pt_->GetEntry(jentry);
         v_GenPart_pt_ = vector<float>(GenPart_pt_,GenPart_pt_+bytes_GenPart_pt/sizeof(GenPart_pt_[0]));
     }
-    
+
     if (b_GenPart_status_) {
         int bytes_GenPart_status = b_GenPart_status_->GetEntry(jentry);
         v_GenPart_status_ = vector<int>(GenPart_status_,GenPart_status_+bytes_GenPart_status/sizeof(GenPart_status_[0]));
     }
-    
+
     if (b_GenPart_statusFlags_) {
         int bytes_GenPart_statusFlags = b_GenPart_statusFlags_->GetEntry(jentry);
         v_GenPart_statusFlags_ = vector<int>(GenPart_statusFlags_,GenPart_statusFlags_+bytes_GenPart_statusFlags/sizeof(GenPart_statusFlags_[0]));
     }
-    
-    
+
+
 }
 
 void EDBR2PKUTree::GenParticles() {
-    
+
     Genparticles Genparticles_ = {
         v_GenPart_eta_,
         v_GenPart_genPartIdxMother_,
@@ -177,10 +177,10 @@ void EDBR2PKUTree::GenParticles() {
     GenParticle_Collection s_first_Collection = GenParticle_Collection(W_Collection, 3);
     GenParticle_Collection c_first_Collection = GenParticle_Collection(W_Collection, 4);
     GenParticle_Collection g_first_Collection = GenParticle_Collection(W_Collection, 21);
-    
+
     int Windex = 0;
     for(size_t ik=0; ik<v_GenPart_pt_.size();ik++){
-        
+
             t_Collection.AddParticle(ik);
             W_Collection.AddParticle(ik);
             Z_Collection.AddParticle(ik);
@@ -195,7 +195,7 @@ void EDBR2PKUTree::GenParticles() {
             d_first_Collection.AddParticle(ik,1);
             s_first_Collection.AddParticle(ik,1);
             c_first_Collection.AddParticle(ik,1);
-        
+
         // W
         if ( abs(v_GenPart_pdgId_[ik]) == 24 ){
             if (not (v_GenPart_statusFlags_[ik]&(1<<13))) continue; // isLastCopy
@@ -229,8 +229,8 @@ void EDBR2PKUTree::GenParticles() {
                 Windex++;
             }
         }
-        
-        
+
+
         // Radion
         if ( abs(v_GenPart_pdgId_[ik]) == 9000025 ){
             int Rlid = GenParticles_Lastcopy(ik);
@@ -349,8 +349,8 @@ void EDBR2PKUTree::GenParticles() {
     matchingc_first_a = c_first_Collection.matchingAK8(AK8_a,1);
     matchingqg_first_a = 0;
     vector<int> matching_qg_a = { matchingg_first_a, matchingc_first_a, matchings_first_a, matchingd_first_a, matchingu_first_a };
-    for(size_t i ; i<matching_qg_a.size() ; i++){
-        if( matching_qg_a[i] == 1 ){ 
+    for(size_t i = 0; i<matching_qg_a.size() ; i++){
+        if( matching_qg_a[i] == 1 ){
             if( matchingqg_first_a < 1 ){ matchingqg_first_a = 1 ; }
         }
         else{
@@ -362,8 +362,8 @@ void EDBR2PKUTree::GenParticles() {
         if( matchingg_a == 1 || matchingc_a == 1 || matchings_a == 1 || matchingd_a == 1 || matchingu_a == 1 ){ matchingt_a = 6; }
         if( matchingqg_first_a == 1 ){ matchingt_first_a = 6; }
     }
-    
-    
+
+
 
     matchingt_c = t_Collection.matchingAK8(AK8_c);
     matchingW_c = W_Collection.matchingAK8(AK8_c);
@@ -380,8 +380,8 @@ void EDBR2PKUTree::GenParticles() {
     matchingc_first_c = c_first_Collection.matchingAK8(AK8_c,1);
     matchingqg_first_c = 0;
     vector<int> matching_qg_c = { matchingg_first_c, matchingc_first_c, matchings_first_c, matchingd_first_c, matchingu_first_c };
-    for(size_t i ; i<matching_qg_c.size() ; i++){
-        if( matching_qg_c[i] == 1 ){ 
+    for(size_t i = 0; i<matching_qg_c.size() ; i++){
+        if( matching_qg_c[i] == 1 ){
             if( matchingqg_first_c < 1 ){ matchingqg_first_c = 1 ; }
         }
         else{
@@ -410,8 +410,8 @@ void EDBR2PKUTree::GenParticles() {
         matchingc_first_b = c_first_Collection.matchingAK8(AK8_b,1);
         matchingqg_first_b = 0;
         vector<int> matching_qg_b = { matchingg_first_b, matchingc_first_b, matchings_first_b, matchingd_first_b, matchingu_first_b };
-        for(size_t i ; i<matching_qg_b.size() ; i++){
-            if( matching_qg_b[i] == 1 ){ 
+        for(size_t i = 0; i<matching_qg_b.size() ; i++){
+            if( matching_qg_b[i] == 1 ){
                 if( matchingqg_first_b < 1 ){ matchingqg_first_b = 1 ; }
             }
             else{
@@ -426,16 +426,16 @@ void EDBR2PKUTree::GenParticles() {
     }
 
 
-    
 
-    
+
+
 
 }
 
 //Gen-particles function for HWW.
 
 void EDBR2PKUTree::GenParticles_HWW() {
-    
+
     Genparticles Genparticles_ = {
         v_GenPart_eta_,
         v_GenPart_genPartIdxMother_,
@@ -462,12 +462,12 @@ void EDBR2PKUTree::GenParticles_HWW() {
     GenParticle_Collection s_first_Collection = GenParticle_Collection(W_Collection, 3);
     GenParticle_Collection c_first_Collection = GenParticle_Collection(W_Collection, 4);
     GenParticle_Collection g_first_Collection = GenParticle_Collection(W_Collection, 21);
-    
+
     int Windex = 0;
     int Zindex = 0;
     int tindex = 0;
     for(size_t ik=0; ik<v_GenPart_pt_.size();ik++){
-        
+
             t_Collection.AddParticle(ik);
             W_Collection.AddParticle(ik);
             Z_Collection.AddParticle(ik);
@@ -482,7 +482,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
             d_first_Collection.AddParticle(ik,1);
             s_first_Collection.AddParticle(ik,1);
             c_first_Collection.AddParticle(ik,1);
-        
+
         // W
         if ( abs(v_GenPart_pdgId_[ik]) == 24 ){
             if (not (v_GenPart_statusFlags_[ik]&(1<<13))) continue; // isLastCopy
@@ -515,7 +515,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
                         //for the first quark:
                         // int Wd1lid = GenParticles_Lastcopy(W_daughter_index[0]);
                         // int Wd2lid = GenParticles_Lastcopy(W_daughter_index[1]);
-                        
+
                         // vector<size_t> genw_q1_daughter_index = GenParticles_Daughterindex(W_daughter_index[0]);
                         // //for the second quark;
                         // vector<size_t> genw_q2_daughter_index = GenParticles_Daughterindex(W_daughter_index[1]);
@@ -534,7 +534,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
                         //     //     cout << "there is a W "<<endl;
                         //     // }
                         //     // cout << "PDGid of Nq1 daughter nq1idx = " << v_GenPart_pdgId_[ genw_q1_daughter_index[nq1idx]] << endl;
-                            
+
                         // }
                         // // cout << "End W d1" << endl;
                         // // cout << endl;
@@ -557,7 +557,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
                         //     // }
 
                         // }
-                        
+
                         // cout << "*********" <<endl;
 
 
@@ -616,7 +616,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
                                     if ( Nt_W_daughter == 2){
                                         gent_W_q1_eta[tindex]  = v_GenPart_eta_[t_W_daughter_index[0]];
                                         gent_W_q1_phi[Windex]  = v_GenPart_phi_[t_W_daughter_index[0]];
-                                       
+
                                         gent_W_q2_eta[tindex]  = v_GenPart_eta_[t_W_daughter_index[1]];
                                         gent_W_q2_phi[tindex]  = v_GenPart_phi_[t_W_daughter_index[1]];
                                         if( abs(v_GenPart_pdgId_[t_W_daughter_index[0]]) == 11 ){
@@ -644,8 +644,8 @@ void EDBR2PKUTree::GenParticles_HWW() {
                 tindex++;
             }
         }
-        
-        
+
+
         // Higgs, all variable indicated "Radion/R" are actually "Higgs/H"
         if ( abs(v_GenPart_pdgId_[ik]) == 25 ){
             int Rlid = GenParticles_Lastcopy(ik);
@@ -692,7 +692,7 @@ void EDBR2PKUTree::GenParticles_HWW() {
                         status_2 = 4;
                     }
                 }
-                
+
                 // W2
                 int W2lid = GenParticles_Lastcopy(R_daughter_index[1]);
                 vector<size_t> R_W2_daughter_index = GenParticles_Daughterindex(W2lid);
@@ -777,8 +777,8 @@ void EDBR2PKUTree::GenParticles_HWW() {
     matchingqg_first_a = 0; //
     vector<int> matching_qg_a = { matchingg_first_a, matchingc_first_a, matchings_first_a, matchingd_first_a, matchingu_first_a };
 
-    for(size_t i ; i<matching_qg_a.size() ; i++){
-        if( matching_qg_a[i] == 1 ){ 
+    for(size_t i = 0; i<matching_qg_a.size() ; i++){
+        if( matching_qg_a[i] == 1 ){
             if( matchingqg_first_a < 1 ){ matchingqg_first_a = 1 ; }
         }
         else{
@@ -790,8 +790,8 @@ void EDBR2PKUTree::GenParticles_HWW() {
         if( matchingg_a == 1 || matchingc_a == 1 || matchings_a == 1 || matchingd_a == 1 || matchingu_a == 1 ){ matchingt_a = 6; }
         if( matchingqg_first_a == 1 ){ matchingt_first_a = 6; }
     }
-    
-    
+
+
 
     matchingt_c = t_Collection.matchingAK8(AK8_c);
     matchingW_c = W_Collection.matchingAK8(AK8_c);
@@ -808,8 +808,8 @@ void EDBR2PKUTree::GenParticles_HWW() {
     matchingc_first_c = c_first_Collection.matchingAK8(AK8_c,1);
     matchingqg_first_c = 0;
     vector<int> matching_qg_c = { matchingg_first_c, matchingc_first_c, matchings_first_c, matchingd_first_c, matchingu_first_c };
-    for(size_t i ; i<matching_qg_c.size() ; i++){
-        if( matching_qg_c[i] == 1 ){ 
+    for(size_t i = 0; i<matching_qg_c.size() ; i++){
+        if( matching_qg_c[i] == 1 ){
             if( matchingqg_first_c < 1 ){ matchingqg_first_c = 1 ; }
         }
         else{
@@ -838,8 +838,8 @@ void EDBR2PKUTree::GenParticles_HWW() {
         matchingc_first_b = c_first_Collection.matchingAK8(AK8_b,1);
         matchingqg_first_b = 0;
         vector<int> matching_qg_b = { matchingg_first_b, matchingc_first_b, matchings_first_b, matchingd_first_b, matchingu_first_b };
-        for(size_t i ; i<matching_qg_b.size() ; i++){
-            if( matching_qg_b[i] == 1 ){ 
+        for(size_t i = 0; i<matching_qg_b.size() ; i++){
+            if( matching_qg_b[i] == 1 ){
                 if( matchingqg_first_b < 1 ){ matchingqg_first_b = 1 ; }
             }
             else{
@@ -854,9 +854,9 @@ void EDBR2PKUTree::GenParticles_HWW() {
     }
 
 
-    
 
-    
+
+
 
 }
 

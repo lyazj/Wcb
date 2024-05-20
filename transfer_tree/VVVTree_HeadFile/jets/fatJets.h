@@ -24,13 +24,14 @@
 #include<vector>
 #include <iostream>
 
-struct FatJet_P //define the necessary struct used by 
+struct FatJet_P //define the necessary struct used by
 {
     vector<float>* v_FatJet_pt_;
     vector<float>* v_FatJet_eta_;
     vector<float>* v_FatJet_phi_;
     vector<float>* v_FatJet_msoftdrop_;
     vector<int>* v_FatJet_jetId_;
+
     vector<float>* v_FatJet_tau1_;
     vector<float>* v_FatJet_tau2_;
     vector<float>* v_FatJet_tau3_;
@@ -56,7 +57,7 @@ struct FatJet_P //define the necessary struct used by
     vector<float>* v_FatJet_msoftdrop_jmrDown_;
 
     vector<float>* v_FatJet_pt_nom_;
-    
+
     vector<float>* v_FatJet_inclParTMDV2_probHbb_;
     vector<float>* v_FatJet_inclParTMDV2_probHbc_;
     vector<float>* v_FatJet_inclParTMDV2_probHbs_;
@@ -71,7 +72,6 @@ struct FatJet_P //define the necessary struct used by
     vector<float>* v_FatJet_inclParTMDV2_probQCDothers_;
 
 // Add JES sources
-
     vector<float>* v_FatJet_msoftdrop_jesAbsoluteUp_;
     vector<float>* v_FatJet_msoftdrop_jesAbsoluteDown_;
     vector<float>* v_FatJet_msoftdrop_jesAbsolute_yearUp_;
@@ -94,15 +94,13 @@ struct FatJet_P //define the necessary struct used by
     vector<float>* v_FatJet_msoftdrop_jesRelativeBalDown_;
     vector<float>* v_FatJet_msoftdrop_jesRelativeSample_yearUp_;
     vector<float>* v_FatJet_msoftdrop_jesRelativeSample_yearDown_;
-    //Start Hidden.
-
 } ;
 
 
 
 
 class FatJet_Collection {
-    public : 
+    public :
     FatJet_Collection();
     FatJet_Collection(FatJet_P FatJet_, int NMAXFatJet, int filterMode);
     size_t size();
@@ -178,7 +176,6 @@ class FatJet_Collection {
     vector<float>* v_FatJet_inclParTMDV2_probQCDcc_;
     vector<float>* v_FatJet_inclParTMDV2_probQCDothers_;
 
-    //Start Hidden.
     // Split JES
     vector<float> FatJet_msoftdrop_jesAbsoluteUp;
     vector<float> FatJet_msoftdrop_jesAbsoluteDown;
@@ -254,10 +251,6 @@ class FatJet_Collection {
     vector<float> FatJet_inclParTMDV2_probQCDcc;
     vector<float> FatJet_inclParTMDV2_probQCDothers;
 
-    //Start Hidden.
-
-
-
     // branches map
     std::map<std::string, vector<int>>   FatJet_order; //map to store different order information.
     std::map<std::string, vector<float> > FatJet_Branches;
@@ -291,7 +284,7 @@ class FatJet_Collection {
 };
 
 FatJet_Collection::FatJet_Collection(){
-    NMAXFatJet = 0  ; 
+    NMAXFatJet = 0  ;
     filterMode = -1 ;
 }
 
@@ -313,7 +306,7 @@ FatJet_Collection::FatJet_Collection(FatJet_P FatJet_ , int NMAXFatJet_, int fil
     v_FatJet_msoftdrop_corr_JMR_             = FatJet_.v_FatJet_msoftdrop_corr_JMR_;
     v_FatJet_msoftdrop_corr_JMS_             = FatJet_.v_FatJet_msoftdrop_corr_JMS_;
     v_FatJet_msoftdrop_corr_PUPPI_           = FatJet_.v_FatJet_msoftdrop_corr_PUPPI_;
-   
+
 // Add JES, JER up and down branch on 26/2/2024
 
     v_FatJet_msoftdrop_jesTotalUp_           = FatJet_.v_FatJet_msoftdrop_jesTotalUp_;
@@ -413,7 +406,7 @@ void FatJet_Collection::brances_map(){
     FatJet_Branches["msoftdrop_corr_PUPPI"]           = FatJet_msoftdrop_corr_PUPPI;
 
 
-    
+
     FatJet_Branches["msoftdrop_jesAbsoluteUp"]             = FatJet_msoftdrop_jesAbsoluteUp;
     FatJet_Branches["msoftdrop_jesAbsoluteDown"]           = FatJet_msoftdrop_jesAbsoluteDown;
     FatJet_Branches["msoftdrop_jesAbsolute_yearUp"]        = FatJet_msoftdrop_jesAbsolute_yearUp;
@@ -469,52 +462,52 @@ void FatJet_Collection::brances_map(){
     FatJet_Branches["inclParTMDV2_probQCDc"]           = FatJet_inclParTMDV2_probQCDc;
     FatJet_Branches["inclParTMDV2_probQCDcc"]          = FatJet_inclParTMDV2_probQCDcc;
     FatJet_Branches["inclParTMDV2_probQCDothers"]      = FatJet_inclParTMDV2_probQCDothers;
-      
+
 
 }
 
 void FatJet_Collection::brances_Added(){
     vector<float> Branch;
- 
-    
+
+
     for (int iFJ = 0; iFJ != int(FatJet_pt.size()); ++iFJ ){
         // float HWWMD_V2 = (
         // FatJet_inclParTMDV2_probHbc[iFJ]
-        // )/( 
-        // FatJet_inclParTMDV2_probHbc[iFJ] +   
-        // FatJet_inclParTMDV2_probQCDbb[iFJ] +   
-        // FatJet_inclParTMDV2_probQCDcc[iFJ] +   
-        // FatJet_inclParTMDV2_probQCDb[iFJ] +   
-        // FatJet_inclParTMDV2_probQCDc[iFJ] +   
-        // FatJet_inclParTMDV2_probQCDothers[iFJ] +   
+        // )/(
+        // FatJet_inclParTMDV2_probHbc[iFJ] +
+        // FatJet_inclParTMDV2_probQCDbb[iFJ] +
+        // FatJet_inclParTMDV2_probQCDcc[iFJ] +
+        // FatJet_inclParTMDV2_probQCDb[iFJ] +
+        // FatJet_inclParTMDV2_probQCDc[iFJ] +
+        // FatJet_inclParTMDV2_probQCDothers[iFJ] +
         // );
 
         float HWWMD_V2 = FatJet_inclParTMDV2_probHbc[iFJ];
 
         Branch.push_back(HWWMD_V2);
-    } 
+    }
     FatJet_Branches["HWW_V2"] = Branch;
     Branch.clear();
     // General HWW tagger ordering.
 
-        
+
     for (int iFJ = 0; iFJ != int(FatJet_pt.size()); ++iFJ ){
         float HWWvsQCDMD_V2 = (
         FatJet_inclParTMDV2_probHbc[iFJ]
         )/(
-        FatJet_inclParTMDV2_probHbc[iFJ] + 
+        FatJet_inclParTMDV2_probHbc[iFJ] +
 
-        FatJet_inclParTMDV2_probQCDbb[iFJ] +   
-        FatJet_inclParTMDV2_probQCDcc[iFJ] +   
-        FatJet_inclParTMDV2_probQCDb[iFJ] +   
-        FatJet_inclParTMDV2_probQCDc[iFJ] +   
-        FatJet_inclParTMDV2_probQCDothers[iFJ]  
+        FatJet_inclParTMDV2_probQCDbb[iFJ] +
+        FatJet_inclParTMDV2_probQCDcc[iFJ] +
+        FatJet_inclParTMDV2_probQCDb[iFJ] +
+        FatJet_inclParTMDV2_probQCDc[iFJ] +
+        FatJet_inclParTMDV2_probQCDothers[iFJ]
         );
 
         Branch.push_back(HWWvsQCDMD_V2);
         //HWWMD_v2 could change, just a temperary variable!
     } //HWWvs.QCD tagger ordering.
-    
+
     FatJet_Branches["HWWvsQCD_V2"] = Branch;
     Branch.clear();
     //Test part1
@@ -531,13 +524,13 @@ void FatJet_Collection::brances_Added(){
 
 
     for (int iFJ = 0; iFJ != int(FatJet_pt_nom.size()); ++iFJ ){
-        float out = -99 ; 
+        float out = -99 ;
         if( FatJet_pt_nom[iFJ] > 200 ){
             out = FatJet_msoftdrop_nom[iFJ]/FatJet_msoftdrop_corr_PUPPI[iFJ];
         }
         Branch.push_back(out);
     }
-    //FatJet_msoftdrop_corr_PUPPI is correction factor of PUPPI, 
+    //FatJet_msoftdrop_corr_PUPPI is correction factor of PUPPI,
     FatJet_Branches["msoftdrop_nom_noJWS"] = Branch;
     Branch.clear();
 
@@ -560,12 +553,12 @@ void FatJet_Collection::Filter_1(){
     // Please note: For AK8 jets, the corresponding (CHS or PUPPI) AK4 jet ID should be used.
     // For 2016 samples : jetId==3 means: pass loose and tight ID, fail tightLepVeto, jetId==7 means: pass loose, tight, tightLepVeto ID.
     // For 2017 and 2018 samples : jetId==2 means: pass tight ID, fail tightLepVeto, jetId==6 means: pass tight and tightLepVeto ID.
-    
+
     //There are different jetIds, so that's why we have two different files in 2016 and 2017.
 
     for (size_t iFJ = 0; iFJ != v_FatJet_pt_->size(); ++iFJ ){
 
-        int   iFatJet_jetId  = v_FatJet_jetId_->at(iFJ) ; if( iFatJet_jetId&2 != 2 ){ continue; }
+        int   iFatJet_jetId  = v_FatJet_jetId_->at(iFJ) ; if( (iFatJet_jetId&2) != 2 ){ continue; }
         float iFatJet_jeteta = v_FatJet_eta_->at(iFJ)   ; if( fabs(iFatJet_jeteta) > 2.4 ){ continue; }
         float iFatJet_jetpt  = v_FatJet_pt_->at(iFJ)    ; if( iFatJet_jetpt < 200 ){ continue; }
 
@@ -630,7 +623,7 @@ void FatJet_Collection::Filter_1(){
         }
 
         // Add JES, JER up and down branch on 26/2/2024
-        
+
         if( v_FatJet_msoftdrop_jesTotalUp_->size() > iFJ ){
             FatJet_msoftdrop_jesTotalUp.push_back(v_FatJet_msoftdrop_jesTotalUp_->at(iFJ));
         }
@@ -691,7 +684,7 @@ void FatJet_Collection::Filter_1(){
         }
 
         // BBEC1
-        
+
        if( v_FatJet_msoftdrop_jesBBEC1Up_->size() > iFJ ){
             FatJet_msoftdrop_jesBBEC1Up.push_back(v_FatJet_msoftdrop_jesBBEC1Up_->at(iFJ));
         }
@@ -745,9 +738,9 @@ void FatJet_Collection::Filter_1(){
         else{
             FatJet_msoftdrop_jesEC2_yearDown.push_back(-99.);
         }
-     
+
         //Flavor QCD
-        
+
         if( v_FatJet_msoftdrop_jesFlavorQCDUp_->size() > iFJ ){
             FatJet_msoftdrop_jesFlavorQCDUp.push_back(v_FatJet_msoftdrop_jesFlavorQCDUp_->at(iFJ));
         }
@@ -822,7 +815,7 @@ void FatJet_Collection::Filter_1(){
 
 
         // Add JMS, JMR up and down branch on 1/3/2024
-        
+
         if( v_FatJet_msoftdrop_jmsUp_->size() > iFJ ){
             FatJet_msoftdrop_jmsUp.push_back(v_FatJet_msoftdrop_jmsUp_->at(iFJ));
         }
@@ -873,7 +866,7 @@ void FatJet_Collection::Filter_2(){
     // For 2017 and 2018 samples : jetId==2 means: pass tight ID, fail tightLepVeto, jetId==6 means: pass tight and tightLepVeto ID.
     for (size_t iFJ = 0; iFJ != v_FatJet_pt_->size(); ++iFJ ){
 
-        int   iFatJet_jetId  = v_FatJet_jetId_->at(iFJ) ; if( iFatJet_jetId&2 != 2 ){ continue; }
+        int   iFatJet_jetId  = v_FatJet_jetId_->at(iFJ) ; if( (iFatJet_jetId&2) != 2 ){ continue; }
         float iFatJet_jeteta = v_FatJet_eta_->at(iFJ)   ; if( fabs(iFatJet_jeteta) > 2.4 ){ continue; }
         float iFatJet_jetpt  = v_FatJet_pt_nom_->at(iFJ)    ; if( iFatJet_jetpt < 200 ){ continue; }
 
@@ -940,7 +933,7 @@ void FatJet_Collection::Filter_2(){
 
 
         // Add JES, JER up and down branch on 26/2/2024
-        
+
         if( v_FatJet_msoftdrop_jesTotalUp_->size() > iFJ ){
             FatJet_msoftdrop_jesTotalUp.push_back(v_FatJet_msoftdrop_jesTotalUp_->at(iFJ));
         }
@@ -1010,7 +1003,7 @@ void FatJet_Collection::Filter_2(){
         }
 
         // BBEC1
-        
+
        if( v_FatJet_msoftdrop_jesBBEC1Up_->size() > iFJ ){
             FatJet_msoftdrop_jesBBEC1Up.push_back(v_FatJet_msoftdrop_jesBBEC1Up_->at(iFJ));
         }
@@ -1064,9 +1057,9 @@ void FatJet_Collection::Filter_2(){
         else{
             FatJet_msoftdrop_jesEC2_yearDown.push_back(-99.);
         }
-     
+
         //Flavor QCD
-        
+
         if( v_FatJet_msoftdrop_jesFlavorQCDUp_->size() > iFJ ){
             FatJet_msoftdrop_jesFlavorQCDUp.push_back(v_FatJet_msoftdrop_jesFlavorQCDUp_->at(iFJ));
         }
@@ -1143,7 +1136,7 @@ void FatJet_Collection::Filter_2(){
 
 
         // start JMS/JMR
-             
+
         if( v_FatJet_msoftdrop_jmsUp_->size() > iFJ ){
             FatJet_msoftdrop_jmsUp.push_back(v_FatJet_msoftdrop_jmsUp_->at(iFJ));
         }
@@ -1172,7 +1165,7 @@ void FatJet_Collection::Filter_2(){
             FatJet_msoftdrop_jmrDown.push_back(-99.);
         }
 
-        // over   
+        // over
 
     }
 }
@@ -1190,7 +1183,7 @@ void FatJet_Collection::Order(int mode){
 
     if((mode == 6) && (NMAXFatJet == 3)){ Order_6(); } //HWWMD H4q tagger order.
     if((mode == 7) && (NMAXFatJet == 3)){ Order_7(); } //HWWMD V2 tagger order.
-    
+
 
 }
 
@@ -1365,7 +1358,7 @@ float FatJet_Collection::Get(string order, string variable, int index){
 
 // template <typename T>
 // void FatJet_Collection::Out(vector<T> In_branch, vector<T> & Out_branch){
-    // for (size_t iFJ = 0; iFJ != FJorder.size(); ++iFJ ){ 
+    // for (size_t iFJ = 0; iFJ != FJorder.size(); ++iFJ ){
         // if(iFJ < In_branch.size()){ Out_branch.push_back( In_branch.at(FJorder.at(iFJ)) ); }
         // else{ Out_branch.push_back(-99); }
     // }

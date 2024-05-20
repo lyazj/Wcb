@@ -1,43 +1,37 @@
+#!/usr/bin/env python3
+
 import os
-import ROOT
 from optparse import OptionParser
-import subprocess
+from JobManager import concurrent_jobs, submit, wait
 
 parser = OptionParser()
-parser.add_option('--year',      action="store",type="string",dest="year"      ,default="2017")
-parser.add_option('--test',      action="store",type="string",dest="test"      ,default="notest")
-
+parser.add_option('--year', help='specify running year')
+parser.add_option('--test', action="store_true", help='request a dry run')
+parser.add_option('--jobs')
 (options, args) = parser.parse_args()
+if options.jobs: concurrent_jobs(int(options.jobs))
 
+year = {
+    '2016APV': '2016preVFP',
+    '2016': '2016postVFP',
+    '2017': '2017',
+    '2018': '2018',
+}[options.year]
+inroot = '/data/bond/lyazj/Ntuple/V0/' + year + '/Data/'
+outroot = '/data/bond/lyazj/Tree/V0/Splitted/' + year + '/Data/'
 
-path_tree ="/data/bond/zhaoyz/Tree/V9/" + options.year + "/Splitted/Data/" # Your dir for Ntuple file waiting for TransferTree,waiting for changing.
-file_dir1="/data/bond/zhaoyz/Ntuple/V3/" + options.year + "/Merged/Data/"           # Your dir for Tree file after TransferTree, waiting for changing.
-if options.year == "2017" or options.year == "2018":
-    for das in os.listdir(file_dir1):
-        if das not in os.listdir(path_tree): os.mkdir("%s%s"%(path_tree,das))
-        for file in os.listdir(file_dir1+das):
-            if file.endswith('.root'):
-                print("Should print:python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year %s --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file,options.year))
-                if options.test == "notest" : os.system("python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year %s --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file,options.year))
-        print("TransferTree for ",das,"done")
-        print("\n")
-elif options.year  == "2016" or options.year == "2016APV":
-    if options.year == "2016APV":   
-        for das in os.listdir(file_dir1):
-            if das not in os.listdir(path_tree): os.mkdir("%s%s"%(path_tree,das))
-            for file in os.listdir(file_dir1+das):
-                if file.endswith('.root'):
-                    print("Should print:python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year 2016preVFP --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file))
-                    if options.test == "notest" : os.system("python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year 2016preVFP --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file))
-            print("TransferTree for ",das,"done")
-            print("\n")
-    if options.year == "2016":
-        for das in os.listdir(file_dir1):
-            if das not in os.listdir(path_tree): os.mkdir("%s%s"%(path_tree,das))
-            for file in os.listdir(file_dir1+das):
-                if file.endswith('.root'):
-                    print("Should print:python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year 2016postVFP --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file))
-                    if options.test == "notest" :os.system("python runEDBR2PKUTree.py --inputfile \"%s/%s\" --outputfile \"%s/Tree_%s\" --year 2016postVFP --channel \"HWW\" --IsData 0"%(file_dir1+das,file,path_tree+das,file))
-            print("TransferTree for ",das,"done")
-            print("\n")
-else : print("Year not correct!")
+for das in os.listdir(inroot):
+    inpath = os.path.join(inroot, das)
+    outpath = os.path.join(outroot, das)
+    if not os.path.isdir(outpath): os.makedirs(outpath)
+    for file in os.listdir(inpath):
+        if file.endswith('.root'):
+            infile = os.path.join(inpath, file)
+            outfile = os.path.join(outpath, 'Tree_' + file)
+            cmd = "stat '%s' &>/dev/null || (python2 runEDBR2PKUTree.py --inputfile '%s' --outputfile '%s'.tmp --year %s --channel HWW --IsData 0 &>'%s'.log && mv '%s'.tmp '%s' || rm '%s'.tmp)" % (outfile, infile, outfile, year, outfile, outfile, outfile, outfile)
+            if options.test:
+                print(cmd)
+            else:
+                submit(cmd)
+                if getattr(options, 'jobs') == '1': wait()
+wait()

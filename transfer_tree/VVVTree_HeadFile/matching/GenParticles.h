@@ -45,7 +45,7 @@ bool cmp_daughter(pdgId_index a, pdgId_index b){
 
 class GenParticle_Collection {
     //You can only access to public funtions or variables.
-    public : 
+    public :
     void AddParticle( int index );
     void AddParticle( int index , int mode );
     vector<int> collection(){ return IndexList; }
@@ -120,7 +120,7 @@ GenParticle_Collection::GenParticle_Collection(GenParticle_Collection Genparticl
     v_GenPart_pt_ = Genparticle_collection.v_GenPart_pt_;
     v_GenPart_status_ = Genparticle_collection.v_GenPart_status_;
     v_GenPart_statusFlags_ = Genparticle_collection.v_GenPart_statusFlags_;
-    
+
     PDGID = PDGID_;
     gpt_shrehood = Genparticle_collection.gpt_shrehood;
 
@@ -175,12 +175,12 @@ bool GenParticle_Collection::qgfromtWZ(int index){
     vector<int> qg = {1,2,3,4,21};
     vector<int>::iterator ret = std::find(qg.begin(), qg.end(), abs(v_GenPart_pdgId_[index]));
     if( ret == qg.end() ) { return false; }
-    
+
     int parent = v_GenPart_genPartIdxMother_[index];
     while ( parent >= 0 ){
-        if ( abs(v_GenPart_pdgId_[parent]) == 6  ){ return true; } 
-        if ( abs(v_GenPart_pdgId_[parent]) == 24 ){ return true; } 
-        if ( abs(v_GenPart_pdgId_[parent]) == 23 ){ return true; } 
+        if ( abs(v_GenPart_pdgId_[parent]) == 6  ){ return true; }
+        if ( abs(v_GenPart_pdgId_[parent]) == 24 ){ return true; }
+        if ( abs(v_GenPart_pdgId_[parent]) == 23 ){ return true; }
         parent = v_GenPart_genPartIdxMother_[parent];
     }
     vector<int> daughterindex = index_daughter.at(index);
@@ -188,9 +188,9 @@ bool GenParticle_Collection::qgfromtWZ(int index){
         vector<int> daughterindex_;
         for (size_t id=0; id<daughterindex.size();id++){
             int daughterid = daughterindex[id];
-            if ( abs(v_GenPart_pdgId_[daughterid]) == 6  ){ return true; } 
-            if ( abs(v_GenPart_pdgId_[daughterid]) == 24 ){ return true; } 
-            if ( abs(v_GenPart_pdgId_[daughterid]) == 23 ){ return true; } 
+            if ( abs(v_GenPart_pdgId_[daughterid]) == 6  ){ return true; }
+            if ( abs(v_GenPart_pdgId_[daughterid]) == 24 ){ return true; }
+            if ( abs(v_GenPart_pdgId_[daughterid]) == 23 ){ return true; }
             vector<int> daughter_daughter = index_daughter.at(daughterid);
             daughterindex_.insert(daughterindex_.end(),daughter_daughter.begin(),daughter_daughter.end());
         }
@@ -228,8 +228,8 @@ void GenParticle_Collection::AddParticle(int index){
         bool qgfromtWZ_ = qgfromtWZ(lastcopyid);
         if( !qgfromtWZ_ ){
             vector<int>::iterator ret = std::find(IndexList.begin(), IndexList.end(), lastcopyid);
-            if( ret == IndexList.end() ) { 
-                IndexList.push_back(lastcopyid); 
+            if( ret == IndexList.end() ) {
+                IndexList.push_back(lastcopyid);
                 daughter_23generation(lastcopyid);
             }
         }
@@ -249,8 +249,8 @@ void GenParticle_Collection::AddParticle(int index, int mode){
             bool qgfromtWZ_ = qgfromtWZ(finalid);
             if( !qgfromtWZ_ ){
                 vector<int>::iterator ret = std::find(IndexList.begin(), IndexList.end(), finalid);
-                if( ret == IndexList.end() ) { 
-                    IndexList.push_back(finalid); 
+                if( ret == IndexList.end() ) {
+                    IndexList.push_back(finalid);
                     daughter_23generation(finalid);
                 }
             }
@@ -263,6 +263,7 @@ int GenParticle_Collection::matchingAK8(TLorentzVector AK8){
     if( PDGID == 24 ){ return matchingW(AK8) ; }
     if( PDGID == 23 ){ return matchingZ(AK8) ; }
     if( PDGID == 6  ){ return matchingt(AK8) ; }
+    abort();
 }
 
 int GenParticle_Collection::matchingAK8(TLorentzVector AK8, int mode){
@@ -272,13 +273,14 @@ int GenParticle_Collection::matchingAK8(TLorentzVector AK8, int mode){
         if( PDGID == 23 ){ return matchingZ(AK8) ; }
         if( PDGID == 6  ){ return matchingt(AK8) ; }
     }
+    abort();
 }
 
 int GenParticle_Collection::matchingW(TLorentzVector AK8){
     // if match with 2 W, what should we do ?
     int matching = -99;
     int matching_1 = -99;
-    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ; 
+    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;
     for (size_t id=0; id<IndexList.size();id++){
         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[IndexList[id]], AK8_phi, v_GenPart_phi_[IndexList[id]] )) < DR_1generation ){
             matching_1 = 1 ;
@@ -315,7 +317,7 @@ int GenParticle_Collection::matchingZ(TLorentzVector AK8){
     // if match with 2 W, what should we do ?
     int matching = -99;
     int matching_1 = -99;
-    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ; 
+    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;
     for (size_t id=0; id<IndexList.size();id++){
         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[IndexList[id]], AK8_phi, v_GenPart_phi_[IndexList[id]] )) < DR_1generation ){
             matching_1 = 1 ;
@@ -347,7 +349,7 @@ int GenParticle_Collection::matchingZ(TLorentzVector AK8){
 
 int GenParticle_Collection::matchingqg(TLorentzVector AK8){
     int matching = -99;
-    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;  
+    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;
     for (size_t id=0; id<IndexList.size();id++){
         if( v_GenPart_pt_[IndexList[id]] < gpt_shrehood ){ continue; }
         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[IndexList[id]], AK8_phi, v_GenPart_phi_[IndexList[id]] )) < DR_1generation ){
@@ -359,8 +361,8 @@ int GenParticle_Collection::matchingqg(TLorentzVector AK8){
 
 int GenParticle_Collection::matchingqg_complex(TLorentzVector AK8){
     int matching = -99;
-    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;  float AK8_pt = AK8.Pt() ;  
-    vector<int> matching_index , matching_nprong ; 
+    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;  float AK8_pt = AK8.Pt() ;
+    vector<int> matching_index , matching_nprong ;
     for (size_t id=0; id<IndexList.size();id++){
         if( v_GenPart_pt_[IndexList[id]] < gpt_shrehood ){ continue; }
         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[IndexList[id]], AK8_phi, v_GenPart_phi_[IndexList[id]] )) < DR_1generation ){
@@ -383,18 +385,18 @@ int GenParticle_Collection::matchingqg_complex(TLorentzVector AK8){
     for(size_t id=0; id<matching_index.size();id++){
         if( fabs(v_GenPart_pt_[matching_index[id]]/AK8_pt-1) < fabs(Pt_ratio-1) ){
             Pt_ratio = v_GenPart_pt_[matching_index[id]]/AK8_pt;
-            matching = matching_nprong[id] + 1 ; 
+            matching = matching_nprong[id] + 1 ;
         }
     }
     return matching;
-    // gq:1 , qg1 : 2,  qg2 : 3, qg3:4, qg4:4, ...  
+    // gq:1 , qg1 : 2,  qg2 : 3, qg3:4, qg4:4, ...
 }
 
 int GenParticle_Collection::matchingt(TLorentzVector AK8){
     // if one AK8 matching with more than 1 top , choose the t3 matching first, t2 second, tl third
     int matching = -99;
     int matching_1 = -99;
-    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ; 
+    float AK8_eta = AK8.Eta() ; float AK8_phi = AK8.Phi() ;
 
     for (size_t id=0; id<IndexList.size();id++){
         // cout << "deltaR(AK8_a,top) : "<< fabs(detlaR( AK8_eta, v_GenPart_eta_[IndexList[id]], AK8_phi, v_GenPart_phi_[IndexList[id]] )) << endl;
@@ -406,12 +408,12 @@ int GenParticle_Collection::matchingt(TLorentzVector AK8){
         int decay = -99;
         int nqmatch = 0;
         for (size_t idd=0; idd < generation2.size(); idd++){
-            if( abs(v_GenPart_pdgId_[generation2[idd]]) == 5 ) { 
+            if( abs(v_GenPart_pdgId_[generation2[idd]]) == 5 ) {
                 if( fabs(detlaR( AK8_eta, v_GenPart_eta_[generation2[idd]], AK8_phi, v_GenPart_phi_[generation2[idd]] )) < DR_2generation ){
                     match_b = true;
                 }
             }
-            if( abs(v_GenPart_pdgId_[generation2[idd]]) == 24 ) { 
+            if( abs(v_GenPart_pdgId_[generation2[idd]]) == 24 ) {
                 vector<int> generation3 = index_daughter.at(generation2[idd]);
                 // cout << "has W " << endl;
                 for (size_t iddd=0; iddd < generation3.size(); iddd++){
@@ -419,11 +421,11 @@ int GenParticle_Collection::matchingt(TLorentzVector AK8){
                     if( fabs(v_GenPart_pdgId_[generation3[iddd]]) == 11 ) { decay = 1 ; }
                     if( fabs(v_GenPart_pdgId_[generation3[iddd]]) == 13 ) { decay = 2 ; }
                     if( fabs(v_GenPart_pdgId_[generation3[iddd]]) == 15 ) { decay = 3 ; }
-                    if( fabs(v_GenPart_pdgId_[generation3[iddd]]) == 11 || fabs(v_GenPart_pdgId_[generation3[iddd]]) == 13 || fabs(v_GenPart_pdgId_[generation3[iddd]]) == 15 ) { 
+                    if( fabs(v_GenPart_pdgId_[generation3[iddd]]) == 11 || fabs(v_GenPart_pdgId_[generation3[iddd]]) == 13 || fabs(v_GenPart_pdgId_[generation3[iddd]]) == 15 ) {
                         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[generation3[iddd]], AK8_phi, v_GenPart_phi_[generation3[iddd]] )) < DR_3generation ){ nqmatch = 1 ; }
                     }
-                    if( fabs(v_GenPart_pdgId_[generation3[iddd]]) <  6  ) { 
-                        decay = 4 ; 
+                    if( fabs(v_GenPart_pdgId_[generation3[iddd]]) <  6  ) {
+                        decay = 4 ;
                         if( fabs(detlaR( AK8_eta, v_GenPart_eta_[generation3[iddd]], AK8_phi, v_GenPart_phi_[generation3[iddd]] )) < DR_3generation ){ nqmatch++ ; }
                     }
                 }
@@ -434,22 +436,22 @@ int GenParticle_Collection::matchingt(TLorentzVector AK8){
             // cout << "decay : " << decay << endl;
             if( decay == 4 ){
                 // cout << "nqmatch : " << nqmatch << endl;
-                if( nqmatch == 2 ){ 
-                    if( matching < 5 ){ matching = 5; } 
+                if( nqmatch == 2 ){
+                    if( matching < 5 ){ matching = 5; }
                 }
-                if( nqmatch == 1 ){ 
-                    if( matching < 4 ){ matching = 4; } 
+                if( nqmatch == 1 ){
+                    if( matching < 4 ){ matching = 4; }
                 }
             }
             if( decay > 0 && decay < 4 ){
-                if( nqmatch == 1 ){ 
-                    if( matching < 3 ){ matching = 3; } 
+                if( nqmatch == 1 ){
+                    if( matching < 3 ){ matching = 3; }
                 }
             }
         }
     }
     // cout << "matching_1 : "<< matching_1 << endl;
-    if( matching < matching_1 ){ matching = matching_1; } 
+    if( matching < matching_1 ){ matching = matching_1; }
     return matching;
     // 1 for matching with t, 2,3,4 for matching with b and w daughter
     // 5 for t, b

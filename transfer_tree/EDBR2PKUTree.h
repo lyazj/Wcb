@@ -52,8 +52,8 @@ class EDBR2PKUTree {
       TString channelName;
       TString YEAR_g;
 
-   
-   
+
+
    /// define EDBR2PKUTree functions
    void loadVectorBranches_run();
    void loadVectorBranches_genWeight();
@@ -134,7 +134,7 @@ class EDBR2PKUTree {
    vector<size_t> GenParticles_Daughterindex(size_t Genpart_index);
    int GenParticles_Lastcopy(size_t Genpart_index);
    int GenParticles_FindW(size_t Genpart_index);
-   
+
    int GenParticles_Firstcopy(size_t Genpart_index);
    void GenMatching(Long64_t jentry) ;
    void GenMatching_HWW(Long64_t jentry);
@@ -142,7 +142,7 @@ class EDBR2PKUTree {
    void loadGenpart(Long64_t jentry);
    void GenParticles();
    void GenParticles_HWW();
-   
+
 
    //HWW ordering.
    void Higgs_Matching();
@@ -338,9 +338,9 @@ Float_t MET_phi_UEup;
 Float_t MET_phi_UEdown;
 
 // MET branch
-// Float_t MET_pt_UEup; 
+// Float_t MET_pt_UEup;
 // Unclustered energy
-// Float_t MET_pt_UEdown; 
+// Float_t MET_pt_UEdown;
 // Unclustered energy
 
 // define flat branch(center value)
@@ -449,7 +449,7 @@ float c_QCDothers       ;
 
 float a_HWW_V2             ;
 float b_HWW_V2             ;
-float c_HWW_V2             ; 
+float c_HWW_V2             ;
 float a_HWWvsQCD_V2;
 float b_HWWvsQCD_V2;
 float c_HWWvsQCD_V2;
@@ -470,7 +470,7 @@ float jetAK8puppi_sd_3;
 // Float_t MET_pt;
 // Float_t MET_et; // no use at all
 
-Float_t genH_pt;
+Float_t genH_pt = -1.0;
 Float_t genWeight;
 
 Int_t matchingt_a;
@@ -627,17 +627,17 @@ float FatJet_pt_1;
 float FatJet_pt_2;
 float FatJet_pt_3;
 float FatJet_pt_4;
-    
+
 float FatJet_eta_1;
 float FatJet_eta_2;
 float FatJet_eta_3;
 float FatJet_eta_4;
-    
+
 float FatJet_phi_1;
 float FatJet_phi_2;
 float FatJet_phi_3;
 float FatJet_phi_4;
-    
+
 float FatJet_msoftdrop_1;
 float FatJet_msoftdrop_2;
 float FatJet_msoftdrop_3;
@@ -689,13 +689,13 @@ TBranch        *b_HLT_Mu50;
 TBranch        *b_HLT_Ele115_CaloIdVT_GsfTrkIdT;
 TBranch        *b_HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165;
 
-bool        HLT_PFMET110_PFMHT110_IDTight;
-bool        HLT_PFMET120_PFMHT120_IDTight;
-bool        HLT_PFMET130_PFMHT130_IDTight;
-bool        HLT_PFMET140_PFMHT140_IDTight;
-bool        HLT_Mu50;
-bool        HLT_Ele115_CaloIdVT_GsfTrkIdT;
-bool        HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165;
+bool        HLT_PFMET110_PFMHT110_IDTight = 0;
+bool        HLT_PFMET120_PFMHT120_IDTight = 0;
+bool        HLT_PFMET130_PFMHT130_IDTight = 0;
+bool        HLT_PFMET140_PFMHT140_IDTight = 0;
+bool        HLT_Mu50 = 0;
+bool        HLT_Ele115_CaloIdVT_GsfTrkIdT = 0;
+bool        HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165 = 0;
 
 
 
@@ -732,31 +732,31 @@ TBranch *b_Jet_mass_nom_;
 float GenPart_eta_[NGENPART_MAX];
 vector<float> v_GenPart_eta_;
 TBranch *b_GenPart_eta_;
-    
+
 int GenPart_genPartIdxMother_[NGENPART_MAX];
 vector<int> v_GenPart_genPartIdxMother_;
 TBranch *b_GenPart_genPartIdxMother_;
-    
+
 float GenPart_mass_[NGENPART_MAX];
 vector<float> v_GenPart_mass_;
 TBranch *b_GenPart_mass_;
-    
+
 int GenPart_pdgId_[NGENPART_MAX];
 vector<int> v_GenPart_pdgId_;
 TBranch *b_GenPart_pdgId_;
-    
+
 float GenPart_phi_[NGENPART_MAX];
 vector<float> v_GenPart_phi_;
 TBranch *b_GenPart_phi_;
-    
+
 float GenPart_pt_[NGENPART_MAX];
 vector<float> v_GenPart_pt_;
 TBranch *b_GenPart_pt_;
-    
+
 int GenPart_status_[NGENPART_MAX];
 vector<int> v_GenPart_status_;
 TBranch *b_GenPart_status_;
-    
+
 int GenPart_statusFlags_[NGENPART_MAX];
 vector<int> v_GenPart_statusFlags_;
 TBranch *b_GenPart_statusFlags_;
@@ -798,15 +798,15 @@ TBranch *b_FatJet_jetId_ = 0;
 float FatJet_pt_[NFATJET_MAX];
 vector<float> v_FatJet_pt_;
 TBranch *b_FatJet_pt_ = 0;
-    
+
 float FatJet_eta_[NFATJET_MAX];
 vector<float> v_FatJet_eta_;
 TBranch *b_FatJet_eta_;
-    
+
 float FatJet_phi_[NFATJET_MAX];
 vector<float> v_FatJet_phi_;
 TBranch *b_FatJet_phi_;
-    
+
 float FatJet_msoftdrop_[NFATJET_MAX];
 vector<float> v_FatJet_msoftdrop_;
 TBranch *b_FatJet_msoftdrop_;
@@ -929,7 +929,7 @@ TBranch *b_FatJet_msoftdrop_jesRelativeSample_yearUp_;
 
 // Add JES, JER up and down branch on 26/2/2024, over
 
-float LHEPdfWeight_[NUM_PDF]; 
+float LHEPdfWeight_[NUM_PDF];
 vector<float> v_LHEPdfWeight_;
 TBranch *b_LHEPdfWeight_;
 
@@ -1007,67 +1007,67 @@ TBranch *b_FatJet_tau4_;
 float Jet_btagDeepB_[NJET_MAX];
 vector<float> v_Jet_btagDeepB_;
 TBranch *b_Jet_btagDeepB_;
-    
+
 float Jet_btagDeepFlavB_[NJET_MAX];
 vector<float> v_Jet_btagDeepFlavB_;
 TBranch *b_Jet_btagDeepFlavB_;
-    
+
 float Jet_btagDeepFlavCvB_[NJET_MAX];
 vector<float> v_Jet_btagDeepFlavCvB_;
 TBranch *b_Jet_btagDeepFlavCvB_;
-    
+
 float Jet_btagDeepFlavCvL_[NJET_MAX];
 vector<float> v_Jet_btagDeepFlavCvL_;
 TBranch *b_Jet_btagDeepFlavCvL_;
-    
+
 float Jet_btagDeepFlavQG_[NJET_MAX];
 vector<float> v_Jet_btagDeepFlavQG_;
 TBranch *b_Jet_btagDeepFlavQG_;
-    
+
 float Jet_eta_[NJET_MAX];
 vector<float> v_Jet_eta_;
 TBranch *b_Jet_eta_;
-    
+
 int Jet_hadronFlavour_[NJET_MAX];
 vector<int> v_Jet_hadronFlavour_;
 TBranch *b_Jet_hadronFlavour_;
-    
+
 int Jet_jetId_[NJET_MAX];
 vector<int> v_Jet_jetId_;
 TBranch *b_Jet_jetId_;
-    
+
 float Jet_mass_[NJET_MAX];
 vector<float> v_Jet_mass_;
 TBranch *b_Jet_mass_;
-    
+
 float Jet_partonFlavour_[NJET_MAX];
 vector<float> v_Jet_partonFlavour_;
 TBranch *b_Jet_partonFlavour_;
-    
+
 float Jet_phi_[NJET_MAX];
 vector<float> v_Jet_phi_;
 TBranch *b_Jet_phi_;
-    
+
 float Jet_pt_[NJET_MAX];
 vector<float> v_Jet_pt_;
 TBranch *b_Jet_pt_;
-    
+
 float Jet_puId_[NJET_MAX];
 vector<float> v_Jet_puId_;
 TBranch *b_Jet_puId_;
-    
+
 float Jet_puIdDisc_[NJET_MAX];
 vector<float> v_Jet_puIdDisc_;
 TBranch *b_Jet_puIdDisc_;
-    
+
 float Jet_qgl_[NJET_MAX];
 vector<float> v_Jet_qgl_;
 TBranch *b_Jet_qgl_;
-    
+
 float Jet_rawFactor_[NJET_MAX];
 vector<float> v_Jet_rawFactor_;
 TBranch *b_Jet_rawFactor_;
-    
+
 
 
 
@@ -1227,21 +1227,21 @@ Float_t FatJet_tau2_Pnetc;
 Float_t FatJet_tau3_Pnetc;
 Float_t FatJet_tau4_Pnetc;
 
-//HWW tagger.             
-float    FatJet_tau1_HWW_a;           
-float    FatJet_tau2_HWW_a;           
-float    FatJet_tau3_HWW_a;          
-float    FatJet_tau4_HWW_a;       
+//HWW tagger.
+float    FatJet_tau1_HWW_a;
+float    FatJet_tau2_HWW_a;
+float    FatJet_tau3_HWW_a;
+float    FatJet_tau4_HWW_a;
 
-float    FatJet_tau1_HWW_b;           
-float    FatJet_tau2_HWW_b;           
-float    FatJet_tau3_HWW_b;          
-float    FatJet_tau4_HWW_b;       
-            
-float    FatJet_tau1_HWW_c;           
-float    FatJet_tau2_HWW_c;           
-float    FatJet_tau3_HWW_c;          
-float    FatJet_tau4_HWW_c;       
+float    FatJet_tau1_HWW_b;
+float    FatJet_tau2_HWW_b;
+float    FatJet_tau3_HWW_b;
+float    FatJet_tau4_HWW_b;
+
+float    FatJet_tau1_HWW_c;
+float    FatJet_tau2_HWW_c;
+float    FatJet_tau3_HWW_c;
+float    FatJet_tau4_HWW_c;
 
    // gKK deepW ordered
 double Maxpt_AK4_deepflavor_probb;
@@ -1274,7 +1274,7 @@ double    Mass_tag3;
 double    deepW_tag1;
 double    deepW_tag2;
 double    deepW_tag3;
-   
+
 // DR
 double DR_j1j2 ;
 double DR_j1j3 ;
@@ -1360,7 +1360,7 @@ double DPhi_jj23_j1_deepwordered;
 
 TLorentzVector AK41,AK42,AK43,AK44,AK45,AK46;
 TLorentzVector AK81,AK82,AK83,AK84;
-   
+
 Int_t           ls;
 UInt_t           run;
 UInt_t           luminosityBlock;
@@ -1409,7 +1409,7 @@ Float_t MJJJ_JER_down ;
 Float_t fjet2_pt;
 Float_t fjet2_btag;
 Float_t fjet3_pt;
-Float_t fjet3_btag; 
+Float_t fjet3_btag;
 Double_t MJ_j_18;
 Double_t MJJ_j_18;
 Double_t MJ_j_10;
@@ -1637,7 +1637,7 @@ Float_t        ak4Etaex2;
 Float_t        ak4Phiex2;
 Float_t        ak4Eex2;
 Float_t        Mj_max;
-Float_t        Mj_mid; 
+Float_t        Mj_mid;
 Float_t        Mj_min;
 Float_t        PTj_max;
 Float_t        PTj_mid;
@@ -1719,9 +1719,9 @@ Float_t      tau43_min;
 Float_t      pt1pt2pt3;
 
 
-Double_t Mrad_j; 
+Double_t Mrad_j;
 Double_t Mrad;
-Double_t Mw; 
+Double_t Mw;
 Double_t Mww_j;
 Double_t massww[3];
 Double_t        jetAK8puppi_sdJEC_3;
@@ -1895,17 +1895,17 @@ Float_t      newmassq11;
 Float_t      newptq21;
 Float_t      newetaq21;
 Float_t      newphiq21;
-Float_t      newmassq21; 
+Float_t      newmassq21;
 Float_t      newptq31;
 Float_t      newetaq31;
 Float_t      newphiq31;
 Float_t      newmassq31;
 Float_t      newptq12;
 Float_t      newetaq12;
-Float_t      newphiq12; 
+Float_t      newphiq12;
 Float_t      newmassq12;
 Float_t      newptq22;
-Float_t      newetaq22; 
+Float_t      newetaq22;
 Float_t      newphiq22;
 Float_t      newmassq22;
 Float_t      newptq32;
@@ -2009,7 +2009,7 @@ Double_t        ak4jet_e[15];
 Double_t        ak4jet_dr[15];
 Double_t        ak4jet_csv[15];
 Double_t        ak4jet_icsv[15];
-Double_t        ak4jet_deepcsvb[15];  
+Double_t        ak4jet_deepcsvb[15];
 Double_t        ak4jet_deepcsvbb[15];
 
 Double_t        deltaRAK4AK8_new[15];
@@ -2169,19 +2169,19 @@ bool Flag_EcalDeadCellTriggerPrimitiveFilter;
 bool Flag_BadPFMuonFilter;
 bool Flag_eeBadScFilter;
 
-bool HLT_PFHT650_WideJetMJJ900DEtaJJ1p5;
-bool HLT_PFHT650_WideJetMJJ950DEtaJJ1p5;
-bool HLT_PFHT800;
-bool HLT_PFHT900;
+bool HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 = 0;
+bool HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 = 0;
+bool HLT_PFHT800 = 0;
+bool HLT_PFHT900 = 0;
 bool HLT_PFJet450;
 bool HLT_AK8PFJet400;
 bool HLT_AK8PFJet450;
 bool HLT_AK8PFJet500;
 bool HLT_PFJet500;
 bool HLT_AK8PFJet360_TrimMass30;
-bool HLT_AK8PFHT700_TrimR0p1PT0p03Mass50;
+bool HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 = 0;
 
-bool isWcb;
+bool isWcb = 0;
 
 // calculated variables
 Int_t Nj4_ex;
@@ -2259,7 +2259,7 @@ TLorentzVector  *ak8sj35;
 // List of branches
 TBranch        *b_L1prefiring;
 TBranch        *b_L1prefiringup;
-TBranch        *b_L1prefiringdown;  
+TBranch        *b_L1prefiringdown;
 TBranch        *b_ak8sj11;   //!
 TBranch        *b_ak8sj21;   //!
 TBranch        *b_ak8sj31;   //!
@@ -2310,7 +2310,7 @@ TBranch        *b_jetAK8puppi_tau21;   //!
 TBranch        *b_jetAK8puppi_tau1;   //!
 TBranch        *b_jetAK8puppi_tau2;   //!
 TBranch        *b_jetAK8puppi_tau3;   //!
-TBranch        *b_jetAK8puppi_tau4;   //!   
+TBranch        *b_jetAK8puppi_tau4;   //!
 TBranch        *b_jetAK8puppi_ptJEC;   //!
 TBranch        *b_jetAK8puppi_eta_4;   //!
 TBranch        *b_jetAK8puppi_phi_4;   //!
@@ -2399,7 +2399,7 @@ TBranch        *b_ptVlep;   //!
 TBranch        *b_yVlep;   //!
 TBranch        *b_phiVlep;   //!
 TBranch        *b_massVlep;   //!
-TBranch        *b_mtVlep;   //! 
+TBranch        *b_mtVlep;   //!
 TBranch        *b_ptVhad;   //!
 TBranch        *b_jetAK8_pt;   //!
 TBranch        *b_yVhad;   //!
@@ -2515,7 +2515,7 @@ TBranch        *b_jetAK8puppi_tau21_2;   //!
 TBranch        *b_jetAK8puppi_tau1_2;   //!
 TBranch        *b_jetAK8puppi_tau2_2;   //!
 TBranch        *b_jetAK8puppi_tau3_2;   //!
-TBranch        *b_jetAK8puppi_tau4_2;   //!  
+TBranch        *b_jetAK8puppi_tau4_2;   //!
 TBranch        *b_jetAK8puppi_tau42_2;   //!
 TBranch        *b_jetAK8puppi_ptJEC_2;   //!
 TBranch        *b_jetAK8puppi_sdcorr_2;   //!
@@ -2527,7 +2527,7 @@ TBranch        *b_jetAK8puppi_tau21_3;   //!
 TBranch        *b_jetAK8puppi_tau1_3;   //!
 TBranch        *b_jetAK8puppi_tau2_3;   //!
 TBranch        *b_jetAK8puppi_tau3_3;   //!
-TBranch        *b_jetAK8puppi_tau4_3;   //!  
+TBranch        *b_jetAK8puppi_tau4_3;   //!
 TBranch        *b_jetAK8puppi_tau42_3;   //!
 TBranch        *b_jetAK8puppi_tau42_4;   //!
 TBranch        *b_jetAK8puppi_tau41_4;   //!
@@ -2623,7 +2623,7 @@ TBranch  *b_massq22;
 TBranch  *b_ptq32;
 TBranch  *b_etaq32;
 TBranch  *b_phiq32;
-TBranch  *b_massq32; 
+TBranch  *b_massq32;
 
 TBranch  *b_genw_q1_eta;
 TBranch  *b_genw_q1_phi;
@@ -2796,7 +2796,7 @@ Int_t         Nj8;
 
    private:
    TTree *ExTree;
-   TFile *fout; 
+   TFile *fout;
    ofstream *file_cutflow;
 
 };
@@ -2805,7 +2805,7 @@ Int_t         Nj8;
 
 #ifdef EDBR2PKUTree_cxx
 
-EDBR2PKUTree::EDBR2PKUTree(TTree *tree, TString dataset, Int_t IsData_, std::vector<std::string> outputbranches_, TString channel_) : fChain(0) 
+EDBR2PKUTree::EDBR2PKUTree(TTree *tree, TString dataset, Int_t IsData_, std::vector<std::string> outputbranches_, TString channel_) : fChain(0)
 {
    channelName = channel_;
    cout << "channelName : " << channelName << endl;
@@ -2845,7 +2845,7 @@ Long64_t EDBR2PKUTree::LoadTree(Long64_t entry)
 void EDBR2PKUTree::Outputbranches(){
    if(outputbranches.size() > 0){
       ExTree->SetBranchStatus("*",0);
-      for(size_t i ; i < outputbranches.size(); i++){
+      for(size_t i = 0; i < outputbranches.size(); i++){
          ExTree->SetBranchStatus(outputbranches[i].c_str(),1);
       }
    }
@@ -2872,7 +2872,7 @@ void EDBR2PKUTree::Init(TTree *tree, Int_t IsData)
    file_cutflow =new ofstream(m_dataset+"_eventnum.txt");
    loadVectorBranches();
    if(channelName.EqualTo("HWW")) {
-      OutputBranches_HWW(); 
+      OutputBranches_HWW();
    }
 
 }
@@ -2884,7 +2884,7 @@ Bool_t EDBR2PKUTree::Notify(Long64_t jentry)
    // is started when using PROOF. It is normally not necessary to make changes
    // to the generated code, but the routine can be extended by the
    // user if needed. The return value is currently not used.
-   
+
    return kTRUE;
 }
 

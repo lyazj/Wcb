@@ -15,7 +15,7 @@ deltaRak4sj3[i]=sqrt(pow(fabs(ak4jet_eta[i]-Etaj_3),2)+pow(TMath::Min(fabs(ak4je
            }
        else{
 deltaRak4sj3[i]=10000;
-           }     
+           }
        if(Nj8==4){
 deltaRak4sj4[i]=sqrt(pow(fabs(ak4jet_eta[i]-Etaj_4),2)+pow(TMath::Min(fabs(ak4jet_phi[i]-Phij_4),2*Pi-fabs(ak4jet_phi[i]-Phij_4)),2));
            }
@@ -41,7 +41,7 @@ bool cutsj=0;
 bool cutsj2=0;
 bool cutsj3=0;
 bool cutsj4=0;
-bool cutsjin=0; 
+bool cutsjin=0;
 bool cutsjin2=0;
 bool cutsjin3=0;
 bool cutsjin4=0;
@@ -62,7 +62,7 @@ cutsjin4=(ak4jet_pt[ii]>0)&&(deltaRak4sj4[ii]<DR);
 sjout*=cutsj*cutsj2*cutsj3*cutsj4;
 sjin+=cutsjin+cutsjin2+cutsjin3+cutsjin4;
 
-if(sjout==1) 
+if(sjout==1)
               {num_ak4jetsex++;
                    if(num_ak4jetsex==1) {
          AK41.SetPtEtaPhiE(ak4jet_pt[ii],ak4jet_eta[ii],ak4jet_phi[ii],ak4jet_e[ii]);
@@ -152,7 +152,7 @@ void EDBR2PKUTree::Nbtagf() {
     num_bJet_deep_in = 0;
     num_bJet_loose_deep_in = 0;
     num_bJet_tight_deep_in = 0;
-            
+
     for(size_t i=0; i < v_Jet_pt_.size(); i++)  {
         if ( !(v_Jet_pt_.at(i) > 30) ) { continue; }
         if ( !(fabs(Double_t(v_Jet_eta_.at(i))) < 2.4) ) { continue; }

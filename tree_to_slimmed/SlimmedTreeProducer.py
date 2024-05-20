@@ -246,14 +246,14 @@ def Store_BDT_Score(infile_name,outfile_name,outcolumn,loadcolumns = None,BDT ={
             end = min((i + 1) * batch_size, len(data))
             batch_data = data[start:end]
             print("processing batchly ",i)
-            split_file_name = os.path.normpath(final_file_name).replace(".root",f"_batch_{i}.root")
+            split_file_name = os.path.normpath(final_file_name).replace(".root","_batch_%d.root"%i)
             # always create new files to avoid large events number error
             with uproot.recreate(split_file_name) as newfile:
                 newfile["PKUTree"] = batch_data
-        sum_split_file_name = os.path.normpath(final_file_name).replace(".root",f"_batch*.root")
-        print("then add:",f"hadd {final_file_name} {sum_split_file_name}")
-        os.system(f"hadd {final_file_name} {sum_split_file_name}")
-        os.system(f"rm {sum_split_file_name}")
+        sum_split_file_name = os.path.normpath(final_file_name).replace(".root","_batch*.root")
+        print("then add:","hadd %s %s"%(final_file_name,sum_split_file_name))
+        os.system("hadd %s %s"%(final_file_name,sum_split_file_name))
+        os.system("rm %s"%sum_split_file_name)
         
         # data["LHEPdfWeight"] = ak.from_numpy(lhepdfweight_fixed.reshape(-1, 103))
         # with uproot.recreate(final_file_name) as newfile:

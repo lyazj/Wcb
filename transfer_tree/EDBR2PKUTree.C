@@ -33,6 +33,10 @@ Double_t detlaR (Double_t eta1,Double_t eta2,Double_t phi1,Double_t phi2)
 #include "VVVTree_HeadFile/loadbranches/NanoAOD.h"
 
 void EDBR2PKUTree::Loop(TString channelname, Double_t XS, Int_t IsData_, Float_t Nevents,  Double_t LUMI, TString YEAR) {
+  //// DEBUG
+  //std::cout << "Process " << getpid() << " will pause for debugger to attach" << std::endl;
+  //pause();
+
     /*
     allowed year
         mc :
@@ -42,7 +46,7 @@ void EDBR2PKUTree::Loop(TString channelname, Double_t XS, Int_t IsData_, Float_t
             2018
         data :
     */
-    
+
     YEAR_g = YEAR;
     IsData = IsData_;
 
@@ -62,8 +66,8 @@ void EDBR2PKUTree::Loop(TString channelname, Double_t XS, Int_t IsData_, Float_t
         // GlobalInit(YEAR,IsData);
         loadVectorBranches(); //This is always the first step, load the branches.
         //This function define in Init.h in loadbranches directory, but then used NanoAOD.h in loadVectorBranches_FatJets_HWW function.
-        for (Long64_t jentry=0; jentry<nentries;jentry++) 
-        // for (Long64_t jentry=0; jentry<1000;jentry++) 
+        for (Long64_t jentry=0; jentry<nentries;jentry++)
+        // for (Long64_t jentry=0; jentry<1000;jentry++)
         {
             Long64_t ientry = LoadTree(jentry);
             if (ientry < 0) break;
@@ -73,7 +77,7 @@ void EDBR2PKUTree::Loop(TString channelname, Double_t XS, Int_t IsData_, Float_t
                 Ratio = 100*Float_t(jentry)/Float_t(nentries);
                 std::cout<<"finsh : "<< Ratio << "%"<<std::endl;
             }
-            nb = fChain->GetEntry(jentry); 
+            nb = fChain->GetEntry(jentry);
             nbytes += nb;
             if(event<0){event=event+pow(2,32);}
 
@@ -85,7 +89,7 @@ void EDBR2PKUTree::Loop(TString channelname, Double_t XS, Int_t IsData_, Float_t
             else{
                 HWW_process_1(jentry,YEAR);
             }
-            
+
             bool Fill = Filter_Events_HWW(YEAR,IsData);
             if ( !Fill ){ continue ; }
 

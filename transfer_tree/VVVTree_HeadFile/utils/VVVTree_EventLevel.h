@@ -28,7 +28,7 @@ void EDBR2PKUTree::goldenjsoninit(TString YEAR, Int_t IS_Data) {
         }
         set_goodrun_file(list.c_str());
     }
-    
+
 }
 
 #endif
