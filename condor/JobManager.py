@@ -12,7 +12,7 @@ from run_and import run_and
 
 class JobManager:
 
-    def __init__(self, odirs, jsons, wdirs=None, ntask=4, nthread_per_task=8, nfile_per_group=50):
+    def __init__(self, odirs, jsons, wdirs=None, ntask=1, nthread_per_task=8, nfile_per_group=50):
         self.collect(odirs, jsons, wdirs)
         self.pool = multiprocessing.Pool(ntask)
         self.applications = [ ]
@@ -65,7 +65,9 @@ class JobManager:
                 elif oname[-9:] == '.root.err': self.failed[odir] = self.failed.get(odir, set()) | {int(oname[4:-9])}
 
     def fetch_jobs_async(self, odir, jobs):
-        fetch_dir = re.sub(r'^.*NtupleStore/', '/data/bond/%s/Ntuple/' % getpass.getuser(), odir)
+        for prefix in ['/data/bond', '/publicfs/cms/user']:
+            if os.path.isdir(prefix): break
+        fetch_dir = re.sub(r'^.*NtupleStore/', '%s/%s/Ntuple/' % (prefix, getpass.getuser()), odir)
         if not os.path.isdir(fetch_dir): os.makedirs(fetch_dir)
         object_name = os.path.join(fetch_dir, 'out_%d-%d.root' % (jobs[0], jobs[-1]))
         if os.path.exists(object_name): return
