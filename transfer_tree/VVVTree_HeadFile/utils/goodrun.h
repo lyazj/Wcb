@@ -43,7 +43,7 @@ bool operator < (const struct run_and_lumi &r1, const struct run_and_lumi &r2)
      return r1.run < r2.run;
 }
 
-typedef std::multiset<struct run_and_lumi> set_t; 
+typedef std::multiset<struct run_and_lumi> set_t;
 static set_t good_runs_;
 static bool good_runs_loaded_ = false;
 

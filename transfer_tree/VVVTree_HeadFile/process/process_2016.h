@@ -8,6 +8,7 @@ void EDBR2PKUTree::initFatJet_Collection_2016(){
         &v_FatJet_phi_,
         &v_FatJet_msoftdrop_,
         &v_FatJet_jetId_,
+
         &v_FatJet_tau1_,
         &v_FatJet_tau2_,
         &v_FatJet_tau3_,
@@ -18,13 +19,32 @@ void EDBR2PKUTree::initFatJet_Collection_2016(){
         &v_FatJet_msoftdrop_corr_JMR_,
         &v_FatJet_msoftdrop_corr_JMS_,
         &v_FatJet_msoftdrop_corr_PUPPI_,
-        
+
         &v_FatJet_msoftdrop_jesTotalUp_,
         &v_FatJet_msoftdrop_jesTotalDown_,
         &v_FatJet_msoftdrop_jerUp_,
         &v_FatJet_msoftdrop_jerDown_,
-        //Split JES
-        
+
+        &v_FatJet_msoftdrop_jmsUp_,
+        &v_FatJet_msoftdrop_jmsDown_,
+        &v_FatJet_msoftdrop_jmrUp_,
+        &v_FatJet_msoftdrop_jmrDown_,
+
+        &v_FatJet_pt_nom_,
+
+        &v_FatJet_inclParTMDV2_probHbb_,
+        &v_FatJet_inclParTMDV2_probHbc_,
+        &v_FatJet_inclParTMDV2_probHbs_,
+        &v_FatJet_inclParTMDV2_probHcc_,
+        &v_FatJet_inclParTMDV2_probHcs_,
+        &v_FatJet_inclParTMDV2_probHss_,
+        &v_FatJet_inclParTMDV2_probHqq_,
+        &v_FatJet_inclParTMDV2_probQCDb_,
+        &v_FatJet_inclParTMDV2_probQCDbb_,
+        &v_FatJet_inclParTMDV2_probQCDc_,
+        &v_FatJet_inclParTMDV2_probQCDcc_,
+        &v_FatJet_inclParTMDV2_probQCDothers_,
+
         &v_FatJet_msoftdrop_jesAbsoluteUp_,
         &v_FatJet_msoftdrop_jesAbsoluteDown_,
         &v_FatJet_msoftdrop_jesAbsolute_yearUp_,
@@ -47,34 +67,8 @@ void EDBR2PKUTree::initFatJet_Collection_2016(){
         &v_FatJet_msoftdrop_jesRelativeBalDown_,
         &v_FatJet_msoftdrop_jesRelativeSample_yearUp_,
         &v_FatJet_msoftdrop_jesRelativeSample_yearDown_,
-
-        //Done
-
-
-        &v_FatJet_msoftdrop_jmsUp_,
-        &v_FatJet_msoftdrop_jmsDown_,
-        &v_FatJet_msoftdrop_jmrUp_,
-        &v_FatJet_msoftdrop_jmrDown_,
-
-        &v_FatJet_pt_nom_,
-
-        //New tagger.
-                //V2
-        &v_FatJet_inclParTMDV2_probHbb_,
-        &v_FatJet_inclParTMDV2_probHbc_,
-        &v_FatJet_inclParTMDV2_probHbs_,
-        &v_FatJet_inclParTMDV2_probHcc_,
-        &v_FatJet_inclParTMDV2_probHcs_,
-        &v_FatJet_inclParTMDV2_probHss_,
-        &v_FatJet_inclParTMDV2_probHqq_,
-        &v_FatJet_inclParTMDV2_probQCDb_,
-        &v_FatJet_inclParTMDV2_probQCDbb_,
-        &v_FatJet_inclParTMDV2_probQCDc_,
-        &v_FatJet_inclParTMDV2_probQCDcc_,
-        &v_FatJet_inclParTMDV2_probQCDothers_,
-
-    } ;
-    FatJets = FatJet_Collection( FatJet_P_, 3, 1 );
+    };
+    FatJets = FatJet_Collection( FatJet_P_, 3, 1);
 }
 
 void EDBR2PKUTree::HWW_process_1_2016(Long64_t jentry, TString YEAR) {
@@ -90,11 +84,12 @@ void EDBR2PKUTree::HWW_process_1_2016(Long64_t jentry, TString YEAR) {
     MJJ_MJJJf();
     HT_ST();
 
+    //So MET and HT was defined in this step!
 }
 
 void EDBR2PKUTree::HWW_process_2_2016(Long64_t jentry, TString YEAR) {
     initJet_Collection(YEAR);
-    FatJets_HWWV2_Order(); 
+    FatJets_HWWV2_Order();
     Nbtagf();
     METf_2016();
 
@@ -152,7 +147,7 @@ void EDBR2PKUTree::FatJets_P4_MASSOrder_2016() {
     Etaj_mid = FatJets.Get("Mass","eta", 1);
     Phij_mid = FatJets.Get("Mass","phi", 1);
     Mj_mid   = FatJets.Get("Mass","msoftdrop", 1);
- 
+
     Mj_jesTotalUp_mid   = FatJets.Get("Mass","msoftdrop_jesTotalUp", 1);
     Mj_jesTotalDown_mid = FatJets.Get("Mass","msoftdrop_jesTotalDown", 1);
     Mj_jerUp_mid        = FatJets.Get("Mass","msoftdrop_jerUp", 1);
@@ -194,8 +189,6 @@ void EDBR2PKUTree::FatJets_P4_HWWV2_Order_2016() {
     Mj_jmrUp_a        = FatJets.Get("HWW-V2-MD","msoftdrop_jmrUp", 0);
     Mj_jmrDown_a      = FatJets.Get("HWW-V2-MD","msoftdrop_jmrDown", 0);
 
-
-
     PTj_V2_b  = FatJets.Get("HWW-V2-MD","pt_nom" , 1);
     Etaj_V2_b = FatJets.Get("HWW-V2-MD","eta", 1);
     Phij_V2_b = FatJets.Get("HWW-V2-MD","phi", 1);
@@ -207,12 +200,10 @@ void EDBR2PKUTree::FatJets_P4_HWWV2_Order_2016() {
     Mj_jerUp_b        = FatJets.Get("HWW-V2-MD","msoftdrop_jerUp", 1);
     Mj_jerDown_b      = FatJets.Get("HWW-V2-MD","msoftdrop_jerDown", 1);
 
-
     Mj_jmsUp_b        = FatJets.Get("HWW-V2-MD","msoftdrop_jmsUp", 1);
     Mj_jmsDown_b      = FatJets.Get("HWW-V2-MD","msoftdrop_jmsDown", 1);
     Mj_jmrUp_b        = FatJets.Get("HWW-V2-MD","msoftdrop_jmrUp", 1);
     Mj_jmrDown_b      = FatJets.Get("HWW-V2-MD","msoftdrop_jmrDown", 1);
-
 
     PTj_V2_c  = FatJets.Get("HWW-V2-MD","pt_nom" , 2);
     Etaj_V2_c = FatJets.Get("HWW-V2-MD","eta", 2);
@@ -230,7 +221,7 @@ void EDBR2PKUTree::FatJets_P4_HWWV2_Order_2016() {
     Mj_jmrUp_c        = FatJets.Get("HWW-V2-MD","msoftdrop_jmrUp", 2);
     Mj_jmrDown_c      = FatJets.Get("HWW-V2-MD","msoftdrop_jmrDown", 2);
 
-  // Split JES
+    // Split JES
 
 Mj_jesAbsoluteUp_a = FatJets.Get("HWW-V2-MD","msoftdrop_jesAbsoluteUp",0);
 Mj_jesAbsoluteDown_a = FatJets.Get("HWW-V2-MD","msoftdrop_jesAbsoluteDown",0);
@@ -315,8 +306,7 @@ void EDBR2PKUTree::METf_2016() {
     else{
         MET_et_NoXYCorr  = MET_T1Smear_pt ;
         MET_phi_NoXYCorr = MET_T1Smear_phi ;
-
-                // UE up/down uncertainty
+        // UE up/down uncertainty
         MET_et_NoXYCorr_UEup  = MET_T1Smear_pt_UEup ;
         MET_phi_NoXYCorr_UEup = MET_T1Smear_phi_UEup ;
 
@@ -347,13 +337,13 @@ void EDBR2PKUTree::METf_2016() {
     std::pair<double,double> MET_T1Smear_XYcorr_UEup   = METXYCorr_Met_MetPhi( MET_et_NoXYCorr_UEup,   MET_phi_NoXYCorr_UEup, runnb, year, isMC, PV_npvs, true);
     std::pair<double,double> MET_T1Smear_XYcorr_UEdown = METXYCorr_Met_MetPhi( MET_et_NoXYCorr_UEdown, MET_phi_NoXYCorr_UEdown, runnb, year, isMC, PV_npvs, true);
 
-    MET_et  = MET_T1Smear_XYcorr.first; 
+    MET_et  = MET_T1Smear_XYcorr.first;
     MET_phi = MET_T1Smear_XYcorr.second;
 
-    MET_et_UEup  = MET_T1Smear_XYcorr_UEup.first; 
-    MET_phi_UEup = MET_T1Smear_XYcorr_UEup.second;    
-    
-    MET_et_UEdown  = MET_T1Smear_XYcorr_UEdown.first; 
+    MET_et_UEup  = MET_T1Smear_XYcorr_UEup.first;
+    MET_phi_UEup = MET_T1Smear_XYcorr_UEup.second;
+
+    MET_et_UEdown    = MET_T1Smear_XYcorr_UEdown.first;
     MET_phi_UEdown   = MET_T1Smear_XYcorr_UEdown.second;
 }
 

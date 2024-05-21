@@ -1,0 +1,7 @@
+lxplus 上尝试产生 data ntuple 的流程：
+
+1. 产生 voms 证书，存放到 condor 目录下
+2. 修改 Condor.py 文件，把 yuzhe 的证书改成自己的证书
+3. 运行 run createJson.sh 文件，看是否能在 json 目录生成对应的 json 文件，如果失败的话再讨论一下看看哪里需要修改
+4. 完成了之后，修改 createCmd.sh 文件，主要是修改存放 ntuple 文件的目录（path/to/your/Nano/file），看能否产生提交作业的 cmd 文件
+5. 成功的话再提交 cmd 文件，用 condor 产生 ntuple 文件

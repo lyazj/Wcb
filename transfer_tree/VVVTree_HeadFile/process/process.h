@@ -1,7 +1,6 @@
 #ifndef _process__process_
 #define _process__process_
 
-
 void EDBR2PKUTree::initFatJet_Collection(){
     FatJet_P FatJet_P_ = {
         &v_FatJet_pt_,
@@ -14,6 +13,7 @@ void EDBR2PKUTree::initFatJet_Collection(){
         &v_FatJet_tau2_,
         &v_FatJet_tau3_,
         &v_FatJet_tau4_,
+
         &v_FatJet_msoftdrop_raw_,
         &v_FatJet_msoftdrop_nom_,
         &v_FatJet_msoftdrop_corr_JMR_,
@@ -25,7 +25,25 @@ void EDBR2PKUTree::initFatJet_Collection(){
         &v_FatJet_msoftdrop_jerUp_,
         &v_FatJet_msoftdrop_jerDown_,
 
-        //Split JES
+        &v_FatJet_msoftdrop_jmsUp_,
+        &v_FatJet_msoftdrop_jmsDown_,
+        &v_FatJet_msoftdrop_jmrUp_,
+        &v_FatJet_msoftdrop_jmrDown_,
+
+        &v_FatJet_pt_nom_,
+
+        &v_FatJet_inclParTMDV2_probHbb_,
+        &v_FatJet_inclParTMDV2_probHbc_,
+        &v_FatJet_inclParTMDV2_probHbs_,
+        &v_FatJet_inclParTMDV2_probHcc_,
+        &v_FatJet_inclParTMDV2_probHcs_,
+        &v_FatJet_inclParTMDV2_probHss_,
+        &v_FatJet_inclParTMDV2_probHqq_,
+        &v_FatJet_inclParTMDV2_probQCDb_,
+        &v_FatJet_inclParTMDV2_probQCDbb_,
+        &v_FatJet_inclParTMDV2_probQCDc_,
+        &v_FatJet_inclParTMDV2_probQCDcc_,
+        &v_FatJet_inclParTMDV2_probQCDothers_,
 
         &v_FatJet_msoftdrop_jesAbsoluteUp_,
         &v_FatJet_msoftdrop_jesAbsoluteDown_,
@@ -49,49 +67,20 @@ void EDBR2PKUTree::initFatJet_Collection(){
         &v_FatJet_msoftdrop_jesRelativeBalDown_,
         &v_FatJet_msoftdrop_jesRelativeSample_yearUp_,
         &v_FatJet_msoftdrop_jesRelativeSample_yearDown_,
-
-
-
-        &v_FatJet_msoftdrop_jmsUp_,
-        &v_FatJet_msoftdrop_jmsDown_,
-        &v_FatJet_msoftdrop_jmrUp_,
-        &v_FatJet_msoftdrop_jmrDown_,
-
-        &v_FatJet_pt_nom_,
-        //HWW tagger.
-        //V2
-
-        &v_FatJet_inclParTMDV2_probHbb_,
-        &v_FatJet_inclParTMDV2_probHbc_,
-        &v_FatJet_inclParTMDV2_probHbs_,
-        &v_FatJet_inclParTMDV2_probHcc_,
-        &v_FatJet_inclParTMDV2_probHcs_,
-        &v_FatJet_inclParTMDV2_probHss_,
-        &v_FatJet_inclParTMDV2_probHqq_,
-        &v_FatJet_inclParTMDV2_probQCDb_,
-        &v_FatJet_inclParTMDV2_probQCDbb_,
-        &v_FatJet_inclParTMDV2_probQCDc_,
-        &v_FatJet_inclParTMDV2_probQCDcc_,
-        &v_FatJet_inclParTMDV2_probQCDothers_,
- 
-
-    } ;
+    };
     FatJets = FatJet_Collection( FatJet_P_, 3, 2);
-
-    // class FatJet_Collection defined in fatJets.h
 }
 
 void EDBR2PKUTree::HWW_process_1(Long64_t jentry, TString YEAR) {
     Jets_GetEntry(jentry);
     fatJets_GetEntry(jentry);
 
-    initFatJet_Collection(); // Fill the array of all variables, using FatJet_Collection.
+    initFatJet_Collection();
     Nj8 = FatJets.size();
 
     FatJets_P4_PTOrder();
     FatJets_P4_MASSOrder();
     FatJets_P4_HWWV2_Order();
-
     MJJ_MJJJf();
     METf();
     HT_ST();
@@ -111,7 +100,7 @@ void EDBR2PKUTree::initJet_Collection(TString YEAR){
         &v_Jet_pt_nom_,
         &v_Jet_mass_nom_,
     };
-    
+
     vector<TLorentzVector> FatJets_;
     TLorentzVector AK8;
     if(PTj > 200){
@@ -133,7 +122,7 @@ void EDBR2PKUTree::initJet_Collection(TString YEAR){
 void EDBR2PKUTree::HWW_process_2(Long64_t jentry, TString YEAR) {
 
     initJet_Collection(YEAR);
-    FatJets_HWWV2_Order(); 
+    FatJets_HWWV2_Order();
     Nbtagf();
 
 
@@ -158,7 +147,7 @@ void EDBR2PKUTree::FatJets_P4_PTOrder() { // here we used pt_nom order but not t
     Phij_2 = FatJets.Get("pt_nom","phi", 1);
     Mj_2   = FatJets.Get("pt_nom","msoftdrop_nom_noJWS", 1);
     Mj_corr_2   = FatJets.Get("pt_nom","msoftdrop_nom", 1);
-    
+
     Mj_jesTotalUp_2   = FatJets.Get("pt_nom","msoftdrop_jesTotalUp", 1);
     Mj_jesTotalDown_2 = FatJets.Get("pt_nom","msoftdrop_jesTotalDown", 1);
     Mj_jerUp_2        = FatJets.Get("pt_nom","msoftdrop_jerUp", 1);
@@ -262,7 +251,7 @@ void EDBR2PKUTree::FatJets_P4_HWWV2_Order() {
     Phij_V2_c = FatJets.Get("HWW-V2-MD","phi", 2);
     Mj_V2_c   = FatJets.Get("HWW-V2-MD","msoftdrop_nom_noJWS", 2);
     Mj_corr_V2_c   = FatJets.Get("HWW-V2-MD","msoftdrop_nom", 2);
-    
+
     Mj_jesTotalUp_c   = FatJets.Get("HWW-V2-MD","msoftdrop_jesTotalUp", 2);
     Mj_jesTotalDown_c = FatJets.Get("HWW-V2-MD","msoftdrop_jesTotalDown", 2);
     Mj_jerUp_c        = FatJets.Get("HWW-V2-MD","msoftdrop_jerUp", 2);
@@ -396,23 +385,23 @@ void EDBR2PKUTree::FatJets_HWWV2_Order(){
     FatJet_tau2_HWW_a           = FatJets.Get("HWW-V2-MD","tau2",0);
     FatJet_tau3_HWW_a           = FatJets.Get("HWW-V2-MD","tau3",0);
     FatJet_tau4_HWW_a           = FatJets.Get("HWW-V2-MD","tau4",0);
-    
+
     FatJet_tau1_HWW_c           = FatJets.Get("HWW-V2-MD","tau1",2);
     FatJet_tau2_HWW_c           = FatJets.Get("HWW-V2-MD","tau2",2);
     FatJet_tau3_HWW_c           = FatJets.Get("HWW-V2-MD","tau3",2);
     FatJet_tau4_HWW_c           = FatJets.Get("HWW-V2-MD","tau4",2);
-    
+
     FatJet_tau1_HWW_b           = FatJets.Get("HWW-V2-MD","tau1",1);
     FatJet_tau2_HWW_b           = FatJets.Get("HWW-V2-MD","tau2",1);
     FatJet_tau3_HWW_b           = FatJets.Get("HWW-V2-MD","tau3",1);
     FatJet_tau4_HWW_b           = FatJets.Get("HWW-V2-MD","tau4",1);
 
-    a_HWW_V2       = FatJets.Get("HWW-V2-MD","HWW_V2",0); 
-    b_HWW_V2       = FatJets.Get("HWW-V2-MD","HWW_V2",1); 
+    a_HWW_V2       = FatJets.Get("HWW-V2-MD","HWW_V2",0);
+    b_HWW_V2       = FatJets.Get("HWW-V2-MD","HWW_V2",1);
     c_HWW_V2       = FatJets.Get("HWW-V2-MD","HWW_V2",2);
 
-    a_HWWvsQCD_V2       = FatJets.Get("HWW-V2-MD","HWWvsQCD_V2",0); 
-    b_HWWvsQCD_V2       = FatJets.Get("HWW-V2-MD","HWWvsQCD_V2",1); 
+    a_HWWvsQCD_V2       = FatJets.Get("HWW-V2-MD","HWWvsQCD_V2",0);
+    b_HWWvsQCD_V2       = FatJets.Get("HWW-V2-MD","HWWvsQCD_V2",1);
     c_HWWvsQCD_V2       = FatJets.Get("HWW-V2-MD","HWWvsQCD_V2",2);
 
 
@@ -422,20 +411,20 @@ void EDBR2PKUTree::FatJets_HWWV2_Order(){
 bool EDBR2PKUTree::Filter_Events_HWW(TString YEAR, Int_t IS_Data) {
     bool Fill = true;
     bool HLT  = false;
-    if ( !(Nj8 == 2 || Nj8 == 3 ) ){ 
-        Fill = false; 
+    if ( !(Nj8 == 2 || Nj8 == 3 ) ){
+        Fill = false;
     }
-    if ( !( Mj_max >= 30 ) ){ 
-        Fill = false; 
+    if ( !( Mj_max >= 30 ) ){
+        Fill = false;
     }
 
-    if ( !( Mj_V2_a >= 30 ) ){ 
-        Fill = false; 
-    } 
+    if ( !( Mj_V2_a >= 30 ) ){
+        Fill = false;
+    }
 
     // Cut on HT has been commentted out for HWW analysis.
-    if ( !( PTj > 300 ) ){ 
-        Fill = false; 
+    if ( !( PTj > 300 ) ){
+        Fill = false;
     }
     // if( IS_Data == 0 ){ goodRun = goodrun(run, luminosityBlock) ; }
     // else{ goodRun = true ; }
@@ -446,7 +435,7 @@ bool EDBR2PKUTree::Filter_Events_HWW(TString YEAR, Int_t IS_Data) {
         else{
             Flag = Flag_METFilters && Flag_goodVertices && Flag_HBHENoiseFilter && Flag_HBHENoiseIsoFilter && Flag_EcalDeadCellTriggerPrimitiveFilter && Flag_BadPFMuonFilter && Flag_eeBadScFilter;
         }
-        // HLT = ( HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT800 || HLT_PFHT900 || HLT_PFJet450 || HLT_AK8PFJet450 || HLT_AK8PFJet500 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 );
+        HLT = ( HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT800 || HLT_PFHT900 || HLT_PFJet450 || HLT_AK8PFJet450 || HLT_AK8PFJet500 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 );
         HLT = 1;
     }
 
@@ -473,8 +462,8 @@ bool EDBR2PKUTree::Filter_Events_HWW(TString YEAR, Int_t IS_Data) {
         HLT = 1;
         }
 
-    if( !( Flag ) || !(HLT) ){ 
-        Fill = false; 
+    if( !( Flag ) || !(HLT) ){
+        Fill = false;
     }
 
     return Fill;
@@ -519,13 +508,13 @@ void EDBR2PKUTree::METf() {
     std::pair<double,double> MET_T1Smear_XYcorr_UEup   = METXYCorr_Met_MetPhi( MET_et_NoXYCorr_UEup,   MET_phi_NoXYCorr_UEup, runnb, year, isMC, PV_npvs, true);
     std::pair<double,double> MET_T1Smear_XYcorr_UEdown = METXYCorr_Met_MetPhi( MET_et_NoXYCorr_UEdown, MET_phi_NoXYCorr_UEdown, runnb, year, isMC, PV_npvs, true);
 
-    MET_et  = MET_T1Smear_XYcorr.first; 
+    MET_et  = MET_T1Smear_XYcorr.first;
     MET_phi = MET_T1Smear_XYcorr.second;
 
-    MET_et_UEup  = MET_T1Smear_XYcorr_UEup.first; 
-    MET_phi_UEup = MET_T1Smear_XYcorr_UEup.second;    
-    
-    MET_et_UEdown    = MET_T1Smear_XYcorr_UEdown.first; 
+    MET_et_UEup  = MET_T1Smear_XYcorr_UEup.first;
+    MET_phi_UEup = MET_T1Smear_XYcorr_UEup.second;
+
+    MET_et_UEdown    = MET_T1Smear_XYcorr_UEdown.first;
     MET_phi_UEdown   = MET_T1Smear_XYcorr_UEdown.second;
 }
 
@@ -601,9 +590,9 @@ void EDBR2PKUTree::Weightf(Double_t XS, Int_t Nevents, Double_t LUMI) {
     lumiWeight=lumiWeight*LUMI;
     weight=lumiWeight*nn;
     // cout<<"puweight = "<< puWeight <<endl;
-    // cout<<"weight = "<< weight <<endl;   
+    // cout<<"weight = "<< weight <<endl;
     weight = weight * puWeight;
-    // cout<<"final weight = "<< weight <<endl;   
+    // cout<<"final weight = "<< weight <<endl;
 
     if ( IsData==0 ) weight=1;weight_deep = 1;
 
@@ -617,17 +606,17 @@ if ( IsData==0 ){
 
 else{
     if (YEAR_g.Contains("2016")){
-        //if (HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT900 || HLT_PFJet450 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 ){
+        if (HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 || HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 || HLT_PFHT900 || HLT_PFJet450 || HLT_PFJet500 || HLT_AK8PFJet360_TrimMass30 || HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 ){
             TriggerSF = 1;
-        //}
-        //else if ( HLT_AK8PFJet450 || HLT_AK8PFJet500 ){
-        //    TriggerSF = 33.64/36.47;
-        //}
-        //else if ( HLT_PFHT800 ) {
-        //     TriggerSF = 27.71/36.47;
-        //}
-        // For test;
-        // cout << "Now the 2016 TriggerSF is " << TriggerSF << endl;
+        }
+        else if ( HLT_AK8PFJet450 || HLT_AK8PFJet500 ){
+            TriggerSF = 33.64/36.47;
+        }
+        else if ( HLT_PFHT800 ) {
+             TriggerSF = 27.71/36.47;
+        }
+        // For test
+        //cout << "Now the 2016 TriggerSF is " << TriggerSF << endl;
     }
     if(YEAR_g.Contains("2017")){
         if (HLT_PFJet500 || HLT_AK8PFJet500 || HLT_PFHT1050){
@@ -664,7 +653,7 @@ else{
 }
 
 void EDBR2PKUTree::MJJ_MJJJf() {
-    
+
     if(Nj8==2){
         AK81.SetPtEtaPhiM(PTj_max,Etaj_max,Phij_max,Mj_max);
         AK82.SetPtEtaPhiM(PTj_min,Etaj_min,Phij_min,Mj_min);

@@ -54,10 +54,10 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
     if (b_LHEScaleWeight_) { b_LHEScaleWeight_->SetAddress(&LHEScaleWeight_);}
 
     // Add PSWeight
-    
+
     b_PSWeight_ = fChain->GetBranch("PSWeight");
     if (b_PSWeight_) { b_PSWeight_->SetAddress(&PSWeight_);}
-  
+
     //
 
     b_FatJet_msoftdrop_raw_ = fChain->GetBranch("FatJet_msoftdrop_raw");
@@ -102,7 +102,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
     b_FatJet_msoftdrop_jmsDown_ = fChain->GetBranch("FatJet_msoftdrop_jmsDown");
     if (b_FatJet_msoftdrop_jmsDown_) { b_FatJet_msoftdrop_jmsDown_->SetAddress(&FatJet_msoftdrop_jmsDown_);}
 
-    // Add JMR, JMS up and down branch 
+    // Add JMR, JMS up and down branch
 
     // Split JES sources, update 16/2/2024
 
@@ -116,7 +116,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     b_FatJet_msoftdrop_jesAbsolute_yearUp_ = fChain->GetBranch("FatJet_msoftdrop_jesAbsolute_" + year_info + "Up");
     if (b_FatJet_msoftdrop_jesAbsolute_yearUp_) { b_FatJet_msoftdrop_jesAbsolute_yearUp_->SetAddress(&FatJet_msoftdrop_jesAbsolute_yearUp_);}
-    
+
     b_FatJet_msoftdrop_jesAbsolute_yearDown_ = fChain->GetBranch("FatJet_msoftdrop_jesAbsolute_" + year_info + "Down");
     if (b_FatJet_msoftdrop_jesAbsolute_yearDown_) { b_FatJet_msoftdrop_jesAbsolute_yearDown_->SetAddress(&FatJet_msoftdrop_jesAbsolute_yearDown_);}
 
@@ -130,7 +130,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     b_FatJet_msoftdrop_jesBBEC1_yearUp_ = fChain->GetBranch("FatJet_msoftdrop_jesBBEC1_" + year_info + "Up");
     if (b_FatJet_msoftdrop_jesBBEC1_yearUp_) { b_FatJet_msoftdrop_jesBBEC1_yearUp_->SetAddress(&FatJet_msoftdrop_jesBBEC1_yearUp_);}
-    
+
     b_FatJet_msoftdrop_jesBBEC1_yearDown_ = fChain->GetBranch("FatJet_msoftdrop_jesBBEC1_" + year_info + "Down");
     if (b_FatJet_msoftdrop_jesBBEC1_yearDown_) { b_FatJet_msoftdrop_jesBBEC1_yearDown_->SetAddress(&FatJet_msoftdrop_jesBBEC1_yearDown_);}
 
@@ -144,7 +144,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     b_FatJet_msoftdrop_jesEC2_yearUp_ = fChain->GetBranch("FatJet_msoftdrop_jesEC2_" + year_info + "Up");
     if (b_FatJet_msoftdrop_jesEC2_yearUp_) { b_FatJet_msoftdrop_jesEC2_yearUp_->SetAddress(&FatJet_msoftdrop_jesEC2_yearUp_);}
-    
+
     b_FatJet_msoftdrop_jesEC2_yearDown_ = fChain->GetBranch("FatJet_msoftdrop_jesEC2_" + year_info + "Down");
     if (b_FatJet_msoftdrop_jesEC2_yearDown_) { b_FatJet_msoftdrop_jesEC2_yearDown_->SetAddress(&FatJet_msoftdrop_jesEC2_yearDown_);}
 
@@ -166,7 +166,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     b_FatJet_msoftdrop_jesHF_yearUp_ = fChain->GetBranch("FatJet_msoftdrop_jesHF_" + year_info + "Up");
     if (b_FatJet_msoftdrop_jesHF_yearUp_) { b_FatJet_msoftdrop_jesHF_yearUp_->SetAddress(&FatJet_msoftdrop_jesHF_yearUp_);}
-    
+
     b_FatJet_msoftdrop_jesHF_yearDown_ = fChain->GetBranch("FatJet_msoftdrop_jesHF_" + year_info + "Down");
     if (b_FatJet_msoftdrop_jesHF_yearDown_) { b_FatJet_msoftdrop_jesHF_yearDown_->SetAddress(&FatJet_msoftdrop_jesHF_yearDown_);}
 
@@ -182,7 +182,7 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     b_FatJet_msoftdrop_jesRelativeSample_yearUp_ = fChain->GetBranch("FatJet_msoftdrop_jesRelativeSample_" + year_info + "Up");
     if (b_FatJet_msoftdrop_jesRelativeSample_yearUp_) { b_FatJet_msoftdrop_jesRelativeSample_yearUp_->SetAddress(&FatJet_msoftdrop_jesRelativeSample_yearUp_);}
-    
+
     b_FatJet_msoftdrop_jesRelativeSample_yearDown_ = fChain->GetBranch("FatJet_msoftdrop_jesRelativeSample_" + year_info + "Down");
     if (b_FatJet_msoftdrop_jesRelativeSample_yearDown_) { b_FatJet_msoftdrop_jesRelativeSample_yearDown_->SetAddress(&FatJet_msoftdrop_jesRelativeSample_yearDown_);}
 
@@ -191,23 +191,23 @@ void EDBR2PKUTree::loadVectorBranches_FatJets_HWW() {
 
     // Add over
 
-    
+
 
     b_FatJet_pt_nom_ = fChain->GetBranch("FatJet_pt_nom");
     if (b_FatJet_pt_nom_) { b_FatJet_pt_nom_->SetAddress(&FatJet_pt_nom_);}
 
     b_FatJet_pt_ = fChain->GetBranch("FatJet_pt");
     if (b_FatJet_pt_) { b_FatJet_pt_->SetAddress(&FatJet_pt_);}
-        
+
     b_FatJet_eta_ = fChain->GetBranch("FatJet_eta");
     if (b_FatJet_eta_) { b_FatJet_eta_->SetAddress(&FatJet_eta_);}
-        
+
     b_FatJet_phi_ = fChain->GetBranch("FatJet_phi");
     if (b_FatJet_phi_) { b_FatJet_phi_->SetAddress(&FatJet_phi_);}
-        
+
     b_FatJet_msoftdrop_ = fChain->GetBranch("FatJet_msoftdrop");
     if (b_FatJet_msoftdrop_) { b_FatJet_msoftdrop_->SetAddress(&FatJet_msoftdrop_);}
-        
+
     b_FatJet_jetId_ = fChain->GetBranch("FatJet_jetId");
     if (b_FatJet_jetId_) { b_FatJet_jetId_->SetAddress(&FatJet_jetId_);}
 
@@ -266,49 +266,49 @@ void EDBR2PKUTree::loadVectorBranches_Jets() {
 
     b_Jet_btagDeepB_ = fChain->GetBranch("Jet_btagDeepB");
     if (b_Jet_btagDeepB_) { b_Jet_btagDeepB_->SetAddress(&Jet_btagDeepB_);}
-        
+
     b_Jet_btagDeepFlavB_ = fChain->GetBranch("Jet_btagDeepFlavB");
     if (b_Jet_btagDeepFlavB_) { b_Jet_btagDeepFlavB_->SetAddress(&Jet_btagDeepFlavB_);}
-        
+
     b_Jet_btagDeepFlavCvB_ = fChain->GetBranch("Jet_btagDeepFlavCvB");
     if (b_Jet_btagDeepFlavCvB_) { b_Jet_btagDeepFlavCvB_->SetAddress(&Jet_btagDeepFlavCvB_);}
-        
+
     b_Jet_btagDeepFlavCvL_ = fChain->GetBranch("Jet_btagDeepFlavCvL");
     if (b_Jet_btagDeepFlavCvL_) { b_Jet_btagDeepFlavCvL_->SetAddress(&Jet_btagDeepFlavCvL_);}
-        
+
     b_Jet_btagDeepFlavQG_ = fChain->GetBranch("Jet_btagDeepFlavQG");
     if (b_Jet_btagDeepFlavQG_) { b_Jet_btagDeepFlavQG_->SetAddress(&Jet_btagDeepFlavQG_);}
-        
+
     b_Jet_eta_ = fChain->GetBranch("Jet_eta");
     if (b_Jet_eta_) { b_Jet_eta_->SetAddress(&Jet_eta_);}
-        
+
     b_Jet_hadronFlavour_ = fChain->GetBranch("Jet_hadronFlavour");
     if (b_Jet_hadronFlavour_) { b_Jet_hadronFlavour_->SetAddress(&Jet_hadronFlavour_);}
-        
+
     b_Jet_jetId_ = fChain->GetBranch("Jet_jetId");
     if (b_Jet_jetId_) { b_Jet_jetId_->SetAddress(&Jet_jetId_);}
 
     b_Jet_mass_ = fChain->GetBranch("Jet_mass");
     if (b_Jet_mass_) { b_Jet_mass_->SetAddress(&Jet_mass_);}
-        
+
     b_Jet_partonFlavour_ = fChain->GetBranch("Jet_partonFlavour");
     if (b_Jet_partonFlavour_) { b_Jet_partonFlavour_->SetAddress(&Jet_partonFlavour_);}
-        
+
     b_Jet_phi_ = fChain->GetBranch("Jet_phi");
     if (b_Jet_phi_) { b_Jet_phi_->SetAddress(&Jet_phi_);}
-        
+
     b_Jet_pt_ = fChain->GetBranch("Jet_pt");
     if (b_Jet_pt_) { b_Jet_pt_->SetAddress(&Jet_pt_);}
-        
+
     b_Jet_puId_ = fChain->GetBranch("Jet_puId");
     if (b_Jet_puId_) { b_Jet_puId_->SetAddress(&Jet_puId_);}
-        
+
     b_Jet_puIdDisc_ = fChain->GetBranch("Jet_puIdDisc");
     if (b_Jet_puIdDisc_) { b_Jet_puIdDisc_->SetAddress(&Jet_puIdDisc_);}
-        
+
     b_Jet_qgl_ = fChain->GetBranch("Jet_qgl");
     if (b_Jet_qgl_) { b_Jet_qgl_->SetAddress(&Jet_qgl_);}
-        
+
     b_Jet_rawFactor_ = fChain->GetBranch("Jet_rawFactor");
     if (b_Jet_rawFactor_) { b_Jet_rawFactor_->SetAddress(&Jet_rawFactor_);}
 }
@@ -316,25 +316,25 @@ void EDBR2PKUTree::loadVectorBranches_Jets() {
 void EDBR2PKUTree::loadVectorBranches_Genparticles() {
     b_GenPart_eta_ = fChain->GetBranch("GenPart_eta");
     if (b_GenPart_eta_) { b_GenPart_eta_->SetAddress(&GenPart_eta_);}
-        
+
     b_GenPart_genPartIdxMother_ = fChain->GetBranch("GenPart_genPartIdxMother");
     if (b_GenPart_genPartIdxMother_) { b_GenPart_genPartIdxMother_->SetAddress(&GenPart_genPartIdxMother_);}
-        
+
     b_GenPart_mass_ = fChain->GetBranch("GenPart_mass");
     if (b_GenPart_mass_) { b_GenPart_mass_->SetAddress(&GenPart_mass_);}
-        
+
     b_GenPart_pdgId_ = fChain->GetBranch("GenPart_pdgId");
     if (b_GenPart_pdgId_) { b_GenPart_pdgId_->SetAddress(&GenPart_pdgId_);}
-        
+
     b_GenPart_phi_ = fChain->GetBranch("GenPart_phi");
     if (b_GenPart_phi_) { b_GenPart_phi_->SetAddress(&GenPart_phi_);}
-        
+
     b_GenPart_pt_ = fChain->GetBranch("GenPart_pt");
     if (b_GenPart_pt_) { b_GenPart_pt_->SetAddress(&GenPart_pt_);}
-        
+
     b_GenPart_status_ = fChain->GetBranch("GenPart_status");
     if (b_GenPart_status_) { b_GenPart_status_->SetAddress(&GenPart_status_);}
-        
+
     b_GenPart_statusFlags_ = fChain->GetBranch("GenPart_statusFlags");
     if (b_GenPart_statusFlags_) { b_GenPart_statusFlags_->SetAddress(&GenPart_statusFlags_);}
 }
@@ -345,7 +345,7 @@ void EDBR2PKUTree::loadVectorBranches_MET() {
    fChain->SetBranchAddress("MET_phi",&MET_phi,&b_MET_phi);
    fChain->SetBranchAddress("MET_T1Smear_pt",&MET_T1Smear_pt,&b_MET_T1Smear_pt);
    fChain->SetBranchAddress("MET_T1Smear_phi",&MET_T1Smear_phi,&b_MET_T1Smear_phi);
-   // Add MET UE, up and down branch 
+   // Add MET UE, up and down branch
    fChain->SetBranchAddress("MET_T1Smear_pt_unclustEnUp",&MET_T1Smear_pt_UEup,&b_MET_T1Smear_pt_unclustEnUp);
    fChain->SetBranchAddress("MET_T1Smear_phi_unclustEnUp",&MET_T1Smear_phi_UEup,&b_MET_T1Smear_phi_unclustEnUp);
 //    cout << "MET Test 1=" << MET_T1Smear_pt_UEup << endl;
@@ -355,7 +355,7 @@ void EDBR2PKUTree::loadVectorBranches_MET() {
 }
 
 void EDBR2PKUTree::loadVectorBranches_genH() {
-   //fChain->SetBranchAddress("genH_pt",&genH_pt,&b_genH_pt);
+   fChain->SetBranchAddress("genH_pt",&genH_pt,&b_genH_pt);
 }
 
 
@@ -374,18 +374,18 @@ void EDBR2PKUTree::loadVectorBranches_Flag() {
 
 void EDBR2PKUTree::loadVectorBranches_HLT() {
     fChain->SetBranchAddress("isWcb",   &isWcb, &b_isWcb);
-    
-    //fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ900DEtaJJ1p5);
-    //fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ950DEtaJJ1p5);
-    //fChain->SetBranchAddress("HLT_PFHT800",&HLT_PFHT800,&b_HLT_PFHT800);
-    //fChain->SetBranchAddress("HLT_PFHT900",&HLT_PFHT900,&b_HLT_PFHT900);
+
+    fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ900DEtaJJ1p5);
+    fChain->SetBranchAddress("HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",&HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,&b_HLT_PFHT650_WideJetMJJ950DEtaJJ1p5);
+    fChain->SetBranchAddress("HLT_PFHT800",&HLT_PFHT800,&b_HLT_PFHT800);
+    fChain->SetBranchAddress("HLT_PFHT900",&HLT_PFHT900,&b_HLT_PFHT900);
     fChain->SetBranchAddress("HLT_PFJet450",&HLT_PFJet450,&b_HLT_PFJet450);
     fChain->SetBranchAddress("HLT_AK8PFJet400",&HLT_AK8PFJet400,&b_HLT_AK8PFJet400);
     fChain->SetBranchAddress("HLT_AK8PFJet450",&HLT_AK8PFJet450,&b_HLT_AK8PFJet450);
     fChain->SetBranchAddress("HLT_AK8PFJet500",&HLT_AK8PFJet500,&b_HLT_AK8PFJet500);
     fChain->SetBranchAddress("HLT_PFJet500",&HLT_PFJet500,&b_HLT_PFJet500);
     fChain->SetBranchAddress("HLT_AK8PFJet360_TrimMass30",&HLT_AK8PFJet360_TrimMass30,&b_HLT_AK8PFJet360_TrimMass30);
-    //fChain->SetBranchAddress("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,&b_HLT_AK8PFHT700_TrimR0p1PT0p03Mass50);
+    fChain->SetBranchAddress("HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",&HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,&b_HLT_AK8PFHT700_TrimR0p1PT0p03Mass50);
     fChain->SetBranchAddress("HLT_PFHT1050",&HLT_PFHT1050,&b_HLT_PFHT1050);
     fChain->SetBranchAddress("HLT_AK8PFJet380_TrimMass30",&HLT_AK8PFJet380_TrimMass30,&b_HLT_AK8PFJet380_TrimMass30);
     fChain->SetBranchAddress("HLT_AK8PFJet400_TrimMass30",&HLT_AK8PFJet400_TrimMass30,&b_HLT_AK8PFJet400_TrimMass30);
@@ -395,19 +395,19 @@ void EDBR2PKUTree::loadVectorBranches_HLT() {
     fChain->SetBranchAddress("HLT_AK8PFHT850_TrimMass50",&HLT_AK8PFHT850_TrimMass50,&b_HLT_AK8PFHT850_TrimMass50);
     fChain->SetBranchAddress("HLT_AK8PFHT900_TrimMass50",&HLT_AK8PFHT900_TrimMass50,&b_HLT_AK8PFHT900_TrimMass50);
 
-    //fChain->SetBranchAddress("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,&b_HLT_PFMET110_PFMHT110_IDTight);
-    //fChain->SetBranchAddress("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,&b_HLT_PFMET120_PFMHT120_IDTight);
-    //fChain->SetBranchAddress("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,&b_HLT_PFMET130_PFMHT130_IDTight);
-    //fChain->SetBranchAddress("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,&b_HLT_PFMET140_PFMHT140_IDTight);
-    
-    //fChain->SetBranchAddress("HLT_Mu50",&HLT_Mu50,&b_HLT_Mu50);
-    //fChain->SetBranchAddress("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,&b_HLT_Ele115_CaloIdVT_GsfTrkIdT);
-    //fChain->SetBranchAddress("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,&b_HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165);
+    fChain->SetBranchAddress("HLT_PFMET110_PFMHT110_IDTight",&HLT_PFMET110_PFMHT110_IDTight,&b_HLT_PFMET110_PFMHT110_IDTight);
+    fChain->SetBranchAddress("HLT_PFMET120_PFMHT120_IDTight",&HLT_PFMET120_PFMHT120_IDTight,&b_HLT_PFMET120_PFMHT120_IDTight);
+    fChain->SetBranchAddress("HLT_PFMET130_PFMHT130_IDTight",&HLT_PFMET130_PFMHT130_IDTight,&b_HLT_PFMET130_PFMHT130_IDTight);
+    fChain->SetBranchAddress("HLT_PFMET140_PFMHT140_IDTight",&HLT_PFMET140_PFMHT140_IDTight,&b_HLT_PFMET140_PFMHT140_IDTight);
+
+    fChain->SetBranchAddress("HLT_Mu50",&HLT_Mu50,&b_HLT_Mu50);
+    fChain->SetBranchAddress("HLT_Ele115_CaloIdVT_GsfTrkIdT",&HLT_Ele115_CaloIdVT_GsfTrkIdT,&b_HLT_Ele115_CaloIdVT_GsfTrkIdT);
+    fChain->SetBranchAddress("HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",&HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,&b_HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165);
 
 }
 
 void EDBR2PKUTree::loadVectorBranches_Vertices() {
-    fChain->SetBranchAddress("PV_npvs",&PV_npvs,&b_PV_npvs);    
+    fChain->SetBranchAddress("PV_npvs",&PV_npvs,&b_PV_npvs);
 }
 
 void EDBR2PKUTree::loadVectorBranches_genWeight() {
@@ -416,7 +416,7 @@ void EDBR2PKUTree::loadVectorBranches_genWeight() {
     fChain->SetBranchAddress("puWeight", &puWeight, &b_puWeight);
     fChain->SetBranchAddress("puWeightDown", &puWeightDown, &b_puWeightDown);
     fChain->SetBranchAddress("puWeightUp", &puWeightUp, &b_puWeightUp);
-    
+
     fChain->SetBranchAddress("PrefireWeight", &PrefireWeight, &b_PrefireWeight);
     fChain->SetBranchAddress("PrefireWeight_Down", &PrefireWeightDown, &b_PrefireWeightDown);
     fChain->SetBranchAddress("PrefireWeight_Up", &PrefireWeightUp, &b_PrefireWeightUp);

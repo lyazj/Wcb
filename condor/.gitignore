@@ -1,0 +1,6 @@
+x509up_u*
+*.log
+*.out
+*.err
+supplyJobs.cmd
+NanoNtupleChain_*.txt

@@ -155,17 +155,17 @@ if __name__ == '__main__':
         "Mj_corr_a","Mj_corr_b","Mj_corr_c",
         "MET_phi_NoXYCorr","MET_et_NoXYCorr",
 
-        #"HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",
-        #"HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",
-        #"HLT_PFHT800",
-        #"HLT_PFHT900",
+        "HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",
+        "HLT_PFHT650_WideJetMJJ950DEtaJJ1p5",
+        "HLT_PFHT800",
+        "HLT_PFHT900",
         "HLT_PFJet450",
         "HLT_AK8PFJet400",
         "HLT_AK8PFJet450",
         "HLT_AK8PFJet500",
         "HLT_PFJet500",
         "HLT_AK8PFJet360_TrimMass30",
-        #"HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",
+        "HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",
         "HLT_PFHT1050",
         "HLT_AK8PFJet380_TrimMass30",
         "HLT_AK8PFJet400_TrimMass30",
@@ -175,13 +175,13 @@ if __name__ == '__main__':
         "HLT_AK8PFHT850_TrimMass50",
         "HLT_AK8PFHT900_TrimMass50",
 
-#"HLT_PFMET110_PFMHT110_IDTight",
-#"HLT_PFMET120_PFMHT120_IDTight",
-#"HLT_PFMET130_PFMHT130_IDTight",
-#"HLT_PFMET140_PFMHT140_IDTight",
-#"HLT_Mu50",
-#"HLT_Ele115_CaloIdVT_GsfTrkIdT",
-#"HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",
+"HLT_PFMET110_PFMHT110_IDTight",
+"HLT_PFMET120_PFMHT120_IDTight",
+"HLT_PFMET130_PFMHT130_IDTight",
+"HLT_PFMET140_PFMHT140_IDTight",
+"HLT_Mu50",
+"HLT_Ele115_CaloIdVT_GsfTrkIdT",
+"HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165",
 
     # JES, JER part
     
@@ -348,8 +348,7 @@ if __name__ == '__main__':
 
     if options.signal : 
         branches += [
-            #'genH_pt',
-            'R4q_a','R4q_b','R4q_c','R3q_a','R3q_b','R3q_c','R2q_a','R2q_b','R2q_c','w_a','w_b','w_c','t_a','t_b','t_c','z_a','z_b','z_c','Rlqq_a','Rlqq_b','Rlqq_c','Rlq_a','Rlq_b','Rlq_c','gKK_g_a','gKK_g_b','gKK_g_c','u_a','u_b','u_c','R3q_taudecay_a','R3q_taudecay_b','R3q_taudecay_c',
+            'genH_pt', 'R4q_a','R4q_b','R4q_c','R3q_a','R3q_b','R3q_c','R2q_a','R2q_b','R2q_c','w_a','w_b','w_c','t_a','t_b','t_c','z_a','z_b','z_c','Rlqq_a','Rlqq_b','Rlqq_c','Rlq_a','Rlq_b','Rlq_c','gKK_g_a','gKK_g_b','gKK_g_c','u_a','u_b','u_c','R3q_taudecay_a','R3q_taudecay_b','R3q_taudecay_c',
             'tlqq_a','tlqq_b','tlqq_c' # Add tlqq matching
         ]
 

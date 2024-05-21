@@ -60,7 +60,7 @@ struct Jet_WP
 } ;
 
 class Jet_Collection {
-    public : 
+    public :
     Jet_Collection();
     Jet_Collection(Jet_P Jet_, int filterMode, TString YEAR, vector<TLorentzVector> FatJets_);
     size_t size();
@@ -172,14 +172,14 @@ void Jet_Collection::Filter_1(){
     // For 2017 and 2018 samples : jetId==2 means: pass tight ID, fail tightLepVeto, jetId==6 means: pass tight and tightLepVeto ID.
     for (size_t iFJ = 0; iFJ != v_Jet_pt_->size(); ++iFJ ){
 
-        int   iJet_jetId  = v_Jet_jetId_->at(iFJ) ; if( iJet_jetId&2 != 2 ){ continue; }
+        int   iJet_jetId  = v_Jet_jetId_->at(iFJ) ; if( (iJet_jetId&2) != 2 ){ continue; }
         float iJet_jeteta = v_Jet_eta_->at(iFJ)   ; if( fabs(iJet_jeteta) > 2.4 ){ continue; }
         float iJet_jetpt = 0 ;
         if(v_Jet_pt_nom_->size() >0){
-            iJet_jetpt  = v_Jet_pt_nom_->at(iFJ)    ; 
+            iJet_jetpt  = v_Jet_pt_nom_->at(iFJ)    ;
         }
         else{
-            iJet_jetpt  = v_Jet_pt_->at(iFJ)    ; 
+            iJet_jetpt  = v_Jet_pt_->at(iFJ)    ;
         }
         if( iJet_jetpt < 30 ){ continue; }
 
@@ -209,7 +209,7 @@ size_t Jet_Collection::size(){
 }
 
 bool Jet_Collection::exclusive(int Jet_index){
-    bool exclusive = true; 
+    bool exclusive = true;
     TLorentzVector Jet;
     if(Jet_pt_nom.size()>0){
         Jet.SetPtEtaPhiM( Jet_pt_nom[Jet_index], Jet_eta[Jet_index], Jet_phi[Jet_index], Jet_mass_nom[Jet_index] );
@@ -250,13 +250,13 @@ int Jet_Collection::btagDeepFlavB_WP(int Jet_index){
 
     if(Jet_btagDeepFlavB[Jet_index] > bWPloose){
         WP = 1;
-    } 
+    }
     if(Jet_btagDeepFlavB[Jet_index] > bWPmedium){
         WP = 2;
-    } 
+    }
     if(Jet_btagDeepFlavB[Jet_index] > bWPtight){
         WP = 3;
-    } 
+    }
 
     return WP;
 }
@@ -267,7 +267,7 @@ int Jet_Collection::Nj4_inclusive(){
 
 int Jet_Collection::Nj4_exclusive(){
     int Nj4_ex = 0 ;
-    for ( Int_t i = 0 ; i < Jet_pt.size() ; i++ ) {
+    for ( Int_t i = 0 ; i < (Int_t)Jet_pt.size() ; i++ ) {
         if(exclusive(i)){
             Nj4_ex++ ;
         }
@@ -279,7 +279,7 @@ Jet_WP Jet_Collection::Nj4_btag_inclusive(){
     int Nj4_btag_l = 0 ;
     int Nj4_btag_m = 0 ;
     int Nj4_btag_t = 0 ;
-    for ( Int_t i = 0 ; i < Jet_pt.size() ; i++ ) {
+    for ( Int_t i = 0 ; i < (Int_t)Jet_pt.size() ; i++ ) {
         if(btagDeepFlavB_WP(i) >= 1 ){
             Nj4_btag_l ++ ;
         }
@@ -294,7 +294,7 @@ Jet_WP Jet_Collection::Nj4_btag_inclusive(){
         Nj4_btag_l,
         Nj4_btag_m,
         Nj4_btag_t,
-    } ; 
+    } ;
     return Jet_WP_;
 }
 
@@ -302,7 +302,7 @@ Jet_WP Jet_Collection::Nj4_btag_exclusive(){
     int Nj4_btag_l = 0 ;
     int Nj4_btag_m = 0 ;
     int Nj4_btag_t = 0 ;
-    for ( Int_t i = 0 ; i < Jet_pt.size() ; i++ ) {
+    for ( Int_t i = 0 ; i < (Int_t)Jet_pt.size() ; i++ ) {
         if(not exclusive(i)) continue ;
         if(btagDeepFlavB_WP(i) >= 1 ){
             Nj4_btag_l ++ ;
@@ -318,7 +318,7 @@ Jet_WP Jet_Collection::Nj4_btag_exclusive(){
         Nj4_btag_l,
         Nj4_btag_m,
         Nj4_btag_t,
-    } ; 
+    } ;
     return Jet_WP_;
 }
 
@@ -332,7 +332,7 @@ void Jet_Collection::branch(string variable, std::vector<T>& outbr){
 
 // template <typename T>
 // void Jet_Collection::Out(vector<T> In_branch, vector<T> & Out_branch){
-    // for (size_t iFJ = 0; iFJ != FJorder.size(); ++iFJ ){ 
+    // for (size_t iFJ = 0; iFJ != FJorder.size(); ++iFJ ){
         // if(iFJ < In_branch.size()){ Out_branch.push_back( In_branch.at(FJorder.at(iFJ)) ); }
         // else{ Out_branch.push_back(-99); }
     // }

@@ -2,27 +2,27 @@
 #define _vector_GetEntry__NanoAOD_
 
 void EDBR2PKUTree::Jets_GetEntry(Long64_t jentry) {
-    
+
     int bytes_Jet_btagDeepB = b_Jet_btagDeepB_->GetEntry(jentry);
     v_Jet_btagDeepB_ = vector<float>(Jet_btagDeepB_,Jet_btagDeepB_+bytes_Jet_btagDeepB/sizeof(Jet_btagDeepB_[0]));
     size_t nJet_btagDeepB = v_Jet_btagDeepB_.size();
-    
+
     int bytes_Jet_btagDeepFlavB = b_Jet_btagDeepFlavB_->GetEntry(jentry);
     v_Jet_btagDeepFlavB_ = vector<float>(Jet_btagDeepFlavB_,Jet_btagDeepFlavB_+bytes_Jet_btagDeepFlavB/sizeof(Jet_btagDeepFlavB_[0]));
     size_t nJet_btagDeepFlavB = v_Jet_btagDeepFlavB_.size();
-    
+
     int bytes_Jet_btagDeepFlavCvB = b_Jet_btagDeepFlavCvB_->GetEntry(jentry);
     v_Jet_btagDeepFlavCvB_ = vector<float>(Jet_btagDeepFlavCvB_,Jet_btagDeepFlavCvB_+bytes_Jet_btagDeepFlavCvB/sizeof(Jet_btagDeepFlavCvB_[0]));
     size_t nJet_btagDeepFlavCvB = v_Jet_btagDeepFlavCvB_.size();
-    
+
     int bytes_Jet_btagDeepFlavCvL = b_Jet_btagDeepFlavCvL_->GetEntry(jentry);
     v_Jet_btagDeepFlavCvL_ = vector<float>(Jet_btagDeepFlavCvL_,Jet_btagDeepFlavCvL_+bytes_Jet_btagDeepFlavCvL/sizeof(Jet_btagDeepFlavCvL_[0]));
     size_t nJet_btagDeepFlavCvL = v_Jet_btagDeepFlavCvL_.size();
-    
+
     int bytes_Jet_btagDeepFlavQG = b_Jet_btagDeepFlavQG_->GetEntry(jentry);
     v_Jet_btagDeepFlavQG_ = vector<float>(Jet_btagDeepFlavQG_,Jet_btagDeepFlavQG_+bytes_Jet_btagDeepFlavQG/sizeof(Jet_btagDeepFlavQG_[0]));
     size_t nJet_btagDeepFlavQG = v_Jet_btagDeepFlavQG_.size();
-    
+
     int bytes_Jet_eta = b_Jet_eta_->GetEntry(jentry);
     v_Jet_eta_ = vector<float>(Jet_eta_,Jet_eta_+bytes_Jet_eta/sizeof(Jet_eta_[0]));
     size_t nJet_eta = v_Jet_eta_.size();
@@ -32,47 +32,47 @@ void EDBR2PKUTree::Jets_GetEntry(Long64_t jentry) {
         v_Jet_hadronFlavour_ = vector<int>(Jet_hadronFlavour_,Jet_hadronFlavour_+bytes_Jet_hadronFlavour/sizeof(Jet_hadronFlavour_[0]));
         size_t nJet_hadronFlavour = v_Jet_hadronFlavour_.size();
     }
-    
+
     int bytes_Jet_jetId = b_Jet_jetId_->GetEntry(jentry);
     v_Jet_jetId_ = vector<int>(Jet_jetId_,Jet_jetId_+bytes_Jet_jetId/sizeof(Jet_jetId_[0]));
     size_t nJet_jetId = v_Jet_jetId_.size();
-    
+
 
     int bytes_Jet_mass = b_Jet_mass_->GetEntry(jentry);
     v_Jet_mass_ = vector<float>(Jet_mass_,Jet_mass_+bytes_Jet_mass/sizeof(Jet_mass_[0]));
     size_t nJet_mass = v_Jet_mass_.size();
-    
+
     if (b_Jet_partonFlavour_){
         int bytes_Jet_partonFlavour = b_Jet_partonFlavour_->GetEntry(jentry);
         v_Jet_partonFlavour_ = vector<float>(Jet_partonFlavour_,Jet_partonFlavour_+bytes_Jet_partonFlavour/sizeof(Jet_partonFlavour_[0]));
         size_t nJet_partonFlavour = v_Jet_partonFlavour_.size();
     }
-    
+
     int bytes_Jet_phi = b_Jet_phi_->GetEntry(jentry);
     v_Jet_phi_ = vector<float>(Jet_phi_,Jet_phi_+bytes_Jet_phi/sizeof(Jet_phi_[0]));
     size_t nJet_phi = v_Jet_phi_.size();
-    
+
     int bytes_Jet_pt = b_Jet_pt_->GetEntry(jentry);
     v_Jet_pt_ = vector<float>(Jet_pt_,Jet_pt_+bytes_Jet_pt/sizeof(Jet_pt_[0]));
     size_t nJet_pt = v_Jet_pt_.size();
-    
+
     int bytes_Jet_puId = b_Jet_puId_->GetEntry(jentry);
     v_Jet_puId_ = vector<float>(Jet_puId_,Jet_puId_+bytes_Jet_puId/sizeof(Jet_puId_[0]));
     size_t nJet_puId = v_Jet_puId_.size();
-    
-    
+
+
     int bytes_Jet_puIdDisc = b_Jet_puIdDisc_->GetEntry(jentry);
     v_Jet_puIdDisc_ = vector<float>(Jet_puIdDisc_,Jet_puIdDisc_+bytes_Jet_puIdDisc/sizeof(Jet_puIdDisc_[0]));
     size_t nJet_puIdDisc = v_Jet_puIdDisc_.size();
-    
 
-    
+
+
     int bytes_Jet_qgl = b_Jet_qgl_->GetEntry(jentry);
     v_Jet_qgl_ = vector<float>(Jet_qgl_,Jet_qgl_+bytes_Jet_qgl/sizeof(Jet_qgl_[0]));
     size_t nJet_qgl = v_Jet_qgl_.size();
-    
 
-    
+
+
     int bytes_Jet_rawFactor = b_Jet_rawFactor_->GetEntry(jentry);
     v_Jet_rawFactor_ = vector<float>(Jet_rawFactor_,Jet_rawFactor_+bytes_Jet_rawFactor/sizeof(Jet_rawFactor_[0]));
     size_t nJet_rawFactor = v_Jet_rawFactor_.size();
@@ -87,7 +87,7 @@ void EDBR2PKUTree::Jets_GetEntry(Long64_t jentry) {
         v_Jet_mass_nom_ = vector<float>(Jet_mass_nom_,Jet_mass_nom_+bytes_Jet_mass_nom/sizeof(Jet_mass_nom_[0]));
     }
 
-    
+
 }
 
 void EDBR2PKUTree::fatJets_GetEntry(Long64_t jentry) {
@@ -349,23 +349,23 @@ void EDBR2PKUTree::fatJets_GetEntry(Long64_t jentry) {
     if(b_FatJet_pt_){
         int bytes_FatJet_pt = b_FatJet_pt_->GetEntry(jentry);
         v_FatJet_pt_ = vector<float>(FatJet_pt_,FatJet_pt_+bytes_FatJet_pt/sizeof(FatJet_pt_[0]));
-        for (int i = 0; i < v_FatJet_pt_.size() ; i++){
+        for (int i = 0; i < (int)v_FatJet_pt_.size() ; i++){
         // cout << "pt_i = " << v_FatJet_pt_[i] << endl;
         }
     }
 
 
-    
+
     if(b_FatJet_eta_){
         int bytes_FatJet_eta = b_FatJet_eta_->GetEntry(jentry);
         v_FatJet_eta_ = vector<float>(FatJet_eta_,FatJet_eta_+bytes_FatJet_eta/sizeof(FatJet_eta_[0]));
     }
-    
+
     if(b_FatJet_phi_){
         int bytes_FatJet_phi = b_FatJet_phi_->GetEntry(jentry);
         v_FatJet_phi_ = vector<float>(FatJet_phi_,FatJet_phi_+bytes_FatJet_phi/sizeof(FatJet_phi_[0]));
     }
-    
+
     if(b_FatJet_msoftdrop_){
         int bytes_FatJet_msoftdrop = b_FatJet_msoftdrop_->GetEntry(jentry);
         v_FatJet_msoftdrop_ = vector<float>(FatJet_msoftdrop_,FatJet_msoftdrop_+bytes_FatJet_msoftdrop/sizeof(FatJet_msoftdrop_[0]));
