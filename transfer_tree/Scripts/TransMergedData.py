@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import getpass
 from optparse import OptionParser
 from JobManager import concurrent_jobs, submit, wait
 
@@ -17,8 +18,10 @@ year = {
     '2017': '2017',
     '2018': '2018',
 }[options.year]
-inroot = '/data/bond/zhaoyz/Ntuple/Wcb_V2/Merged/' + year + '/Data/'
-outroot = '/data/bond/zhaoyz/Tree/Wcb_V2/' + year + '/Splitted/Data/'
+for prefix in ['/data/bond', '/publicfs/cms/user']:
+    if os.path.isdir(prefix): break
+inroot = os.path.join(prefix, getpass.getuser() + '/Ntuple/V0/' + year + '/Data/')
+outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V0/Splitted/' + year + '/Data/')
 
 for das in os.listdir(inroot):
     inpath = os.path.join(inroot, das)
