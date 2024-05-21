@@ -14,6 +14,7 @@ clean: $(patsubst %.root,%.clean,$(ROOTFILES))
 
 %.clear: %.txt
 	@[ "$$(cat $<)" = 0 ] || exit 0; $(RM) -v $(patsubst %.txt,%.root,$<) $<
+	@touch $(patsubst %.clean,%.root.out,$@) $(patsubst %.clean,%.root.err,$@)
 
 %.clean:
 	@$(RM) -v $(patsubst %.clean,%.txt,$@)
