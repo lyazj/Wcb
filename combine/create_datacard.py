@@ -240,7 +240,7 @@ corr_year_shape_systs = {
         samples_corr=False,
     ),
     "L1Prefiring": Syst(name="L1Prefiring", prior="shape", samples=all_mc),
-    "UE": Syst(name="unclustered_Energy", prior="shape", samples=all_mc),
+    # "UE": Syst(name="unclustered_Energy", prior="shape", samples=all_mc),
     # "JES": Syst(name="CMS_scale_j", prior="shape", samples=all_mc),
     # "pdfscale": Syst(
     #     name="pdf", 

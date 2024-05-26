@@ -19,15 +19,12 @@ combine_samples = {
     # data
     "data" : "Data",
     # signal
-    "TotalSignal":"TotalSignal",
-    "ggF": "ggF",
-    "VH" : "VH",
-    "VBF": "VBF",
-    "ttH": "ttH",
+    "Signal":"Signal",
     # bkg
     "QCD": "QCD",
     "WJets": "WJets",
-    "Top": "Top",
+    "TT": "TT",
+    "ST": "ST",
     "Rest" : "Rest"
 }
 

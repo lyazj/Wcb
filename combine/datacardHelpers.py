@@ -15,9 +15,6 @@ jecs = {
     "JER": "JER",
 }
 
-uncluste = {
-    "UE": "unclusteredEnergy",
-}
 
 @dataclass
 class ShapeVar:
