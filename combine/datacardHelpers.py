@@ -11,10 +11,27 @@ from hist import Hist
 years = ["2016APV", "2016", "2017", "2018"]
 
 jecs = {
-    "JES": "JES_jes",
+    # "JES": "JES_jes",
     "JER": "JER",
+    "Absolute": "split",
+    "Absolute_year": "split",
+    "BBEC1": "split",
+    "BBEC1_year": "split",
+    "EC2": "split",
+    "EC2_year": "split",
+    "FlavorQCD": "split",
+    "HF": "split",
+    "HF_year": "split",
+    "RelativeBal": "split",
+    "RelativeSample_year": "split",
+    
+    #although pdf are added here
+    # "pdfscale": "pdfscale",
+    
+    #although JMS/JMR are added here
+    "JMS"     : "JMS",
+    "JMR"     : "JMR",
 }
-
 
 @dataclass
 class ShapeVar:
@@ -25,6 +42,7 @@ class ShapeVar:
     order_1:int = None  # TF order for tf_1, to be decided
     order_2:int = None  # TF order for tf_2, to be decided
     order_3:int = None  # TF order for tf_3, to be decided
+
 
     def __post_init__(self):
         # use bin centers for polynomial fit
@@ -110,7 +128,7 @@ def get_year_updown(
         # logging.info(f"summed nominal values in {year} is {sum(list(templates.values())).values()}")
 
         # replace template only for this year with the shifted template
-        if skey in jecs or skey in uncluste:
+        if skey in jecs:
             # JEC/JMCs saved as different "region" in dict
             reg_name = f"{region_noblinded}_{sshift}{blind_str}"
             templates[year] = templates_dict[year][reg_name][sample, :]

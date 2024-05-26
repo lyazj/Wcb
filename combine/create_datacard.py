@@ -54,7 +54,7 @@ warnings.filterwarnings("ignore", message="Found duplicate branch ")
 pd.set_option("mode.chained_assignment", None)
 
 
-CMS_PARAMS_LABEL = "CMS_HWW_boosted"
+CMS_PARAMS_LABEL = "CMS_Wcb_boosted"
 years = ["2016APV", "2016", "2017", "2018"]
 
 LUMI = {  # in pb^-1
@@ -171,8 +171,7 @@ mc_samples = OrderedDict(
 )
 bg_keys = list(mc_samples.keys())
 sig_keys = [
-    "TT",
-    "WJets",
+    "Signal",
 ]
 for key in sig_keys:
     mc_samples[key] = key
@@ -520,21 +519,21 @@ def alphabet_fit(
     scale: float = None,
     min_qcd_val: float = None,
 ):   
-    # using SR1a, SR1b, CR1, SR2a, SR2b, CR2, SR3a, SR3b, CR3 below:
+    # using SR1, SR2, SR3, CR below:
     shape_var = shape_vars[0]
     m_obs = rl.Observable(shape_var.name, shape_var.bins)
     
     qcd_eff_1 = (
         templates_summed[f"SR1"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        / templates_summed[f"CR"]["QCD", :].sum().value
     )
     qcd_eff_2 = (
         templates_summed[f"SR2"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        / templates_summed[f"CR"]["QCD", :].sum().value
     )
     qcd_eff_3 = (
         templates_summed[f"SR3"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        / templates_summed[f"CR"]["QCD", :].sum().value
     )
 
     
@@ -543,7 +542,7 @@ def alphabet_fit(
 
     tf_dataResidual_1 = rl.BasisPoly(
         f"{CMS_PARAMS_LABEL}_tf_dataResidual_1",
-        (shape_var.order_a,),
+        (shape_var.order_1,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
@@ -551,7 +550,7 @@ def alphabet_fit(
     )
     tf_dataResidual_2 = rl.BasisPoly(
         f"{CMS_PARAMS_LABEL}_tf_dataResidual_2",
-        (shape_var.order_b,),
+        (shape_var.order_2,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
@@ -559,7 +558,7 @@ def alphabet_fit(
     )  
     tf_dataResidual_3 = rl.BasisPoly(
         f"{CMS_PARAMS_LABEL}_tf_dataResidual_2",
-        (shape_var.order_b,),
+        (shape_var.order_3,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
@@ -629,13 +628,13 @@ def alphabet_fit(
             f"{failChName}_{CMS_PARAMS_LABEL}_qcd_datadriven",
             rl.Sample.BACKGROUND,
             m_obs,
-            scaled_params1,
+            scaled_params,
         )
         failCh.addSample(fail_qcd)
                 
         #Set pass region below
         pass_qcd_1 = rl.TransferFactorSample(
-            f"{passChName1a}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            f"{passChName1}_{CMS_PARAMS_LABEL}_qcd_datadriven",
             rl.Sample.BACKGROUND,
             tf_params_pass_1,
             fail_qcd,
@@ -645,7 +644,7 @@ def alphabet_fit(
         passCh1.addSample(pass_qcd_1)      
           
         pass_qcd_2 = rl.TransferFactorSample(
-            f"{passChName1b}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            f"{passChName2}_{CMS_PARAMS_LABEL}_qcd_datadriven",
             rl.Sample.BACKGROUND,
             tf_params_pass_2,
             fail_qcd,
