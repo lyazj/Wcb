@@ -17,8 +17,8 @@ year = {
     '2017': '2017',
     '2018': '2018',
 }[options.year]
-inroot = '/data/bond/lyazj/Ntuple/V0/' + year + '/Data/'
-outroot = '/data/bond/lyazj/Tree/V0/Splitted/' + year + '/Data/'
+inroot = '/data/bond/zhaoyz/Ntuple/Wcb_V2/Merged/' + year + '/Data/'
+outroot = '/data/bond/zhaoyz/Tree/Wcb_V2/' + year + '/Splitted/Data/'
 
 for das in os.listdir(inroot):
     inpath = os.path.join(inroot, das)

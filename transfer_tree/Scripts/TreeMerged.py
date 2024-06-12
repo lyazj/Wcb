@@ -15,8 +15,8 @@ parser.add_option('--filetype',  action="store",type="string",dest="type"      ,
 (options, args) = parser.parse_args()
 
 
-TreeSplitted = "/data/bond/zhaoyz/Tree/V9/" + options.year + "/Splitted/"
-TreeMerged = "/data/bond/zhaoyz/Tree/V9/" + options.year + "/Merged/"
+TreeSplitted = "/data/bond/zhaoyz/Tree/Wcb_V2/" + options.year + "/Splitted/"
+TreeMerged = "/data/bond/zhaoyz/Tree/Wcb_V2/" + options.year + "/Merged/"
 
 ProcessDict = {
     "VBF"      :      350.18,
@@ -27,17 +27,17 @@ ProcessDict = {
     "GluGlu"   :      100.7,    
 } 
 ProcessDict2 = {
-    "QCD"   :      1,
-    # "ST"      :      1,
-    # "TT"     :      1,
-    # "WJets":      1,
+    # "QCD"   :      1,
+    "ST"      :      1,
+    "TT"     :      1,
+    "WJets":      1,
 }
 ProcessDict3 = {
     "WW_TuneCP5"    :      1,
     "WZ_TuneCP5"    :      1,
     "ZZ_TuneCP5"    :      1,
     "ZJetsToQQ"     :      1,
-    "DYJets"        :      1,
+    # "DYJets"        :      1,
 }
 ProcessDict4 = {
     "HWplus"   :      186,
@@ -50,7 +50,7 @@ if options.year == "2018" or options.year == "2017" or options.year == "2016" or
     HaddStr = ""
     for FileTypes in os.listdir(TreeSplitted):
         if FileTypes == "Data":
-            # continue
+            continue
             HaddStr = "hadd " + TreeMerged + FileTypes + "/Tree_Data.root "
             for Eras in os.listdir(TreeSplitted + FileTypes):
                 HaddStr += TreeSplitted + FileTypes + '/' + Eras + "/*.root "
@@ -79,16 +79,16 @@ if options.year == "2018" or options.year == "2017" or options.year == "2016" or
                 print("\n")
                 print("*************** MC nonRest Done ***************")
                 
-            # HaddStr = "hadd " + TreeMerged + FileTypes + "/Tree_" + "Rest.root "
+            HaddStr = "hadd " + TreeMerged + FileTypes + "/Tree_" + "Rest.root "
             
-            # for Process in ProcessDict3:            
-            #     for Das in os.listdir(TreeSplitted + FileTypes):
-            #         if Process in Das:
-            #             HaddStr += TreeSplitted + FileTypes + '/' + Das + "/*.root "
-            # print("Should print:",HaddStr)
-            # if options.test == "notest":os.system(HaddStr)
-            # print("\n")
-            # print("*************** MC rest ***************")
+            for Process in ProcessDict3:            
+                for Das in os.listdir(TreeSplitted + FileTypes):
+                    if Process in Das:
+                        HaddStr += TreeSplitted + FileTypes + '/' + Das + "/*.root "
+            print("Should print:",HaddStr)
+            if options.test == "notest":os.system(HaddStr)
+            print("\n")
+            print("*************** MC rest ***************")
             
         # elif FileTypes == "MET" :
         #     continue

@@ -19,8 +19,8 @@ year = {
     '2017': '2017',
     '2018': '2018',
 }[options.year]
-inroot = '/data/bond/lyazj/Ntuple/V0/' + year + '/MC/'
-outroot = '/data/bond/lyazj/Tree/V0/Splitted/' + year + '/MC/'
+inroot = '/data/bond/zhaoyz/Ntuple/Wcb_V2/Merged/' + year + '/MC/'
+outroot = '/data/bond/zhaoyz/Tree/Wcb_V2/' + year + '/Splitted/MC/'
 
 # Match DAS names to process names.
 # A DAS name matches a process name if and only if the former contains the latter.
