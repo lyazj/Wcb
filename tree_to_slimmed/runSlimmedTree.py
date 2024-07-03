@@ -14,24 +14,21 @@ TreeDir = "/data/bond/lyazj/Tree/V0/Merged/" + options.year + "/"
 SlimmedTreeDir = "/data/bond/lyazj/SlimmedTree/V0/" + options.year + "/"
 
 if options.type.upper() == "SIGNAL":
-    for Files in os.listdir(TreeDir + options.type):
-        if not Files.endswith("root"): continue
-        CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files, options.year, Files)
+    for Files in sorted(os.listdir(TreeDir + 'MC')):
+        if Files != "Tree_WJets.root": continue
+        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + 'MC', Files, options.year, Files)
         print("Should", CommandStr)
         if options.test == "notest": os.system(CommandStr + " &")
 
 elif options.type.upper() == "MC":
-    for Files in os.listdir(TreeDir + options.type):
-        if Files == "Tree_WJets.root": 
-            CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -s -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
-        else:
-            CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
+    for Files in sorted(os.listdir(TreeDir + options.type)):
+        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
         print("Should", CommandStr)
         if options.test == "notest": os.system(CommandStr + " &")
 
 elif options.type.upper() == "DATA":
-    for Files in os.listdir(TreeDir + options.type):
-        CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -y %s -d &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
+    for Files in sorted(os.listdir(TreeDir + options.type)):
+        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -d -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
         print("Should", CommandStr)
         if options.test == "notest": os.system(CommandStr + " &")
 
