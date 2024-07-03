@@ -1,45 +1,41 @@
+#!/usr/bin/env python3
+
 import os
-# import random
-# import sys
-# import ctypes
-# import time
-# from datetime import datetime
-import ROOT
 from optparse import OptionParser
-import subprocess
+import time
 
 parser = OptionParser()
-parser.add_option('--year',      action="store",type="string",dest="year"      ,default="2017")
-parser.add_option('--type',      action="store",type="string",dest="type"      ,default="Signal")
-parser.add_option('--test',      action="store",type="string",dest="test"      ,default="notest")
+parser.add_option('--year', action="store", type="string", dest="year")
+parser.add_option('--type', action="store", type="string", dest="type", default="Signal")
+parser.add_option('--test', action="store", type="string", dest="test", default="notest")
 (options, args) = parser.parse_args()
 
-TreeDir = "/data/bond/zhaoyz/Tree/Wcb_V2/" + options.year + "/Merged/"
-SlimmedTreeDir = "/data/bond/zhaoyz/SlimmedTree/Wcb_V1/" + options.year + "/"
-if options.type == "Signal":
+TreeDir = "/data/bond/lyazj/Tree/V0/Merged/" + options.year + "/"
+SlimmedTreeDir = "/data/bond/lyazj/SlimmedTree/V0/" + options.year + "/"
+
+if options.type.upper() == "SIGNAL":
     for Files in os.listdir(TreeDir + options.type):
-        if not Files.endswith("root"):continue
-        # if Files == "Tree_Total.root" : continue
-        CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
-        print("Should ",CommandStr)
-        if  options.test == "notest" : os.system(CommandStr)
-elif options.type == "MC":
+        if not Files.endswith("root"): continue
+        CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files, options.year, Files)
+        print("Should", CommandStr)
+        if options.test == "notest": os.system(CommandStr + " &")
+
+elif options.type.upper() == "MC":
     for Files in os.listdir(TreeDir + options.type):
-        # if Files == "Tree_BKG.root": continue
-        # if Files == "Tree_TT.root": continue
-        # if Files == "Tree_QCD.root": continue
-        # if Files == "Tree_ST.root": continue
         if Files == "Tree_WJets.root": 
-            # continue
-            CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -s -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
-        # if Files == "Tree_Rest.root": continue
+            CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -s -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
         else:
-            CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
-        print("Should ",CommandStr)
-        if  options.test == "notest" : os.system(CommandStr)
-else:    
+            CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
+        print("Should", CommandStr)
+        if options.test == "notest": os.system(CommandStr + " &")
+
+elif options.type.upper() == "DATA":
     for Files in os.listdir(TreeDir + options.type):
-        CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -y %s -d"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
-        print("Should ",CommandStr)
-        if  options.test == "notest" : os.system(CommandStr)
-    
+        CommandStr = "python3.6 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -y %s -d &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
+        print("Should", CommandStr)
+        if options.test == "notest": os.system(CommandStr + " &")
+
+else:
+    raise ValueError("unknown type " + options.type)
+
+if options.test == "notest": time.sleep(1)
