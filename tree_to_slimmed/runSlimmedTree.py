@@ -14,9 +14,9 @@ TreeDir = "/data/bond/lyazj/Tree/V0/Merged/" + options.year + "/"
 SlimmedTreeDir = "/data/bond/lyazj/SlimmedTree/V0/" + options.year + "/"
 
 if options.type.upper() == "SIGNAL":
-    for Files in sorted(os.listdir(TreeDir + 'MC')):
+    for Files in sorted(os.listdir(TreeDir + "MC")):
         if Files != "Tree_WJets.root": continue
-        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + 'MC', Files, options.year, Files)
+        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -s -u -y %s &> %s.log" % (TreeDir + "MC", Files, SlimmedTreeDir + "MC", "Tree_Signal.root", options.year, "Tree_Signal.root")
         print("Should", CommandStr)
         if options.test == "notest": os.system(CommandStr + " &")
 

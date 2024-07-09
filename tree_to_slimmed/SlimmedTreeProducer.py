@@ -656,8 +656,8 @@ print('Output columns:', outcolumn)
 loadcolumns = copy.deepcopy(outcolumn)
 
 if args.year == "2018":
-    SFjson = "../../scale_factors/trigger/mesh_data_2018.json"
-    SF_unc_json = "../../scale_factors/trigger/mesh_data_2018_unc.json"
+    SFjson = "../scale_factors/trigger/2D/mesh_data_2018.json"
+    SF_unc_json = "../scale_factors/trigger/2D/mesh_data_2018_unc.json"
     loadcolumns += [
         "isWcb",
         "HEM_Filter",
@@ -716,8 +716,8 @@ elif args.year == "2017":
     ]
 
 elif args.year == "2016":
-    SFjson = "../../scale_factors/trigger/mesh_data_2016.json"
-    SF_unc_json = "../../scale_factors/trigger/mesh_data_2016_unc.json"
+    SFjson = "../scale_factors/trigger/2D/mesh_data_2016.json"
+    SF_unc_json = "../scale_factors/trigger/2D/mesh_data_2016_unc.json"
     loadcolumns += [
         "isWcb",
         "HEM_Filter",
@@ -748,8 +748,8 @@ elif args.year == "2016":
     ]
 
 elif args.year == "2016APV":
-    SFjson = "../../scale_factors/trigger/mesh_data_2016APV.json"
-    SF_unc_json = "../../scale_factors/trigger/mesh_data_2016APV_unc.json"
+    SFjson = "../scale_factors/trigger/2D/mesh_data_2016APV.json"
+    SF_unc_json = "../scale_factors/trigger/2D/mesh_data_2016APV_unc.json"
     loadcolumns += [
         "isWcb",
         "HEM_Filter",
