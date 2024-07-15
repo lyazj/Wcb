@@ -163,8 +163,9 @@ if args.nTF3 is None:
 
 mc_samples = OrderedDict(
     [
-        ("TT", "ttbar"),
-        ("ST", "single_top"),
+        #("TT", "ttbar"),
+        #("ST", "single_top"),
+        ("Top", "top"),
         ("WJets", "wjets"),
         ("Rest", "rest_bkg"),
     ]
@@ -205,8 +206,9 @@ nuisance_params = {
     
     #assign 5% unc for Wjets, Top and rest background
     "WJets_rate": Syst(prior="lnN", samples=["WJets"], value=1.05),
-    "TT_rate": Syst(prior="lnN", samples=["TT"], value=1.05),
-    "ST_rate": Syst(prior="lnN", samples=["ST"], value=1.05),
+    #"TT_rate": Syst(prior="lnN", samples=["TT"], value=1.05),
+    #"ST_rate": Syst(prior="lnN", samples=["ST"], value=1.05),
+    "Top_rate": Syst(prior="lnN", samples=["Top"], value=1.05),
     "Rest_rate": Syst(prior="lnN", samples=["Rest"], value=1.05),
     
 }
