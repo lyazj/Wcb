@@ -1,7 +1,7 @@
-# Datacard for <Channel (CR) instance at 0x7f246051ba90> generated on 2024-07-15 16:31:31.346004
+# Datacard for <Channel (CR) instance at 0x7f8a7d155cd0> generated on 2024-07-15 19:19:07.978396
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 3 # number of samples minus 1
-kmax 45 # number of nuisance parameters
+kmax 43 # number of nuisance parameters
 shapes * CR Wcb.root Wcb:CR_$PROCESS Wcb:CR_$PROCESS_$SYSTEMATIC
 bin CR
 observation 39138851.000
@@ -52,8 +52,6 @@ Rest_rate lnN                                     -           -      1.0500     
 Top_rate lnN                                 1.0500           -           -                               -
 WJets_rate lnN                                    -      1.0500           -                               -
 lumi_13TeV_2018 lnN                          1.0150      1.0150      1.0150                               -
-ps_fsr shape                                 1.0000      1.0000      1.0000                               -
-ps_isr shape                                 1.0000      1.0000      1.0000                               -
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin10 extArg Wcb.root:Wcb

@@ -1,7 +1,7 @@
-# Datacard for <Channel (SR1) instance at 0x7f246053c760> generated on 2024-07-15 16:31:31.337172
+# Datacard for <Channel (SR1) instance at 0x7f8a7d17d6a0> generated on 2024-07-15 19:19:07.970380
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
-kmax 47 # number of nuisance parameters
+kmax 45 # number of nuisance parameters
 shapes * SR1 Wcb.root Wcb:SR1_$PROCESS Wcb:SR1_$PROCESS_$SYSTEMATIC
 bin SR1
 observation 1633.000
@@ -54,8 +54,6 @@ Rest_rate lnN                                        -        -       -    1.050
 Top_rate lnN                                         -   1.0500       -         -                               -
 WJets_rate lnN                                       -        -  1.0500         -                               -
 lumi_13TeV_2018 lnN                             1.0150   1.0150  1.0150    1.0150                               -
-ps_fsr shape                                    1.0000   1.0000  1.0000    1.0000                               -
-ps_isr shape                                    1.0000   1.0000  1.0000    1.0000                               -
 CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb

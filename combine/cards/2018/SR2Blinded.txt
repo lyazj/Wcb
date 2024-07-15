@@ -1,7 +1,7 @@
-# Datacard for <Channel (SR2Blinded) instance at 0x7f24604b3940> generated on 2024-07-15 16:31:31.351180
+# Datacard for <Channel (SR2Blinded) instance at 0x7f8a7d0f8af0> generated on 2024-07-15 19:19:07.983414
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
-kmax 39 # number of nuisance parameters
+kmax 37 # number of nuisance parameters
 shapes * SR2Blinded Wcb.root Wcb:SR2Blinded_$PROCESS Wcb:SR2Blinded_$PROCESS_$SYSTEMATIC
 bin SR2Blinded
 observation 29734.000
@@ -46,8 +46,6 @@ Rest_rate lnN                                     -           -           -     
 Top_rate lnN                                      -      1.0500           -           -                               -
 WJets_rate lnN                                    -           -      1.0500           -                               -
 lumi_13TeV_2018 lnN                          1.0150      1.0150      1.0150      1.0150                               -
-ps_fsr shape                                 1.0000      1.0000      1.0000      1.0000                               -
-ps_isr shape                                 1.0000      1.0000      1.0000      1.0000                               -
 CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb

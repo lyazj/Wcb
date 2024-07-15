@@ -232,8 +232,8 @@ nuisance_params_dict = {
 # dictionary of correlated shape systematics: name in templates -> name in cards, etc.
 corr_year_shape_systs = {
     # "triggerEffSF_uncorrelated": Syst(name="triggerEffSF_uncorrelated", prior="shape", samples=all_mc),
-    "FSRPartonShower": Syst(name="ps_fsr", prior="shape", samples=all_mc),
-    "ISRPartonShower": Syst(name="ps_isr", prior="shape", samples=all_mc),
+    #"FSRPartonShower": Syst(name="ps_fsr", prior="shape", samples=all_mc),
+    #"ISRPartonShower": Syst(name="ps_isr", prior="shape", samples=all_mc),
     "QCDscale": Syst(
         name=f"{CMS_PARAMS_LABEL}_QCDScale",
         prior="shape",
