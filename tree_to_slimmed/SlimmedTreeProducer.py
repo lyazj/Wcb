@@ -779,6 +779,9 @@ elif args.year == "2016APV":
         "HLT_AK8PFHT700_TrimR0p1PT0p03Mass50",
     ]
 
+if args.data:
+    loadcolumns.remove("isWcb")
+
 loadcolumns = sorted(set(loadcolumns))
 print("Load columns:", loadcolumns)
 definecolumn = []
