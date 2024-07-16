@@ -1,42 +1,33 @@
-Combine.cc[705] : (in function: run) - Freezing the following parameters: 
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin2
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin3
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin4
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin5
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin6
-Combine.cc[707] : (in function: run) - CMS_Wcb_boosted_tf_dataResidual_CR_Bin7
-FitDiagnostics.cc[870] : (in function: getNormalizations) - Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-FitterAlgoBase.cc[241] : (in function: doFit) - do first minimization
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-FitterAlgoBase.cc[245] : (in function: doFit) - Minimized in 4.494564 seconds (0.470000 CPU time)
-FitterAlgoBase.cc[249] : (in function: doFit) - FINAL NLL - NLL0 VALUE = -5234.531467
-
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-FitDiagnostics.cc[311] : (in function: runSpecific) - [WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Caution: by passing --ignoreCovWarning the shapes and uncertainties will be stored as configured via the command line despite this issue. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
-FitDiagnostics.cc[318] : (in function: runSpecific) -  Fit B-only, status = 0, numBadNLL = 0, covariance quality = 2
-FitDiagnostics.cc[870] : (in function: getNormalizations) - Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys
-FitterAlgoBase.cc[241] : (in function: doFit) - do first minimization
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-FitterAlgoBase.cc[245] : (in function: doFit) - Minimized in 5.401344 seconds (0.620000 CPU time)
-FitterAlgoBase.cc[249] : (in function: doFit) - FINAL NLL - NLL0 VALUE = -5229.949503
-
-CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
-CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
-CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-FitterAlgoBase.cc[344] : (in function: doFit) - Running Minos for POI r
-FitterAlgoBase.cc[349] : (in function: doFit) - Run Minos in 0.073176 seconds (0.070000 CPU time)
-FitDiagnostics.cc[436] : (in function: runSpecific) - [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Caution: by passing --ignoreCovWarning the shapes and uncertainties will be stored as configured via the command line despite this issue. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
-FitDiagnostics.cc[443] : (in function: runSpecific) - Fit S+B, status = 0, numBadNLL = 0, covariance quality = 2
-FitDiagnostics.cc[870] : (in function: getNormalizations) - Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys
+INFO: (function: run) Combine.cc: 712 -- Freezing the following parameters: 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin2 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin3 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin4 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin5 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin6 
+INFO: (function: run) Combine.cc: 715  CMS_Wcb_boosted_tf_dataResidual_CR_Bin7 
+INFO: (function: getNormalizations) FitDiagnostics.cc: 871 -- Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+ERROR: (function: runSpecific) [WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Caution: by passing --ignoreCovWarning the shapes and uncertainties will be stored as configured via the command line despite this issue. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 318 -- Fit B-only, status = 0, numBadNLL = 0, covariance quality = 2
+INFO: (function: getNormalizations) FitDiagnostics.cc: 871 -- Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: doFit) FitterAlgoBase.cc: 344 -- Running Minos for POI r
+ERROR: (function: runSpecific) [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Caution: by passing --ignoreCovWarning the shapes and uncertainties will be stored as configured via the command line despite this issue. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+DEBUG: (function: runSpecific) FitDiagnostics.cc: 443 -- Fit S+B, status = 0, numBadNLL = 0, covariance quality = 2
+INFO: (function: getNormalizations) FitDiagnostics.cc: 871 -- Generating toy data for evaluating per-bin uncertainties and covariances with post-fit nuisance parameters with 200 toys

@@ -1,2 +1,4 @@
+/cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/ROOT/_facade.py:121: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.2' currently installed).
+  return _orig_ihook(name, *args, **kwds)
 Warning: Bin CR has no signal processes contributing to it
 Warning: Bin CRBlinded has no signal processes contributing to it

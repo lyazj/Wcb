@@ -1,1 +1,196 @@
-../../scripts/run_blinded.sh: line 293: PostFitShapesFromWorkspace: command not found
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset CR
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset CRBlinded
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR1Blinded
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR2Blinded
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset SR3Blinded
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: CR,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: CR,rest_bkg
+>> Doing prefit: CR,top
+>> Doing prefit: CR,wjets
+>> Doing prefit: CR,TotalBkg
+>> Doing prefit: CR,TotalSig
+>> Doing prefit: CR,TotalProcs
+>> Doing prefit: CRBlinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: CRBlinded,rest_bkg
+>> Doing prefit: CRBlinded,top
+>> Doing prefit: CRBlinded,wjets
+>> Doing prefit: CRBlinded,TotalBkg
+>> Doing prefit: CRBlinded,TotalSig
+>> Doing prefit: CRBlinded,TotalProcs
+>> Doing prefit: SR1,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR1,Signal
+>> Doing prefit: SR1,rest_bkg
+>> Doing prefit: SR1,top
+>> Doing prefit: SR1,wjets
+>> Doing prefit: SR1,TotalBkg
+>> Doing prefit: SR1,TotalSig
+>> Doing prefit: SR1,TotalProcs
+>> Doing prefit: SR1Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR1Blinded,Signal
+>> Doing prefit: SR1Blinded,rest_bkg
+>> Doing prefit: SR1Blinded,top
+>> Doing prefit: SR1Blinded,wjets
+>> Doing prefit: SR1Blinded,TotalBkg
+>> Doing prefit: SR1Blinded,TotalSig
+>> Doing prefit: SR1Blinded,TotalProcs
+>> Doing prefit: SR2,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR2,Signal
+>> Doing prefit: SR2,rest_bkg
+>> Doing prefit: SR2,top
+>> Doing prefit: SR2,wjets
+>> Doing prefit: SR2,TotalBkg
+>> Doing prefit: SR2,TotalSig
+>> Doing prefit: SR2,TotalProcs
+>> Doing prefit: SR2Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR2Blinded,Signal
+>> Doing prefit: SR2Blinded,rest_bkg
+>> Doing prefit: SR2Blinded,top
+>> Doing prefit: SR2Blinded,wjets
+>> Doing prefit: SR2Blinded,TotalBkg
+>> Doing prefit: SR2Blinded,TotalSig
+>> Doing prefit: SR2Blinded,TotalProcs
+>> Doing prefit: SR3,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR3,Signal
+>> Doing prefit: SR3,rest_bkg
+>> Doing prefit: SR3,top
+>> Doing prefit: SR3,wjets
+>> Doing prefit: SR3,TotalBkg
+>> Doing prefit: SR3,TotalSig
+>> Doing prefit: SR3,TotalProcs
+>> Doing prefit: SR3Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing prefit: SR3Blinded,Signal
+>> Doing prefit: SR3Blinded,rest_bkg
+>> Doing prefit: SR3Blinded,top
+>> Doing prefit: SR3Blinded,wjets
+>> Doing prefit: SR3Blinded,TotalBkg
+>> Doing prefit: SR3Blinded,TotalSig
+>> Doing prefit: SR3Blinded,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+CR                        19994862528585650929664.00000
+CRBlinded                 5024330007191252631552.00000
+SR1                       1980299304039700345389056.00000
+SR1Blinded                710386583097444677976064.00000
+SR2                       462717607384204512854016.00000
+SR2Blinded                246621107760649205710848.00000
+SR3                       128233901457206623076352.00000
+SR3Blinded                116797611431807730843648.00000
+>> Doing postfit: CR,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: CR,rest_bkg
+>> Doing postfit: CR,top
+>> Doing postfit: CR,wjets
+>> Doing postfit: CR,TotalBkg
+>> Doing postfit: CR,TotalSig
+>> Doing postfit: CR,TotalProcs
+>> Doing postfit: CRBlinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: CRBlinded,rest_bkg
+>> Doing postfit: CRBlinded,top
+>> Doing postfit: CRBlinded,wjets
+>> Doing postfit: CRBlinded,TotalBkg
+>> Doing postfit: CRBlinded,TotalSig
+>> Doing postfit: CRBlinded,TotalProcs
+>> Doing postfit: SR1,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR1,Signal
+>> Doing postfit: SR1,rest_bkg
+>> Doing postfit: SR1,top
+>> Doing postfit: SR1,wjets
+>> Doing postfit: SR1,TotalBkg
+>> Doing postfit: SR1,TotalSig
+>> Doing postfit: SR1,TotalProcs
+>> Doing postfit: SR1Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR1Blinded,Signal
+>> Doing postfit: SR1Blinded,rest_bkg
+>> Doing postfit: SR1Blinded,top
+>> Doing postfit: SR1Blinded,wjets
+>> Doing postfit: SR1Blinded,TotalBkg
+>> Doing postfit: SR1Blinded,TotalSig
+>> Doing postfit: SR1Blinded,TotalProcs
+>> Doing postfit: SR2,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR2,Signal
+>> Doing postfit: SR2,rest_bkg
+>> Doing postfit: SR2,top
+>> Doing postfit: SR2,wjets
+>> Doing postfit: SR2,TotalBkg
+>> Doing postfit: SR2,TotalSig
+>> Doing postfit: SR2,TotalProcs
+>> Doing postfit: SR2Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR2Blinded,Signal
+>> Doing postfit: SR2Blinded,rest_bkg
+>> Doing postfit: SR2Blinded,top
+>> Doing postfit: SR2Blinded,wjets
+>> Doing postfit: SR2Blinded,TotalBkg
+>> Doing postfit: SR2Blinded,TotalSig
+>> Doing postfit: SR2Blinded,TotalProcs
+>> Doing postfit: SR3,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR3,Signal
+>> Doing postfit: SR3,rest_bkg
+>> Doing postfit: SR3,top
+>> Doing postfit: SR3,wjets
+>> Doing postfit: SR3,TotalBkg
+>> Doing postfit: SR3,TotalSig
+>> Doing postfit: SR3,TotalProcs
+>> Doing postfit: SR3Blinded,CMS_Wcb_boosted_qcd_datadriven
+>> Doing postfit: SR3Blinded,Signal
+>> Doing postfit: SR3Blinded,rest_bkg
+>> Doing postfit: SR3Blinded,top
+>> Doing postfit: SR3Blinded,wjets
+>> Doing postfit: SR3Blinded,TotalBkg
+>> Doing postfit: SR3Blinded,TotalSig
+>> Doing postfit: SR3Blinded,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+CR                        0.00026   
+CRBlinded                 0.00022   
+SR1                       0.01502   
+SR1Blinded                0.01458   
+SR2                       0.00223   
+SR2Blinded                0.00244   
+SR3                       0.00180   
+SR3Blinded                0.00181   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+CR                        CMS_Wcb_boosted_qcd_datadriven 0.99921   
+CR                        rest_bkg             0.86842   
+CR                        top                  1.08855   
+CR                        wjets                1.07698   
+CRBlinded                 CMS_Wcb_boosted_qcd_datadriven 0.99854   
+CRBlinded                 rest_bkg             0.90577   
+CRBlinded                 top                  1.08599   
+CRBlinded                 wjets                1.12411   
+SR1                       CMS_Wcb_boosted_qcd_datadriven 1.16790   
+SR1                       Signal               1.01510   
+SR1                       rest_bkg             0.85061   
+SR1                       top                  0.93096   
+SR1                       wjets                1.08560   
+SR1Blinded                CMS_Wcb_boosted_qcd_datadriven 1.16712   
+SR1Blinded                Signal               0.88123   
+SR1Blinded                rest_bkg             0.99106   
+SR1Blinded                top                  0.92808   
+SR1Blinded                wjets                1.21109   
+SR2                       CMS_Wcb_boosted_qcd_datadriven 1.36831   
+SR2                       Signal               0.98359   
+SR2                       rest_bkg             0.87142   
+SR2                       top                  0.98535   
+SR2                       wjets                1.07335   
+SR2Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36740   
+SR2Blinded                Signal               1.07462   
+SR2Blinded                rest_bkg             1.00869   
+SR2Blinded                top                  0.97830   
+SR2Blinded                wjets                1.20139   
+SR3                       CMS_Wcb_boosted_qcd_datadriven 1.36831   
+SR3                       Signal               0.95482   
+SR3                       rest_bkg             0.87254   
+SR3                       top                  1.00809   
+SR3                       wjets                1.07914   
+SR3Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36740   
+SR3Blinded                Signal               0.93050   
+SR3Blinded                rest_bkg             0.96022   
+SR3Blinded                top                  1.00416   
+SR3Blinded                wjets                1.18032   

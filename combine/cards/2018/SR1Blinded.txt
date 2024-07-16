@@ -1,4 +1,4 @@
-# Datacard for <Channel (SR1Blinded) instance at 0x7f8a7d16bd30> generated on 2024-07-15 19:19:07.980792
+# Datacard for <Channel (SR1Blinded) instance at 0x7fdee94c5fd0> generated on 2024-07-16 10:36:00.523379
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
 kmax 39 # number of nuisance parameters
