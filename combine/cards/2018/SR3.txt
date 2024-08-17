@@ -1,57 +1,56 @@
-# Datacard for <Channel (SR3) instance at 0x7fdee951ff70> generated on 2024-07-16 10:36:00.518095
+# Datacard for <Channel (SR3) instance at 0x7f51e0bc9280> generated on 2024-08-17 20:46:14.111811
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
-kmax 43 # number of nuisance parameters
+kmax 42 # number of nuisance parameters
 shapes * SR3 Wcb.root Wcb:SR3_$PROCESS Wcb:SR3_$PROCESS_$SYSTEMATIC
 bin SR3
 observation 151803.000
-bin                                         SR3        SR3       SR3       SR3                             SR3
-process                                  Signal        top     wjets  rest_bkg  CMS_Wcb_boosted_qcd_datadriven
-process                                       0          1         2         3                               4
-rate                                     64.341  30587.775  6401.780  6278.130                           1.000
-CMS_Wcb_boosted_QCDScale_rest_bkg shape       -          -         -    1.0000                               -
-CMS_Wcb_boosted_QCDScale_top shape            -     1.0000         -         -                               -
-CMS_Wcb_boosted_QCDScale_wjets shape          -          -    1.0000         -                               -
-CMS_Wcb_boosted_SR3_mcstat_bin0 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin1 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin10 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin11 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin12 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin13 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin14 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin15 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin16 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin17 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin18 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin19 shape   1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin2 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin3 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin4 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin5 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin6 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin7 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin8 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_SR3_mcstat_bin9 shape    1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_jmr_2018 shape           1.0000     1.0000    1.0000    1.0000                               -
-CMS_Wcb_boosted_jms_2018 shape           1.0000     1.0000    1.0000    1.0000                               -
-CMS_pileup_2018 shape                    1.0000     1.0000    1.0000    1.0000                               -
-CMS_res_j_2018 shape                     1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_Abs shape                    1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_Abs_2018 shape               1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_BBEC1 shape                  1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_BBEC1_2018 shape             1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_EC2 shape                    1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_EC2_2018 shape               1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_FlavQCD shape                1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_HF shape                     1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_HF_2018 shape                1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_RelBal shape                 1.0000     1.0000    1.0000    1.0000                               -
-CMS_scale_j_RelSample_2018 shape         1.0000     1.0000    1.0000    1.0000                               -
-L1Prefiring shape                        1.0000     1.0000    1.0000    1.0000                               -
-Rest_rate lnN                                 -          -         -    1.0500                               -
-Top_rate lnN                                  -     1.0500         -         -                               -
-WJets_rate lnN                                -          -    1.0500         -                               -
-lumi_13TeV_2018 lnN                      1.0150     1.0150    1.0150    1.0150                               -
+bin                                        SR3        SR3       SR3       SR3                             SR3
+process                                 Signal        top     wjets  rest_bkg  CMS_Wcb_boosted_qcd_datadriven
+process                                      0          1         2         3                               4
+rate                                    64.341  30587.775  6401.780  6278.130                           1.000
+CMS_Wcb_boosted_QCDScale_top shape           -     1.0000         -         -                               -
+CMS_Wcb_boosted_QCDScale_wjets shape         -          -    1.0000         -                               -
+CMS_Wcb_boosted_SR3_mcstat_bin0 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin1 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin10 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin11 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin12 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin13 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin14 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin15 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin16 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin17 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin18 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin19 shape  1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin2 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin3 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin4 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin5 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin6 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin7 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin8 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin9 shape   1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_jmr_2018 shape          1.0000     1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_jms_2018 shape          1.0000     1.0000    1.0000    1.0000                               -
+CMS_pileup_2018 shape                   1.0000     1.0000    1.0000    1.0000                               -
+CMS_res_j_2018 shape                    1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_Abs shape                   1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_Abs_2018 shape              1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_BBEC1 shape                 1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_BBEC1_2018 shape            1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_EC2 shape                   1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_EC2_2018 shape              1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_FlavQCD shape               1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_HF shape                    1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_HF_2018 shape               1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_RelBal shape                1.0000     1.0000    1.0000    1.0000                               -
+CMS_scale_j_RelSample_2018 shape        1.0000     1.0000    1.0000    1.0000                               -
+L1Prefiring shape                       1.0000     1.0000    1.0000    1.0000                               -
+Rest_rate lnN                                -          -         -    1.0500                               -
+Top_rate lnN                                 -     1.0500         -         -                               -
+WJets_rate lnN                               -          -    1.0500         -                               -
+lumi_13TeV_2018 lnN                     1.0150     1.0150    1.0150    1.0150                               -
 CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb

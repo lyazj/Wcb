@@ -171,6 +171,7 @@ mc_samples = OrderedDict(
     ]
 )
 bg_keys = list(mc_samples.keys())
+bg_keys_no_rest = [ k for k in bg_keys if k != "Rest" ]
 sig_keys = [
     "Signal",
 ]
@@ -237,7 +238,7 @@ corr_year_shape_systs = {
     "QCDscale": Syst(
         name=f"{CMS_PARAMS_LABEL}_QCDScale",
         prior="shape",
-        samples=bg_keys,
+        samples=bg_keys_no_rest,
         samples_corr=False,
     ),
     "L1Prefiring": Syst(name="L1Prefiring", prior="shape", samples=all_mc),

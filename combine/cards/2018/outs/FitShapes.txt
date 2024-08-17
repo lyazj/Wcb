@@ -72,14 +72,14 @@
 >> Doing prefit: SR3Blinded,TotalProcs
 Bin                       Total relative bkg uncert. (prefit)
 ----------------------------------------------------------
-CR                        19994862528585650929664.00000
-CRBlinded                 5024330007191252631552.00000
-SR1                       1980299304039700345389056.00000
-SR1Blinded                710386583097444677976064.00000
-SR2                       462717607384204512854016.00000
-SR2Blinded                246621107760649205710848.00000
-SR3                       128233901457206623076352.00000
-SR3Blinded                116797611431807730843648.00000
+CR                        0.00231   
+CRBlinded                 0.00208   
+SR1                       0.02028   
+SR1Blinded                0.02749   
+SR2                       0.01761   
+SR2Blinded                0.02308   
+SR3                       0.01369   
+SR3Blinded                0.01718   
 >> Doing postfit: CR,CMS_Wcb_boosted_qcd_datadriven
 >> Doing postfit: CR,rest_bkg
 >> Doing postfit: CR,top
@@ -145,52 +145,52 @@ SR3Blinded                116797611431807730843648.00000
 
 Bin                       Total relative bkg uncert. (postfit)
 ----------------------------------------------------------
-CR                        0.00026   
-CRBlinded                 0.00022   
-SR1                       0.01502   
-SR1Blinded                0.01458   
-SR2                       0.00223   
-SR2Blinded                0.00244   
-SR3                       0.00180   
-SR3Blinded                0.00181   
+CR                        0.00065   
+CRBlinded                 0.00027   
+SR1                       0.01773   
+SR1Blinded                0.01699   
+SR2                       0.00319   
+SR2Blinded                0.00249   
+SR3                       0.00252   
+SR3Blinded                0.00204   
 
 Bin                       Process              Scale factor
 ----------------------------------------------------------
 CR                        CMS_Wcb_boosted_qcd_datadriven 0.99921   
-CR                        rest_bkg             0.86842   
-CR                        top                  1.08855   
-CR                        wjets                1.07698   
+CR                        rest_bkg             0.86550   
+CR                        top                  1.08794   
+CR                        wjets                1.07817   
 CRBlinded                 CMS_Wcb_boosted_qcd_datadriven 0.99854   
-CRBlinded                 rest_bkg             0.90577   
-CRBlinded                 top                  1.08599   
-CRBlinded                 wjets                1.12411   
-SR1                       CMS_Wcb_boosted_qcd_datadriven 1.16790   
-SR1                       Signal               1.01510   
-SR1                       rest_bkg             0.85061   
-SR1                       top                  0.93096   
-SR1                       wjets                1.08560   
-SR1Blinded                CMS_Wcb_boosted_qcd_datadriven 1.16712   
-SR1Blinded                Signal               0.88123   
-SR1Blinded                rest_bkg             0.99106   
-SR1Blinded                top                  0.92808   
-SR1Blinded                wjets                1.21109   
-SR2                       CMS_Wcb_boosted_qcd_datadriven 1.36831   
-SR2                       Signal               0.98359   
-SR2                       rest_bkg             0.87142   
-SR2                       top                  0.98535   
-SR2                       wjets                1.07335   
-SR2Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36740   
-SR2Blinded                Signal               1.07462   
-SR2Blinded                rest_bkg             1.00869   
-SR2Blinded                top                  0.97830   
-SR2Blinded                wjets                1.20139   
-SR3                       CMS_Wcb_boosted_qcd_datadriven 1.36831   
-SR3                       Signal               0.95482   
-SR3                       rest_bkg             0.87254   
-SR3                       top                  1.00809   
-SR3                       wjets                1.07914   
-SR3Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36740   
-SR3Blinded                Signal               0.93050   
-SR3Blinded                rest_bkg             0.96022   
-SR3Blinded                top                  1.00416   
-SR3Blinded                wjets                1.18032   
+CRBlinded                 rest_bkg             0.90302   
+CRBlinded                 top                  1.08546   
+CRBlinded                 wjets                1.12549   
+SR1                       CMS_Wcb_boosted_qcd_datadriven 1.16801   
+SR1                       Signal               1.01523   
+SR1                       rest_bkg             0.85044   
+SR1                       top                  0.93093   
+SR1                       wjets                1.08663   
+SR1Blinded                CMS_Wcb_boosted_qcd_datadriven 1.16724   
+SR1Blinded                Signal               0.88130   
+SR1Blinded                rest_bkg             0.99080   
+SR1Blinded                top                  0.92811   
+SR1Blinded                wjets                1.21233   
+SR2                       CMS_Wcb_boosted_qcd_datadriven 1.36834   
+SR2                       Signal               0.98369   
+SR2                       rest_bkg             0.87003   
+SR2                       top                  0.98526   
+SR2                       wjets                1.07435   
+SR2Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36744   
+SR2Blinded                Signal               1.07437   
+SR2Blinded                rest_bkg             1.00852   
+SR2Blinded                top                  0.97826   
+SR2Blinded                wjets                1.20282   
+SR3                       CMS_Wcb_boosted_qcd_datadriven 1.36834   
+SR3                       Signal               0.95493   
+SR3                       rest_bkg             0.87051   
+SR3                       top                  1.00792   
+SR3                       wjets                1.08015   
+SR3Blinded                CMS_Wcb_boosted_qcd_datadriven 1.36744   
+SR3Blinded                Signal               0.93061   
+SR3Blinded                rest_bkg             0.95896   
+SR3Blinded                top                  1.00405   
+SR3Blinded                wjets                1.18167   

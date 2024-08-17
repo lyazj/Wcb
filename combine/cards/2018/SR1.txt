@@ -1,7 +1,7 @@
-# Datacard for <Channel (SR1) instance at 0x7fdee9560250> generated on 2024-07-16 10:36:00.512518
+# Datacard for <Channel (SR1) instance at 0x7f51e0c0efd0> generated on 2024-08-17 20:46:14.106344
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
-kmax 45 # number of nuisance parameters
+kmax 44 # number of nuisance parameters
 shapes * SR1 Wcb.root Wcb:SR1_$PROCESS Wcb:SR1_$PROCESS_$SYSTEMATIC
 bin SR1
 observation 1633.000
@@ -9,7 +9,6 @@ bin                                                SR1      SR1     SR1       SR
 process                                         Signal      top   wjets  rest_bkg  CMS_Wcb_boosted_qcd_datadriven
 process                                              0        1       2         3                               4
 rate                                            22.913  629.351  72.012   373.955                           1.000
-CMS_Wcb_boosted_QCDScale_rest_bkg shape              -        -       -    1.0000                               -
 CMS_Wcb_boosted_QCDScale_top shape                   -   1.0000       -         -                               -
 CMS_Wcb_boosted_QCDScale_wjets shape                 -        -  1.0000         -                               -
 CMS_Wcb_boosted_SR1_mcstat_bin1 shape           1.0000   1.0000  1.0000    1.0000                               -
