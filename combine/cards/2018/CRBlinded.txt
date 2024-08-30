@@ -1,4 +1,4 @@
-# Datacard for <Channel (CRBlinded) instance at 0x7f51e0b9fdc0> generated on 2024-08-17 20:46:14.124168
+# Datacard for <Channel (CRBlinded) instance at 0x7f26395b3f10> generated on 2024-08-23 12:42:00.325476
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 3 # number of samples minus 1
 kmax 36 # number of nuisance parameters

@@ -145,4 +145,10 @@ CMS_Wcb_boosted_tf_dataResidual_CR_Bin7 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin8 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin9 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par0 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par1 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par2 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par3 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par1 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par2 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par3 extArg Wcb.root:Wcb
