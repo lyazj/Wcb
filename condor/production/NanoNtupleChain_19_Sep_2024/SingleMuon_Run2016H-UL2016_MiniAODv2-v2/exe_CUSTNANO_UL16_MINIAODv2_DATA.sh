@@ -151,8 +151,8 @@ cd python/postprocessing
 # git clone https://github.com/StephenChao/XWWNano.git analysis
 # git clone --branch MiniIsoBtagLatest --single-branch http://github.com/StephenChao/XWWNano.git analysis
 git clone http://github.com/lyazj/Wcb.git analysis
-
-echo "Successfully git clone the miniIso branch"
+rm -rf analysis/combine/
+echo "Successfully git clone Wcb"
 
 # rm -rf $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/test/crab_auto
 # rm -rf $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/Makeplots
