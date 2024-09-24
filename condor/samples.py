@@ -1,8 +1,15 @@
-from commands import getoutput
-from optparse   import OptionParser
+from optparse import OptionParser
 import os
 import re
 import json
+
+def getoutput(cmd):
+    import subprocess
+    import shlex
+    command = shlex.split(cmd)
+    process = subprocess.Popen(command, stdout=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    return stdout.decode()
 
 class DAS:
     def __init__( self, DAS = {}, Nfiles = {} ):

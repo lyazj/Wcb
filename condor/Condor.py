@@ -1,19 +1,22 @@
 import os,sys
 import json
 import re
-from commands import getoutput
+from samples import getoutput
 from samples import DAS_2016APV_JetHT,DAS_2016_JetHT,DAS_2017_JetHT,DAS_2018_JetHT
 from samples import DAS_2016_Signal,DAS_2016APV_Signal,DAS_2018_Signal,DAS_2017_Signal
 from samples import DAS_2018_SingleMuon,DAS_2017_SingleMuon,DAS_2016APV_SingleMuon,DAS_2016_SingleMuon
 from samples import DAS_2018MET,DAS_2017MET,DAS_2016MET,DAS_2016APVMET
 from samples import DAS_ttbar_2018,DAS_ttbar_2017,DAS_ttbar_2016,DAS_ttbar_2016APV
 from samples import DAS_2016_0lepton,DAS_2017_0lepton,DAS_2018_0lepton,DAS_2016APV_0lepton
+from samples import DAS_Wcb_sig_2016,DAS_Wcb_bkg_2016
 from samples import DAS_Wcb_sig_2017,DAS_Wcb_bkg_2017
 from samples import DAS_Wcb_sig_2018,DAS_Wcb_bkg_2018
-from samples import DAS_2018A_JetHT,DAS_2018B_JetHT,DAS_2018C_JetHT,DAS_2018D_JetHT
-from samples import DAS_2018A_SingleMuon,DAS_2018B_SingleMuon,DAS_2018C_SingleMuon,DAS_2018D_SingleMuon
+from samples import DAS_2016F_JetHT,DAS_2016G_JetHT,DAS_2016H_JetHT
+from samples import DAS_2016F_SingleMuon,DAS_2016G_SingleMuon,DAS_2016H_SingleMuon
 from samples import DAS_2017B_JetHT,DAS_2017C_JetHT,DAS_2017D_JetHT,DAS_2017E_JetHT,DAS_2017F_JetHT
 from samples import DAS_2017B_SingleMuon,DAS_2017C_SingleMuon,DAS_2017D_SingleMuon,DAS_2017E_SingleMuon,DAS_2017F_SingleMuon,DAS_2017G_SingleMuon,DAS_2017H_SingleMuon
+from samples import DAS_2018A_JetHT,DAS_2018B_JetHT,DAS_2018C_JetHT,DAS_2018D_JetHT
+from samples import DAS_2018A_SingleMuon,DAS_2018B_SingleMuon,DAS_2018C_SingleMuon,DAS_2018D_SingleMuon
 
 from optparse import OptionParser
 import time
@@ -136,7 +139,7 @@ class Condor(object):
             localtime = time.asctime( time.localtime(time.time()) )
             f.write(localtime+"\n")
             f.write("Njobs :"+str(self.Njobs))
-        print outputfiles
+        print(outputfiles)
 
     def Generate_Scripts(self):
         jdlfiles = []
@@ -163,7 +166,7 @@ class Condor(object):
                 }
                 self.jdl_writter.add_queue(replace)
                 self.Njobs += 1
-            print "finish", self.jdl_writter.filename
+            print("finish", self.jdl_writter.filename)
             jdlfiles.append(self.jdl_writter.filename)
         self.Create_Submit_Scripts()
         return jdlfiles
@@ -197,7 +200,7 @@ class File_json():
         if self.debug:
             Files = json.loads(getoutput('/cvmfs/cms.cern.ch/common/dasgoclient --query="file dataset=%s" -limit=0 -json'%(ds)))
             Files = getSmallestFile(Files,self.debugkeepN)
-            print Files
+            print(Files)
             Files = [i[0] for i in Files]
         else:
             Files = getoutput('/cvmfs/cms.cern.ch/common/dasgoclient --query="file dataset=%s" -limit=0 '%(ds))
@@ -217,7 +220,7 @@ class File_json():
             return True
 
     def Files(self,ds):
-        print ds
+        print(ds)
         if "/ospool/cms-user/yuzhe/" in ds: Files = self.LocalFile(ds)
         if "/stash/user/qilongguo/public" in ds: Files = self.LocalFile(ds)
         if "/stash/user/yuzhe/public"     in ds: Files = self.LocalFile(ds)
@@ -244,7 +247,7 @@ class File_json():
             files_ = self.Files_Splitter(files_,self.Nperjobs[ds])
             for index,ifiles in enumerate(files_):
                 dic[ds][str(index)] = ifiles
-            print "finish :",ds
+            print("finish :",ds)
         with open(self.jsonfile,"w") as f:
             json.dump(dic,f,indent = 4)
 
@@ -302,7 +305,7 @@ class FakeCondorTest(Condor):
         sh = []
         for jdl in jdlfiles:
             info = self.extract(jdl)
-            print info["arguments"]
+            print(info["arguments"])
             sh += self.generate_run_scripts(jdl,info)
         with open("debug.sh","w") as f:
             for i in sh:
@@ -313,7 +316,7 @@ class FakeCondorTest(Condor):
 if options.createfilejson:
     PATH = "/".join(options.Filesjson.split("/")[:-1])
     if not os.path.isdir(PATH):
-        print PATH
+        print(PATH)
         makedirs(PATH)
     samples_toRun = [ds for ds in eval(options.DAS)().DAS]
     File_json_ = File_json( options.Filesjson, eval(options.DAS)().DAS, Samples_ToRun = samples_toRun, debug = options.debug, debugkeepN = options.debugkeepN )
