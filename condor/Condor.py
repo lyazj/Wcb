@@ -52,7 +52,6 @@ class jdl_writter:
         self.filename = self.path+filename
         self.init_templete = '''universe=Vanilla
 +ProjectName = "cms.org"
-requirements = (OpSysAndVer =?= "CentOS7")
 RequestMemory = 2048
 RequestCpus = 1
 executable={TaskFolder}/{DatasetFolder}/{excutable}

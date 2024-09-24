@@ -1,6 +1,5 @@
 universe=Vanilla
 +ProjectName = "cms.org"
-requirements = (OpSysAndVer =?= "CentOS7")
 RequestMemory = 2048
 RequestCpus = 1
 executable=/afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_19_Sep_2024/SingleMuon_Run2016F-UL2016_MiniAODv2-v2/exe_CUSTNANO_UL16_MINIAODv2_DATA.sh

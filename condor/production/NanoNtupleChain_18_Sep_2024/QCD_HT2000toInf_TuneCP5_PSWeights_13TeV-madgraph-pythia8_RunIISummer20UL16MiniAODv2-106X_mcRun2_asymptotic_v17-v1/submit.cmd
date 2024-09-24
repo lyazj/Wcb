@@ -1,6 +1,5 @@
 universe=Vanilla
 +ProjectName = "cms.org"
-requirements = (OpSysAndVer =?= "CentOS7")
 RequestMemory = 2048
 RequestCpus = 1
 executable=/afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_18_Sep_2024/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraph-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/exe_UL16_Wcb_NanoNtupleChain.sh
