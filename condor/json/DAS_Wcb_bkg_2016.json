@@ -48,9 +48,6 @@
         "121": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/07C2C118-9071-2D4D-9A1A-BEFD0B0FED6E.root"
         ], 
-        "122": [
-            ""
-        ], 
         "118": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/98FEFC2D-C824-E441-A6B2-27F3165D726B.root"
         ], 
@@ -542,9 +539,6 @@
         "6": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/260000/FCF75656-541D-6A44-A352-2D7FCEE356C6.root"
         ], 
-        "99": [
-            ""
-        ], 
         "98": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/260000/432C12A3-456B-8A49-96E6-403C0021953A.root"
         ], 
@@ -850,9 +844,6 @@
         "90": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/FE3F9146-669B-6340-8661-3CCD3FA14E2C.root"
         ], 
-        "92": [
-            ""
-        ], 
         "11": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2520000/4DE7F3BF-8E60-D848-9B95-04F1D551BC63.root"
         ], 
@@ -1058,9 +1049,6 @@
         ], 
         "7": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/260000/8117FE41-2F6E-A84C-98C0-0DF58D9BD0BE.root"
-        ], 
-        "100": [
-            ""
         ], 
         "39": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/2A190841-66CA-2243-B714-99B5A8E07CDB.root"
@@ -1334,9 +1322,6 @@
         "89": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/033FC47C-61CB-D344-BFFA-62BE6F9863A7.root"
         ], 
-        "110": [
-            ""
-        ], 
         "82": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/48BB825C-EB19-5C4D-8252-8336B4BCD494.root"
         ], 
@@ -1597,9 +1582,6 @@
         "42": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CFC5C8EF-6750-1E41-A2C3-CD130144335C.root"
         ], 
-        "48": [
-            ""
-        ], 
         "43": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/49949434-78B0-404A-9AF7-7BE804616FD0.root"
         ], 
@@ -1832,9 +1814,6 @@
         ], 
         "8": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/741C8DF6-8C53-8546-A55B-157E997B5DFC.root"
-        ], 
-        "51": [
-            ""
         ], 
         "39": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/260000/A4BFF848-990C-304D-BB48-7343C1FFC307.root"
@@ -2300,9 +2279,6 @@
         "189": [
             "/store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/74812E37-785A-C046-B0E7-4E0B436D59A4.root"
         ], 
-        "202": [
-            ""
-        ], 
         "196": [
             "/store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/83E18FEC-2C02-624A-819A-23127F1592CF.root"
         ], 
@@ -2586,9 +2562,6 @@
         ], 
         "89": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2500000/32EF994D-37B5-1942-A730-D8C53268BE96.root"
-        ], 
-        "110": [
-            ""
         ], 
         "82": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2510000/6F2F2991-DE0A-7849-8B68-89ECEEFE142C.root"
@@ -2963,9 +2936,6 @@
         ], 
         "101": [
             "/store/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/2460442D-6C12-2C49-8DBD-A1F7243331C0.root"
-        ], 
-        "106": [
-            ""
         ], 
         "104": [
             "/store/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/7896AF22-3CF9-124F-93A1-25DA84BCADBD.root"
@@ -4790,9 +4760,6 @@
         "869": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/70000/DC7D1724-42ED-684B-902B-CC5BE72B1C57.root"
         ], 
-        "990": [
-            ""
-        ], 
         "868": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/270000/44891E67-FFA1-7445-8DD5-5A7B297CE189.root"
         ], 
@@ -6148,9 +6115,6 @@
         "42": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9E4CC96F-F533-6C42-B8DF-A5BF403E9BDE.root"
         ], 
-        "48": [
-            ""
-        ], 
         "43": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1BD839F7-2FA5-B44C-A1F2-AC7E9571D114.root"
         ], 
@@ -6642,9 +6606,6 @@
         "205": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/110000/C8ECD370-2791-274D-94DA-442838828AC9.root"
         ], 
-        "223": [
-            ""
-        ], 
         "176": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/E46D2679-42B6-A04D-95D7-4AA7D6E27BAB.root"
         ], 
@@ -7042,9 +7003,6 @@
         ], 
         "8": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/1EAD520F-F6CB-2242-973F-BB470349D3CB.root"
-        ], 
-        "163": [
-            ""
         ], 
         "119": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/656CF69E-08C3-0A40-BAA9-81C6D28E9DCE.root"
@@ -7488,9 +7446,6 @@
         ], 
         "28": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/D18CB66B-AE16-9D48-BD91-3A0F2C06AA73.root"
-        ], 
-        "29": [
-            ""
         ], 
         "1": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ZZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/46CB42F5-0411-4948-AE65-89FCF8C73529.root"
@@ -9816,9 +9771,6 @@
         "219": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/11E1BD9C-222A-954F-B25E-20DEFFD94E8F.root"
         ], 
-        "956": [
-            ""
-        ], 
         "289": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/3B996369-0913-DB48-8FAD-3CBC46BD1E63.root"
         ], 
@@ -10552,9 +10504,6 @@
         ], 
         "525": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/270000/632562CF-9ECC-0A4F-A843-6742247060CA.root"
-        ], 
-        "526": [
-            ""
         ], 
         "520": [
             "/store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/280000/92C976E7-0F62-8943-92F7-FDE807FF4C08.root"
@@ -12781,9 +12730,6 @@
         "9": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/9B9316AD-82F4-6A4D-B911-F0F93CC604C6.root"
         ], 
-        "350": [
-            ""
-        ], 
         "216": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/138C3B52-FDCB-B04A-BEB2-C5806C97834F.root"
         ], 
@@ -13932,9 +13878,6 @@
         "5": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2530000/DF26A8EF-2652-DC41-8E39-F376F961BD16.root"
         ], 
-        "327": [
-            ""
-        ], 
         "324": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/AE70058D-4813-F14C-91E8-FF914638DFE5.root"
         ], 
@@ -14749,9 +14692,6 @@
         ], 
         "224": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/110000/6F553653-C75C-2245-9155-0A4ECAB2674E.root"
-        ], 
-        "280": [
-            ""
         ], 
         "48": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/D00FF3E0-7264-264F-BBF2-E44412713445.root"
@@ -16629,9 +16569,6 @@
         ], 
         "1142": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/80000/05BA43B8-7A1D-BA46-9B30-EC35AB5B5330.root"
-        ], 
-        "1143": [
-            ""
         ], 
         "1140": [
             "/store/mc/RunIISummer20UL16MiniAODv2/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2540000/3F3484FB-356A-BC45-A953-9E9DFA1D5910.root"

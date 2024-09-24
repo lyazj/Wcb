@@ -1421,8 +1421,6 @@ arguments="-f /store/data/Run2016H/JetHT/MINIAOD/UL2016_MiniAODv2-v2/270001/F52D
 queue
 arguments="-f /store/data/Run2016H/JetHT/MINIAOD/UL2016_MiniAODv2-v2/270000/8E0FC862-45BF-B54C-828D-93553FA3471F.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/JetHT_Run2016H-UL2016_MiniAODv2-v2/out_998.root -a '-o ./ -d --year UL2016H'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/Data/JetHT_Run2016H-UL2016_MiniAODv2-v2/out_1309.root -a '-o ./ -d --year UL2016H'"
-queue
 arguments="-f /store/data/Run2016H/JetHT/MINIAOD/UL2016_MiniAODv2-v2/270000/FA3C3353-DE3C-FE41-B903-5B79C6DEA0D8.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/JetHT_Run2016H-UL2016_MiniAODv2-v2/out_120.root -a '-o ./ -d --year UL2016H'"
 queue
 arguments="-f /store/data/Run2016H/JetHT/MINIAOD/UL2016_MiniAODv2-v2/270000/50761D5F-7938-E04C-B19C-00C40D86C9AF.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/JetHT_Run2016H-UL2016_MiniAODv2-v2/out_121.root -a '-o ./ -d --year UL2016H'"

@@ -1515,8 +1515,6 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWei
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/526970FD-3A58-C648-BCFE-CB9AC25EA37A.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_765.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/365F645A-9BC3-9A40-AAA8-F280AACA200F.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_41.root -a '-o ./ -m --year 2016'"
-queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/3B996369-0913-DB48-8FAD-3CBC46BD1E63.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_289.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/D480A414-893B-7F4C-875A-3CF562329DEE.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_288.root -a '-o ./ -m --year 2016'"
@@ -1879,7 +1877,7 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWei
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/5F8A2235-386C-F241-ACFA-7B62E27E056C.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_40.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_956.root -a '-o ./ -m --year 2016'"
+arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/365F645A-9BC3-9A40-AAA8-F280AACA200F.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_41.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/E3B38707-3CA8-CA46-A250-6E294BF12F38.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_638.root -a '-o ./ -m --year 2016'"
 queue

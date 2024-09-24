@@ -69,8 +69,6 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecay
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/033FC47C-61CB-D344-BFFA-62BE6F9863A7.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_89.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_110.root -a '-o ./ -m --year 2016'"
-queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/48BB825C-EB19-5C4D-8252-8336B4BCD494.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_82.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/08EF1CE8-4B70-9344-B509-1FF3CA244554.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_83.root -a '-o ./ -m --year 2016'"

@@ -204,7 +204,7 @@ class File_json():
             Files = [i[0] for i in Files]
         else:
             Files = getoutput('/cvmfs/cms.cern.ch/common/dasgoclient --query="file dataset=%s" -limit=0 '%(ds))
-            Files = [i.replace("\n","").replace(" ","") for i in Files.split("\n")]
+            Files = [i.replace("\n","").replace(" ","") for i in Files.strip().split("\n")]
         return Files
 
     def IsDAS(self,ds):

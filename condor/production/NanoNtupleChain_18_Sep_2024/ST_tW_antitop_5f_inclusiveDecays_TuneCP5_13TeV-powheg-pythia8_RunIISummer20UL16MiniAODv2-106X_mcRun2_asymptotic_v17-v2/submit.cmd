@@ -35,7 +35,7 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDec
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/C76D8F8C-17E7-1141-9669-6FE194410EC1.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_21.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_48.root -a '-o ./ -m --year 2016'"
+arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/7F94ACFC-CD54-544C-AD59-9175903E8AD2.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_22.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/A6DC3859-DE04-FE49-8577-EC62E163D3DE.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_23.root -a '-o ./ -m --year 2016'"
 queue
@@ -79,8 +79,6 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDec
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/F4ACD728-4F1E-0C4F-9539-8C5C71A1B685.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_12.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/02097FC3-F72D-7542-A5D6-7130D741909A.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_14.root -a '-o ./ -m --year 2016'"
-queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/130000/C834253D-9501-2840-A218-1E24C32E6DB8.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_11.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/130000/52E0C1D2-03F0-184E-945E-5B47B9795761.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_10.root -a '-o ./ -m --year 2016'"
@@ -91,7 +89,7 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDec
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/16A31392-BBDD-214C-803D-9FBB60EC64F2.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_15.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/7F94ACFC-CD54-544C-AD59-9175903E8AD2.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_22.root -a '-o ./ -m --year 2016'"
+arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/02097FC3-F72D-7542-A5D6-7130D741909A.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_14.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/280000/510CBA9D-E57A-5C4A-8D65-4CBB65691F55.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_17.root -a '-o ./ -m --year 2016'"
 queue

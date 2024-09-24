@@ -19,8 +19,6 @@ on_exit_remove        = (ExitBySignal == False) && (ExitCode == 0)
 on_exit_hold          = (ExitBySignal == True) || (ExitCode != 0)
 on_exit_hold_reason   = strcat("Job held by ON_EXIT_HOLD due to ", ifThenElse((ExitBySignal == True), strcat("exit signal ", ExitSignal), strcat("exit code ", ExitCode)), ".")
 periodic_release      = (NumJobStarts < 3) && ((CurrentTime - EnteredCurrentStatus) > 60*60)
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_131.root -a '-o ./ -m --year 2016 -M Wcb'"
-queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/260000/66FCFB2A-C305-974E-BE88-0DEA10FC21F9.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_130.root -a '-o ./ -m --year 2016 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/8CF3562D-5842-7D42-AF00-90F0F7C34851.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/out_41.root -a '-o ./ -m --year 2016 -M Wcb'"

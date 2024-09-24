@@ -1,5 +1,11 @@
 #!/bin/bash -ev
 
+if [ "${SINGULARITY_NAME}" != "el7:x86_64" ]; then
+    echo "Entering cmssw-el7..."
+    exec cmssw-el7 --command-to-run "/bin/bash $0 $*"
+fi
+echo "Now in cmssw-el7!"
+
 OPTIND=1
 
 while getopts "h?f:i:o:s:e:x:cy:a:" opt; do

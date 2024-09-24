@@ -257,8 +257,6 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/E0BE095D-BCC7-864C-B70E-84D75AD77D32.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_170.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/7010E86D-4F60-FD45-B2E4-6BB80F666B0B.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_145.root -a '-o ./ -m --year 2016'"
-queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4EF28AF9-264B-B743-8E81-8FD794C522C9.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_182.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/7A2AC26E-D421-F74A-9EF1-B103175DA6E8.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_183.root -a '-o ./ -m --year 2016'"
@@ -385,7 +383,7 @@ arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/8FE24249-B630-BE42-A25C-A26C5F62181A.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_144.root -a '-o ./ -m --year 2016'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_202.root -a '-o ./ -m --year 2016'"
+arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/7010E86D-4F60-FD45-B2E4-6BB80F666B0B.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_145.root -a '-o ./ -m --year 2016'"
 queue
 arguments="-f /store/mc/RunIISummer20UL16MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/130000/CF5B963A-3C56-C84E-87E6-FD7533656DE5.root -o /eos/user/l/legao/NtupleStore/V0/2016/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/out_142.root -a '-o ./ -m --year 2016'"
 queue

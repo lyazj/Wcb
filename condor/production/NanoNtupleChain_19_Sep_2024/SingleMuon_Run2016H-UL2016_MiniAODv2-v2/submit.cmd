@@ -915,8 +915,6 @@ arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/120000
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/120000/494543E2-64A1-E844-9121-CAF7B24EE859.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_790.root -a '-o ./ -d --year UL2016H'"
 queue
-arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/140000/DC27EF4D-0F55-464F-BA34-D7C1A1CC5835.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_351.root -a '-o ./ -d --year UL2016H'"
-queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/270000/5A39997C-061F-394C-999F-91D6657442EB.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_1170.root -a '-o ./ -d --year UL2016H'"
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/120000/C205706E-0233-BA42-96B9-7E62A808195D.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_749.root -a '-o ./ -d --year UL2016H'"
@@ -2013,7 +2011,7 @@ arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/140000
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/140000/C0CC3814-B3EA-F04A-82A7-03BE6D6DF606.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_352.root -a '-o ./ -d --year UL2016H'"
 queue
-arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/70000/2A3F300F-CD15-9348-818D-CDB1C31BE92B.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_460.root -a '-o ./ -d --year UL2016H'"
+arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/140000/DC27EF4D-0F55-464F-BA34-D7C1A1CC5835.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_351.root -a '-o ./ -d --year UL2016H'"
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/140000/87531917-A5A7-8A46-A113-18A560BC6D5B.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_350.root -a '-o ./ -d --year UL2016H'"
 queue
@@ -2681,7 +2679,7 @@ arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/270000
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/270000/C099F550-2692-D64B-98DF-89A4F5715EAF.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_1206.root -a '-o ./ -d --year UL2016H'"
 queue
-arguments="-f  -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_1356.root -a '-o ./ -d --year UL2016H'"
+arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/70000/2A3F300F-CD15-9348-818D-CDB1C31BE92B.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_460.root -a '-o ./ -d --year UL2016H'"
 queue
 arguments="-f /store/data/Run2016H/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/270000/ACEE0585-2BC7-D74D-805C-4C61D023A33E.root -o /eos/user/l/legao/NtupleStore/V0/2016/Data/SingleMuon_Run2016H-UL2016_MiniAODv2-v2/out_1163.root -a '-o ./ -d --year UL2016H'"
 queue
