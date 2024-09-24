@@ -2,7 +2,7 @@
 
 if [ "${SINGULARITY_NAME}" != "el7:x86_64" ]; then
     echo "Entering cmssw-el7..."
-    exec cmssw-el7 --command-to-run "/bin/bash -ev $0 $*"
+    exec cmssw-el7 --command-to-run "/bin/bash" "-ev" "$0" "$@"
 fi
 echo "Now in cmssw-el7!"
 echo "Command line: $0 $*"
