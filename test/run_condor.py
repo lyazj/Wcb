@@ -32,6 +32,7 @@ def main():
   parser.add_option('-M', '--MODE', dest='MODE', help='MODE', default="inclusive", type='string')
   parser.add_option('--CrabCondor', '--CrabCondor', dest='CrabCondor', help='Crab Condor', default="crab", type='string')
   (opt, args) = parser.parse_args()
+  if opt.year == "2016": opt.year = "2016pre"
   import FWCore.PythonUtilities.LumiList as LumiList
   import FWCore.ParameterSet.Config as cms
 
