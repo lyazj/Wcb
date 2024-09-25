@@ -12,7 +12,7 @@ from run_and import run_and
 
 class JobManager:
 
-    def __init__(self, odirs, jsons, wdirs=None, ntask=1, nthread_per_task=8, nfile_per_group=50):
+    def __init__(self, odirs, jsons, wdirs=None, ntask=4, nthread_per_task=1, nfile_per_group=50):
         self.collect(odirs, jsons, wdirs)
         self.pool = multiprocessing.Pool(ntask)
         self.applications = [ ]
