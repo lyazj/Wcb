@@ -72,6 +72,42 @@ class DAS:
             json.dump(Files_,f,indent=4)
         return Files
 
+DAS_Wcb_sig_2016APV_ = [
+    "/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    "/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    "/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    
+    "/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+]
+
+DAS_Wcb_bkg_2016APV_ = [
+    "/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT500to700_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT700to1000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT1000to1500_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT1500to2000_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/QCD_HT2000toInf_TuneCP5_PSWeights_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    
+    "/ZJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    "/ZJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    "/ZJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    
+    "/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM",
+    "/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v3/MINIAODSIM",
+    "/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v3/MINIAODSIM",
+    "/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    
+    "/WW_TuneCP5_13TeV-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+    "/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v1/MINIAODSIM",
+]
+
 DAS_Wcb_sig_2016_ = [
     "/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
     "/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
@@ -562,12 +598,28 @@ DAS_ttbar_2016 = lambda: DAS(DAS_ttbar_2016_)
 DAS_ttbar_2016APV = lambda: DAS(DAS_ttbar_2016APV_)
 
 #Wcb DAS samples
+DAS_Wcb_sig_2016APV = lambda: DAS(DAS_Wcb_sig_2016APV_)
+DAS_Wcb_bkg_2016APV = lambda: DAS(DAS_Wcb_bkg_2016APV_)
 DAS_Wcb_sig_2016 = lambda: DAS(DAS_Wcb_sig_2016_)
 DAS_Wcb_bkg_2016 = lambda: DAS(DAS_Wcb_bkg_2016_)
 DAS_Wcb_sig_2017 = lambda: DAS(DAS_Wcb_sig_2017_)
 DAS_Wcb_bkg_2017 = lambda: DAS(DAS_Wcb_bkg_2017_)
 DAS_Wcb_sig_2018 = lambda: DAS(DAS_Wcb_sig_2018_)
 DAS_Wcb_bkg_2018 = lambda: DAS(DAS_Wcb_bkg_2018_)
+
+DAS_2016APVB1_JetHT_ = ["/JetHT/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVB2_JetHT_ = ["/JetHT/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVC_JetHT_ = ["/JetHT/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVD_JetHT_ = ["/JetHT/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVE_JetHT_ = ["/JetHT/Run2016E-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVF_JetHT_ = ["/JetHT/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+
+DAS_2016APVB1_SingleMuon_ = ["/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVB2_SingleMuon_ = ["/SingleMuon/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVC_SingleMuon_ = ["/SingleMuon/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVD_SingleMuon_ = ["/SingleMuon/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVE_SingleMuon_ = ["/SingleMuon/Run2016E-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVF_SingleMuon_ = ["/SingleMuon/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 
 DAS_2016F_JetHT_ = ["/JetHT/Run2016F-UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016G_JetHT_ = ["/JetHT/Run2016G-UL2016_MiniAODv2-v2/MINIAOD"]
@@ -600,6 +652,22 @@ DAS_2018A_SingleMuon_ = ["/SingleMuon/Run2018A-UL2018_MiniAODv2-v3/MINIAOD"]
 DAS_2018B_SingleMuon_ = ["/SingleMuon/Run2018B-UL2018_MiniAODv2-v2/MINIAOD"]
 DAS_2018C_SingleMuon_ = ["/SingleMuon/Run2018C-UL2018_MiniAODv2-v2/MINIAOD"]
 DAS_2018D_SingleMuon_ = ["/SingleMuon/Run2018D-UL2018_MiniAODv2-v3/MINIAOD"]
+
+#split 2016APV JetHT to eras
+DAS_2016APVB1_JetHT = lambda: DAS(DAS_2016APVB1_JetHT_)
+DAS_2016APVB2_JetHT = lambda: DAS(DAS_2016APVB2_JetHT_)
+DAS_2016APVC_JetHT = lambda: DAS(DAS_2016APVC_JetHT_)
+DAS_2016APVD_JetHT = lambda: DAS(DAS_2016APVD_JetHT_)
+DAS_2016APVE_JetHT = lambda: DAS(DAS_2016APVE_JetHT_)
+DAS_2016APVF_JetHT = lambda: DAS(DAS_2016APVF_JetHT_)
+
+#split 2016APV SingleMuon to eras
+DAS_2016APVB1_SingleMuon = lambda: DAS(DAS_2016APVB1_SingleMuon_)
+DAS_2016APVB2_SingleMuon = lambda: DAS(DAS_2016APVB2_SingleMuon_)
+DAS_2016APVC_SingleMuon = lambda: DAS(DAS_2016APVC_SingleMuon_)
+DAS_2016APVD_SingleMuon = lambda: DAS(DAS_2016APVD_SingleMuon_)
+DAS_2016APVE_SingleMuon = lambda: DAS(DAS_2016APVE_SingleMuon_)
+DAS_2016APVF_SingleMuon = lambda: DAS(DAS_2016APVF_SingleMuon_)
 
 #split 2016 JetHT to eras
 DAS_2016F_JetHT = lambda: DAS(DAS_2016F_JetHT_)

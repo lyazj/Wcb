@@ -11,6 +11,8 @@ from samples import DAS_2016_0lepton,DAS_2017_0lepton,DAS_2018_0lepton,DAS_2016A
 from samples import DAS_Wcb_sig_2016,DAS_Wcb_bkg_2016
 from samples import DAS_Wcb_sig_2017,DAS_Wcb_bkg_2017
 from samples import DAS_Wcb_sig_2018,DAS_Wcb_bkg_2018
+from samples import DAS_2016APVB1_JetHT,DAS_2016APVB2_JetHT,DAS_2016APVC_JetHT,DAS_2016APVD_JetHT,DAS_2016APVE_JetHT,DAS_2016APVF_JetHT
+from samples import DAS_2016APVB1_SingleMuon,DAS_2016APVB2_SingleMuon,DAS_2016APVC_SingleMuon,DAS_2016APVD_SingleMuon,DAS_2016APVE_SingleMuon,DAS_2016APVF_SingleMuon
 from samples import DAS_2016F_JetHT,DAS_2016G_JetHT,DAS_2016H_JetHT
 from samples import DAS_2016F_SingleMuon,DAS_2016G_SingleMuon,DAS_2016H_SingleMuon
 from samples import DAS_2017B_JetHT,DAS_2017C_JetHT,DAS_2017D_JetHT,DAS_2017E_JetHT,DAS_2017F_JetHT
@@ -24,7 +26,7 @@ import time
 def makedirs(path, *args, **kwargs):
     if path[:4] == '/eos':
         if os.system("xrdfs eosuser.cern.ch mkdir '%s'" % path):
-            raise RuntimeError('xrdfs mkdir failed')
+            raise RuntimeError('xrdfs mkdir failed:', path)
         return
     return os.makedirs(path, *args, **kwargs)
  
