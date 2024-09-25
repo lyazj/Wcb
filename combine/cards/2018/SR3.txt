@@ -1,4 +1,4 @@
-# Datacard for <Channel (SR3) instance at 0x7f26395dcd90> generated on 2024-08-23 12:42:00.311883
+# Datacard for <Channel (SR3) instance at 0x7f85aec9ad90> generated on 2024-08-30 16:27:00.873121
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 4 # number of samples minus 1
 kmax 42 # number of nuisance parameters
@@ -53,8 +53,6 @@ WJets_rate lnN                               -          -    1.0500         -   
 lumi_13TeV_2018 lnN                     1.0150     1.0150    1.0150    1.0150                               -
 CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par1 extArg Wcb.root:Wcb
-CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par2 extArg Wcb.root:Wcb
-CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par3 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb
 CMS_Wcb_boosted_tf_dataResidual_CR_Bin10 extArg Wcb.root:Wcb
