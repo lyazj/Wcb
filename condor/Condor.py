@@ -8,6 +8,7 @@ from samples import DAS_2018_SingleMuon,DAS_2017_SingleMuon,DAS_2016APV_SingleMu
 from samples import DAS_2018MET,DAS_2017MET,DAS_2016MET,DAS_2016APVMET
 from samples import DAS_ttbar_2018,DAS_ttbar_2017,DAS_ttbar_2016,DAS_ttbar_2016APV
 from samples import DAS_2016_0lepton,DAS_2017_0lepton,DAS_2018_0lepton,DAS_2016APV_0lepton
+from samples import DAS_Wcb_sig_2016APV,DAS_Wcb_bkg_2016APV
 from samples import DAS_Wcb_sig_2016,DAS_Wcb_bkg_2016
 from samples import DAS_Wcb_sig_2017,DAS_Wcb_bkg_2017
 from samples import DAS_Wcb_sig_2018,DAS_Wcb_bkg_2018
