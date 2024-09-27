@@ -1,5 +1,12 @@
 #!/bin/bash -ev
 
+if [ "${SINGULARITY_NAME}" != "el7:x86_64" ]; then
+    echo "Entering cmssw-el7..."
+    exec cmssw-el7 --command-to-run "/bin/bash" "-ev" "$0" "$@"
+fi
+echo "Now in cmssw-el7!"
+echo "Command line: $0 $*"
+
 OPTIND=1
 
 while getopts "h?f:i:o:s:e:x:cy:a:" opt; do
@@ -144,8 +151,8 @@ cd python/postprocessing
 # git clone https://github.com/StephenChao/XWWNano.git analysis
 # git clone --branch MiniIsoBtagLatest --single-branch http://github.com/StephenChao/XWWNano.git analysis
 git clone http://github.com/lyazj/Wcb.git analysis
-
-echo "Successfully git clone the miniIso branch"
+rm -rf analysis/combine/
+echo "Successfully git clone Wcb"
 
 # rm -rf $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/test/crab_auto
 # rm -rf $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/Makeplots
