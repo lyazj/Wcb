@@ -75,14 +75,17 @@ class JobManager:
 
         if odir not in self.finished: return
         good_jobs = [ ]
+        all_finished = True
         for job in jobs:
             if job in self.failed.get(odir, set()):
                 print('WARNING: skipping bad job %d in %s' % (job, odir), flush=True)
                 continue
             if job not in self.finished[odir]:
                 print('INFO: waiting for job %d in %s' % (job, odir), flush=True)
-                return
+                all_finished = False
+                continue
             good_jobs.append(job)
+        if not all_finished: return
         if not good_jobs: return
 
         if odir[:4] == '/eos': odir = 'root://eosuser.cern.ch/' + odir
