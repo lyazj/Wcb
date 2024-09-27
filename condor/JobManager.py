@@ -12,7 +12,7 @@ from run_and import run_and
 
 class JobManager:
 
-    def __init__(self, odirs, jsons, wdirs=None, ntask=4, nthread_per_task=1, nfile_per_group=50):
+    def __init__(self, odirs, jsons, wdirs=None, ntask=16, nthread_per_task=1, nfile_per_group=50):
         self.collect(odirs, jsons, wdirs)
         self.pool = multiprocessing.Pool(ntask)
         self.applications = [ ]
@@ -36,7 +36,7 @@ class JobManager:
 
         # Collect ongoing jobs first, as they are decreasing.
         if wdirs:
-            print('Collecting ongoing jobs')
+            print('Collecting ongoing jobs', flush=True)
             jobs = json.loads(os.popen('condor_q -json').read() or '[]')
             for job in jobs:
                 if str(job['JobStatus']) in ['3', 'X']: continue  # removed
@@ -53,7 +53,7 @@ class JobManager:
     
         # Collect finished/failed jobs then, as they are increasing.
         for odir in sorted(set(odirs), key=LooseVersion):
-            print('Collecting finished jobs in %s' % odir)
+            print('Collecting finished jobs in %s' % odir, flush=True)
             ofiles = sorted(os.popen("xrdfs eosuser.cern.ch ls -R '%s'" % odir).read().strip().split('\n'), key=LooseVersion)
             for ofile in ofiles:
                 if ofile == '': continue
@@ -76,10 +76,10 @@ class JobManager:
         good_jobs = [ ]
         for job in jobs:
             if job in self.failed.get(odir, set()):
-                print('WARNING: skipping bad job %d in %s' % (job, odir))
+                print('WARNING: skipping bad job %d in %s' % (job, odir), flush=True)
                 continue
             if job not in self.finished[odir]:
-                print('INFO: waiting for job %d in %s' % (job, odir))
+                print('INFO: waiting for job %d in %s' % (job, odir), flush=True)
                 return
             good_jobs.append(job)
         if not good_jobs: return
@@ -88,14 +88,14 @@ class JobManager:
         fetch_name = object_name + '.tmp'
         fetch_args = ['hadd', '-f', '-j', str(self.nthread_per_task), fetch_name] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
         rename_args = ['mv', fetch_name, object_name]
-        print('Generating %s' % object_name)
+        print('Generating %s' % object_name, flush=True)
         self.applications.append(self.pool.apply_async(run_and, [fetch_args, rename_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:
             result, args = self.applications.pop(0).get()
             if result == False:
-                print('ERROR: Failed to generate %s' % args[1][2])
+                print('ERROR: Failed to generate %s' % args[1][2], flush=True)
                 try: os.remove(args[1][1])
                 except: pass
     
@@ -120,7 +120,7 @@ class JobManager:
             if odir in self.ongoing: jobs = jobs.difference(self.ongoing[odir])
             if odir in self.finished: jobs = jobs.difference(self.finished[odir])
             if odir in self.failed: jobs = jobs.difference(self.failed[odir])
-            print('Missed jobs in %s: %s' % (odir, str(jobs)))
+            print('Missed jobs in %s: %s' % (odir, str(jobs)), flush=True)
             if not jobs: continue
             wdir = self.wdirs[self.odirs.index(os.path.dirname(odir))]  # [XXX]
             with open(os.path.join(wdir, os.path.basename(odir), 'submit.cmd')) as wcmd:
