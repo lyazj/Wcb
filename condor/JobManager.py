@@ -66,6 +66,9 @@ class JobManager:
                 elif oname[-9:] == '.root.err': self.failed[odir] = self.failed.get(odir, set()) | {int(oname[4:-9])}
 
     def fetch_jobs_async(self, odir, jobs):
+        import ROOT
+        version = ROOT.gROOT.GetVersionInt()
+        assert version <= 62408
         for prefix in ['/data/bond', '/publicfs/cms/user']:
             if os.path.isdir(prefix): break
         fetch_dir = re.sub(r'^.*NtupleStore/', '%s/%s/Ntuple/' % (prefix, getpass.getuser()), odir)
