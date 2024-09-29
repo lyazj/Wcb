@@ -27,6 +27,7 @@ else:
     plt.style.use(hep.style.CMS)
 
 CustNanoData = {
+    "SingleMuon": "/data/bond/lyazj/Tree/V0/Merged/2016/SingleMuon/Tree_SingleMuon_*.root",
     "Data": "/data/bond/lyazj/Tree/V0/Merged/2016/Data/Tree_JetHT_*.root",
     "QCD": "/data/bond/lyazj/Tree/V0/Merged/2016/MC/Tree_QCD.root",
 }
