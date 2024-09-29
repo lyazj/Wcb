@@ -10,8 +10,8 @@ parser.add_option('--type', action="store", type="string", dest="type", default=
 parser.add_option('--test', action="store", type="string", dest="test", default="notest")
 (options, args) = parser.parse_args()
 
-TreeDir = "/data/bond/lyazj/Tree/V0/Merged/" + options.year + "/"
-SlimmedTreeDir = "/data/bond/lyazj/SlimmedTree/V0/" + options.year + "/"
+TreeDir = "/data/bond/lyazj/Tree/Wcb_V1/Merged/" + options.year + "/"
+SlimmedTreeDir = "/data/bond/lyazj/SlimmedTree/Wcb_V1/" + options.year + "/"
 
 if options.type.upper() == "SIGNAL":
     for Files in sorted(os.listdir(TreeDir + "MC")):

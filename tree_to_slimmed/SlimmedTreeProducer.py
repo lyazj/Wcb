@@ -661,8 +661,9 @@ if args.year == "2018":
     loadcolumns += [
         "isWcb",
         "HEM_Filter",
-        "HLT_AK8PFJet500",
         "HLT_PFHT1050",
+        "HLT_PFJet500",
+        "HLT_AK8PFJet500",
         "HLT_AK8PFJet400_TrimMass30",
         "HLT_AK8PFJet420_TrimMass30",
         "HLT_AK8PFHT800_TrimMass50",
@@ -672,8 +673,9 @@ if args.year == "2018":
     drop = [
         "isWcb",
         "HEM_Filter",
-        "HLT_AK8PFJet500",
         "HLT_PFHT1050",
+        "HLT_PFJet500",
+        "HLT_AK8PFJet500",
         "HLT_AK8PFJet400_TrimMass30",
         "HLT_AK8PFJet420_TrimMass30",
         "HLT_AK8PFHT800_TrimMass50",
@@ -687,10 +689,10 @@ elif args.year == "2017":
     loadcolumns += [
         "isWcb",
         "HEM_Filter",
+        "HLT_PFHT1050",
         "HLT_AK8PFJet500",
         "HLT_PFJet500",
         "HLT_AK8PFJet360_TrimMass30",
-        "HLT_PFHT1050",
         "HLT_AK8PFJet380_TrimMass30",
         "HLT_AK8PFJet400_TrimMass30",
         "HLT_AK8PFJet420_TrimMass30",
@@ -702,10 +704,10 @@ elif args.year == "2017":
     drop = [
         "isWcb",
         "HEM_Filter",
+        "HLT_PFHT1050",
         "HLT_AK8PFJet500",
         "HLT_PFJet500",
         "HLT_AK8PFJet360_TrimMass30",
-        "HLT_PFHT1050",
         "HLT_AK8PFJet380_TrimMass30",
         "HLT_AK8PFJet400_TrimMass30",
         "HLT_AK8PFJet420_TrimMass30",
@@ -794,13 +796,13 @@ add_array = {
 
 if args.outfile:
     if args.year == "2018":
-        cut = "(HEM_Filter == 1) && ((HLT_AK8PFJet500 == 1) || (HLT_PFHT1050 == 1) || (HLT_AK8PFJet400_TrimMass30 == 1) || (HLT_AK8PFJet420_TrimMass30 == 1) || (HLT_AK8PFHT800_TrimMass50 == 1) || (HLT_AK8PFHT850_TrimMass50== 1) || (HLT_AK8PFHT900_TrimMass50== 1))"
+        cut = "(HEM_Filter == 1) && ((HLT_PFHT1050 == 1) || (HLT PFJet500 == 1) || (HLT_AK8PFJet500 == 1) || (HLT_AK8PFJet400_TrimMass30 == 1) || (HLT_AK8PFJet420_TrimMass30 == 1) || (HLT_AK8PFHT800_TrimMass50 == 1) || (HLT_AK8PFHT850_TrimMass50 == 1) || (HLT_AK8PFHT900_TrimMass50 == 1))"
     if args.year == "2017":
-        cut = "(HEM_Filter == 1) && ((HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_PFHT1050 == 1) || (HLT_AK8PFJet380_TrimMass30 == 1) || (HLT_AK8PFJet400_TrimMass30== 1) || (HLT_AK8PFJet420_TrimMass30== 1) || (HLT_AK8PFHT750_TrimMass50 == 1) || (HLT_AK8PFHT800_TrimMass50 == 1) || (HLT_AK8PFHT850_TrimMass50 == 1) || (HLT_AK8PFHT900_TrimMass50))"
+        cut = "(HEM_Filter == 1) && ((HLT_PFHT1050 == 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFJet380_TrimMass30 == 1) || (HLT_AK8PFJet400_TrimMass30 == 1) || (HLT_AK8PFJet420_TrimMass30 == 1) || (HLT_AK8PFHT750_TrimMass50 == 1) || (HLT_AK8PFHT800_TrimMass50 == 1) || (HLT_AK8PFHT850_TrimMass50 == 1) || (HLT_AK8PFHT900_TrimMass50))"
     if args.year == "2016":
-        cut = "(HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1) || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450== 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
+        cut = "(HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1) || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450 == 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
     if args.year == "2016APV":
-        cut = "(HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1) || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450== 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
+        cut = "(HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1) || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450 == 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
     # Be sure that only signal events has isWcb == 1 !!!
     if not args.data:
         if signal:
