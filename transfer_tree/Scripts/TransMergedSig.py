@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import getpass
 from optparse import OptionParser
 from XS import process_dict, signal_process
 import subprocess
@@ -14,13 +15,15 @@ parser.add_option('--jobs')
 if options.jobs: concurrent_jobs(int(options.jobs))
 
 year = {
-    '2016APV': '2016preVFP',
-    '2016': '2016postVFP',
+    '2016APV': '2016APV',
+    '2016': '2016',
     '2017': '2017',
     '2018': '2018',
 }[options.year]
-inroot = '/data/bond/zhaoyz/Ntuple/Wcb_V2/Merged/' + year + '/Signal/'
-outroot = '/data/bond/zhaoyz/Tree/Wcb_V2/' + year + '/Splitted/Signal/'
+for prefix in ['/data/bond', '/publicfs/cms/user']:
+    if os.path.isdir(prefix): break
+inroot = os.path.join(prefix, getpass.getuser() + '/Ntuple/V0/' + year + '/Signal/')
+outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V0/Splitted/' + year + '/Signal/')
 
 # Match DAS names to process names.
 # A DAS name matches a process name if and only if the former contains the latter.

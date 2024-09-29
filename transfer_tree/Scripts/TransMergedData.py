@@ -13,8 +13,8 @@ parser.add_option('--jobs')
 if options.jobs: concurrent_jobs(int(options.jobs))
 
 year = {
-    '2016APV': '2016preVFP',
-    '2016': '2016postVFP',
+    '2016APV': '2016APV',
+    '2016': '2016',
     '2017': '2017',
     '2018': '2018',
 }[options.year]
