@@ -48,9 +48,9 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
     ax=plt.gca()
     plt.grid()
     try:
-        hep.cms.label(data=isData, paper=False, supplementary=False, year=2018, ax=ax, fontname='sans-serif')
+        hep.cms.label(data=isData, paper=False, supplementary=False, year=2016, ax=ax, fontname='sans-serif')
     except Exception:
-        hep.cms.label(data=isData, label='Preliminary', year=2018, ax=ax, fontname='sans-serif')
+        hep.cms.label(data=isData, label='Preliminary', year=2016, ax=ax, fontname='sans-serif')
     plt.rcParams['axes.prop_cycle'] = cycler(color=['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan'])
 
     # plt.plot([plt.xlim()[0],plt.xlim()[1]], [0.01,0.01], linestyle="dashed", lw=2, color='gray')
