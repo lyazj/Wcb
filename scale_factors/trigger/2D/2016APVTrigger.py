@@ -39,6 +39,19 @@ for typefile in CustNanoData:
     #     if "HLT" in var or "FatJet" in var:
     #         events[year][var] = ak_arrays[var]
 
+TriggerList = [
+    'HLT_PFHT650_WideJetMJJ900DEtaJJ1p5',
+    'HLT_PFHT650_WideJetMJJ950DEtaJJ1p5',
+    'HLT_PFHT800',
+    'HLT_PFHT900',
+    'HLT_PFJet450',
+    'HLT_PFJet500',
+    'HLT_AK8PFJet450',
+    'HLT_AK8PFJet500',
+    'HLT_AK8PFJet360_TrimMass30',
+    'HLT_AK8PFHT700_TrimR0p1PT0p03Mass50',
+]
+
 SFbins, SFmin, SFmax = 20, 0.05, 1.05
 plt.figure(figsize=(12, 12))
 ax = plt.gca()
@@ -81,7 +94,7 @@ def SF2DUnc_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmin=
     hist2DMC = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC.fill(eventsMC["Mj_V2_a"], eventsMC["PTj_V2_a"], weight=eventsMC["weight"])
 
-    eventsMC_Cut = eventsMC[(eventsMC["HLT_AK8PFHT700_TrimR0p1PT0p03Mass50"] == True) | (eventsMC["HLT_PFHT650_WideJetMJJ900DEtaJJ1p5"] == True) | (eventsMC["HLT_PFHT650_WideJetMJJ950DEtaJJ1p5"] == True) | (eventsMC["HLT_PFHT800"] == True) | (eventsMC["HLT_PFHT900"] == True) | (eventsMC["HLT_PFJet450"] == True) | (eventsMC["HLT_PFJet500"] == True) | (eventsMC["HLT_AK8PFJet450"] == True) | (eventsMC["HLT_AK8PFJet500"] == True) | (eventsMC["HLT_AK8PFJet360_TrimMass30"] == True)]
+    eventsMC_Cut = eventsMC[ak.any(ak.Array([eventsMC[Trigger] for Trigger in TriggerList]), axis=0)]
 
     hist2DMC_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC_Cut.fill(eventsMC_Cut["Mj_V2_a"], eventsMC_Cut["PTj_V2_a"], weight=eventsMC_Cut["weight"] * eventsMC_Cut["TriggerSF"])
@@ -91,7 +104,7 @@ def SF2DUnc_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmin=
     hist2DData = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData.fill(eventsData["Mj_V2_a"], eventsData["PTj_V2_a"])
 
-    eventsData_Cut = eventsData[(eventsData["HLT_AK8PFHT700_TrimR0p1PT0p03Mass50"] == True) | (eventsData["HLT_PFHT650_WideJetMJJ900DEtaJJ1p5"] == True) | (eventsData["HLT_PFHT650_WideJetMJJ950DEtaJJ1p5"] == True) | (eventsData["HLT_PFHT800"] == True) | (eventsData["HLT_PFHT900"] == True) | (eventsData["HLT_PFJet450"] == True) | (eventsData["HLT_PFJet500"] == True) | (eventsData["HLT_AK8PFJet450"] == True) | (eventsData["HLT_AK8PFJet500"] == True) | (eventsData["HLT_AK8PFJet360_TrimMass30"] == True)]
+    eventsData_Cut = eventsData[ak.any(ak.Array([eventsData[Trigger] for Trigger in TriggerList]), axis=0)]
 
     hist2DData_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData_Cut.fill(eventsData_Cut["Mj_V2_a"], eventsData_Cut["PTj_V2_a"])
@@ -172,7 +185,7 @@ def plot_effi_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmi
     hist2DMC = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC.fill(eventsMC["Mj_V2_a"], eventsMC["PTj_V2_a"], weight=eventsMC["weight"])
 
-    eventsMC_Cut = eventsMC[(eventsMC["HLT_AK8PFHT700_TrimR0p1PT0p03Mass50"] == True) | (eventsMC["HLT_PFHT650_WideJetMJJ900DEtaJJ1p5"] == True) | (eventsMC["HLT_PFHT650_WideJetMJJ950DEtaJJ1p5"] == True) | (eventsMC["HLT_PFHT800"] == True) | (eventsMC["HLT_PFHT900"] == True) | (eventsMC["HLT_PFJet450"] == True) | (eventsMC["HLT_PFJet500"] == True) | (eventsMC["HLT_AK8PFJet450"] == True) | (eventsMC["HLT_AK8PFJet500"] == True) | (eventsMC["HLT_AK8PFJet360_TrimMass30"] == True)]
+    eventsMC_Cut = eventsMC[ak.any(ak.Array([eventsMC[Trigger] for Trigger in TriggerList]), axis=0)]
 
     hist2DMC_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC_Cut.fill(eventsMC_Cut["Mj_V2_a"], eventsMC_Cut["PTj_V2_a"], weight=eventsMC_Cut["weight"] * eventsMC_Cut["TriggerSF"])
@@ -182,7 +195,7 @@ def plot_effi_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmi
     hist2DData = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData.fill(eventsData["Mj_V2_a"], eventsData["PTj_V2_a"])
 
-    eventsData_Cut = eventsData[(eventsData["HLT_AK8PFHT700_TrimR0p1PT0p03Mass50"] == True) | (eventsData["HLT_PFHT650_WideJetMJJ900DEtaJJ1p5"] == True) | (eventsData["HLT_PFHT650_WideJetMJJ950DEtaJJ1p5"] == True) | (eventsData["HLT_PFHT800"] == True) | (eventsData["HLT_PFHT900"] == True) | (eventsData["HLT_PFJet450"] == True) | (eventsData["HLT_PFJet500"] == True) | (eventsData["HLT_AK8PFJet450"] == True) | (eventsData["HLT_AK8PFJet500"] == True) | (eventsData["HLT_AK8PFJet360_TrimMass30"] == True)]
+    eventsData_Cut = eventsData[ak.any(ak.Array([eventsData[Trigger] for Trigger in TriggerList]), axis=0)]
 
     hist2DData_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData_Cut.fill(eventsData_Cut["Mj_V2_a"], eventsData_Cut["PTj_V2_a"])

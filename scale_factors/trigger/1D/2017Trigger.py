@@ -56,10 +56,10 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
     # plt.plot([plt.xlim()[0],plt.xlim()[1]], [0.01,0.01], linestyle="dashed", lw=2, color='gray')
 
     TriggerList = [
-        'HLT_AK8PFJet500',
-        'HLT_PFJet500',
-        'HLT_AK8PFJet360_TrimMass30',
         'HLT_PFHT1050',
+        'HLT_PFJet500',
+        'HLT_AK8PFJet500',
+        'HLT_AK8PFJet360_TrimMass30',
         'HLT_AK8PFJet380_TrimMass30',
         'HLT_AK8PFJet400_TrimMass30',
         'HLT_AK8PFJet420_TrimMass30',
