@@ -27,8 +27,8 @@ else:
     plt.style.use(hep.style.CMS)
 
 CustNanoData = {
-    'Data': "/data/bond/lyazj/Tree/V0/Merged/2018/Data/Tree_JetHT_*.root",
-    'QCD': "/data/bond/lyazj/Tree/V0/Merged/2018/MC/Tree_QCD.root",
+    'Data': "/data/bond/lyazj/Tree/V0/Merged/2016APV/Data/Tree_JetHT_*.root",
+    'QCD': "/data/bond/lyazj/Tree/V0/Merged/2016APV/MC/Tree_QCD.root",
 }
 events = { }
 for typefile in CustNanoData:
@@ -56,17 +56,16 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
     # plt.plot([plt.xlim()[0],plt.xlim()[1]], [0.01,0.01], linestyle="dashed", lw=2, color='gray')
 
     TriggerList = [
-        'HLT_AK8PFJet500',
+        'HLT_PFHT650_WideJetMJJ900DEtaJJ1p5',
+        'HLT_PFHT650_WideJetMJJ950DEtaJJ1p5',
+        'HLT_PFHT800',
+        'HLT_PFHT900',
+        'HLT_PFJet450',
         'HLT_PFJet500',
+        'HLT_AK8PFJet450',
+        'HLT_AK8PFJet500',
         'HLT_AK8PFJet360_TrimMass30',
-        'HLT_PFHT1050',
-        'HLT_AK8PFJet380_TrimMass30',
-        'HLT_AK8PFJet400_TrimMass30',
-        'HLT_AK8PFJet420_TrimMass30',
-        'HLT_AK8PFHT750_TrimMass50',
-        'HLT_AK8PFHT800_TrimMass50',
-        'HLT_AK8PFHT850_TrimMass50',
-        'HLT_AK8PFHT900_TrimMass50',
+        'HLT_AK8PFHT700_TrimR0p1PT0p03Mass50',
     ]
 
     for Trigger in TriggerList:
@@ -134,7 +133,7 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
     plt.text(xmin + 0.05*(xmax - xmin), 1.2, "Triggers(" + y_label + " at PS)", fontsize=26, color="black")
     # plt.text(0.03, 0.4e-0, " HWW vs QCD", fontsize=26, color="black")
     # plt.text(0.03, 0.2e-0, rf"$\rm {pt_min}GeV<p_T<{pt_max}GeV,\ |\eta|<{abs_eta_max},\ \rm {mass_min}GeV<m_{{SD}}<{mass_max}GeV$", fontsize=16,color="black")
-    plt.savefig("./2018" + y_label + x_label + "Trigger.pdf", bbox_inches='tight')
+    plt.savefig("./2016APV" + y_label + x_label + "Trigger.pdf", bbox_inches='tight')
     plt.show()
 
 plot_effi_onlynum(events=events["QCD"], x_label="PTj_V2_a", y_label = "QCD", xmin = 200.0, xmax = 1200.0, bins = 500, legend_location='lower right')

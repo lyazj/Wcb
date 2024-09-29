@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3
 
 import random
 import pandas as pd
@@ -54,7 +54,6 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
     plt.rcParams['axes.prop_cycle'] = cycler(color=['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan'])
 
     # plt.plot([plt.xlim()[0],plt.xlim()[1]], [0.01,0.01], linestyle="dashed", lw=2, color='gray')
-
 
     TriggerList = [
         'HLT_PFHT650_WideJetMJJ900DEtaJJ1p5',
