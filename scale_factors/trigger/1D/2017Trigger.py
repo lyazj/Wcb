@@ -91,7 +91,8 @@ def plot_effi_onlynum(events, x_label, y_label, isData = False, xmin = 200, xmax
         plt.plot(PtValue, y, linestyle="solid", lw=2,label = Trigger)
 
     hist1 = bh.Histogram(bh.axis.Regular(bins, xmin, xmax), storage=bh.storage.Weight())
-    events_Cut = events[ak.any(ak.Array([events[Trigger] for Trigger in TriggerList]), axis=0)]
+    events_Cut = events
+    for Trigger in TriggerList: events_Cut = events_Cut[events_Cut[Trigger] == 1]
 
     if isData :
         hist1.fill(events_Cut[x_label])

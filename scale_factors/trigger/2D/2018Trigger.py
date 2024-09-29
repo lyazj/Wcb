@@ -92,7 +92,8 @@ def SF2DUnc_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmin=
     hist2DMC = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC.fill(eventsMC["Mj_V2_a"], eventsMC["PTj_V2_a"], weight=eventsMC["weight"])
 
-    eventsMC_Cut = eventsMC[ak.any(ak.Array([eventsMC[Trigger] for Trigger in TriggerList]), axis=0)]
+    eventsMC_Cut = eventsMC
+    for Trigger in TriggerList: eventsMC_Cut = eventsMC_Cut[eventsMC_Cut[Trigger] == 1]
 
     hist2DMC_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC_Cut.fill(eventsMC_Cut["Mj_V2_a"], eventsMC_Cut["PTj_V2_a"], weight=eventsMC_Cut["weight"] * eventsMC_Cut["TriggerSF"])
@@ -102,7 +103,8 @@ def SF2DUnc_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmin=
     hist2DData = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData.fill(eventsData["Mj_V2_a"], eventsData["PTj_V2_a"])
 
-    eventsData_Cut = eventsData[ak.any(ak.Array([eventsData[Trigger] for Trigger in TriggerList]), axis=0)]
+    eventsData_Cut = eventsData
+    for Trigger in TriggerList: eventsData_Cut = eventsData_Cut[eventsData_Cut[Trigger] == 1]
 
     hist2DData_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData_Cut.fill(eventsData_Cut["Mj_V2_a"], eventsData_Cut["PTj_V2_a"])
@@ -183,7 +185,8 @@ def plot_effi_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmi
     hist2DMC = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC.fill(eventsMC["Mj_V2_a"], eventsMC["PTj_V2_a"], weight=eventsMC["weight"])
 
-    eventsMC_Cut = eventsMC[ak.any(ak.Array([eventsMC[Trigger] for Trigger in TriggerList]), axis=0)]
+    eventsMC_Cut = eventsMC
+    for Trigger in TriggerList: eventsMC_Cut = eventsMC_Cut[eventsMC_Cut[Trigger] == 1]
 
     hist2DMC_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DMC_Cut.fill(eventsMC_Cut["Mj_V2_a"], eventsMC_Cut["PTj_V2_a"], weight=eventsMC_Cut["weight"] * eventsMC_Cut["TriggerSF"])
@@ -193,7 +196,8 @@ def plot_effi_withvalue(eventsMC, eventsData, x_label, y_label, isData=True, xmi
     hist2DData = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData.fill(eventsData["Mj_V2_a"], eventsData["PTj_V2_a"])
 
-    eventsData_Cut = eventsData[ak.any(ak.Array([eventsData[Trigger] for Trigger in TriggerList]), axis=0)]
+    eventsData_Cut = eventsData
+    for Trigger in TriggerList: eventsData_Cut = eventsData_Cut[eventsData_Cut[Trigger] == 1]
 
     hist2DData_Cut = bh.Histogram(bh.axis.Regular(mbins, mmin, mmax), bh.axis.Regular(ptbins, ptmin, ptmax), storage=bh.storage.Weight())
     hist2DData_Cut.fill(eventsData_Cut["Mj_V2_a"], eventsData_Cut["PTj_V2_a"])
