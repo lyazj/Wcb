@@ -14,6 +14,8 @@ jsons = [
     'json/DAS_2017D_SingleMuon.json',
     'json/DAS_2017E_SingleMuon.json',
     'json/DAS_2017F_SingleMuon.json',
+    'json/DAS_2017G_SingleMuon.json',
+    'json/DAS_2017H_SingleMuon.json',
 ]
 odirs = [
     '/eos/user/l/legao/NtupleStore/V0/2017/Data'
