@@ -94,9 +94,10 @@ class JobManager:
         if odir[:4] == '/eos': odir = 'root://eosuser.cern.ch/' + odir
         fetch_name = object_name + '.tmp'
         fetch_args = ['hadd', '-f', '-j', str(self.nthread_per_task), fetch_name] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
+        verify_args = ['root', '-b', '-l', '-q', 'Verify.C("' + fetch_name + '")']
         rename_args = ['mv', fetch_name, object_name]
         print('Generating %s' % object_name, flush=True)
-        self.applications.append(self.pool.apply_async(run_and, [fetch_args, rename_args]))
+        self.applications.append(self.pool.apply_async(run_and, [fetch_args, verify_args, rename_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:
