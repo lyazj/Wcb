@@ -28,9 +28,9 @@ else:
     plt.style.use(hep.style.CMS)
 
 CustNanoData = {
-    "SingleMuon": "/data/bond/lyazj/Tree/Wcb_V1/Merged/2017/SingleMuon/Tree_SingleMuon.root",
-    "Data": "/data/bond/lyazj/Tree/Wcb_V1/Merged/2017/Data/Tree_Data.root",
-    "QCD": "/data/bond/lyazj/Tree/Wcb_V1/Merged/2017/MC/Tree_QCD.root",
+    "SingleMuon": "/data/bond/lyazj/Tree/V0/Merged/2017/SingleMuon/Tree_SingleMuon_*.root",
+    "Data": "/data/bond/lyazj/Tree/V0/Merged/2017/Data/Tree_JetHT_*.root",
+    "QCD": "/data/bond/lyazj/Tree/V0/Merged/2017/MC/Tree_QCD.root",
 }
 events = {}
 for typefile in CustNanoData:
