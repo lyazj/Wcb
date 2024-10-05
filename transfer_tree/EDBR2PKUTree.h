@@ -206,8 +206,8 @@ Float_t Mj_3;
 float HWW_V2_max;
 float HWW_V2_mid;
 float HWW_V2_min;
-bool goodRun;
-bool Flag;
+bool goodRun = 0;
+bool Flag = 0;
 float Mj_V2_a;
 float Mj_V2_b;
 float Mj_V2_c;
@@ -659,27 +659,27 @@ std::vector<float> Jet_pt_nom_out;
 
 
 
-bool Flag_ecalBadCalibFilter;
+bool Flag_ecalBadCalibFilter = 0;
 TBranch        *b_Flag_ecalBadCalibFilter;
 
 
 
 TBranch        *b_HLT_PFHT1050;
-bool HLT_PFHT1050;
+bool HLT_PFHT1050 = 0;
 TBranch        *b_HLT_AK8PFJet380_TrimMass30;
-bool HLT_AK8PFJet380_TrimMass30;
+bool HLT_AK8PFJet380_TrimMass30 = 0;
 TBranch        *b_HLT_AK8PFJet400_TrimMass30;
-bool HLT_AK8PFJet400_TrimMass30;
+bool HLT_AK8PFJet400_TrimMass30 = 0;
 TBranch        *b_HLT_AK8PFJet420_TrimMass30;
-bool HLT_AK8PFJet420_TrimMass30;
+bool HLT_AK8PFJet420_TrimMass30 = 0;
 TBranch        *b_HLT_AK8PFHT750_TrimMass50;
-bool HLT_AK8PFHT750_TrimMass50;
+bool HLT_AK8PFHT750_TrimMass50 = 0;
 TBranch        *b_HLT_AK8PFHT800_TrimMass50;
-bool HLT_AK8PFHT800_TrimMass50;
+bool HLT_AK8PFHT800_TrimMass50 = 0;
 TBranch        *b_HLT_AK8PFHT850_TrimMass50;
-bool HLT_AK8PFHT850_TrimMass50;
+bool HLT_AK8PFHT850_TrimMass50 = 0;
 TBranch        *b_HLT_AK8PFHT900_TrimMass50;
-bool HLT_AK8PFHT900_TrimMass50;
+bool HLT_AK8PFHT900_TrimMass50 = 0;
 
 TBranch        *b_HLT_PFMET110_PFMHT110_IDTight;
 TBranch        *b_HLT_PFMET120_PFMHT120_IDTight;
@@ -1555,8 +1555,8 @@ Double_t        deltaRlepjet;
 Double_t        delPhijetmet;
 Double_t        delPhijetlep;
 Int_t           vbftag;
-Bool_t          IDLoose;
-Bool_t          IDTight;
+Bool_t          IDLoose = 0;
+Bool_t          IDTight = 0;
 //Bool_t          isHighPt;
 //Bool_t          isHEEP;
 Double_t        trackIso;
@@ -2160,25 +2160,25 @@ Double_t        L1prefiring;
 Double_t        L1prefiringup;
 Double_t        L1prefiringdown;
 
-bool Flag_METFilters;
-bool Flag_goodVertices;
-bool Flag_globalSuperTightHalo2016Filter;
-bool Flag_HBHENoiseFilter;
-bool Flag_HBHENoiseIsoFilter;
-bool Flag_EcalDeadCellTriggerPrimitiveFilter;
-bool Flag_BadPFMuonFilter;
-bool Flag_eeBadScFilter;
+bool Flag_METFilters = 0;
+bool Flag_goodVertices = 0;
+bool Flag_globalSuperTightHalo2016Filter = 0;
+bool Flag_HBHENoiseFilter = 0;
+bool Flag_HBHENoiseIsoFilter = 0;
+bool Flag_EcalDeadCellTriggerPrimitiveFilter = 0;
+bool Flag_BadPFMuonFilter = 0;
+bool Flag_eeBadScFilter = 0;
 
 bool HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 = 0;
 bool HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 = 0;
 bool HLT_PFHT800 = 0;
 bool HLT_PFHT900 = 0;
-bool HLT_PFJet450;
-bool HLT_AK8PFJet400;
-bool HLT_AK8PFJet450;
-bool HLT_AK8PFJet500;
-bool HLT_PFJet500;
-bool HLT_AK8PFJet360_TrimMass30;
+bool HLT_PFJet450 = 0;
+bool HLT_AK8PFJet400 = 0;
+bool HLT_AK8PFJet450 = 0;
+bool HLT_AK8PFJet500 = 0;
+bool HLT_PFJet500 = 0;
+bool HLT_AK8PFJet360_TrimMass30 = 0;
 bool HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 = 0;
 
 bool isWcb = 0;
