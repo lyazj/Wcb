@@ -27,6 +27,7 @@ else:
     plt.style.use(hep.style.CMS)
 
 CustNanoData = {
+    'SingleMuon': "/data/bond/lyazj/Tree/V0/Merged/2017/SingleMuon/Tree_SingleMuon_*.root",
     'Data': "/data/bond/lyazj/Tree/V0/Merged/2017/Data/Tree_JetHT_*.root",
     'QCD': "/data/bond/lyazj/Tree/V0/Merged/2017/MC/Tree_QCD.root",
 }
@@ -147,3 +148,6 @@ plot_effi_onlynum(events=events["QCD"], x_label="Mj_V2_a", y_label = "QCD",  xmi
 
 plot_effi_onlynum(events=events["Data"], x_label="PTj_V2_a", y_label = "JetHT", isData = True, xmin = 200.0, xmax = 1200.0, bins = 500, legend_location='lower right')
 plot_effi_onlynum(events=events["Data"], x_label="Mj_V2_a",  y_label = "JetHT", isData = True, xmin = 0.0,   xmax = 300.0,  bins = 300, legend_location='lower right')
+
+plot_effi_onlynum(events=events["SingleMuon"], x_label="PTj_V2_a", y_label = "SingleMuon", isData = True, xmin = 200.0, xmax = 1200.0, bins = 500, legend_location='lower right')
+plot_effi_onlynum(events=events["SingleMuon"], x_label="Mj_V2_a",  y_label = "SingleMuon", isData = True, xmin = 0.0,   xmax = 300.0,  bins = 300, legend_location='lower right')
