@@ -13,6 +13,7 @@ process_dict = {
     "ST_tW_top": 35850,
     "TTToHadronic": 380094,
     "TTToSemiLeptonic": 364350.8,
+    "TT_TuneCH3_13TeV-powheg-herwig7": 686200,  # From XSDB.
 
     "WW_TuneCP5": 76250,
     "WZ_TuneCP5": 27550,
