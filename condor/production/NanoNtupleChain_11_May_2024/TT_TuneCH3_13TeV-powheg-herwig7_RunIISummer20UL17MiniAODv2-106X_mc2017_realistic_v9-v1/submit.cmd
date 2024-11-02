@@ -26,9 +26,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/746DD50D-393E-064C-AB9B-9E173CA30234.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_345.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6D8CAA56-844D-7349-BEA6-C325287C3590.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_346.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/01FD5286-3761-F843-8F49-CBC16BA5E90D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_346.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/01FD5286-3761-F843-8F49-CBC16BA5E90D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_347.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C19096FD-4E14-7944-95AB-7B3503A9E38D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_347.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/FF89493D-C1BC-1849-8AAF-74C6551065AE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_340.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -38,15 +38,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/51833F3D-ACFF-D14E-BB08-C2972D6B5CF5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_343.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C19096FD-4E14-7944-95AB-7B3503A9E38D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_348.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/686A4ABC-CDAF-2943-830D-089F781DECF3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_348.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/686A4ABC-CDAF-2943-830D-089F781DECF3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_349.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6D8CAA56-844D-7349-BEA6-C325287C3590.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_349.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0AF4E0C8-EFA9-1642-B9A2-19F05E495E0D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_594.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/537CE51F-2209-7743-A424-0F32A0684469.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_298.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9B4F3D0C-D76C-F84D-AF9C-8DB7A5EEA25C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_299.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3BEBD623-689B-3F4F-941F-20D45055142E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_299.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FBF22079-FB51-AB41-933B-65ACD079DAB2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_296.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -66,13 +66,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/1BCBDBFC-4120-2045-97C7-20D3E3D5CF28.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_270.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/46110FC9-1C39-4C4F-B85A-4CE10AF7319E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_271.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/405C759F-9F66-4940-9C43-8D1FD6B88F11.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_271.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/405C759F-9F66-4940-9C43-8D1FD6B88F11.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_272.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B22F0BE4-1161-B64F-8848-E5F39424FC2A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_272.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B22F0BE4-1161-B64F-8848-E5F39424FC2A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_273.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4BEBC093-4208-0948-8FFC-019DD8CD0395.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_273.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4BEBC093-4208-0948-8FFC-019DD8CD0395.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_274.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/46110FC9-1C39-4C4F-B85A-4CE10AF7319E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_274.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/80F116F1-9510-F14E-B467-3BBF607A30FE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_275.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -118,9 +118,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9A76D420-2F7F-E247-B235-83CBE8DFA29E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_103.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/ECB53F8D-1CE5-A648-939B-2E27F4E71FAF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_100.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7BB94657-BDBB-814E-935C-77D8C775C9B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_100.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7BB94657-BDBB-814E-935C-77D8C775C9B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_101.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/E4C0AD9C-5C3D-7A4A-979A-F5C07D7F9CB4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_101.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3DC6B3DF-40CF-C149-8EDF-33F5B1EBFE93.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_106.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -130,13 +130,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/925F6E62-5234-7C44-8200-2454AA4461DF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_105.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/79134EF5-C682-8E4C-9145-864E319C0F39.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2046.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B26E67A2-1C4E-6049-A08D-94621291B355.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2046.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B26E67A2-1C4E-6049-A08D-94621291B355.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2047.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/CE967018-B011-3A40-906B-C585D45B40AE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2047.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FF1DFC6F-CFAF-C445-9162-42A7FADEF01A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2044.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/371C1FFB-E313-8B4A-BC59-0480D4709D7A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2045.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/79134EF5-C682-8E4C-9145-864E319C0F39.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2045.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/B55B77A4-32AD-2049-8BE6-9B2F6C205B61.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2042.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -146,29 +146,29 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D3528815-163D-6742-84BB-B27E760BB723.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2041.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/CE967018-B011-3A40-906B-C585D45B40AE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2048.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/76F03AEB-61E7-1A45-A319-385A9D249F17.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2048.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/76F03AEB-61E7-1A45-A319-385A9D249F17.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2049.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/632EDBD6-E25A-FF47-B78C-34013060D010.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2049.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1829784E-CD08-2249-A70F-F0DCA0FED9F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_99.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/ECB53F8D-1CE5-A648-939B-2E27F4E71FAF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_99.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/E4C0AD9C-5C3D-7A4A-979A-F5C07D7F9CB4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_98.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1829784E-CD08-2249-A70F-F0DCA0FED9F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_98.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3914F016-A40E-0A4A-8768-834DA13170D2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_91.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/48E01516-4A5E-334D-9BEA-C738CB3AB6CA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_90.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/368341D2-66F8-3348-B2C6-75C5D80EC7B7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_93.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3BC5588D-BCCB-A249-80EA-7FBFBD46C08F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_93.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D9A3DE85-B6F8-F444-8ABB-76D96F57C037.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_92.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7C548BF6-EA29-CD4C-B9E5-6AB4473EA431.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_95.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/593FDCB0-E5E7-AA42-A091-50376561E19C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_95.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3BC5588D-BCCB-A249-80EA-7FBFBD46C08F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_94.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7C548BF6-EA29-CD4C-B9E5-6AB4473EA431.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_94.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0D936693-881F-B440-BD40-688AE842C205.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_97.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/593FDCB0-E5E7-AA42-A091-50376561E19C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_96.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/368341D2-66F8-3348-B2C6-75C5D80EC7B7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_96.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B04A9CD3-E2FF-4D4D-BAD3-5596FDAE5FC3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1623.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -186,9 +186,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6FCC89E9-28F3-AB45-B557-8BEAD7A27BCD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1996.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0445BA06-8D00-7247-B280-B35B6E903623.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1999.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/FFEF8B4D-D1FB-184C-8673-A5A714B6A8C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1999.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/10BE41CB-2083-7C49-AB75-B37FC78AA6A1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1998.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0445BA06-8D00-7247-B280-B35B6E903623.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1998.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/81228609-0FC7-AA41-B4DD-F576F265BAF2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1629.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -200,37 +200,37 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/E16FAB2C-C94D-4A49-9CA8-7C087122E703.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1217.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5E353283-781A-434F-9F40-5A74F1E72DA9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_555.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/18A7E738-5A08-944E-A5B9-74607596EF25.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_555.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7996F62F-3E8A-254F-AC2D-2AEFBEF1F67C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_554.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5E353283-781A-434F-9F40-5A74F1E72DA9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_554.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E7DB78B5-08A1-5941-AC8F-19F6C9131E8D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_557.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/18A7E738-5A08-944E-A5B9-74607596EF25.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_556.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/49D3AE7D-7260-5F4B-8F60-3DED96AE2C63.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_556.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/49D3AE7D-7260-5F4B-8F60-3DED96AE2C63.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_551.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1D230D60-E19E-9D40-B055-614DBD9C49AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_551.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/CB3A8CFD-318E-7146-BD80-11C8778E0FED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_550.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/E920158D-1C3C-2741-BCAB-3360BD2D5344.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_553.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7996F62F-3E8A-254F-AC2D-2AEFBEF1F67C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_553.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1D230D60-E19E-9D40-B055-614DBD9C49AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_552.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/E920158D-1C3C-2741-BCAB-3360BD2D5344.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_552.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CAFA8961-9AD2-044B-9AF8-D3F0E41CCB08.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1199.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5910AED7-E4DF-A24C-962C-55AAFC52AD70.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1198.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/57B41180-543C-0745-9AF5-C5DCF5224896.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1191.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EDA4B46E-B6FC-CE4B-A8A1-31894AB5BEC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1191.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7AF8592C-2F9D-8E44-A307-EC727CACE12F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1190.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/57B41180-543C-0745-9AF5-C5DCF5224896.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1190.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/723BFAF5-B5A5-174D-88D4-959A15373D83.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1193.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/E9415402-BC5A-B24C-AFB2-9C410A7F76AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1193.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EDA4B46E-B6FC-CE4B-A8A1-31894AB5BEC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1192.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/723BFAF5-B5A5-174D-88D4-959A15373D83.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1192.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CF749885-0B75-2A40-BFC7-9C54D7D8FC2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1195.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7AF8592C-2F9D-8E44-A307-EC727CACE12F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1195.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/E9415402-BC5A-B24C-AFB2-9C410A7F76AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1194.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CF749885-0B75-2A40-BFC7-9C54D7D8FC2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1194.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B1C0DB30-A104-3340-9ADD-EF934B38F6D8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1197.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -250,11 +250,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/61DD6748-8E47-1645-8FA3-CF06C30E6897.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1753.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/E522E45F-C73F-5D45-AEAD-C0B9281AA2ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1752.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C8979EB7-287E-8A4B-8632-AF5063F2A475.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1752.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/6790730F-330F-0243-8858-8A3EDC2C18FA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1751.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/E522E45F-C73F-5D45-AEAD-C0B9281AA2ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1751.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D716B8DB-E1F1-3C4A-B187-0C70880BBAA2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1750.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/6790730F-330F-0243-8858-8A3EDC2C18FA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1750.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5A0F78B7-8B6D-354E-BE10-523B1A6B3530.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1177.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -276,9 +276,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7B0197B2-56B5-3641-92ED-3A155C3021CF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1178.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/6BE9A47A-3749-AA49-A7C9-C339454B5EBF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_511.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/2CCBA9F2-05EC-A447-B2F8-9B3F870CA11D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_511.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7CE0B406-46C8-914A-A7CE-B85A1761D1B2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_510.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/6BE9A47A-3749-AA49-A7C9-C339454B5EBF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_510.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F69B1519-44BE-3248-9BA6-B3F03F87F2F1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_513.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -302,13 +302,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/25C78F1D-60C1-1C41-889D-88AA849461D9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_515.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/511545E4-45CA-004A-9AC5-3372C793876D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1289.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E12DD080-C1CC-9045-935B-B7C38087A212.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1289.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EF164DB9-2B59-C042-9A3D-6344D64A971A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1288.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/FC26296D-6807-AD46-AD7A-FAC50DD95763.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_514.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/61EC80AC-B0F0-C344-81B3-63A456B5D96A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1579.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C8E72208-5778-304D-BCEB-52976738932A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1579.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4495C778-19FF-0942-BFE1-8DEF80450A10.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1578.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -326,21 +326,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8FE7C1BA-C79E-AD47-942C-17E7FE3605C9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_681.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/85FD41C7-A4B3-D240-B597-EE0B1CA5EC2A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_680.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/02C488DC-62EA-B045-97C8-F759E90DE2B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_680.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69ED43A9-00E9-DF43-8D8B-DE2823CD94AF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_683.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0D881905-DDD0-9246-87C7-FB3CE0D12170.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_682.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7049CF90-2D51-A848-BB11-0CE9A3C294FE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_623.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/94CB7E52-C237-2D4D-A7ED-1C043E5F519F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_623.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/534CC5A3-C245-DD4D-A0D2-E94488BDEBCA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_819.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C5F1F981-186F-F14D-A8EC-2B60DDB4422C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1226.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2F5866A5-0396-2F4F-8233-720CE532CD0C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1226.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4F52EE55-2A6B-5245-A4ED-AE343419E6B1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1240.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/801F3AD4-8DB0-AB49-9AB0-46A356B86A8A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1240.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/89EDC1C1-63A1-F640-849C-5187281955EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_621.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4FC73526-E695-7646-85BA-6A3E147E1F0E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_621.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/2097F45D-C7E9-D545-A561-8B2D1CA268A2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1224.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -362,9 +362,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/490EFFCB-0316-DB4A-A86F-E0A303BE3D61.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_404.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E578828E-8051-544F-B9C3-1509AA224154.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1375.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/01B7ED5C-BF24-9845-A7B4-7369FEFF9C14.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1375.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/01B7ED5C-BF24-9845-A7B4-7369FEFF9C14.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1374.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E578828E-8051-544F-B9C3-1509AA224154.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1374.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3DA20518-81D9-7844-9E88-4F9E8E856B74.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1377.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -384,7 +384,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C077D473-F9BA-DF40-BA83-836A9145F92C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1344.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3DFA46C0-A68A-3449-9AE6-062B7DEC0406.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1345.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CAA23C83-BFFE-764C-A13C-FBA4637E4AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1345.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9B21949E-7CE2-EB48-95DA-EBB8609C20CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_456.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -478,9 +478,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/C3E4E27B-5077-7D47-81B5-F4B3D80E6B88.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2274.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/5DEBFBA2-2551-D544-8488-497F9DBB9385.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2277.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/6654CA17-B839-2846-8F4D-122F1D42A3BF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2277.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/EE86D6C6-650E-EC45-A7B3-5A3A710DDF47.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2276.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/5DEBFBA2-2551-D544-8488-497F9DBB9385.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2276.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/B3CCC1FF-1770-9045-ADC6-4158CC5F1A3B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2271.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -490,17 +490,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/A6B7A3C8-BA00-4C41-86BF-ABD4498DF3EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2272.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/1FBB0754-3577-4540-9E05-FDCA9AA461E3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2279.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/EE86D6C6-650E-EC45-A7B3-5A3A710DDF47.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2279.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/6654CA17-B839-2846-8F4D-122F1D42A3BF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2278.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/1FBB0754-3577-4540-9E05-FDCA9AA461E3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2278.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5CAAC466-BFCB-0542-904D-802810AD258E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_179.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/40583A30-D1C3-F548-86E0-E7472903F92B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_178.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D4A7D330-91BA-E748-9F48-8B1B7E4CC9EE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_178.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/776A7DBD-58F0-864D-BD13-227FBBB8016D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_177.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/40583A30-D1C3-F548-86E0-E7472903F92B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_177.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D4A7D330-91BA-E748-9F48-8B1B7E4CC9EE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_176.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/776A7DBD-58F0-864D-BD13-227FBBB8016D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_176.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/28F87522-9833-4E48-A8AB-179E72A97ACD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_175.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -516,23 +516,23 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/EC02C6D4-E96E-034A-A767-E136196FC389.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2051.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/632EDBD6-E25A-FF47-B78C-34013060D010.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2050.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/371C1FFB-E313-8B4A-BC59-0480D4709D7A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2050.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3F550733-3B2C-3644-9D0C-200FBFF0CEF9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2053.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71A77FAD-79BD-6143-B5C7-6EDFA7AD87A5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2053.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D99C3186-7751-094C-8504-CE51D4823817.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2052.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EB6B656C-3459-C848-B358-FC6BA70CE8D9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2055.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9A9864D8-ABCF-024A-83FC-56365EDB1539.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2055.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71A77FAD-79BD-6143-B5C7-6EDFA7AD87A5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2054.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EB6B656C-3459-C848-B358-FC6BA70CE8D9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2054.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5AE928D5-50A8-DE41-ADC2-7AFB82A31032.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2057.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2D8A9CE0-FBF9-4443-8A82-2CFA09A72114.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2057.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9A9864D8-ABCF-024A-83FC-56365EDB1539.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2056.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5AE928D5-50A8-DE41-ADC2-7AFB82A31032.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2056.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/58C51706-F2E1-5A47-8112-EA1BC2F82B10.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2059.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3F550733-3B2C-3644-9D0C-200FBFF0CEF9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2059.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2D8A9CE0-FBF9-4443-8A82-2CFA09A72114.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2058.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/58C51706-F2E1-5A47-8112-EA1BC2F82B10.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2058.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6BB5B922-7655-C849-B77E-44ED3CC16F58.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_654.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -584,7 +584,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69044A94-2978-1948-9238-B14791E94639.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1615.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F2F136CF-98A9-4E45-9E1A-417161685EAD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1960.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0B6B2C45-2CCF-EA4F-9EE8-AAA98852AAFA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1960.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/478714B5-BD2A-EA4D-8DDD-FA26939E67D7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1613.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -640,9 +640,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/04FCA5A3-3BEE-144B-9F8C-E6CA8150AE96.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_693.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/859AF515-AD90-7B47-A9CE-BECCCF302A19.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1544.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7B9FC703-8113-F442-A6A7-4DD9D87CD43B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1544.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7B9FC703-8113-F442-A6A7-4DD9D87CD43B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1545.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3F3A674F-BBEA-454E-880B-1F79B1978426.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1545.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B73323B0-1685-6542-9D4E-24BB700CED48.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_696.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -660,13 +660,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/90DEF96F-D28F-D04C-A6A1-97EAFD580A0A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1549.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/DB74ADF3-1B81-0E46-8090-2AD8D4D832E5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_542.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A56D281B-5BF9-B040-8AF7-03417B8A26AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_542.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A56D281B-5BF9-B040-8AF7-03417B8A26AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_543.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C0E6D34B-6651-B646-92C1-A15A20B94D8D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_543.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C0E6D34B-6651-B646-92C1-A15A20B94D8D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_540.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/DA192984-9C7E-BF43-89E8-A6368EE5CDC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_540.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/DA192984-9C7E-BF43-89E8-A6368EE5CDC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_541.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/DB74ADF3-1B81-0E46-8090-2AD8D4D832E5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_541.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7D94FAA2-4B02-634F-B9D2-8A859B710461.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_546.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -734,17 +734,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6C49B988-B1AF-9749-8EE6-FC9909B5544B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_367.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8A6B778B-4C3B-F04A-8AD6-55241A72114E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_364.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/727F3126-947B-624C-883B-40CA164A1960.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_364.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2E942961-BBE2-0E4E-B7F3-6C8EDEE6FB76.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_365.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7526A814-3FEB-2042-A40E-F62283F9FF37.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_362.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B6602E0F-2596-A44D-ABF0-2EC0460D0D1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_362.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B6602E0F-2596-A44D-ABF0-2EC0460D0D1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_363.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8A6B778B-4C3B-F04A-8AD6-55241A72114E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_363.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/08DCC1EF-2469-5741-AF46-AE398C4651CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_360.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/297ED8EA-C6D0-914F-9B18-56E2450149F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_360.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/297ED8EA-C6D0-914F-9B18-56E2450149F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_361.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7526A814-3FEB-2042-A40E-F62283F9FF37.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_361.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D4FFD438-EE72-9B43-9C56-34040C592649.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_380.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -772,11 +772,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/F2DEA98B-5E20-9046-9559-0049A47FF4CA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2191.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7A7E4A08-CA76-F247-BACA-08F1FBB85158.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_258.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B0F28596-C5BB-B84C-A996-1475C721AC1B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_258.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B0F28596-C5BB-B84C-A996-1475C721AC1B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_259.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C766DA30-FB9A-8C4C-B8B9-881F7D3CA658.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_259.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/4511F297-1DC6-9940-8378-8603A2074F9F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2194.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7567DE12-1B55-2440-9744-35FA3509EEA8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2194.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/AA16FBBF-92FB-C149-9DF1-69A9968A3BBA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2195.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -792,9 +792,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9202DFCF-23A0-4B4D-9F48-0DB78067EC61.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_251.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C766DA30-FB9A-8C4C-B8B9-881F7D3CA658.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_256.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/15C06F14-0E4F-CA4F-95D3-E74576964944.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_256.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/15C06F14-0E4F-CA4F-95D3-E74576964944.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_257.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7A7E4A08-CA76-F247-BACA-08F1FBB85158.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_257.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/824645E8-A2CF-E44F-90A7-F841516748E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_254.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -828,9 +828,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/84AD4390-EAB4-F348-A86D-A94D2300CB91.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_169.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/8ED381B1-B627-5F41-9A98-4968568B8A33.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_164.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1C54EBEA-F664-494C-A541-5856889B96C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_164.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1C54EBEA-F664-494C-A541-5856889B96C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_165.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F964E052-CEC2-D94A-AEEE-AED9F8C4973F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_165.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/611ECEB2-A5CC-F34C-A8A7-4DCBCBA5A566.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_166.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -840,9 +840,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3C0A67CD-B707-AF48-BC91-5AC3842C842E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_161.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F964E052-CEC2-D94A-AEEE-AED9F8C4973F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_162.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5DBB0225-B13F-9840-B265-0202656BCFDF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_162.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5DBB0225-B13F-9840-B265-0202656BCFDF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_163.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/8ED381B1-B627-5F41-9A98-4968568B8A33.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_163.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/8C22BBE3-EFE1-174C-ADE9-D72BFE956009.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_908.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -860,25 +860,25 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/90BD5B81-966A-1B4E-8055-FB43771D579E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1817.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7970D5C9-0A8C-BE4A-A262-A690A357ED7F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1810.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/944BADB6-80C0-1A4A-978C-085256C45920.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1810.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/944BADB6-80C0-1A4A-978C-085256C45920.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1811.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C1A5C739-0A51-904C-993F-08CF83B7C230.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1811.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C1A5C739-0A51-904C-993F-08CF83B7C230.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1812.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F79D37DF-DB14-A446-93C8-8E9CFE806BBA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1812.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F79D37DF-DB14-A446-93C8-8E9CFE806BBA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1813.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7970D5C9-0A8C-BE4A-A262-A690A357ED7F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1813.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/3591E445-A5CD-D94A-AD30-6B7B3A5487A1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1818.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5F0BCCBD-C516-6549-86D4-43B091803196.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1819.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C86BC88A-79E3-A549-8DEB-08EF07993EF0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1098.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3F4BBC2A-D5B2-EF4D-9F78-B1804BB00CBB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1098.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/3F4BBC2A-D5B2-EF4D-9F78-B1804BB00CBB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1099.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EA27C1EE-1C1B-3B4F-B386-777A139E35F6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1099.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7C6760FC-EA4C-DE46-8C96-58A5E08393EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1609.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71E43A0B-F3C3-6A47-B0FF-A8DD93800517.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1609.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/27A3A7CD-6DC0-DB49-8E03-D3CBA86B0D2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1608.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7C6760FC-EA4C-DE46-8C96-58A5E08393EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1608.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1BBCD1B8-95CC-D745-9524-649AA61A6BD0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1979.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -896,7 +896,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C84CF4EA-F4BE-E742-A054-341A9F2D70BF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1604.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71E43A0B-F3C3-6A47-B0FF-A8DD93800517.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1607.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/27A3A7CD-6DC0-DB49-8E03-D3CBA86B0D2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1607.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C0B44FCA-A070-7140-B895-4E54F432D2ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1606.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -924,7 +924,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F8E437BE-2947-8F49-8AC8-A2B0BC8863FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1774.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/18100242-A452-AD42-8B1C-8AD30B48400C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1777.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/937CA652-BE74-0C41-89D0-4815A0AA4F9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1777.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9897CA82-BC08-C14F-A1F6-A8CB8E28BDD9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1776.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -936,9 +936,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/ABA88CB7-542E-3443-9C7C-E81ED7F3E790.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1772.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9E98B7D5-2F29-F84E-8394-1447D7F1CEC9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1779.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/92300676-7E20-F840-B7B4-81C2205DD22F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1779.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/937CA652-BE74-0C41-89D0-4815A0AA4F9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1778.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9E98B7D5-2F29-F84E-8394-1447D7F1CEC9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1778.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7A083370-536A-CF45-B2B2-D39FE651683F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1159.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -972,9 +972,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/BF88A1C7-1195-7C42-91B7-014E9AE90C6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1552.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/0A2704A6-B686-724B-AECF-525692923A08.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_59.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6CB05D41-A531-344E-B83C-6BDE1B0DD6D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_59.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/1AC4A252-2612-3A44-AC7C-A9F3D1EA896A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_58.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/0A2704A6-B686-724B-AECF-525692923A08.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_58.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9ED24ED5-DDD0-5C46-AA56-664A6E663960.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1557.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1042,7 +1042,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/54685233-200A-5947-B3D3-287EA57D6A73.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1390.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2BDD62CB-58BD-714E-9C85-AB2309AF4F6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1443.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B6DCBF95-974F-1042-AC26-613049175698.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1443.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/187BAD40-A202-764A-9078-8CF41048FFD1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2183.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1068,13 +1068,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/1979A725-08F5-8249-B6AA-B253D62227E9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2188.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/499CE915-DB28-7848-8D82-D0220D406033.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_223.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/586BCD27-CEE0-0D47-867B-A2727E85D754.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_223.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0A11CBCE-C4C0-7F48-9445-450F7280E023.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_222.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/499CE915-DB28-7848-8D82-D0220D406033.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_222.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D29EB1F3-D944-3245-BCCC-9015C8CCA317.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_221.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0A11CBCE-C4C0-7F48-9445-450F7280E023.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_221.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/4EFD8E42-09A2-614C-98E1-A9FB9CFCCAB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_220.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D29EB1F3-D944-3245-BCCC-9015C8CCA317.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_220.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/E6D64C1B-338B-6742-807E-E8F67BA1B039.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2213.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1118,17 +1118,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/067BA451-07D6-C141-85BB-F862E78C1F8C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1293.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2F26F1EE-0571-1741-96CD-6E74A8FC626C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1162.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/03B36F81-2F51-684F-A83F-CB6366D24D16.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1162.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DFD6E498-C8AF-904A-BFC1-B956A36577F4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1807.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7DC9B4C6-8379-4D40-8B22-0CBA354DA60F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1806.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/451DAA7E-0137-0344-B867-297D3F55E5AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1806.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/351133E5-1F59-884E-B3B0-E02CE3CA40CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1805.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7DC9B4C6-8379-4D40-8B22-0CBA354DA60F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1805.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C75CD3BE-AB94-2E42-9700-D4E7E78D9378.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1804.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/351133E5-1F59-884E-B3B0-E02CE3CA40CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1804.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/451DAA7E-0137-0344-B867-297D3F55E5AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1803.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C75CD3BE-AB94-2E42-9700-D4E7E78D9378.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1803.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CE685FC5-8774-334F-9792-954F965C8496.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1802.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1152,7 +1152,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/593D1C1B-8307-6040-8C62-E937E48D4A03.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1943.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4FB657E1-8139-5345-9481-028D13B6FD61.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1940.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/48674480-1C06-AC47-946E-1D12D0CA144D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1940.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/09F9F84E-BC6F-DD4E-961F-0E9101AFCB83.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1941.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1196,7 +1196,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2E6D7713-12E1-4640-8C7A-291FE725B177.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1621.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/00A22C48-3209-754A-A260-AE68FB345C70.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1490.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EBF4A46A-1F76-6345-A6F6-CBBCD7918876.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1490.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/96666F09-1DDC-DE4B-BC18-29B4B971628A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_421.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1268,25 +1268,25 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3CF67A99-48F5-754B-B3BD-387D6CEFD9E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1127.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C93A0344-1721-1A41-B196-57F7880D31EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_524.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/B31DD784-E394-3D45-A6D5-70FED3B83C1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_524.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/B31DD784-E394-3D45-A6D5-70FED3B83C1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_525.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F72FA4F5-74DE-CB43-8CA4-FE37B9139B8A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_525.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F72FA4F5-74DE-CB43-8CA4-FE37B9139B8A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_526.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/D6525499-A266-8540-BFAD-B4D48F2E7C2D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_526.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/2528478A-2993-BB43-9D8C-8277A6F891A9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_527.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1479486B-69FB-B342-A727-3F046CD25E25.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_520.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/D6525499-A266-8540-BFAD-B4D48F2E7C2D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_521.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/669B40E7-5764-3A43-B09F-27370563A38D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_521.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/669B40E7-5764-3A43-B09F-27370563A38D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_522.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/BA053624-C265-1348-85F9-A18843BDBDA3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_522.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/BA053624-C265-1348-85F9-A18843BDBDA3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_523.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C93A0344-1721-1A41-B196-57F7880D31EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_523.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/200F3805-754C-2C40-A444-0B09FD0BD77E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1014.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7C285184-D9DD-6D47-9702-70059325B51D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1014.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7C285184-D9DD-6D47-9702-70059325B51D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1015.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/200F3805-754C-2C40-A444-0B09FD0BD77E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1015.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DC42744D-0625-A74C-8969-BF297BBA05E4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1016.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1318,23 +1318,23 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2BDBCF57-2180-2F45-90E9-1ABEB3D9C2B7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1238.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/801F3AD4-8DB0-AB49-9AB0-46A356B86A8A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1239.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4F52EE55-2A6B-5245-A4ED-AE343419E6B1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1239.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C9F9F7F8-985D-A84E-B725-2ED30E2B3A43.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_438.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/70397A1E-3A37-F240-AACB-934DB2514E82.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_439.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5438A7DB-294B-8148-8B64-68823B4DA120.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_436.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CF7DCCF7-EB71-3044-91D0-ECCEB08817F2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_436.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5CC95D68-032F-8E49-8D41-4EB4BA8B80C5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_437.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/DACE773B-E800-EE46-BD37-24716456B49E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_434.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/68274AA1-A6F1-A64A-8742-0B7CD49C48E6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_434.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/68274AA1-A6F1-A64A-8742-0B7CD49C48E6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_435.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5438A7DB-294B-8148-8B64-68823B4DA120.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_435.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/9AD85E2B-A344-1E46-AEEA-9F2072545DFC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_432.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CF7DCCF7-EB71-3044-91D0-ECCEB08817F2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_433.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/DACE773B-E800-EE46-BD37-24716456B49E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_433.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7A66D709-724C-BF40-AEF5-BEC5C9DD091E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_430.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1348,19 +1348,19 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/444F0D99-EC50-5B4D-A133-97CEB4F16902.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_239.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9D93EE7A-9F45-6C4F-9335-23A14563590B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_234.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D4DFBD9D-87AA-6545-836D-C8D1D37702D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_234.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D4DFBD9D-87AA-6545-836D-C8D1D37702D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_235.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EC6A55DD-8965-4547-BD1F-312310372DF9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_235.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EC6A55DD-8965-4547-BD1F-312310372DF9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_236.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/53471EF2-122C-3941-87EB-E15E04D15659.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_236.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/53471EF2-122C-3941-87EB-E15E04D15659.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_237.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9D93EE7A-9F45-6C4F-9335-23A14563590B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_237.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/28E8C587-287F-744F-A135-277CD6B1F96F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_230.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/242FE634-1E0B-214F-956D-0CD69CDBB2CE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_230.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/242FE634-1E0B-214F-956D-0CD69CDBB2CE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_231.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/294F66E0-E16E-8345-8D56-5DE71A43A731.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_231.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/294F66E0-E16E-8345-8D56-5DE71A43A731.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_232.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/28E8C587-287F-744F-A135-277CD6B1F96F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_232.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B4754653-EF9C-B643-9602-7708D75FBAF8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_233.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1380,9 +1380,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/5DFD0281-F41E-DF45-8B31-40814C7D9F4B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2223.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/65281E86-A913-2845-800E-6D9D00305690.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2220.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/43B283A7-84E9-D04D-B9FD-1BF1527ACFD6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2220.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/43B283A7-84E9-D04D-B9FD-1BF1527ACFD6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2221.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/65281E86-A913-2845-800E-6D9D00305690.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2221.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F2A537D5-C9C1-2B4C-87E1-0192CBEB7499.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1426,7 +1426,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/18F1855C-2767-5D4E-90F1-8311D5902423.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2085.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/EEF2E00F-F889-5946-950A-EE2044EC2D91.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_123.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/55E8ED35-9DC4-464C-87A0-BDD70941ED03.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_123.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/4DFBFE6E-7A55-C841-89B1-1C4F61D5ABEE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1832.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1444,9 +1444,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6CECB0DE-46DF-9E48-8C8E-035C021DE89C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1835.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DB109DE9-20BC-F942-AB04-C6C453DD14BC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1838.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/38C291AC-573C-E347-B6D3-CEE2CE27D672.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1838.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/38C291AC-573C-E347-B6D3-CEE2CE27D672.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1839.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A086BD10-48DC-064D-97E2-42CE093087FE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1839.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/1D277A5D-2629-A14B-A176-BF52A2544DDC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2154.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1464,51 +1464,51 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/74C092E1-EF79-D14C-828D-093043ABF423.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2153.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/98F205BA-B84F-034E-A768-CA4EAE978961.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_933.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/533116EF-2C90-B44E-8C58-931C279C2A71.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_933.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C91D24D3-1458-B54B-AF29-E1151344B4A4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_932.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/98F205BA-B84F-034E-A768-CA4EAE978961.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_932.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4BAEB55B-287D-1241-B4CF-E9B424F2A508.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_931.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C91D24D3-1458-B54B-AF29-E1151344B4A4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_931.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7B0D5EAC-EB24-114E-B95F-405A4A42F03F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_930.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4BAEB55B-287D-1241-B4CF-E9B424F2A508.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_930.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D883EC3D-00C2-314D-857D-BD01D1FCC3B1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_937.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/433C5598-FBB9-D542-8DFE-C14E587D3ABF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_937.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/38D951CD-9ABF-5E4C-8824-D2774C8CC459.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_936.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D883EC3D-00C2-314D-857D-BD01D1FCC3B1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_936.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/CBEB11A0-CDA0-C948-9202-8F2A87453D2B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_935.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/38D951CD-9ABF-5E4C-8824-D2774C8CC459.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_935.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/533116EF-2C90-B44E-8C58-931C279C2A71.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_934.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7B0D5EAC-EB24-114E-B95F-405A4A42F03F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_934.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7BC7EF8A-6334-FB41-A296-F4329436B7E6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1955.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/596C2F9D-6B74-924E-81DD-BDEE0C1EF1AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1955.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/362C7EA8-4480-A245-B606-FA0112E62265.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1954.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7BC7EF8A-6334-FB41-A296-F4329436B7E6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1954.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/1883D814-F956-9C44-A0C9-7E925DA32F8F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1957.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/AA6F4C4D-C4C6-864C-97B6-249784C01DB6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1957.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/596C2F9D-6B74-924E-81DD-BDEE0C1EF1AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1956.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/1883D814-F956-9C44-A0C9-7E925DA32F8F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1956.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FEC1F2B7-79E7-F245-A200-703CBD70F1F8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1951.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/F65E967D-27D9-5A42-9F12-EA4B9F8A81B0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1950.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/6D67BB77-836C-8044-9E55-20861ED4C384.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1953.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/362C7EA8-4480-A245-B606-FA0112E62265.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1953.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/AA6F4C4D-C4C6-864C-97B6-249784C01DB6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1952.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/6D67BB77-836C-8044-9E55-20861ED4C384.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1952.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3C29A3DC-DE29-B744-9BA8-E885F10C0650.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1959.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F2F136CF-98A9-4E45-9E1A-417161685EAD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1959.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0B6B2C45-2CCF-EA4F-9EE8-AAA98852AAFA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1958.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3C29A3DC-DE29-B744-9BA8-E885F10C0650.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1958.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/50DD4A8A-5C5D-3044-BA8B-3779F40AE34D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_829.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3412D46A-D423-974F-AF32-7F1A1171DE75.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_829.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/385E0A25-B634-1D4B-B33D-55FB7541F70E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_828.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/50DD4A8A-5C5D-3044-BA8B-3779F40AE34D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_828.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/E9B6D17E-C87E-A848-9A60-514626B30FA4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_825.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/60307A37-4242-F645-BB85-56D89F9B9B6B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_824.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3C6EB589-335B-3144-A376-91D05E2251A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_827.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/385E0A25-B634-1D4B-B33D-55FB7541F70E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_827.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/27639F22-5F17-3C43-8828-E95C4A1B83CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_826.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1528,7 +1528,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/70A121AA-BDAD-0542-A061-B58244FD77ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1480.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EBF4A46A-1F76-6345-A6F6-CBBCD7918876.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1487.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/8DA6DC93-9B4A-1C45-A12D-5313EA3C4CA6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1487.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/D3906CBA-D324-FD4D-B5BC-A236B0A3A077.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1486.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1536,17 +1536,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/241E8492-7EAE-9449-80DA-4E00126A4EB6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1484.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/F9844F6D-1115-1740-A77B-6E43F453CF2F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1489.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/00A22C48-3209-754A-A260-AE68FB345C70.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1489.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/8DA6DC93-9B4A-1C45-A12D-5313EA3C4CA6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1488.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/F9844F6D-1115-1740-A77B-6E43F453CF2F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1488.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/431E7166-1B9F-5E46-B431-D347F9BF312D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_797.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9562DB9A-4850-8F48-A773-65F8A034EC4F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_797.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A4EE2325-A5F8-C642-BED3-64921E6D9FCD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_928.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E9065A3D-8FFB-2A40-B4E7-46F3A4FEA091.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_795.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/875E8883-B816-5741-817F-138CA3618DC1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_795.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/88388067-FEED-2B4E-A721-3690799365F7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_794.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E9065A3D-8FFB-2A40-B4E7-46F3A4FEA091.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_794.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/58414745-3891-E44F-997D-A19C7F8F6BB5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_793.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1560,13 +1560,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/2EDDCCDF-3C41-7447-A24C-5E1172CF6222.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1718.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/954FC635-7418-5746-9EBD-1B23688C659B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_799.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/88388067-FEED-2B4E-A721-3690799365F7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_799.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9562DB9A-4850-8F48-A773-65F8A034EC4F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_798.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/954FC635-7418-5746-9EBD-1B23688C659B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_798.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6327CD9D-DDAE-AD4F-8F83-21A72FB644A5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_612.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/905C5582-FD4D-5D46-B50B-F8F7E66C64EB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_613.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/7DF74B2A-5934-AA4E-AB1D-82BE638301C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_613.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CCB19A41-1942-F64F-A3DA-032EC4A7B120.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_610.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1582,15 +1582,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B054FFA1-1864-374F-9D7B-D9C8C4757112.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1130.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/168E20B0-1726-A946-B10C-CDDEF0963E92.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1137.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/38F2FD20-6005-F24A-AFE3-E7FF01DC8BB6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1137.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E29CFE10-F093-AC4F-980C-F9EB32C64FCB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1136.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/168E20B0-1726-A946-B10C-CDDEF0963E92.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1136.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DCDBE205-76A3-4041-A8D8-4F4109F078FA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1135.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E29CFE10-F093-AC4F-980C-F9EB32C64FCB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1135.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/38F2FD20-6005-F24A-AFE3-E7FF01DC8BB6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1134.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DCDBE205-76A3-4041-A8D8-4F4109F078FA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1134.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/7DF74B2A-5934-AA4E-AB1D-82BE638301C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_614.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D73B949E-AC74-8D47-866F-B7E0C6D99B15.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_614.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DE756A56-7949-FE48-A461-12DB0FCF6867.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1277.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1620,13 +1620,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C7CED1F3-3517-CC41-9D9F-C89AD9617BF0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1000.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2F5866A5-0396-2F4F-8233-720CE532CD0C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1227.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/633084FF-F5C3-6C47-A2BD-0D7BD262010A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1227.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4FC73526-E695-7646-85BA-6A3E147E1F0E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_622.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7049CF90-2D51-A848-BB11-0CE9A3C294FE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_622.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/44033ED7-B1CE-8A4B-9E85-EE0EAAB53119.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1225.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C5F1F981-186F-F14D-A8EC-2B60DDB4422C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1225.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/94CB7E52-C237-2D4D-A7ED-1C043E5F519F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_620.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/89EDC1C1-63A1-F640-849C-5187281955EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_620.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1BA616AA-3316-5A4E-8801-A523DE15DECE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_627.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1636,13 +1636,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/8B634626-024C-5B46-9866-8F69267B8DA3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1220.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DC83E715-B291-5B42-AF7E-0FCAE09A9919.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_629.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8812F277-B3A0-2A46-8345-42F9C4310E45.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_629.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/588ABF0F-E64D-6A41-B991-7257936F487F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_628.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9741A2CC-663E-0B4C-8DED-86F958A20459.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1229.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/633084FF-F5C3-6C47-A2BD-0D7BD262010A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1228.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/44033ED7-B1CE-8A4B-9E85-EE0EAAB53119.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1228.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/3276CC7F-6354-E74C-8E8B-8470EBAEA1E6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1684,7 +1684,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/BE1C2730-D189-E74A-9A2C-8A9499D88722.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_206.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/70C8C8F5-4943-F744-9FFD-3F18D1C33AB4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_209.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D04349E5-17B0-264E-9F5A-76A0CEE1C8DF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_209.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/76F60F19-C6F9-5B46-8289-36F4117CF72E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_208.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1782,7 +1782,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/320A26E5-C8DD-7D45-B2E4-D215323D5C14.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2140.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E818D7C9-A2C5-DC44-9268-7E6536094036.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_920.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/5E73AA57-0767-8941-A2A3-13574B43A68F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_920.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/FFA1E1F8-B0DC-F64B-930E-898656277B1F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_921.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1798,45 +1798,45 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/43FD9D51-6534-D341-B8BC-501AF4D4721E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2148.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/73022374-51BB-DD46-819A-BDDC4E1F4A32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1920.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CB1B7847-757C-A84A-B778-FD11609DC6B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1920.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F0F3E04D-5247-A946-9F2A-098FA93E714A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1921.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/BF25FCD6-9F74-5146-9847-5E3C9704AE06.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1921.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CB1B7847-757C-A84A-B778-FD11609DC6B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1922.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/025BC9CC-3A04-C04E-85D8-F0CE69D345D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1922.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/025BC9CC-3A04-C04E-85D8-F0CE69D345D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1923.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2CAE7EAF-9554-DD45-9656-EBD469CE77DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1923.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2CAE7EAF-9554-DD45-9656-EBD469CE77DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1924.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/73022374-51BB-DD46-819A-BDDC4E1F4A32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1924.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/64B4C57D-F40F-154F-8826-4A2A687F27E4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1925.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/1755AB86-FDDD-8F49-A699-DFFC9DCE87D9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1925.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/1755AB86-FDDD-8F49-A699-DFFC9DCE87D9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1926.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D035B9C0-EA71-AF4A-ACE5-97777F343521.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1926.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D035B9C0-EA71-AF4A-ACE5-97777F343521.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1927.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F0B1F704-DA52-7142-93E1-C306B9F1AA63.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1927.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F0B1F704-DA52-7142-93E1-C306B9F1AA63.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1928.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/5E7300CE-F79C-7943-83B6-CA78DF830BC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1928.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/5E7300CE-F79C-7943-83B6-CA78DF830BC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1929.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4EDADEFD-94E4-4E41-8C26-8E2D96C9E59E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1929.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9CB26CA0-9F60-314B-824A-AC2B12289BC3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_832.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3ECFE695-7710-6D47-BDDE-CD156A17C4DE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_833.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3412D46A-D423-974F-AF32-7F1A1171DE75.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_830.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3C6EB589-335B-3144-A376-91D05E2251A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_830.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/8AEF8F2F-72EB-CF43-8F12-8F55BA6C7B39.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_831.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B2160F4B-111E-E540-8A98-F6FBE5300BBE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_836.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FC715F5E-CDB2-7445-8764-A84C48814DDE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_836.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FC715F5E-CDB2-7445-8764-A84C48814DDE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_837.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4A0CE936-B109-E044-BAF1-6B778D4BCF2B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_837.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A6A0C3B0-BB3A-0E40-91F8-9E2FD8FE2D1F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_834.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C8DD70CF-BA4F-8D40-9E8E-BEBCDEE375D0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_835.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4A0CE936-B109-E044-BAF1-6B778D4BCF2B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_838.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/490C8006-FDCF-234B-991C-40597C60C1CE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_838.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/490C8006-FDCF-234B-991C-40597C60C1CE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_839.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B2160F4B-111E-E540-8A98-F6FBE5300BBE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_839.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/F532F93E-9185-4646-B8C5-F43984DB0645.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_3.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1848,9 +1848,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/66A03E99-8E87-9F4B-A800-F7D535AF892E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_787.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BE6DDE9E-02FE-8245-AC12-E540CDF52116.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_780.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69A15CF5-DCBD-864E-8A8E-C627834A2458.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_780.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69A15CF5-DCBD-864E-8A8E-C627834A2458.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_781.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BE6DDE9E-02FE-8245-AC12-E540CDF52116.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_781.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0B8F6221-EEE2-7C40-8165-F185938F32EA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_782.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1860,7 +1860,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FFC15EE8-401D-B541-9128-65E08E702D9C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1727.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E068B2BA-A4E0-ED4E-9BD4-54B78D753D40.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1724.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/069FD78F-46A1-684A-B740-A1A9ED582C1E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1724.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E84E9048-A48A-774E-9B3C-78A84F0842F8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1725.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1870,11 +1870,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/AC05747A-006B-DD4D-A9AF-E3E1C008170E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1720.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/069FD78F-46A1-684A-B740-A1A9ED582C1E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1721.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/703AADBE-40A8-6B4F-998E-45FD5D64F026.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1721.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6CB05D41-A531-344E-B83C-6BDE1B0DD6D5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_60.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EDD22ABE-3FE0-B246-A4AD-75B7469AC3FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_60.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EDD22ABE-3FE0-B246-A4AD-75B7469AC3FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_61.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/1AC4A252-2612-3A44-AC7C-A9F3D1EA896A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_61.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/197A8974-1615-DE41-BABA-AD9E9A0B7F0F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_62.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1900,13 +1900,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EE15AB7E-DE68-5C4A-A420-D41CC8E83A0A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_406.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/0665BE8F-8125-5141-AAD7-3E092A7905EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1582.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/61EC80AC-B0F0-C344-81B3-63A456B5D96A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1582.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/57F5E6AB-B5AF-3345-A67C-39B199731805.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1583.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C8E72208-5778-304D-BCEB-52976738932A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1580.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B1043F10-6587-D44F-8B07-5CC28B463834.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1580.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B1043F10-6587-D44F-8B07-5CC28B463834.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1581.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/0665BE8F-8125-5141-AAD7-3E092A7905EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1581.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/46F20444-7B03-7A4A-B847-FABC75234E6E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1586.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1922,7 +1922,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/8425B725-A8EA-B347-8158-7B3409852E89.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_508.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/2CCBA9F2-05EC-A447-B2F8-9B3F870CA11D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_509.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/7CE0B406-46C8-914A-A7CE-B85A1761D1B2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_509.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B576C207-C049-C24E-B7A3-688F84968E81.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1032.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1940,11 +1940,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B96C8CAA-245D-8F48-BFF6-74D8AD1264DF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1035.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/37893E77-FB7E-A340-A744-AF093769F2EE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1212.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/DFEACF41-8743-9944-B21C-47014F7E310E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1212.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/DFEACF41-8743-9944-B21C-47014F7E310E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1213.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/76FC2177-2E07-0942-B1AD-05850AFC29A0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1213.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/76643A24-DA34-3B4F-BBD3-C3EB21012203.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_632.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DC83E715-B291-5B42-AF7E-0FCAE09A9919.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_632.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2EC624CF-FF08-6241-8C83-326E28BE6738.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_633.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -1982,51 +1982,51 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8A792C30-88B8-1F4E-A2A4-E62CF54577C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1452.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/05C47325-17E3-6A49-9407-003E2A3BD82B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1101.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C86BC88A-79E3-A549-8DEB-08EF07993EF0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1101.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/537E81EA-4EBE-3F45-8472-9C66FFC35B12.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1458.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/FBFEA594-4C71-9247-AA94-EBA128A83B01.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1459.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C16518B3-D7D0-C348-9FA0-89AFA93BE750.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1459.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0846AA2B-612E-4C4A-B753-EE509AC377EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1108.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A2663AF4-E73B-3B4F-ABA1-1FD32FC05DB5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1109.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1E3E1DBF-5CA0-C340-9729-7B12C3D0A9CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1109.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/703AADBE-40A8-6B4F-998E-45FD5D64F026.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1722.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C3534AD4-93AB-0142-9F36-0EB0847D3C30.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1722.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C3534AD4-93AB-0142-9F36-0EB0847D3C30.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1723.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E068B2BA-A4E0-ED4E-9BD4-54B78D753D40.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1723.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/94E84201-BB85-0F4B-A259-F4B51C7884FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1577.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A266D2E2-1B9E-E849-ADB8-A85764CD844D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1576.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AE4564F1-8126-7A42-9463-6F85A10E53D7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_959.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/29AAD720-4910-3741-93A3-9540C6F021BA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_959.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C259D359-A6BC-4044-94AB-4FADE64CA8DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_958.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AE4564F1-8126-7A42-9463-6F85A10E53D7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_958.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/11D19C5A-4F03-9844-8340-8C76B4D92A22.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_216.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6B36451C-6D62-0149-A77B-722E423805F5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_217.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2FF92183-58DA-AD48-B0E1-EEFE617EF873.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_214.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/70C8C8F5-4943-F744-9FFD-3F18D1C33AB4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_214.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8967648E-13B4-4B48-A9F3-AD3E20B06363.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_215.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B0C38310-DBD9-8C46-952B-08C9EE91A469.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_212.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7B111913-3EDA-5942-82FC-8902F6307B6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_212.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7B111913-3EDA-5942-82FC-8902F6307B6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_213.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2FF92183-58DA-AD48-B0E1-EEFE617EF873.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_213.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D04349E5-17B0-264E-9F5A-76A0CEE1C8DF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_210.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0F394A28-B227-C948-BCD5-C5E8BE51741E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_210.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0F394A28-B227-C948-BCD5-C5E8BE51741E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_211.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B0C38310-DBD9-8C46-952B-08C9EE91A469.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_211.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3435F47B-ABFA-D345-9681-ACF18E62F08C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_218.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/586BCD27-CEE0-0D47-867B-A2727E85D754.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_219.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/4EFD8E42-09A2-614C-98E1-A9FB9CFCCAB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_219.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB34F5FB-6925-7646-91BD-A8E432A47B41.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_957.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C259D359-A6BC-4044-94AB-4FADE64CA8DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_957.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/29AAD720-4910-3741-93A3-9540C6F021BA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_956.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB34F5FB-6925-7646-91BD-A8E432A47B41.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_956.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/726720A5-31A4-CF41-8B91-924A97B0BB88.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_462.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2060,9 +2060,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/4852D9EE-E260-9F42-A6FB-0480DAEB202E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2171.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CC5F4666-2E3F-884A-AB5C-5757B6A54DD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_919.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E818D7C9-A2C5-DC44-9268-7E6536094036.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_919.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB7B1605-1A15-B943-83B8-A80881A1C839.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_918.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CC5F4666-2E3F-884A-AB5C-5757B6A54DD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_918.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/226DE970-6D31-6E4C-9238-8AA8C44EF396.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2174.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2072,7 +2072,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/46E376D3-F6FB-0E47-A8EF-DDD024573096.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_914.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/5E73AA57-0767-8941-A2A3-13574B43A68F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_917.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB7B1605-1A15-B943-83B8-A80881A1C839.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_917.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/F377985F-68F0-DC46-98A3-E2D991D40396.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_916.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2086,7 +2086,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/9D4AC699-F0B7-5A4B-82D2-55824097DAEB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_516.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/4E54DC15-DE9D-FF4C-B642-47D8F3FB1D83.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1423.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B16367F1-9EDC-C94B-BE87-B66BAF513C3E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1423.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/2F4D029C-C4C3-E546-B181-FCB87E15D667.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1933.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2094,9 +2094,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/16C073A8-2866-474E-BB3D-5DE49B7E01D2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1931.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4EDADEFD-94E4-4E41-8C26-8E2D96C9E59E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1930.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/64B4C57D-F40F-154F-8826-4A2A687F27E4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1930.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/48674480-1C06-AC47-946E-1D12D0CA144D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1937.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C5FB5EE0-6C4C-7F48-A3A6-6866263DC571.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1937.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/DC894645-C396-1043-BFF0-5DFFDC3C7DC1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1936.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2104,9 +2104,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/69E710EB-C814-074C-894A-A1558D36D02D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1934.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A464F128-25B0-F04E-BD6B-315FD26D7D48.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1939.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/4FB657E1-8139-5345-9481-028D13B6FD61.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1939.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C5FB5EE0-6C4C-7F48-A3A6-6866263DC571.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1938.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A464F128-25B0-F04E-BD6B-315FD26D7D48.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1938.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4E32BB72-AD0C-D343-BCC5-4643F7204185.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_847.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2154,13 +2154,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F3F1CC66-64A2-D74B-8388-6B21F46BA368.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1039.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0175B3BF-4827-C64A-A689-FF07E847F1B8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_753.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/28F9872B-A976-FC47-9039-A630ABE7E239.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_753.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/73F6F33E-D9B2-0F4D-8863-ACF9BA2E812B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_752.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0175B3BF-4827-C64A-A689-FF07E847F1B8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_752.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D24FD78A-1965-6C4E-9A0F-C26103A14086.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_751.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/73F6F33E-D9B2-0F4D-8863-ACF9BA2E812B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_751.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7F862FE8-72A3-4A41-8FEB-4E4ABE7AB593.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_750.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D24FD78A-1965-6C4E-9A0F-C26103A14086.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_750.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/85151493-9015-B04F-9338-2912217B3910.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_757.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2168,7 +2168,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A4DD2563-EE65-B44E-8240-CD2B5FC3FF62.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_755.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/28F9872B-A976-FC47-9039-A630ABE7E239.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_754.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7F862FE8-72A3-4A41-8FEB-4E4ABE7AB593.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_754.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A2844996-F572-8745-A1D7-86EB1EA91403.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_759.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2240,7 +2240,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/4CD9EAC1-3EB2-ED4B-B0E7-3C56896693DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1205.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CDF98562-BFDE-7E4F-A283-0A79E443866E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1204.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/9EC37756-BA99-B240-9695-727CF41EA332.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1204.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B7B5F3A9-4E56-9F41-AAD0-41275C92B787.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1207.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2248,13 +2248,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DA09D6E3-6AEE-4246-B9EA-CD3D9A3C9D9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_609.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/08683923-BE6E-7A41-A66A-7258CFDA5A1F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1210.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/581B78B0-556D-9E4B-83FB-B617F9818BDB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1210.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2D336B87-76F9-694B-9189-5FCE97CE967B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1203.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CDF98562-BFDE-7E4F-A283-0A79E443866E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1203.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/50C54BA0-BE13-6743-B878-7B181095A18E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1202.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2D336B87-76F9-694B-9189-5FCE97CE967B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1202.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/581B78B0-556D-9E4B-83FB-B617F9818BDB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1211.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/37893E77-FB7E-A340-A744-AF093769F2EE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1211.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8296DF24-C8CB-3D41-AD39-791DABC71912.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_634.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2264,17 +2264,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0DC9DF1C-4718-AF42-842C-7163D339C454.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1215.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3C3AAFB3-2309-E94D-9001-6CFE14A51589.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1111.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/95E1AA81-AF96-3F45-BD47-95F170277D5F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1111.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/1E3E1DBF-5CA0-C340-9729-7B12C3D0A9CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1110.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3C3AAFB3-2309-E94D-9001-6CFE14A51589.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1110.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/823BE601-D7AA-2840-938F-EAE6F206EF02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1113.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1CD71848-90FA-0B4B-8B48-CD245B05352B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1113.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/95E1AA81-AF96-3F45-BD47-95F170277D5F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1112.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/823BE601-D7AA-2840-938F-EAE6F206EF02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1112.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6B4BCFE7-D2F5-2C42-AC9F-46339C9FB5F7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1115.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1CD71848-90FA-0B4B-8B48-CD245B05352B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1114.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A2663AF4-E73B-3B4F-ABA1-1FD32FC05DB5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1114.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/95FCFC46-82B6-124E-9C84-A4A508231CAB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1117.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2298,7 +2298,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/A90AE7CA-49DB-C944-A681-2C2291007F7E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_463.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B7493EEA-6334-1A40-9D0F-D813FB03E322.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_489.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B838BEA5-C58F-394C-90A8-CA96BC65B05F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_489.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E10209D4-3E31-CF46-BE20-3C25957A7C82.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_488.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2352,7 +2352,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/92868405-7190-F641-AF81-0C0FA63305A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1451.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EA27C1EE-1C1B-3B4F-B386-777A139E35F6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1100.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/05C47325-17E3-6A49-9407-003E2A3BD82B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1100.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5FE2C3DA-F500-9947-B002-987BB60D0AD5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1453.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2364,21 +2364,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/47B02954-AA5A-3E4E-A53B-75F66E8B0DD9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_901.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5A92193B-3899-B347-843B-A2A1D5DAC904.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_906.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/068977AC-FA44-3B48-9EEB-36D11DAA81A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_906.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/068977AC-FA44-3B48-9EEB-36D11DAA81A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_907.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F4D7DFC7-20B1-C24E-8CEC-C69AB3531F93.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_907.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F4D7DFC7-20B1-C24E-8CEC-C69AB3531F93.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_904.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A60B460E-8B3F-7845-A3FC-6475CC5CA2C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_904.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A60B460E-8B3F-7845-A3FC-6475CC5CA2C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_905.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5A92193B-3899-B347-843B-A2A1D5DAC904.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_905.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/23E5F9C9-3A03-8D4A-8BB3-35EBF420EE94.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1843.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DB109DE9-20BC-F942-AB04-C6C453DD14BC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1843.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9BB413DD-580C-0D46-8C63-B229D85104ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1842.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/23E5F9C9-3A03-8D4A-8BB3-35EBF420EE94.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1842.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A9C8DD0B-0B76-BE48-B33B-B3999CDE2FF6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1841.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9BB413DD-580C-0D46-8C63-B229D85104ED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1841.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A086BD10-48DC-064D-97E2-42CE093087FE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1840.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/A9C8DD0B-0B76-BE48-B33B-B3999CDE2FF6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1840.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D069AEF0-3F57-C942-92B9-26D4723DD449.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1847.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2392,13 +2392,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/D1C906F2-4A18-2D45-9C0F-8479DC5004D8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2168.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/260E8764-332A-5F4D-8EF1-BA170435380A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2165.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2520000/BF7C6FE8-51A1-C542-9340-3A925A40671A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2165.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/44427FF6-7E62-B242-869D-233D84A6494E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2164.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/260E8764-332A-5F4D-8EF1-BA170435380A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2164.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/253CABF1-C23E-874B-BD30-E6AEC287DA66.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2167.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/44427FF6-7E62-B242-869D-233D84A6494E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2167.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2520000/BF7C6FE8-51A1-C542-9340-3A925A40671A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2166.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/253CABF1-C23E-874B-BD30-E6AEC287DA66.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2166.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/CA835C3A-E6E9-B549-A17D-0DFD2DDB1EDA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2161.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2446,7 +2446,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9CE2CE7D-E6A3-9649-9B7D-04DE7F4D8A9E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_858.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/29500317-F54D-DD4A-AAC4-36F84814C4CA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_859.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A6AB94D8-3AD9-EA43-9F26-A69AF414CC30.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_859.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/A6E5EF7E-0457-3747-8A6B-BE142BA9BD76.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_6.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2492,21 +2492,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/B2CC9AFB-056F-6B43-BC01-12180613A9F7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1059.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DE9B5988-42E1-A344-ADD7-D2CCBC68B66F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1696.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/42D4074F-D3BD-C947-B899-AD44B542C4C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1696.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5C61D9FE-CEE0-DF42-89B2-49777D2A5B17.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1697.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/FF2071FE-5083-7C4B-85A3-5AB62A4DA38C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1694.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/BFCCD995-60E9-BE44-B07E-5970F05DFE32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1694.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/BFCCD995-60E9-BE44-B07E-5970F05DFE32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1695.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DE9B5988-42E1-A344-ADD7-D2CCBC68B66F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1695.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A4F419B2-42D8-A642-B0C3-A7F9B3174062.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1692.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C58C4869-BA97-1C4E-BA9C-DDBF550C4643.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1692.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C58C4869-BA97-1C4E-BA9C-DDBF550C4643.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1693.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/FF2071FE-5083-7C4B-85A3-5AB62A4DA38C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1693.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AAC2695B-C709-F046-897D-1A3D0A28BAEB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1690.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/42D4074F-D3BD-C947-B899-AD44B542C4C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1691.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A4F419B2-42D8-A642-B0C3-A7F9B3174062.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1691.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/19E1D8E7-1FB3-D74C-968D-6C8980A4E120.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_715.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2530,13 +2530,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9EA8451E-505C-904A-B9F8-AF3F35AEA937.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_611.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5D6F8582-B0DE-D849-97AA-205E25C76297.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_616.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/905C5582-FD4D-5D46-B50B-F8F7E66C64EB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_616.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/493224CE-EFCC-2644-B12E-02FEA2C5A0C9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_617.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0EF54192-E53D-7644-BD37-87EF1DAEEFFB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1276.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D73B949E-AC74-8D47-866F-B7E0C6D99B15.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_615.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5D6F8582-B0DE-D849-97AA-205E25C76297.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_615.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2733B1B4-B5DB-9B42-9C78-5FC6059E3F84.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_711.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2596,11 +2596,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/69867C79-9F67-5747-B9DE-FAFC10AC30AF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_497.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B838BEA5-C58F-394C-90A8-CA96BC65B05F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_490.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/90DE0207-9B10-634C-B4CF-6BD3B4AC883F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_490.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/90DE0207-9B10-634C-B4CF-6BD3B4AC883F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_491.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BCE9DCDE-627B-0F4F-AE5D-5C6950D27459.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_491.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BCE9DCDE-627B-0F4F-AE5D-5C6950D27459.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_492.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B7493EEA-6334-1A40-9D0F-D813FB03E322.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_492.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BAC20802-F8B7-A740-990F-95B9D08A1295.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_493.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2622,7 +2622,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/ADEBFB7C-43BC-1D47-AA90-48096F7F51AE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_28.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B4E55C75-E9FD-3441-9D39-E5F33B76FABB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_29.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D4FD95AB-89D8-9846-B83B-65CC2219244A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_29.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CC4D79F6-C6EF-5B45-8389-A126C621D812.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_597.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2648,7 +2648,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/D84431D2-0598-3243-8FE0-3AEFB8554DF6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2287.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5C8F16A8-F967-C544-9B87-F28789C7E723.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_446.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/80E0C5E7-CC9C-8741-883D-FE0869F30DEC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_446.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/38715300-75F9-C746-8B10-87ABD5177951.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_591.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2708,9 +2708,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7EC29413-962D-9341-B3A3-0C64AD373978.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_181.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/74EC7F8B-A9A9-B647-BA17-106654BC4AA3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_186.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C0B450C7-AEC1-6E43-8769-9D1A17EE2C75.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_186.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C0B450C7-AEC1-6E43-8769-9D1A17EE2C75.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_187.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/74EC7F8B-A9A9-B647-BA17-106654BC4AA3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_187.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/18A91C5B-3D40-7C4E-83DF-8D000E8D15E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_184.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2732,7 +2732,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3034CB91-0EE0-A74D-82D5-A37C9ED4D7B6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1559.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/BF25FCD6-9F74-5146-9847-5E3C9704AE06.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1919.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F0F3E04D-5247-A946-9F2A-098FA93E714A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1919.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/AF280E00-0D78-B340-9E91-799410FB249A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1918.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2758,13 +2758,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/BA596C6B-A3B3-784E-BE8E-E250C453B2F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2113.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AA383D81-DBBB-6841-999D-70E157F3EC12.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_861.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BBD35D6F-5795-8D42-9F40-7ECF57883525.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_861.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A6AB94D8-3AD9-EA43-9F26-A69AF414CC30.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_860.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AA383D81-DBBB-6841-999D-70E157F3EC12.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_860.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/58DCAB5F-B947-7941-86F3-42063CA163C6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_863.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BBD35D6F-5795-8D42-9F40-7ECF57883525.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_862.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/29500317-F54D-DD4A-AAC4-36F84814C4CA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_862.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FED99453-7164-C240-9DEE-99D5133D9349.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_865.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2796,7 +2796,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/88F0C825-3F10-6947-8F66-9416C5A5BED6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2029.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CFB68183-C8AB-934B-9290-23C990693B17.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_656.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/E34C7F40-C12B-7649-A123-2E0B958002C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_656.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/27313675-1C17-EA4A-A6CF-5B6A2E125BBC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_883.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2806,7 +2806,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C8E07805-F114-6B4A-93DF-CD551901B335.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_880.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/65EEDC3B-D22F-7648-90B8-FDB0CD877637.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_887.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A62844C4-B44C-314C-901E-163626F7B2FF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_887.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/635C60D5-63B0-0D43-98F2-A26403430E1F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_886.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2814,11 +2814,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5A77B524-2FF3-D944-B734-BEF3C52BBE44.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_884.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4B0B0722-4542-4D43-8FD0-E81CBBE0A46D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_889.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/65EEDC3B-D22F-7648-90B8-FDB0CD877637.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_889.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A62844C4-B44C-314C-901E-163626F7B2FF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_888.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4B0B0722-4542-4D43-8FD0-E81CBBE0A46D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_888.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/E34C7F40-C12B-7649-A123-2E0B958002C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_657.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/577F6BF9-36B0-7D44-A690-6FFE6A8F4AB5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_657.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F0721833-FE73-AA48-A90B-6E401554CC53.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_775.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2862,9 +2862,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/D53B7E95-FB9D-B24A-B3CB-4F8E37277CB7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1043.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/511D0E08-8489-B04A-AEF2-1DD959496B3F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1042.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EB14CA15-25D2-3445-AEF1-44124FA33DAE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1042.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EB14CA15-25D2-3445-AEF1-44124FA33DAE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1041.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/511D0E08-8489-B04A-AEF2-1DD959496B3F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1041.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D44CF0E3-D661-0E49-B3A6-3798681D566C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1040.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2910,7 +2910,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0B833699-A60F-4547-B63C-A75D7B18A517.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_608.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A56272B9-DEE3-4744-9097-6E85706F64B8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1262.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EF9D4B9E-A38B-424A-A525-CD8584F9409C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1262.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B6DBD63F-C617-C24B-A40D-013B4A319993.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_665.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2922,7 +2922,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C9DD15F3-1F14-6C48-9BB6-665DA6C38967.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1265.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6B2A39E0-7EB2-4C4B-A22E-93D9EE8C1DD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1264.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3F8C3A16-8BFD-5644-B4E6-B54D62AB7DC3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1264.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0E7BD090-2BE0-D943-B96F-FD57C8669EC8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1469.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2936,15 +2936,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/967AF6A5-CE86-1F4D-9843-F2924B4E6946.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1466.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FA2A8C13-029D-FA42-AA37-B9E6E6805AA4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1461.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/898AD74E-81E3-9940-A20C-91BE79A78A26.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1461.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C16518B3-D7D0-C348-9FA0-89AFA93BE750.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1460.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FA2A8C13-029D-FA42-AA37-B9E6E6805AA4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1460.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/B9725E81-E3F4-B441-BF2F-61423A569B77.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1463.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5779E34C-C7F7-B84E-A9A2-C188A4E9F9EB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1019.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/79C0984D-1E27-034A-9394-C964E6D7A6B4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1317.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/51C80103-3C5E-CA43-9705-BB22992FA979.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1317.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/20B0F5A3-076B-9540-B0A6-EC9260452039.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1316.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -2960,9 +2960,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/53D8F844-7BAE-A243-9ADC-2196CEE41729.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1310.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69A53082-3EE5-F448-8A22-AAE29576138C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1319.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C3C90E37-AFCC-E141-B82B-36DAD551BD34.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1319.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/51C80103-3C5E-CA43-9705-BB22992FA979.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1318.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/69A53082-3EE5-F448-8A22-AAE29576138C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1318.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B1D4C5C0-ECCA-FA45-AF3D-97C180736319.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1010.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3000,15 +3000,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3AEC00FA-AD4D-9A45-8BB1-966754EAC041.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_420.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/80E0C5E7-CC9C-8741-883D-FE0869F30DEC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_447.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/69024055-B000-8542-B218-1F425A12805C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_447.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/344D657D-7F65-3940-B447-0CAF63483970.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1330.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F7F88FC6-B76F-A448-859E-ABB2E15B355C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_445.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/5C8F16A8-F967-C544-9B87-F28789C7E723.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_445.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E2751E38-96B9-DF4C-9E78-C06C3289A721.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_444.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8812F277-B3A0-2A46-8345-42F9C4310E45.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_630.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/38FEA150-E475-6942-924D-1A5830C9A718.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_630.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/17BDB696-E433-EC49-B556-FEF48EFFDD0C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2299.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3030,11 +3030,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/D93131D3-E1E4-784C-A3B9-54B6FA074548.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2294.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/95A7901F-935F-4C46-83AF-74B835AFE607.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_403.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7DA955DA-5926-0D4C-802E-53A473CB86DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_403.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/13148CB8-4989-EC4F-9C17-295790C7F555.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1712.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7DA955DA-5926-0D4C-802E-53A473CB86DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_402.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/95A7901F-935F-4C46-83AF-74B835AFE607.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_402.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F18CD0D0-1912-6042-A1E9-0EC9E9340AA6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1861.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3048,13 +3048,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/BC921F62-93D7-F543-A6CB-3ED2FC9AB1B9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1864.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/119E7063-0605-AF4F-AD6F-16D073025D44.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1867.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/FECEFD58-8B01-044A-8C08-5AEE78327D85.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1867.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/22D141FE-B643-354E-9543-392EE0BA0467.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1866.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/119E7063-0605-AF4F-AD6F-16D073025D44.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1866.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/36C1A4A4-A9A3-9A4E-B32C-F061C5B53950.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1869.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/22D141FE-B643-354E-9543-392EE0BA0467.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1869.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/FECEFD58-8B01-044A-8C08-5AEE78327D85.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1868.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/36C1A4A4-A9A3-9A4E-B32C-F061C5B53950.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1868.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D88DE9F4-06D7-6345-BE1B-91C1EF0A907B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_964.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3080,9 +3080,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/3AAD51DE-F8F6-4042-81E6-BB1B16A3379B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2108.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/504A775F-CA6E-8445-BBA0-15718DADAC86.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2103.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/90AFA0B3-6679-F34C-85DC-8B2FBEED6485.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2103.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/9599CDE7-12E4-A646-BD36-450B6D6B7F86.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2102.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/504A775F-CA6E-8445-BBA0-15718DADAC86.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2102.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/F209F0B3-434E-5C4A-9F09-03E8557C225B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2101.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3094,7 +3094,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/9B23AAF6-D7EE-8F47-B8E1-7D9F22E456AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2105.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/90AFA0B3-6679-F34C-85DC-8B2FBEED6485.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2104.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/9599CDE7-12E4-A646-BD36-450B6D6B7F86.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2104.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B2A86780-492B-1941-B148-60AA9C7C93AA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1537.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3120,13 +3120,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A26379C2-A8A2-4D4B-9DD4-462854192C2A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2037.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DC1A3113-BB6A-3E48-89CC-09772989AE12.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2036.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9340FE1F-7141-5F45-BE81-7B5626E2AD0B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2036.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6096A044-2C3A-3C49-AD13-AE25C0785369.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2035.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DC1A3113-BB6A-3E48-89CC-09772989AE12.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2035.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71273A3C-21C7-AE44-8B09-5F9CA855F686.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1242.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9340FE1F-7141-5F45-BE81-7B5626E2AD0B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2033.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3A73E330-5E7E-434E-84B3-235FA53F2C49.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2033.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/56281BF8-4198-854C-A1C2-B7160C607A88.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2032.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3136,7 +3136,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7008D82A-B1B4-5D41-8BB7-C001122A18F8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_9.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/76EEFFB1-F16D-6741-906A-4D2E39DE6CCF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1533.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5DAAD078-C1A9-A349-BA5F-4E94A2FA9259.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1533.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5E230030-B410-D645-BFC5-0FFAA37A9812.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2039.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3188,7 +3188,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/146D8BFD-E6E3-1D41-9090-C2B7AB3F482A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_265.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/92300676-7E20-F840-B7B4-81C2205DD22F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1780.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/18100242-A452-AD42-8B1C-8AD30B48400C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1780.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7844A921-FB2A-E84F-9516-700810011D69.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1612.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3208,13 +3208,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8D93A93E-6302-F54A-82E9-BC6A9254787A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1963.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/346D6912-5F58-2747-A929-ED0F7E2B7CC7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1078.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7B491A3F-825E-7E4D-BE95-7DA43A6FB147.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1078.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/8A63E525-2B5E-5344-A51C-8A69613BA984.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1079.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7B491A3F-825E-7E4D-BE95-7DA43A6FB147.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1076.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0157203F-26D9-0746-9506-BB0EF65153DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1076.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0157203F-26D9-0746-9506-BB0EF65153DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1077.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/346D6912-5F58-2747-A929-ED0F7E2B7CC7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1077.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/E64183F9-D7A5-D44A-95D3-62C11279F7EB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1074.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3256,9 +3256,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FBE913D7-33BB-D84F-8289-B174B07D535A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1097.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/062745E1-7272-E643-A30B-8672759F5174.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_678.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/19452C0A-C244-B748-A885-5F78B71827E7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_678.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/19452C0A-C244-B748-A885-5F78B71827E7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_679.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/85FD41C7-A4B3-D240-B597-EE0B1CA5EC2A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_679.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/227A7AA7-38FF-D14E-A4B4-C3B376A06A27.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1092.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3270,7 +3270,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/3E014930-CBD8-B049-8BE5-37BB39E7187D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_676.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/02C488DC-62EA-B045-97C8-F759E90DE2B5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_677.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/062745E1-7272-E643-A30B-8672759F5174.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_677.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/22FCA06F-98BE-EB4F-A2C7-B4C4B2ED7176.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_670.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3306,7 +3306,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/81D91073-2E22-8B40-A749-3EA42E92C745.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1323.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C3C90E37-AFCC-E141-B82B-36DAD551BD34.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1320.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/79C0984D-1E27-034A-9394-C964E6D7A6B4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1320.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A08F1E2C-D44E-9447-AE67-B01F1D571685.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1321.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3352,11 +3352,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/305FA2D5-35E7-D249-A612-4BDC1D2D4ABA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_309.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3BEBD623-689B-3F4F-941F-20D45055142E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_300.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D2AEB39E-A7DF-3441-B7C0-65D26730E506.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_300.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D2AEB39E-A7DF-3441-B7C0-65D26730E506.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_301.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6A4D6BDC-FB79-7646-9F1F-7D6C042215A1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_301.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6A4D6BDC-FB79-7646-9F1F-7D6C042215A1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_302.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9B4F3D0C-D76C-F84D-AF9C-8DB7A5EEA25C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_302.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AFD18650-6C51-704E-B598-146EF300C2F6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_303.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3368,7 +3368,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2DCAEF9B-242D-FE4A-B115-432AFF2BB7EF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_307.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F33181A0-8D17-AB48-8B4D-932138D72864.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_473.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1479B80C-77B4-3A44-A644-1969662A7F8E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_473.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/C22D47D5-26BB-8047-95AF-23546CF59A9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_114.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3378,7 +3378,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/68DED73C-0EB9-1145-82B4-3BBF67B36E89.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1899.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A4286AB1-6393-E740-A6BE-3E6BF1CA4C54.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1894.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3B678B1A-8A64-9748-85E2-5422798E670F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1894.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3C2D7C84-D5FD-EB4B-BDF7-975B875ABAF6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1895.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3388,15 +3388,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B7A4C677-A446-474A-BC2E-CFE6337E911B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1890.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3B678B1A-8A64-9748-85E2-5422798E670F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1891.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/03F250CB-A244-B34C-83D1-6B0471F190C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1891.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/03F250CB-A244-B34C-83D1-6B0471F190C8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1892.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0436D837-3230-904D-AAFF-4DADACB73851.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1892.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0436D837-3230-904D-AAFF-4DADACB73851.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1893.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/A4286AB1-6393-E740-A6BE-3E6BF1CA4C54.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1893.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/8E6A1E3D-28A9-8542-AE94-29E28B3018AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2136.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7688A1E7-1D14-7C4D-8919-7ACA800D1B69.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2136.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7688A1E7-1D14-7C4D-8919-7ACA800D1B69.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2137.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/B52301D6-0F95-A046-9355-2BC0E34BD37C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2137.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/BD32477A-37D9-DE43-9D9D-73C7557A9DA7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2134.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3422,29 +3422,29 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2A7B7052-0FFB-2F41-A582-535F9AB2336D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_954.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/B52301D6-0F95-A046-9355-2BC0E34BD37C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2138.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0634A722-B70F-2D4D-B1E8-C5F9050310C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2138.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0634A722-B70F-2D4D-B1E8-C5F9050310C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2139.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/8E6A1E3D-28A9-8542-AE94-29E28B3018AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2139.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0042BF2A-EB1B-2D42-B1E9-43AC99E5100E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2002.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/92D95380-FF2F-AE46-B16B-D27844455931.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2002.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/92D95380-FF2F-AE46-B16B-D27844455931.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2003.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/919C64BF-D5FB-9B4D-9C2E-F31CF20697D7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2003.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/FFEF8B4D-D1FB-184C-8673-A5A714B6A8C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2000.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4DF1F51B-66E5-5A4C-A5D7-3053ABF2FEFC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2000.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4DF1F51B-66E5-5A4C-A5D7-3053ABF2FEFC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2001.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0042BF2A-EB1B-2D42-B1E9-43AC99E5100E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2001.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/D190464D-A0C7-9C41-B685-0EDB48FE9AD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2006.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/D66EECEF-256D-A64F-9675-0ABAC64E5E91.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2007.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/919C64BF-D5FB-9B4D-9C2E-F31CF20697D7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2004.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/ACC49240-F2BB-C444-AC68-DE65B58E58DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2004.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/52BDC152-80B4-3A4A-A9C3-87D691214E77.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2005.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/A3F787BF-448E-7F43-B722-6DB318671362.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2008.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EEC3F0AF-43B4-9643-90B1-133BF929CE3C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2009.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7364EA4C-DAF4-7E45-BF1A-C7A4C70B32FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2009.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/12E68345-192E-354F-9DED-1363B58B5976.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_667.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3452,7 +3452,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7D737DF6-D371-2D45-88C2-5C2999290545.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2176.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3F8C3A16-8BFD-5644-B4E6-B54D62AB7DC3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1261.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A56272B9-DEE3-4744-9097-6E85706F64B8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1261.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/9736D3FF-D802-D84F-82F8-45EF06D30273.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2177.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3480,11 +3480,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/D14C5AE1-D4DC-FA4F-AD0F-44F0845B6D3E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1794.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7FE7AFA7-722F-E84B-B61C-966D60611F89.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_661.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/CFB68183-C8AB-934B-9290-23C990693B17.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_661.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/75878B10-5E87-4149-94D1-ECE042762FD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_716.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/49FDF8DE-36DE-F24D-9F8C-C4F63F35DA23.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_660.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7FE7AFA7-722F-E84B-B61C-966D60611F89.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_660.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/AD5E3A86-D952-D649-8BAE-85E5CF83C55F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2178.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3576,11 +3576,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/2000A52E-EA91-AE43-B326-1C17186E8A28.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1404.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/3F3A674F-BBEA-454E-880B-1F79B1978426.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1546.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/ABF11C6E-8104-9F4E-86C6-2BAE78C9B3CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1546.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/4F8C5D4B-C87D-3941-B047-D4EC696C5ED8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_449.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/69024055-B000-8542-B218-1F425A12805C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_448.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F7F88FC6-B76F-A448-859E-ABB2E15B355C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_448.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/697F9EFB-528F-204B-BB61-3CC28DB76437.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1339.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3610,7 +3610,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/26AA5B72-D014-EB41-903B-B1B3FFA80B43.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1631.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/ABF11C6E-8104-9F4E-86C6-2BAE78C9B3CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1543.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/859AF515-AD90-7B47-A9CE-BECCCF302A19.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1543.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/0281B0D7-B045-FD42-92DE-0BF89571C54E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_39.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3618,13 +3618,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B04E1E79-C61E-3746-A4E5-F44F06D1A491.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1540.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/915FB1D6-835B-E04E-B339-DDDAD55E74DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_33.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/0C49FC96-051D-5844-BA44-F269F8E0169E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_33.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/AEA2DC3B-31F6-3042-ADB9-068CFFCFFAF2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_32.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/915FB1D6-835B-E04E-B339-DDDAD55E74DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_32.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/177A9D05-3FE0-8648-B1DB-171F02C2C2B0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_31.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/AEA2DC3B-31F6-3042-ADB9-068CFFCFFAF2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_31.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D4FD95AB-89D8-9846-B83B-65CC2219244A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_30.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/177A9D05-3FE0-8648-B1DB-171F02C2C2B0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_30.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/EB084B7B-9FF2-9D4F-AD76-31B2B7DEDE03.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_37.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3632,15 +3632,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/7D638F8C-B1CA-734C-9325-FE0F6CE0EADF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_35.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/0C49FC96-051D-5844-BA44-F269F8E0169E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_34.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/B4E55C75-E9FD-3441-9D39-E5F33B76FABB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_34.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/836B9098-4749-BB48-9E46-F4B1E477FFEE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1241.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5141F6FB-E933-8A46-9A4F-A9FDD41F689B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1536.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/76EEFFB1-F16D-6741-906A-4D2E39DE6CCF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1536.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/02DE1DA8-7A35-E142-8DC4-60A2A239C34E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1535.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5141F6FB-E933-8A46-9A4F-A9FDD41F689B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1535.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5DAAD078-C1A9-A349-BA5F-4E94A2FA9259.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1534.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/02DE1DA8-7A35-E142-8DC4-60A2A239C34E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1534.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/51162CAC-5FDF-8047-874A-47F61B4D8E7D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1245.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3672,23 +3672,23 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D173E0B6-C157-0746-9DF7-6FFBCCD48A68.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_331.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/37B3CAE2-2B55-274B-99B0-A144A52A097F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_330.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7694C542-7593-E84B-9334-27264237ECB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_330.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F705204F-FFD7-E949-A25B-C63FDB2EFD67.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_333.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/16462F27-6290-B846-86D1-3CFCD3259391.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_332.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/EB2875F2-5CA6-A84D-BBD9-9160F5704596.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2118.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/A507E85A-4FD5-E845-B40C-9BA957BD56E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2118.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2C5B606E-FD2D-BB4F-8206-5E3ED7BB6E64.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_8.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/A507E85A-4FD5-E845-B40C-9BA957BD56E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2119.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0EE9FE5C-80F1-5D49-9413-F97B3CEACE9E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2119.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/40773544-E160-B94F-9853-6F716CFB89E7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1353.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/E0D6968B-A0B9-4B4E-8D94-07FE0E9FA2BD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1636.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C545693E-AB24-0D4F-A5A5-DB4C2B133C2E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1636.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/898AD74E-81E3-9940-A20C-91BE79A78A26.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1462.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/FBFEA594-4C71-9247-AA94-EBA128A83B01.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1462.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BF9A4373-F34F-CA47-A61E-7DF31B5FE9CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1352.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3714,9 +3714,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/8C3EE008-A272-A543-9362-840B4F08D319.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1880.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0CE93EC9-F6CD-974E-84A6-C5BA26ECDCBC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2121.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/EB2875F2-5CA6-A84D-BBD9-9160F5704596.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2121.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0EE9FE5C-80F1-5D49-9413-F97B3CEACE9E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2120.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0CE93EC9-F6CD-974E-84A6-C5BA26ECDCBC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2120.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/37D9A9BA-0D5C-D54C-BE60-265B78694DCD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2123.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3738,9 +3738,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7C34207D-27A2-A647-B804-4FD549D64F1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_945.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB5D8FB7-E553-F14D-8DE9-7B44EB149D6E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_942.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/89354D90-64D7-7445-944A-116611458CED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_942.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/89354D90-64D7-7445-944A-116611458CED.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_943.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AB5D8FB7-E553-F14D-8DE9-7B44EB149D6E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_943.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/E5214F5C-75DC-FB44-8ED1-36C3372DB669.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_940.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3756,13 +3756,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/2077573B-CD7B-8D43-8B0E-E7E9C2805432.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_130.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/88D1A5D8-5B80-7844-8797-23160AA3F2AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_137.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0397B090-92EC-634E-82AD-3DB56B4AFAE8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_137.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/61DD77C6-92E3-714E-A7DD-176C0D528E8C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_136.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/88D1A5D8-5B80-7844-8797-23160AA3F2AB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_136.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/12139809-2FF4-7044-81C8-0CE1831046BB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_135.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/61DD77C6-92E3-714E-A7DD-176C0D528E8C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_135.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/0397B090-92EC-634E-82AD-3DB56B4AFAE8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_134.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/12139809-2FF4-7044-81C8-0CE1831046BB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_134.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/BF13AE1C-9E21-8042-817F-4AEE7A2CD0DA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_139.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3780,27 +3780,27 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C22DEEFA-4B6F-A844-BFBA-ED5692128B37.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2016.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DD2014EA-5315-3A48-B91A-9B66AB989FEB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2011.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CB1681C3-1BF2-F545-9F4E-BCBE51A68100.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2011.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7364EA4C-DAF4-7E45-BF1A-C7A4C70B32FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2010.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DD2014EA-5315-3A48-B91A-9B66AB989FEB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2010.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/29821033-1F32-4D4E-91CC-28728E025BC8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2013.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CB1681C3-1BF2-F545-9F4E-BCBE51A68100.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2012.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EEC3F0AF-43B4-9643-90B1-133BF929CE3C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2012.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/BC770F89-895C-E44F-A660-9FDF91A4E755.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2112.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D1E5F858-8343-684F-9F3D-DB629665564E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_708.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71A18F30-2EC8-B741-A0F9-3E8B77E567C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_708.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/334C2B19-F55B-2E47-BBB2-B76869916CB4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_709.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/943B843E-5073-8E44-868F-1000A65DE011.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_704.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/71A18F30-2EC8-B741-A0F9-3E8B77E567C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_705.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AFC1D3CF-A5AE-544C-8C22-C965455FECDE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_705.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AFC1D3CF-A5AE-544C-8C22-C965455FECDE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_706.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C04CBC98-4CC0-4147-905A-FDA33CDA5AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_706.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C04CBC98-4CC0-4147-905A-FDA33CDA5AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_707.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D1E5F858-8343-684F-9F3D-DB629665564E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_707.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/50BF8EF2-FF0F-7041-8EFC-40D66E3467A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_700.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3814,23 +3814,23 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B650C1A7-BD73-7040-B0E2-5AA34BF315B4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_89.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EF9D4B9E-A38B-424A-A525-CD8584F9409C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1263.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6B2A39E0-7EB2-4C4B-A22E-93D9EE8C1DD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1263.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/8FC11EB0-A330-5C4E-9264-AFF7784DF7DF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_82.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1DA2FA75-3F92-7148-9CF7-7633F055C4A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_83.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B718EEAB-DB17-1846-9E99-7F5295A8491C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_83.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/E314BC70-37E0-EA43-B08E-EF8CCC04E071.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_80.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/BCF06E43-0DBF-F146-8AF7-1EC3641517CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_81.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/9B6A9412-3296-FD4A-BD62-C68BC9BF8FD4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_86.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/1DA2FA75-3F92-7148-9CF7-7633F055C4A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_86.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B4F8BF93-CD52-1144-BB9F-5E742E48F451.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_87.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/B718EEAB-DB17-1846-9E99-7F5295A8491C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_84.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C2582F49-97E1-0E43-81FF-824A7BD3F6C2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_84.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C2582F49-97E1-0E43-81FF-824A7BD3F6C2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_85.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/9B6A9412-3296-FD4A-BD62-C68BC9BF8FD4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_85.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/215EC24F-D56D-F84E-A304-C9468D179717.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_762.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3854,13 +3854,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/62E7CDB6-2488-0D4D-A18B-A0DE078BE6C5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1655.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/16C53549-BAA3-004D-BB84-9685147CF22B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_586.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2AC10C36-D371-8540-882F-3AB036D8FDBF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_586.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2AC10C36-D371-8540-882F-3AB036D8FDBF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_587.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/34DC91AC-CA9E-5446-B66D-D3971AAEC4E1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_587.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8931AEF3-5A82-4841-8868-5F76077A1061.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_584.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/78FD7923-0911-BF47-9FEB-B82E98048854.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_585.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/16C53549-BAA3-004D-BB84-9685147CF22B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_585.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BC2FC623-7621-1D43-B7D6-CC76C6CD7F38.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_763.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3872,7 +3872,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4EA4B68F-0EA2-AD48-9373-01F6A3362DD7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1632.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/34DC91AC-CA9E-5446-B66D-D3971AAEC4E1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_588.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/78FD7923-0911-BF47-9FEB-B82E98048854.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_588.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2BBA0FA5-D861-C64A-8293-C2D49C2B9802.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_589.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3880,21 +3880,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/28C554B4-BADF-5346-9C88-D772829C5C87.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1634.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4E82A58F-59E5-B549-B3F7-19A174530D02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1348.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3DFA46C0-A68A-3449-9AE6-062B7DEC0406.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1348.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C545693E-AB24-0D4F-A5A5-DB4C2B133C2E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1635.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/E0D6968B-A0B9-4B4E-8D94-07FE0E9FA2BD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1635.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4EB5412A-D23E-5A4E-9DF2-ECA0B14DBEA2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1436.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5F0D3C4F-FCD4-C84A-8125-08F40332E047.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1436.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/94F01496-2946-C649-B9E7-64AB1C5D70AF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1437.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/8DE95B2C-4409-DB42-ACFB-5E5D89532E09.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1434.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D9BDC216-19D4-9349-A71F-C4FFFB07F874.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1434.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D9BDC216-19D4-9349-A71F-C4FFFB07F874.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1435.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4EB5412A-D23E-5A4E-9DF2-ECA0B14DBEA2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1435.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0B6A44CE-6213-6441-B783-1B8C8D85B2EB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1432.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/5F0D3C4F-FCD4-C84A-8125-08F40332E047.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1433.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/8DE95B2C-4409-DB42-ACFB-5E5D89532E09.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1433.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/E78C750E-000E-9E40-A7FF-EE30A013E818.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1430.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3928,9 +3928,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/EAB3212D-F270-8046-8075-1C0F2EB39E0D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_455.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CAA23C83-BFFE-764C-A13C-FBA4637E4AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1346.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0CFC462C-01C3-2B46-9AFE-061ED108DEFB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1346.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0CFC462C-01C3-2B46-9AFE-061ED108DEFB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1347.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4E82A58F-59E5-B549-B3F7-19A174530D02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1347.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/F0639DD4-AD2C-054E-8E9A-39E5BEC2870C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_517.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3944,21 +3944,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/F31C75D0-82B1-464A-9311-5B6B7A090FC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1501.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FD67A99D-7E00-9A4E-ACB4-9DADE1CC832C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1506.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/4D58702E-A822-A24E-B1BB-6065CC535392.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1506.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/4D58702E-A822-A24E-B1BB-6065CC535392.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1507.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/933CF0CE-CE5B-5C45-8B5D-3AD73CA0AA82.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1507.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/E0D2EB4E-794D-F848-9528-33EEAD1521BB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1504.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30001/15A129FD-9797-3C4E-B6AB-1A95E6CA4F1A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1505.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/933CF0CE-CE5B-5C45-8B5D-3AD73CA0AA82.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1508.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/09EB3CC3-A4F6-4248-A91F-FECA96B6B76E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1508.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/09EB3CC3-A4F6-4248-A91F-FECA96B6B76E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1509.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/5577A352-F01B-BB4D-84A5-D66D6A1A2728.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1509.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/577F6BF9-36B0-7D44-A690-6FFE6A8F4AB5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_658.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/27A60FA3-C889-1942-B46B-D485831D23AF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_658.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/27A60FA3-C889-1942-B46B-D485831D23AF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_659.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/49FDF8DE-36DE-F24D-9F8C-C4F63F35DA23.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_659.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/06F2BB38-5F08-764E-9424-D75D654ACD76.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1992.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3970,9 +3970,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7E7E4153-4D77-8441-9357-DF95E62AAEB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2128.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/38FEA150-E475-6942-924D-1A5830C9A718.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_631.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/76643A24-DA34-3B4F-BBD3-C3EB21012203.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_631.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7D167264-C3D0-304B-BFB6-F913D659854A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1292.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/511545E4-45CA-004A-9AC5-3372C793876D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1292.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6DC7AB47-2A20-B843-868E-59DFD546EDC0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1376.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -3986,15 +3986,15 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A95E1E67-6721-A446-A7F1-2377AEEAC83B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_326.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/7694C542-7593-E84B-9334-27264237ECB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_327.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DE5D8AA7-DE9A-AF4B-86B1-50B9ABA12AB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_327.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7E59578A-1F54-0B4B-8A6A-4E6659AB0726.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_324.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F2EB5C2F-0DB0-9549-B197-C3E534FA472A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_325.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/DE5D8AA7-DE9A-AF4B-86B1-50B9ABA12AB0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_328.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F0BF2F77-995D-6A4B-8D76-B8BC3F5EAC32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_328.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/F0BF2F77-995D-6A4B-8D76-B8BC3F5EAC32.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_329.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/37B3CAE2-2B55-274B-99B0-A144A52A097F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_329.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8FF0CF97-2686-554C-A8A6-65A9D8289ECD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1340.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4028,13 +4028,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/36CE2A9D-A85D-A942-90FF-2B3B1CED1847.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2243.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FB2E196A-3666-AB42-BE2D-BD06FE09376C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_995.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6701C199-4635-D440-8A6A-B8363D2E47C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_995.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/73D74F20-1B31-9B41-BC4F-58176AF21394.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_994.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/2E272EEC-3CFE-874C-BB31-420AF171AA9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_997.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FB2E196A-3666-AB42-BE2D-BD06FE09376C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_997.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6701C199-4635-D440-8A6A-B8363D2E47C7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_996.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/2E272EEC-3CFE-874C-BB31-420AF171AA9B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_996.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/197DE78C-4553-484A-91E3-09FC545BBB6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_991.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4048,11 +4048,11 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/C499400A-E1A1-DC42-8807-15BB3B7A4C0C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_998.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/55E8ED35-9DC4-464C-87A0-BDD70941ED03.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_120.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6BA17B99-699D-4D4C-AE4B-67A50715E0C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_120.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/6BA17B99-699D-4D4C-AE4B-67A50715E0C3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_121.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/65A3C7AC-2027-D74D-9221-86F4873A75B7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_121.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/65A3C7AC-2027-D74D-9221-86F4873A75B7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_122.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/EEF2E00F-F889-5946-950A-EE2044EC2D91.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_122.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/965B45FC-11CF-1D41-974F-37D14717EEAB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1026.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4078,21 +4078,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B36C89D1-989F-3548-A566-6B2DD589C9FC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2061.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/6E153F1F-E89F-C44E-89D0-B2E7E7B67F7F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2062.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/C4D97B11-A109-D744-A242-FC48390991CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2062.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/C4D97B11-A109-D744-A242-FC48390991CB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2063.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/3EEE23FE-40E8-714A-9DCA-486E672F35E0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2063.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/3EEE23FE-40E8-714A-9DCA-486E672F35E0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2064.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/591546C5-A469-2847-B5D4-7CBBC572070D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2064.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/591546C5-A469-2847-B5D4-7CBBC572070D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2065.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/6E153F1F-E89F-C44E-89D0-B2E7E7B67F7F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2065.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/0E4AA724-A78D-9E41-9643-EFD8CC902EDE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2066.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/B1694793-1DAD-8F4B-92A6-69E49D5F2DA0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2067.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/324D9FC5-975C-4B40-8D45-95BCCCFA32B2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_722.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/339AAFFF-77AD-E346-9F5E-F7BDC6B55FAB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_722.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/339AAFFF-77AD-E346-9F5E-F7BDC6B55FAB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_723.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A5A54E76-700B-4E41-95FA-78DBE5A7F819.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_723.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/38A9D5BA-6BBF-5440-8EB8-6295392F7D6C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1645.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4138,21 +4138,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BDD271DC-AD73-DB48-8DE2-5D0BE9BD70D8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_574.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/76FC2177-2E07-0942-B1AD-05850AFC29A0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1209.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/08683923-BE6E-7A41-A66A-7258CFDA5A1F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1209.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/6F4694E1-1B2F-8044-B240-0C425FAB3D89.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1208.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B9991517-AA0C-D145-A667-C540AB598438.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1421.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9B3A0C6F-D17E-6B40-A26A-8E1FA89905AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1421.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/21A291DA-A0CD-B34E-B8B8-BCF11B255B8E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1420.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/ACC49240-F2BB-C444-AC68-DE65B58E58DD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1997.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2560000/10BE41CB-2083-7C49-AB75-B37FC78AA6A1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1997.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/9B3A0C6F-D17E-6B40-A26A-8E1FA89905AD.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1422.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/4E54DC15-DE9D-FF4C-B642-47D8F3FB1D83.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1422.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/62F6A90F-9A63-1C41-859C-072DE20930BA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1425.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B16367F1-9EDC-C94B-BE87-B66BAF513C3E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1424.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/B9991517-AA0C-D145-A667-C540AB598438.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1424.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/AF03D5EF-6657-EE4B-8F7B-751B0C1C595C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1427.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4170,7 +4170,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F20FF6F0-7E29-1346-A518-A4A81D839B36.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_733.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/433C5598-FBB9-D542-8DFE-C14E587D3ABF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_938.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/CBEB11A0-CDA0-C948-9202-8F2A87453D2B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_938.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/EA804120-FF00-4A4C-93A8-3AFA60F1816B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_735.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4214,21 +4214,21 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/8A84AB83-E4A8-DA41-A10A-1FD8F7D64E11.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2159.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D509F87D-5C66-5148-8039-40D72608C297.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1519.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7E8E46D5-8A7E-4C47-8B93-AEB1809FC921.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1519.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0D6DB94C-B47E-0B4A-9692-7179E1F551F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1518.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/D509F87D-5C66-5148-8039-40D72608C297.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1518.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/2BDC9593-8957-9B43-B972-05D5AD0ED3F8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1515.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/E421AFE7-7B38-1E4E-A6B7-223A00A93F52.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1514.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7E8E46D5-8A7E-4C47-8B93-AEB1809FC921.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1517.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/0D6DB94C-B47E-0B4A-9692-7179E1F551F9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1517.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/75E578F8-8557-5F4F-A234-30B72A0DB2E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1516.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/7BC1E22D-F3B5-A245-A846-3EA60DFE3FA7.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1511.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/5577A352-F01B-BB4D-84A5-D66D6A1A2728.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1510.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FD67A99D-7E00-9A4E-ACB4-9DADE1CC832C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1510.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/3C7FDB5D-B91C-1C48-8727-055D9A3BE353.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1513.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4258,7 +4258,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/8AE303BA-45CC-9E47-9DCF-FF69EBF76903.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_350.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/727F3126-947B-624C-883B-40CA164A1960.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_359.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/08DCC1EF-2469-5741-AF46-AE398C4651CC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_359.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/879787C4-5792-9E45-B617-5A368A5BF871.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_358.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4268,7 +4268,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/4A5A986B-2CAE-4F4D-A342-1C52C17CCE19.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1446.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/705EDE69-47F5-AD41-BBDF-57C96AC0F173.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1445.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AF76E679-E52F-D740-8A9E-7E1B17BCCF72.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1445.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/589C3E2A-34EB-F844-A8EF-FE77E7DB0CC5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_484.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4276,7 +4276,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/48D99EED-5C6A-D845-85FC-21482B2ACFDA.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_288.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B6DCBF95-974F-1042-AC26-613049175698.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1444.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/705EDE69-47F5-AD41-BBDF-57C96AC0F173.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1444.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/986CE2FE-4C7F-A547-A5EF-5EB2FCE20D20.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1793.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4292,7 +4292,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/28BE4EDB-D34F-2F49-897A-14C68A91E4B2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_287.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AF76E679-E52F-D740-8A9E-7E1B17BCCF72.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1442.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2BDD62CB-58BD-714E-9C85-AB2309AF4F6A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1442.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E87F9500-7AA1-7842-A5C5-B729C17C4892.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1441.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4320,17 +4320,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/2AF81E34-C979-9944-B9A8-81131E4DEDBB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_268.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E12DD080-C1CC-9045-935B-B7C38087A212.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1290.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6BD0D41F-0677-DE4A-BAE3-0968665F55A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1290.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6BD0D41F-0677-DE4A-BAE3-0968665F55A8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1291.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/7D167264-C3D0-304B-BFB6-F913D659854A.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1291.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/817C4DB5-270E-4B47-85E5-E353E7424AF6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1296.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/7567DE12-1B55-2440-9744-35FA3509EEA8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2192.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/F6C2176D-BB17-BB40-B4F5-01F8EBC03B02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2192.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8F8D1217-B584-8D44-B4ED-4F9DF9D3A60C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1297.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/F6C2176D-BB17-BB40-B4F5-01F8EBC03B02.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2193.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/25210000/4511F297-1DC6-9940-8378-8603A2074F9F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2193.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/34EAE253-2256-9F49-8488-5A009F23016B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1294.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4422,17 +4422,17 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/096AB00F-B5B5-964D-9971-1331DEB7AAE1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1389.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/BFF9ADB3-3F38-9F4B-8DDC-437F9F007FCF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1986.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5606DBFD-2704-7B44-AE91-D8387BD2BE8F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1986.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/5606DBFD-2704-7B44-AE91-D8387BD2BE8F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1987.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FBF23107-8189-1740-A161-F5692486D7AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1987.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/FC740EC5-C1B0-C148-8D57-48C2C1167AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1984.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C194AADB-0FE0-924A-9579-8C1B82900F0D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1984.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/C194AADB-0FE0-924A-9579-8C1B82900F0D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1985.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/BFF9ADB3-3F38-9F4B-8DDC-437F9F007FCF.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1985.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2540000/FBF23107-8189-1740-A161-F5692486D7AC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1982.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5C8C4AFB-D8B7-F44B-9F76-96268A8FB6A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1982.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/5C8C4AFB-D8B7-F44B-9F76-96268A8FB6A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1983.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/FC740EC5-C1B0-C148-8D57-48C2C1167AE3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1983.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2F957DD6-487F-F649-9CEA-48642A42119F.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1980.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4454,13 +4454,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1A27E429-2FEA-7A40-A46E-2AA87454197E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_561.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A4EFB5AF-3559-6348-8EBE-1906DB93A2E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_562.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C93D0A93-B718-6F4F-A3C9-C0C44955ED6B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_562.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/C93D0A93-B718-6F4F-A3C9-C0C44955ED6B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_563.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1C67BFDF-E7DF-9541-9624-17BAFD53AC2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_563.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1C67BFDF-E7DF-9541-9624-17BAFD53AC2C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_564.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/45D0EBC1-5FF2-4340-974D-79F830AF660C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_564.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/45D0EBC1-5FF2-4340-974D-79F830AF660C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_565.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A4EFB5AF-3559-6348-8EBE-1906DB93A2E8.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_565.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/B4DB9C5D-FEDC-E84C-B8FD-1D72ACD31CAE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_566.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4490,13 +4490,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/9918451C-8295-BF43-A35D-1D0DBFFE51DC.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_727.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/A5A54E76-700B-4E41-95FA-78DBE5A7F819.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_724.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2FC88CD5-38C6-6B48-BD05-FD1F34E809E3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_724.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2FC88CD5-38C6-6B48-BD05-FD1F34E809E3.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_725.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/324D9FC5-975C-4B40-8D45-95BCCCFA32B2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_725.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8FAF4EF5-A560-8341-B380-C9475116F6E5.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1748.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/C8979EB7-287E-8A4B-8632-AF5063F2A475.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1749.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/80000/D716B8DB-E1F1-3C4A-B187-0C70880BBAA2.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1749.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/FD38384D-5260-9B47-B1BF-D57AE8C1D985.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_720.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4518,9 +4518,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/952360C8-C756-3541-A495-94DCCD994C39.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1743.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CC6F6C43-FD3F-CE49-8388-93F7DF8CC0FB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1164.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8BACDD17-CCAD-7E48-A1F8-D58DDC58BA70.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1164.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/8BACDD17-CCAD-7E48-A1F8-D58DDC58BA70.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1165.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/2F26F1EE-0571-1741-96CD-6E74A8FC626C.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1165.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/E1ED5EF6-66E5-5A4F-957E-E0414ECE8A67.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1166.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4532,13 +4532,13 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AC5B09A3-058C-E943-9CB2-FC8C1B872CD9.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_640.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/03B36F81-2F51-684F-A83F-CB6366D24D16.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1163.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/CC6F6C43-FD3F-CE49-8388-93F7DF8CC0FB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1163.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D851B555-4FBC-7B4E-B153-D5907C678275.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1168.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/AE910191-E8FA-9041-A517-75AED34577DB.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1169.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/043FF29C-CA4D-A840-8541-B62014650AAE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_472.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/F33181A0-8D17-AB48-8B4D-932138D72864.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_472.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/652C9EA5-3EF0-C446-8760-CD1A8A3F117B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_48.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4554,7 +4554,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/A5285D4F-2387-9045-985D-08532DC3FE4B.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_42.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/3A73E330-5E7E-434E-84B3-235FA53F2C49.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2034.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/6096A044-2C3A-3C49-AD13-AE25C0785369.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_2034.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/424CB194-40C4-8B46-B47C-DB78A2A2F323.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_40.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4588,7 +4588,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DFC26265-AE4C-554D-978D-A56771CF9D53.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1360.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/875E8883-B816-5741-817F-138CA3618DC1.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_796.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/431E7166-1B9F-5E46-B431-D347F9BF312D.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_796.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/0CF0519C-E11A-9E4C-9A61-32324C3B71E4.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1361.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4606,7 +4606,7 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/BD78641A-A0D1-EF45-B67E-5FCB64B231A6.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_732.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/9EC37756-BA99-B240-9695-727CF41EA332.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1201.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/2550000/50C54BA0-BE13-6743-B878-7B181095A18E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1201.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D3F89A92-198A-E74E-8E0A-7B257CD318DE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_790.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
@@ -4614,9 +4614,9 @@ arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwi
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/DF419E47-B04E-5D46-A696-15D3383C5693.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_1367.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/1479B80C-77B4-3A44-A644-1969662A7F8E.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_470.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/370504E4-DC49-FA49-BBAD-7D0A72C79BF0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_470.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
-arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/370504E4-DC49-FA49-BBAD-7D0A72C79BF0.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_471.root -a '-o ./ -m --year 2017 -M Wcb'"
+arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/043FF29C-CA4D-A840-8541-B62014650AAE.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_471.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
 arguments="-f /store/mc/RunIISummer20UL17MiniAODv2/TT_TuneCH3_13TeV-powheg-herwig7/MINIAODSIM/106X_mc2017_realistic_v9-v1/30000/D4CC9A46-B399-104C-8B46-B39C5CCC8615.root -o /eos/user/l/legao/NtupleStore/V0/2017/MC/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/out_476.root -a '-o ./ -m --year 2017 -M Wcb'"
 queue
