@@ -26,6 +26,12 @@ elif options.type.upper() == "MC":
         print("Should", CommandStr)
         if options.test == "notest": os.system(CommandStr + " &")
 
+elif options.type.upper() == "HERWIG":
+    for Files in sorted(os.listdir(TreeDir + options.type)):
+        CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s &> %s.log" % (TreeDir + 'Herwig', Files, SlimmedTreeDir + 'Herwig', Files,options.year, Files)
+        print("Should", CommandStr)
+        if options.test == "notest": os.system(CommandStr + " &")
+
 elif options.type.upper() == "DATA":
     for Files in sorted(os.listdir(TreeDir + options.type)):
         CommandStr = "python3.9 -u SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -d -y %s &> %s.log" % (TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year, Files)
