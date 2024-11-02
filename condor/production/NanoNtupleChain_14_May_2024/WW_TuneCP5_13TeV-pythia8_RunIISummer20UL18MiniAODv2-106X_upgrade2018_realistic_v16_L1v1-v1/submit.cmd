@@ -24,7 +24,7 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/E9525118-649A-5E4A-A81F-173C2060578B.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_131.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/A0F84FED-D075-FB4E-B320-9761BF982B52.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_130.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/9C7DFED3-A8B9-5D44-B334-DBD6B8C751E4.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_130.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7137478E-B99E-2B4A-A888-4AC5030358B0.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_137.root -a '-o ./ -m --year 2018'"
 queue
@@ -34,11 +34,11 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/1FFD3DD3-19F9-F444-A187-46DE07A9360D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_134.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/CAF13626-2340-6E4B-8682-1CA7A816A80F.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_139.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/F8CC9966-B390-584B-B417-7E92EF61B9E5.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_139.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/F8CC9966-B390-584B-B417-7E92EF61B9E5.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_138.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/8FEC09D9-709F-1543-A986-170F68201E21.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_138.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/FD113AFC-17A4-E54E-B9EB-BE8067A7245C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_93.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/5A6A60A9-A350-6B46-9461-338702095C67.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_93.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/E012C678-A206-F549-B3E2-00E1C3902E44.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_24.root -a '-o ./ -m --year 2018'"
 queue
@@ -56,13 +56,13 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7D40C58A-107E-CF41-AF0C-3E04E50AC7C6.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_23.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/8700CDD7-D412-9844-890E-6B1E8281FD94.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_95.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/110000/00C0C5EF-095F-714C-97B5-819BDAD86EF3.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_95.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/E669F646-3DC2-5647-B747-27429E0CBC55.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_28.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/E03ACCEA-7210-5F4F-A1C4-F7695BBAAA6D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_29.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/110000/00C0C5EF-095F-714C-97B5-819BDAD86EF3.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_94.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/FD113AFC-17A4-E54E-B9EB-BE8067A7245C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_94.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/FD36F97D-3457-344D-878A-9B3457792242.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_0.root -a '-o ./ -m --year 2018'"
 queue
@@ -70,13 +70,13 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/0103B3C5-B01D-E642-8D36-EBA1AE4B1E95.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_8.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/C43C9768-3F4B-8C47-9A69-454BBB8D4BFC.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_96.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/8700CDD7-D412-9844-890E-6B1E8281FD94.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_96.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/326C50A0-0EB0-7C41-9858-57895710196B.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_68.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7C33F9A1-AE26-A348-8A4F-D7370F5725D2.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_68.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/F7C4432E-9153-8D47-8598-92428E58FC90.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_120.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B828000F-E8A3-024D-997D-3D9F55F23366.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_120.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/46A1B1C8-E0E9-4342-A1C7-8C5AA456D2E3.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_121.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/F7C4432E-9153-8D47-8598-92428E58FC90.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_121.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B433E22A-DB8F-AE4F-BC3D-5D962CC9AD2A.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_122.root -a '-o ./ -m --year 2018'"
 queue
@@ -88,15 +88,15 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/8697E4D5-D9F9-5D4F-85F0-ABEFD75C7D38.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_126.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/9CA852F5-7CE2-2744-9426-7863FB501464.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_127.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/A0F84FED-D075-FB4E-B320-9761BF982B52.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_127.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/98F37CC2-EBAF-D54D-9228-087976BB733C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_128.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/9CA852F5-7CE2-2744-9426-7863FB501464.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_128.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/9C7DFED3-A8B9-5D44-B334-DBD6B8C751E4.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_129.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/98F37CC2-EBAF-D54D-9228-087976BB733C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_129.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/E9035670-04F6-2E4A-8DB1-84FD2EB27D6C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_69.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/326C50A0-0EB0-7C41-9858-57895710196B.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_69.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/43317347-C74D-8D4A-B874-462A44934524.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_91.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/AB5051CF-9CE7-FA4F-AC32-C736CBD33CAC.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_91.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/CB7D4696-B2B7-7E4D-A312-9D47D4C9B1C2.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_59.root -a '-o ./ -m --year 2018'"
 queue
@@ -118,27 +118,27 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/44D9DB47-AE63-D949-8A55-91FB99EA8636.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_52.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/AB5051CF-9CE7-FA4F-AC32-C736CBD33CAC.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_90.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/4CF69650-3D44-FF4D-BBAA-4FE3EF8B5210.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_90.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B0364CD8-B047-7E4A-AB74-6F3019FAD89D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_66.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/E9035670-04F6-2E4A-8DB1-84FD2EB27D6C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_66.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7C33F9A1-AE26-A348-8A4F-D7370F5725D2.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_67.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B0364CD8-B047-7E4A-AB74-6F3019FAD89D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_67.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/28DBA064-13AE-4E4E-8202-37864C3EF7F1.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_115.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/2BB2D4E4-C202-E04A-A7E0-15E5340288E9.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_115.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/2BB2D4E4-C202-E04A-A7E0-15E5340288E9.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_114.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/91B68A6A-22E0-4649-BC20-6A2AE253254C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_114.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/C4FCD210-4631-9145-BB38-C288549CE454.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_88.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/4CF69650-3D44-FF4D-BBAA-4FE3EF8B5210.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_89.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/675828F5-7CC2-DB48-8CB9-5891DC943D73.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_89.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/4FD285D4-BA04-F14E-98D8-E4B7401BF37E.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_111.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/FE737F71-5239-4D4F-A157-EB24035F5643.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_110.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/91B68A6A-22E0-4649-BC20-6A2AE253254C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_113.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/A15AA99D-1547-DD45-A8B5-98FCA2C5E336.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_113.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/A15AA99D-1547-DD45-A8B5-98FCA2C5E336.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_112.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/28DBA064-13AE-4E4E-8202-37864C3EF7F1.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_112.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/4451708C-1631-1A4D-A3A3-E09B3BC8912E.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_82.root -a '-o ./ -m --year 2018'"
 queue
@@ -148,9 +148,9 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/D8CF1712-156F-594B-9AD0-E08B59D6E142.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_81.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B828000F-E8A3-024D-997D-3D9F55F23366.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_119.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/1F339F42-29BD-CD4C-8695-6249920C34CB.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_119.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/1F339F42-29BD-CD4C-8695-6249920C34CB.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_118.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/A3EC766D-16AF-EF4E-8EDA-28221F57C166.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_118.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/4360D4B5-7F84-9445-BAD1-F1D03ACB6C40.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_84.root -a '-o ./ -m --year 2018'"
 queue
@@ -160,7 +160,7 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/9FD555FD-CF79-0A47-9631-0CEBC2E37FFF.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_7.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/5A6A60A9-A350-6B46-9461-338702095C67.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_92.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/43317347-C74D-8D4A-B874-462A44934524.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_92.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/B534A924-B559-DB48-878B-4D59E24FEE4E.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_108.root -a '-o ./ -m --year 2018'"
 queue
@@ -182,9 +182,9 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/40E532A7-CEC3-CA43-86BC-9D9161A69FF2.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_105.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/EF734F9C-A891-3743-BE93-C653872B1D14.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_39.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/ECAAF396-974C-4144-9838-D05B1F2BAD21.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_39.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/ECAAF396-974C-4144-9838-D05B1F2BAD21.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_38.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/33397092-09A8-9A49-9F6D-0AA32D9D5028.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_38.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/EAFE419B-67A1-F844-B0C8-1CF7778AF1E9.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_33.root -a '-o ./ -m --year 2018'"
 queue
@@ -216,23 +216,23 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/B909F2EC-FABA-9B45-952B-B68BB91E16E2.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_179.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/85D70B81-F801-6F42-9C48-48A23535E8D7.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_178.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/AE88C878-55AF-0446-8F8B-40B1F244E79F.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_178.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/AE88C878-55AF-0446-8F8B-40B1F244E79F.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_177.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7B1803FD-4D66-114D-AB4B-191AE19010B8.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_177.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7B1803FD-4D66-114D-AB4B-191AE19010B8.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_176.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/DDF5AB27-48BC-BD4D-AA1C-82BC7E5F4B57.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_176.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/920CA6C2-BFA2-8A40-AD59-1B222C872817.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_175.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/B18BFB4C-33D6-2241-9E0E-9E148CA93460.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_175.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/53EFB9E3-70B5-B741-9E85-00BBE0608B51.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_174.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/856A28AB-D951-A449-8773-EDAC13D2F511.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_174.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/55B805E3-9B4C-7148-8025-9407E4E89060.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_173.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/85D70B81-F801-6F42-9C48-48A23535E8D7.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_173.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/0849192E-1894-4541-8A50-EE3FF4A77AF9.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_172.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/920CA6C2-BFA2-8A40-AD59-1B222C872817.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_172.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/F30E8AEA-2861-1845-8644-000ACFBF1CEB.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_171.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/53EFB9E3-70B5-B741-9E85-00BBE0608B51.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_171.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/96DD8C38-EAA3-CF4E-B3AB-BE61D70D6999.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_170.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/55B805E3-9B4C-7148-8025-9407E4E89060.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_170.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/23F94BD6-B74D-A74E-B489-5EFADBFF18E1.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_182.root -a '-o ./ -m --year 2018'"
 queue
@@ -248,7 +248,7 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/DD59A6D7-2E62-AC42-9240-8FCAE3611799.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_6.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/675828F5-7CC2-DB48-8CB9-5891DC943D73.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_97.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/C43C9768-3F4B-8C47-9A69-454BBB8D4BFC.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_97.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/6E336897-51DA-1046-A1A7-6B8AD36EF854.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_185.root -a '-o ./ -m --year 2018'"
 queue
@@ -256,37 +256,37 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/FDCEAC7F-1F83-684B-AFF2-B5A7A62138F6.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_98.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/3E94EFB3-A796-2E47-97F1-8DFE4595180C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_168.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/F30E8AEA-2861-1845-8644-000ACFBF1CEB.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_168.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/A7FDD2EF-2167-D641-98EB-6F9FCDA6D251.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_169.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/0849192E-1894-4541-8A50-EE3FF4A77AF9.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_169.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/B18BFB4C-33D6-2241-9E0E-9E148CA93460.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_164.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/5771DEDC-BF54-7E4B-807D-819D995B27EF.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_164.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/694E94F2-50B4-EA4D-8371-3CF8D442A832.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_165.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/3E94EFB3-A796-2E47-97F1-8DFE4595180C.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_165.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/5771DEDC-BF54-7E4B-807D-819D995B27EF.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_166.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/A7FDD2EF-2167-D641-98EB-6F9FCDA6D251.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_166.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/DDF5AB27-48BC-BD4D-AA1C-82BC7E5F4B57.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_167.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/96DD8C38-EAA3-CF4E-B3AB-BE61D70D6999.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_167.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/61BA1978-3B61-9245-A397-BE2D2AA54E97.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_160.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/AC6B0F84-EB33-7142-AFCD-40D54AA93C93.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_161.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/856A28AB-D951-A449-8773-EDAC13D2F511.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_162.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/A44EA48F-92C7-984C-9789-EF14C35F763D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_162.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/A44EA48F-92C7-984C-9789-EF14C35F763D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_163.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/694E94F2-50B4-EA4D-8371-3CF8D442A832.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_163.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/7F3FC0D1-DD06-4D4E-AC2A-249703130E59.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_11.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/515F8511-95D0-9042-9374-6F97F0BB6C95.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_11.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/46AC7168-04DD-1C41-B964-B3765348FA15.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_10.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/6ABC8752-2BD7-A943-94F2-373AD8885726.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_13.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/E8F29F5D-C23A-8842-87DC-85D310415BDD.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_13.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/E8F29F5D-C23A-8842-87DC-85D310415BDD.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_12.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/7F3FC0D1-DD06-4D4E-AC2A-249703130E59.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_12.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/22B9609C-A972-F24B-AB8F-E12BC5000CD1.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_15.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/515F8511-95D0-9042-9374-6F97F0BB6C95.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_14.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/00000/6ABC8752-2BD7-A943-94F2-373AD8885726.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_14.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/6000972E-C4D8-DC41-B828-5FB592B0156B.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_17.root -a '-o ./ -m --year 2018'"
 queue
@@ -296,9 +296,9 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/710E4490-034A-F047-A07F-AD54CD56D71D.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_18.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/A3EC766D-16AF-EF4E-8EDA-28221F57C166.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_117.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/26C752CA-1519-1747-A63B-AFC20B1D6B76.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_117.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/26C752CA-1519-1747-A63B-AFC20B1D6B76.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_116.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/46A1B1C8-E0E9-4342-A1C7-8C5AA456D2E3.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_116.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/708990FC-C7E0-D141-BC9D-04CEBED6E2CF.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_151.root -a '-o ./ -m --year 2018'"
 queue
@@ -336,7 +336,7 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/33296EBD-558E-684A-A3B5-9D41D87FE734.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_43.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7C483E1D-BE57-544C-BF6D-BD078712BB15.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_40.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/EF734F9C-A891-3743-BE93-C653872B1D14.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_40.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/63D6CE8C-DED3-C742-B8CE-FBC3DCF6EF52.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_87.root -a '-o ./ -m --year 2018'"
 queue
@@ -346,9 +346,9 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/39517471-4040-6346-99A5-5554D1E952A5.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_9.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/58970F31-1EB1-094F-9A4D-5CCD861AC4A4.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_146.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/C0629EB6-6AB9-C94B-9221-6B1B73AD81E5.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_146.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/51AD74B6-E922-7943-A4E3-FA0C7536FB89.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_147.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/58970F31-1EB1-094F-9A4D-5CCD861AC4A4.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_147.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/27298CB7-6EC0-374C-9A63-0379484A3918.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_144.root -a '-o ./ -m --year 2018'"
 queue
@@ -358,13 +358,13 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/6F9854B4-745B-7247-BA24-6476C83259AA.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_143.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/EA88D379-1D4A-774B-BEB4-AB1C7E225676.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_140.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/CAF13626-2340-6E4B-8682-1CA7A816A80F.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_140.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/8FEC09D9-709F-1543-A986-170F68201E21.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_141.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/EA88D379-1D4A-774B-BEB4-AB1C7E225676.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_141.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/EDE6AC10-7617-F24A-B48D-671821AF3DD7.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_148.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/51AD74B6-E922-7943-A4E3-FA0C7536FB89.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_148.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/C0629EB6-6AB9-C94B-9221-6B1B73AD81E5.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_149.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/240000/EDE6AC10-7617-F24A-B48D-671821AF3DD7.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_149.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/9576718E-65BA-6144-B917-D36269B802EC.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_77.root -a '-o ./ -m --year 2018'"
 queue
@@ -388,7 +388,7 @@ arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINI
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/30000/BFFE5C63-A016-B84A-9A51-3FC2EFD8CBA1.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_2.root -a '-o ./ -m --year 2018'"
 queue
-arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/33397092-09A8-9A49-9F6D-0AA32D9D5028.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_41.root -a '-o ./ -m --year 2018'"
+arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/7C483E1D-BE57-544C-BF6D-BD078712BB15.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_41.root -a '-o ./ -m --year 2018'"
 queue
 arguments="-f /store/mc/RunIISummer20UL18MiniAODv2/WW_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/230000/495B2918-BC0E-714D-B793-6C336F340529.root -o /eos/user/l/legao/NtupleStore/V0/2018/MC/WW_TuneCP5_13TeV-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/out_47.root -a '-o ./ -m --year 2018'"
 queue
