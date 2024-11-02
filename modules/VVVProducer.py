@@ -577,105 +577,146 @@ def Process_1Lepton_GenMatching_H(self,nt):
                             self.out.fillBranch("genH_w2_q2_pdg", nt.GenPart_pdgId[H_W2_daughter_index[1]]);                
     return isHWW
 
-def Process_GenMatching_Wcb(self,nt):
-    isWcb = True
-    genw_q1_eta=[]
-    phigenwl=[]
-    etagenwl=[]
-    massgenwl=[]
-    genw_q2_pdg=[]
-    genw_q2_pt=[]
-    ptgenwl=[]
-    genw_q2_mass=[]
-    genw_q2_eta=[]
-    massgenwf=[]
-    etagenwf=[]
-    genw_q2_phi=[]
-    taggenwl=[]
-    ptgenwf=[]
-    genw_q1_phi=[]
-    genw_q1_mass=[]
-    genw_q1_pt=[]
-    genw_q1_pdg=[]
-    phigenwf=[]
-    for ik in range(0,nt.nGenPart):
-        if (abs(nt.GenPart_pdgId[ik]) == 24):
-            if (not (nt.GenPart_statusFlags[ik]&(1<<13))): continue; 
-            ptgenwl.append(nt.GenPart_pt[ik]);
-            etagenwl.append(nt.GenPart_eta[ik]);
-            phigenwl.append(nt.GenPart_phi[ik]);
-            massgenwl.append(nt.GenPart_mass[ik]);
+#def Process_GenMatching_Wcb(self,nt):
+#    isWcb = True
+#    genw_q1_eta=[]
+#    phigenwl=[]
+#    etagenwl=[]
+#    massgenwl=[]
+#    genw_q2_pdg=[]
+#    genw_q2_pt=[]
+#    ptgenwl=[]
+#    genw_q2_mass=[]
+#    genw_q2_eta=[]
+#    massgenwf=[]
+#    etagenwf=[]
+#    genw_q2_phi=[]
+#    taggenwl=[]
+#    ptgenwf=[]
+#    genw_q1_phi=[]
+#    genw_q1_mass=[]
+#    genw_q1_pt=[]
+#    genw_q1_pdg=[]
+#    phigenwf=[]
+#    for ik in range(0,nt.nGenPart):
+#        if (abs(nt.GenPart_pdgId[ik]) == 24):
+#            if (not (nt.GenPart_statusFlags[ik]&(1<<13))): continue; 
+#            ptgenwl.append(nt.GenPart_pt[ik]);
+#            etagenwl.append(nt.GenPart_eta[ik]);
+#            phigenwl.append(nt.GenPart_phi[ik]);
+#            massgenwl.append(nt.GenPart_mass[ik]);
+#
+#            FirstCopy = Process_1Lepton_GenMatching_FirstCopy(nt,ik);
+#            ptgenwf.append(nt.GenPart_pt[FirstCopy]);
+#            etagenwf.append(nt.GenPart_eta[FirstCopy]);
+#            phigenwf.append(nt.GenPart_phi[FirstCopy]);
+#            massgenwf.append(nt.GenPart_mass[FirstCopy]);
+#
+#            W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt,ik);
+#            W_daughter_PDG = [nt.GenPart_pdgId[W_daughter_index[0]],nt.GenPart_pdgId[W_daughter_index[1]]]
+#            # print("W daughter is",W_daughter_PDG)
+#            if (not (W_daughter_PDG == [4,-5])) and (not (W_daughter_PDG == [-4,5])) : 
+#                isWcb = False
+#            self.out.fillBranch("genWcb_pt", nt.GenPart_pt[ik]);
+#            self.out.fillBranch("genWcb_eta", nt.GenPart_eta[ik]);
+#            self.out.fillBranch("genWcb_phi", nt.GenPart_phi[ik]);
+#            self.out.fillBranch("genWcb_mass", nt.GenPart_mass[ik]);
+#            self.out.fillBranch("isWcb", isWcb);
+#            NW_daughter = len(W_daughter_index)
+#            if ( NW_daughter == 2):
+#                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])<=6 ):  taggenwl.append(4)
+#                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==11 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==12 ):taggenwl.append(1)
+#                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==13 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==14 ):taggenwl.append(2)
+#                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==15 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==16 ):taggenwl.append(3)
+#                genw_q1_pt.append(nt.GenPart_pt[W_daughter_index[0]]);
+#                genw_q1_eta.append(nt.GenPart_eta[W_daughter_index[0]]);
+#                genw_q1_phi.append(nt.GenPart_phi[W_daughter_index[0]]);
+#                genw_q1_mass.append(nt.GenPart_mass[W_daughter_index[0]]);
+#                genw_q1_pdg.append(nt.GenPart_pdgId[W_daughter_index[0]]);
+#                genw_q2_pt.append(nt.GenPart_pt[W_daughter_index[1]]);
+#                genw_q2_eta.append(nt.GenPart_eta[W_daughter_index[1]]);
+#                genw_q2_phi.append(nt.GenPart_phi[W_daughter_index[1]]);
+#                genw_q2_mass.append(nt.GenPart_mass[W_daughter_index[1]]);
+#                genw_q2_pdg.append(nt.GenPart_pdgId[W_daughter_index[1]]);
+#    genw_q1_phi.extend(np.zeros(5-len(genw_q1_phi),int))
+#    genw_q2_pt.extend(np.zeros(5-len(genw_q2_pt),int))
+#    genw_q1_pt.extend(np.zeros(5-len(genw_q1_pt),int))
+#    genw_q2_phi.extend(np.zeros(5-len(genw_q2_phi),int))
+#    genw_q1_mass.extend(np.zeros(5-len(genw_q1_mass),int))
+#    massgenwl.extend(np.zeros(5-len(massgenwl),int))
+#    etagenwf.extend(np.zeros(5-len(etagenwf),int))
+#    phigenwf.extend(np.zeros(5-len(phigenwf),int))
+#    genw_q1_pdg.extend(np.zeros(5-len(genw_q1_pdg),int))
+#    ptgenwl.extend(np.zeros(5-len(ptgenwl),int))
+#    genw_q2_mass.extend(np.zeros(5-len(genw_q2_mass),int))
+#    taggenwl.extend(np.zeros(5-len(taggenwl),int))
+#    etagenwl.extend(np.zeros(5-len(etagenwl),int))
+#    ptgenwf.extend(np.zeros(5-len(ptgenwf),int))
+#    genw_q1_eta.extend(np.zeros(5-len(genw_q1_eta),int))
+#    massgenwf.extend(np.zeros(5-len(massgenwf),int))
+#    genw_q2_eta.extend(np.zeros(5-len(genw_q2_eta),int))
+#    phigenwl.extend(np.zeros(5-len(phigenwl),int))
+#    genw_q2_pdg.extend(np.zeros(5-len(genw_q2_pdg),int))
+#    self.out.fillBranch("genw_q1_phi", genw_q1_phi)
+#    self.out.fillBranch("genw_q2_pt", genw_q2_pt)
+#    self.out.fillBranch("genw_q1_pt", genw_q1_pt)
+#    self.out.fillBranch("genw_q2_phi", genw_q2_phi)
+#    self.out.fillBranch("genw_q1_mass", genw_q1_mass)
+#    self.out.fillBranch("massgenwl", massgenwl)
+#    self.out.fillBranch("etagenwf", etagenwf)
+#    self.out.fillBranch("phigenwf", phigenwf)
+#    self.out.fillBranch("genw_q1_pdg", genw_q1_pdg)
+#    self.out.fillBranch("ptgenwl", ptgenwl)
+#    self.out.fillBranch("genw_q2_mass", genw_q2_mass)
+#    self.out.fillBranch("taggenwl", taggenwl)
+#    self.out.fillBranch("etagenwl", etagenwl)
+#    self.out.fillBranch("ptgenwf", ptgenwf)
+#    self.out.fillBranch("genw_q1_eta", genw_q1_eta)
+#    self.out.fillBranch("massgenwf", massgenwf)
+#    self.out.fillBranch("genw_q2_eta", genw_q2_eta)
+#    self.out.fillBranch("phigenwl", phigenwl)
+#    self.out.fillBranch("genw_q2_pdg", genw_q2_pdg)
+#    return isWcb
 
-            FirstCopy = Process_1Lepton_GenMatching_FirstCopy(nt,ik);
-            ptgenwf.append(nt.GenPart_pt[FirstCopy]);
-            etagenwf.append(nt.GenPart_eta[FirstCopy]);
-            phigenwf.append(nt.GenPart_phi[FirstCopy]);
-            massgenwf.append(nt.GenPart_mass[FirstCopy]);
-
-            W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt,ik);
-            W_daughter_PDG = [nt.GenPart_pdgId[W_daughter_index[0]],nt.GenPart_pdgId[W_daughter_index[1]]]
-            # print("W daughter is",W_daughter_PDG)
-            if (not (W_daughter_PDG == [4,-5])) and (not (W_daughter_PDG == [-4,5])) : 
-                isWcb = False
-            self.out.fillBranch("genWcb_pt", nt.GenPart_pt[ik]);
-            self.out.fillBranch("genWcb_eta", nt.GenPart_eta[ik]);
-            self.out.fillBranch("genWcb_phi", nt.GenPart_phi[ik]);
-            self.out.fillBranch("genWcb_mass", nt.GenPart_mass[ik]);
-            self.out.fillBranch("isWcb", isWcb);
-            NW_daughter = len(W_daughter_index)
-            if ( NW_daughter == 2):
-                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])<=6 ):  taggenwl.append(4)
-                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==11 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==12 ):taggenwl.append(1)
-                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==13 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==14 ):taggenwl.append(2)
-                if( abs(nt.GenPart_pdgId[W_daughter_index[0]])==15 or abs(nt.GenPart_pdgId[W_daughter_index[0]])==16 ):taggenwl.append(3)
-                genw_q1_pt.append(nt.GenPart_pt[W_daughter_index[0]]);
-                genw_q1_eta.append(nt.GenPart_eta[W_daughter_index[0]]);
-                genw_q1_phi.append(nt.GenPart_phi[W_daughter_index[0]]);
-                genw_q1_mass.append(nt.GenPart_mass[W_daughter_index[0]]);
-                genw_q1_pdg.append(nt.GenPart_pdgId[W_daughter_index[0]]);
-                genw_q2_pt.append(nt.GenPart_pt[W_daughter_index[1]]);
-                genw_q2_eta.append(nt.GenPart_eta[W_daughter_index[1]]);
-                genw_q2_phi.append(nt.GenPart_phi[W_daughter_index[1]]);
-                genw_q2_mass.append(nt.GenPart_mass[W_daughter_index[1]]);
-                genw_q2_pdg.append(nt.GenPart_pdgId[W_daughter_index[1]]);
-    genw_q1_phi.extend(np.zeros(5-len(genw_q1_phi),int))
-    genw_q2_pt.extend(np.zeros(5-len(genw_q2_pt),int))
-    genw_q1_pt.extend(np.zeros(5-len(genw_q1_pt),int))
-    genw_q2_phi.extend(np.zeros(5-len(genw_q2_phi),int))
-    genw_q1_mass.extend(np.zeros(5-len(genw_q1_mass),int))
-    massgenwl.extend(np.zeros(5-len(massgenwl),int))
-    etagenwf.extend(np.zeros(5-len(etagenwf),int))
-    phigenwf.extend(np.zeros(5-len(phigenwf),int))
-    genw_q1_pdg.extend(np.zeros(5-len(genw_q1_pdg),int))
-    ptgenwl.extend(np.zeros(5-len(ptgenwl),int))
-    genw_q2_mass.extend(np.zeros(5-len(genw_q2_mass),int))
-    taggenwl.extend(np.zeros(5-len(taggenwl),int))
-    etagenwl.extend(np.zeros(5-len(etagenwl),int))
-    ptgenwf.extend(np.zeros(5-len(ptgenwf),int))
-    genw_q1_eta.extend(np.zeros(5-len(genw_q1_eta),int))
-    massgenwf.extend(np.zeros(5-len(massgenwf),int))
-    genw_q2_eta.extend(np.zeros(5-len(genw_q2_eta),int))
-    phigenwl.extend(np.zeros(5-len(phigenwl),int))
-    genw_q2_pdg.extend(np.zeros(5-len(genw_q2_pdg),int))
-    self.out.fillBranch("genw_q1_phi", genw_q1_phi)
-    self.out.fillBranch("genw_q2_pt", genw_q2_pt)
-    self.out.fillBranch("genw_q1_pt", genw_q1_pt)
-    self.out.fillBranch("genw_q2_phi", genw_q2_phi)
-    self.out.fillBranch("genw_q1_mass", genw_q1_mass)
-    self.out.fillBranch("massgenwl", massgenwl)
-    self.out.fillBranch("etagenwf", etagenwf)
-    self.out.fillBranch("phigenwf", phigenwf)
-    self.out.fillBranch("genw_q1_pdg", genw_q1_pdg)
-    self.out.fillBranch("ptgenwl", ptgenwl)
-    self.out.fillBranch("genw_q2_mass", genw_q2_mass)
-    self.out.fillBranch("taggenwl", taggenwl)
-    self.out.fillBranch("etagenwl", etagenwl)
-    self.out.fillBranch("ptgenwf", ptgenwf)
-    self.out.fillBranch("genw_q1_eta", genw_q1_eta)
-    self.out.fillBranch("massgenwf", massgenwf)
-    self.out.fillBranch("genw_q2_eta", genw_q2_eta)
-    self.out.fillBranch("phigenwl", phigenwl)
-    self.out.fillBranch("genw_q2_pdg", genw_q2_pdg)
+def Process_GenMatching_Wcb(self, nt):
+    isWcb = False
+    pt, eta, phi, mass = 0, 0, 0, 0
+    for ik in range(nt.nGenPart):
+        if abs(nt.GenPart_pdgId[ik]) == 24:  # W+/W-
+            if not (nt.GenPart_statusFlags[ik] & (1 << 13)): continue
+            W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt, ik)
+            W_daughter_PDG = sorted([
+                abs(nt.GenPart_pdgId[W_daughter_index[0]]),
+                abs(nt.GenPart_pdgId[W_daughter_index[1]]),
+            ])
+            if W_daughter_PDG == [4, 5]:
+                isWcb = True
+                pt, eta, phi, mass = nt.GenPart_pt[ik], nt.GenPart_eta[ik], nt.GenPart_phi[ik], nt.GenPart_mass[ik]
+                break
+    self.out.fillBranch("isWcb", isWcb)
+    self.out.fillBranch("genWcb_pt", pt)
+    self.out.fillBranch("genWcb_eta", eta)
+    self.out.fillBranch("genWcb_phi", phi)
+    self.out.fillBranch("genWcb_mass", mass)
+    self.out.fillBranch("genw_q1_phi", np.zeros(5))  # --- obsolete branches below ---
+    self.out.fillBranch("genw_q2_pt", np.zeros(5))
+    self.out.fillBranch("genw_q1_pt", np.zeros(5))
+    self.out.fillBranch("genw_q2_phi", np.zeros(5))
+    self.out.fillBranch("genw_q1_mass", np.zeros(5))
+    self.out.fillBranch("massgenwl", np.zeros(5))
+    self.out.fillBranch("etagenwf", np.zeros(5))
+    self.out.fillBranch("phigenwf", np.zeros(5))
+    self.out.fillBranch("genw_q1_pdg", np.zeros(5))
+    self.out.fillBranch("ptgenwl", np.zeros(5))
+    self.out.fillBranch("genw_q2_mass", np.zeros(5))
+    self.out.fillBranch("taggenwl", np.zeros(5))
+    self.out.fillBranch("etagenwl", np.zeros(5))
+    self.out.fillBranch("ptgenwf", np.zeros(5))
+    self.out.fillBranch("genw_q1_eta", np.zeros(5))
+    self.out.fillBranch("massgenwf", np.zeros(5))
+    self.out.fillBranch("genw_q2_eta", np.zeros(5))
+    self.out.fillBranch("phigenwl", np.zeros(5))
+    self.out.fillBranch("genw_q2_pdg", np.zeros(5))  # --- obsolete branches above ---
     return isWcb
 
 def Process_1Lepton_GenMatching_W(self,nt):
