@@ -685,10 +685,8 @@ def Process_GenMatching_Wcb(self, nt):
         if abs(nt.GenPart_pdgId[ik]) == 24:  # W+/W-
             if not (nt.GenPart_statusFlags[ik] & (1 << 13)): continue
             W_daughter_index = Process_1Lepton_GenMatching_daughterindex(nt, ik)
-            W_daughter_PDG = sorted([
-                abs(nt.GenPart_pdgId[W_daughter_index[0]]),
-                abs(nt.GenPart_pdgId[W_daughter_index[1]]),
-            ])
+            W_daughter_PDG = sorted([abs(nt.GenPart_pdgId[i]) for i in W_daughter_index])
+            print('W_daughter_PDG:', W_daughter_PDG)
             if W_daughter_PDG == [4, 5]:
                 isWcb = True
                 pt, eta, phi, mass = nt.GenPart_pt[ik], nt.GenPart_eta[ik], nt.GenPart_phi[ik], nt.GenPart_mass[ik]
