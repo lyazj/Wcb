@@ -492,13 +492,11 @@ DAS_2016_SingleMuon_ = [
 ]
 
 DAS_2017_SingleMuon_ = [
-    "/SingleMuon/Run2017B-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017C-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017D-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017E-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017F-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017G-UL2017_MiniAODv2_GT36-v1/MINIAOD",
-    "/SingleMuon/Run2017H-UL2017_MiniAODv2_GT36-v1/MINIAOD",
+    "/SingleMuon/Run2017B-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleMuon/Run2017C-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleMuon/Run2017D-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleMuon/Run2017E-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleMuon/Run2017F-UL2017_MiniAODv2-v1/MINIAOD",
 ]
 
 DAS_2018_SingleMuon_ = [
