@@ -3,7 +3,7 @@
 import os
 import getpass
 from optparse import OptionParser
-from XS import process_dict, signal_process
+from XS import process_dict
 import subprocess
 from JobManager import concurrent_jobs, submit, wait
 
@@ -67,7 +67,7 @@ for process in process_dict:
         for file in process_dasfiles[das]:
             infile = os.path.join(inpath, file)
             outfile = os.path.join(outpath, 'Tree_' + file)
-            cmd = "stat '%s' &>/dev/null || (python2 runEDBR2PKUTree.py --inputfile '%s' --outputfile '%s'.tmp --year %s --channel HWW --IsData 100 --sampleXS %s --Nevents %s%s &>'%s'.log && mv '%s'.tmp '%s' || rm '%s'.tmp)" % (outfile, infile, outfile, year, process_xs, process_nevents, ' -S' if process in signal_process else '', outfile, outfile, outfile, outfile)
+            cmd = "stat '%s' &>/dev/null || (python2 runEDBR2PKUTree.py --inputfile '%s' --outputfile '%s'.tmp --year %s --channel HWW --IsData 100 --sampleXS %s --Nevents %s &>'%s'.log && mv '%s'.tmp '%s' || rm '%s'.tmp)" % (outfile, infile, outfile, year, process_xs, process_nevents, outfile, outfile, outfile, outfile)
             if options.test:
                 print(cmd)
             else:

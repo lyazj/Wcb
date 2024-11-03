@@ -43,11 +43,3 @@ process_dict = {
     "WJetsToQQ_HT-600to800": 59250,
     "WJetsToQQ_HT-800toInf": 28750,
 }
-
-signal_process = {
-    "WJetsToQQ_HT-400to600",
-    "WJetsToQQ_HT-600to800",
-    "WJetsToQQ_HT-800toInf",
-    "TTToHadronic",
-    "TTToSemiLeptonic",
-}
