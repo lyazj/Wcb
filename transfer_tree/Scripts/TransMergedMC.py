@@ -23,7 +23,7 @@ year = {
 for prefix in ['/data/bond', '/publicfs/cms/user']:
     if os.path.isdir(prefix): break
 inroot = os.path.join(prefix, getpass.getuser() + '/Ntuple/V0/' + year + '/MC/')
-outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V0/Splitted/' + year + '/MC/')
+outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V1/Splitted/' + year + '/MC/')
 
 # Match DAS names to process names.
 # A DAS name matches a process name if and only if the former contains the latter.

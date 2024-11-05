@@ -21,7 +21,7 @@ year = {
 for prefix in ['/data/bond', '/publicfs/cms/user']:
     if os.path.isdir(prefix): break
 inroot = os.path.join(prefix, getpass.getuser() + '/Ntuple/V0/' + year + '/Data/')
-outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V0/Splitted/' + year + '/Data/')
+outroot = os.path.join(prefix, getpass.getuser() + '/Tree/V1/Splitted/' + year + '/Data/')
 
 for das in os.listdir(inroot):
     inpath = os.path.join(inroot, das)
