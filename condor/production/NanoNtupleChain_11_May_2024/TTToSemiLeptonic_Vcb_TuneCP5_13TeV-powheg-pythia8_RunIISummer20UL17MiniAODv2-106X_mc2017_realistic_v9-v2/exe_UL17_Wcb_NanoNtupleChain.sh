@@ -75,20 +75,20 @@ fi
 LOCALInputFile=`cat $BASEPATH/Localfile.txt`
 echo $LOCALInputFile
 
-cmsDriver.py data2016 \
+cmsDriver.py mc2017 \
 -n -1 \
---data \
---eventcontent NANOAOD \
---datatier NANOAOD \
---conditions 106X_dataRun2_v35 \
+--mc \
+--eventcontent NANOAODSIM \
+--datatier NANOAODSIM \
+--conditions 106X_mc2017_realistic_v9 \
 --step NANO \
 --nThreads 1 \
---era Run2_2016,run2_nanoAOD_106Xv2 \
---customise PhysicsTools/NanoTuples/nanoTuples_cff.nanoTuples_customizeData \
+--era Run2_2017,run2_nanoAOD_106Xv2 \
+--customise PhysicsTools/NanoTuples/nanoTuples_cff.nanoTuples_customizeMC \
 --filein file:$LOCALInputFile \
 --fileout file:out_Nano_1.root \
 --no_exec
-cmsRun data2016_NANO.py
+cmsRun mc2017_NANO.py
 
 pwd
 ls -lth

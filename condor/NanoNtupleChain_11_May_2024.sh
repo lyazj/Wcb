@@ -15,6 +15,7 @@ condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/TTToHadronic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/TTToSemiLeptonic_Vcb_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/TT_TuneCH3_13TeV-powheg-herwig7_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v1/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/NanoNtupleChain_11_May_2024/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/submit.cmd 
