@@ -663,7 +663,7 @@ DAS_2016APVB1_SingleElectron_ = ["/SingleElectron/Run2016B-ver1_HIPM_UL2016_Mini
 DAS_2016APVB2_SingleElectron_ = ["/SingleElectron/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVC_SingleElectron_ = ["/SingleElectron/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVD_SingleElectron_ = ["/SingleElectron/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
-DAS_2016APVE_SingleElectron_ = ["/SingleElectron/Run2016E-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVE_SingleElectron_ = ["/SingleElectron/Run2016E-HIPM_UL2016_MiniAODv2-v5/MINIAOD"]
 DAS_2016APVF_SingleElectron_ = ["/SingleElectron/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 
 DAS_2016APVB1_SingleMuon_ = ["/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
@@ -696,8 +696,6 @@ DAS_2017C_SingleElectron_ = ["/SingleElectron/Run2017C-UL2017_MiniAODv2-v1/MINIA
 DAS_2017D_SingleElectron_ = ["/SingleElectron/Run2017D-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017E_SingleElectron_ = ["/SingleElectron/Run2017E-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017F_SingleElectron_ = ["/SingleElectron/Run2017F-UL2017_MiniAODv2-v1/MINIAOD"]
-DAS_2017G_SingleElectron_ = ["/SingleElectron/Run2017G-UL2017_MiniAODv2-v1/MINIAOD"]
-DAS_2017H_SingleElectron_ = ["/SingleElectron/Run2017H-UL2017_MiniAODv2-v1/MINIAOD"]
 
 DAS_2017B_SingleMuon_ = ["/SingleMuon/Run2017B-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017C_SingleMuon_ = ["/SingleMuon/Run2017C-UL2017_MiniAODv2-v1/MINIAOD"]
@@ -774,8 +772,6 @@ DAS_2017C_SingleElectron = lambda: DAS(DAS_2017C_SingleElectron_)
 DAS_2017D_SingleElectron = lambda: DAS(DAS_2017D_SingleElectron_)
 DAS_2017E_SingleElectron = lambda: DAS(DAS_2017E_SingleElectron_)
 DAS_2017F_SingleElectron = lambda: DAS(DAS_2017F_SingleElectron_)
-DAS_2017G_SingleElectron = lambda: DAS(DAS_2017G_SingleElectron_)
-DAS_2017H_SingleElectron = lambda: DAS(DAS_2017H_SingleElectron_)
 
 #split 2017 SingleMuon to eras
 DAS_2017B_SingleMuon = lambda: DAS(DAS_2017B_SingleMuon_)
