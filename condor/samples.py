@@ -40,7 +40,7 @@ class DAS:
             if "MiniAODAPVv2" in ids : ds += "_APV"
         return ds
 
-    def update(DAS, Nfiles = {}):
+    def update(self, DAS, Nfiles = {}):
         for ds in DAS:
             self.DAS[ds] = {}
             self.DAS[ds]["dataset"] = DAS[ds]
