@@ -46,6 +46,11 @@ class VVVProducer(Module):
         self.out.branch("AK8Jet_tau4", "F", lenVar="nAK8Jet")
         self.out.branch("AK8Jet_sdmass", "F", lenVar="nAK8Jet")
         self.out.branch("AK8Jet_sdmass_nojec", "F", lenVar="nAK8Jet")
+        self.out.branch("AK8Jet_isWcb", "B", lenVar="nAK8Jet")
+        self.out.branch("AK8Jet_isWcs", "B", lenVar="nAK8Jet")
+        self.out.branch("AK8Jet_isWud", "B", lenVar="nAK8Jet")
+        self.out.branch("AK8Jet_isWOther", "B", lenVar="nAK8Jet")
+        self.out.branch("AK8Jet_isOther", "B", lenVar="nAK8Jet")
 
         self.out.branch("nAK4Jet", "I")
         self.out.branch("AK4Jet_hf", "F", lenVar="nAK4Jet")
@@ -76,8 +81,8 @@ class VVVProducer(Module):
         nLooseElectron = 0
         nTightElectron = 0
         for iElectron in range(0, event.nElectron):
-            passLooseElectron = event.Electron_corrected_pt[iElectron] > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].Electron_mvaFall17V2Iso_WP90
-            passTightElectron = passLooseElectron and electrons[iElectron].Electron_mvaFall17V2Iso_WP80
+            passLooseElectron = event.Electron_corrected_pt[iElectron] > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].mvaFall17V2Iso_WP90
+            passTightElectron = passLooseElectron and electrons[iElectron].mvaFall17V2Iso_WP80
             nLooseElectron += passLooseElectron
             nTightElectron += passTightElectron
             if passLooseElectron:
@@ -94,8 +99,8 @@ class VVVProducer(Module):
         nLooseMuon = 0
         nTightMuon = 0
         for iMuon in range(0, event.nMuon):
-            passLooseMuon = event.Muon_corrected_pt[iMuon] > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].Muon_looseId and muons[iMuon].Muon_pfRelIso04_all < 0.25
-            passTightMuon = passLooseMuon and muons[iMuon].Muon_tightId and muons[iMuon].Muon_pfRelIso04_all < 0.06 and abs(muons[iMuon].Muon_dxy) < 0.05 and abs(muons[iMuon].Muon_dz) < 0.2
+            passLooseMuon = event.Muon_corrected_pt[iMuon] > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].looseId and muons[iMuon].pfRelIso04_all < 0.25
+            passTightMuon = passLooseMuon and muons[iMuon].tightId and muons[iMuon].pfRelIso04_all < 0.06 and abs(muons[iMuon].dxy) < 0.05 and abs(muons[iMuon].dz) < 0.2
             nLooseMuon += passLooseMuon
             nTightMuon += passTightMuon
             if passLooseMuon:
@@ -111,7 +116,7 @@ class VVVProducer(Module):
             if not nLooseElectron + nLooseMuon == 0:
                 return False
         elif self.mode == "ttWcb":
-            if not nTightElectron + nTightMuon == 1:
+            if not nTightElectron + nTightMuon >= 1:
                 return False
         if not Process_FatJets(self, event):
             return False
@@ -131,19 +136,19 @@ def Process_GenMatching_daughterindex(event, MotherId):
 def Process_GenMatching_Wcb(self, event):
     isWcb = False
     pt, eta, phi, mass = 0, 0, 0, 0
-    for ik in range(event.nGenPart):
-        if abs(event.GenPart_pdgId[ik]) == 24:  # W+/W-
-            if not (event.GenPart_statusFlags[ik] & (1 << 13)):
+    for idx in range(event.nGenPart):
+        if abs(event.GenPart_pdgId[idx]) == 24:  # W+/W-
+            if not (event.GenPart_statusFlags[idx] & (1 << 13)):  # last copy
                 continue
-            W_daughter_index = Process_GenMatching_daughterindex(event, ik)
+            W_daughter_index = Process_GenMatching_daughterindex(event, idx)
             W_daughter_PDG = sorted([abs(event.GenPart_pdgId[i]) for i in W_daughter_index])
             if W_daughter_PDG == [4, 5]:
                 isWcb = True
                 pt, eta, phi, mass = (
-                    event.GenPart_pt[ik],
-                    event.GenPart_eta[ik],
-                    event.GenPart_phi[ik],
-                    event.GenPart_mass[ik],
+                    event.GenPart_pt[idx],
+                    event.GenPart_eta[idx],
+                    event.GenPart_phi[idx],
+                    event.GenPart_mass[idx],
                 )
                 break
     self.out.fillBranch("isWcb", isWcb)
@@ -154,11 +159,60 @@ def Process_GenMatching_Wcb(self, event):
     return isWcb
 
 
+def Process_FatJet_GenMatching(self, event, fatJet):
+    cands = ["Wcb", "Wcs", "Wud", "WOther", "Other"]
+    flags = [False, False, False, False, True]
+    for idx in range(event.nGenPart):
+        if abs(event.GenPart_pdgId[idx]) == 24:  # W+/W-
+            if not (event.GenPart_statusFlags[idx] & (1 << 13)):  # last copy
+                continue
+            p4 = TLorentzVector()
+            p4.SetPtEtaPhiM(
+                event.GenPart_pt[idx],
+                event.GenPart_eta[idx],
+                event.GenPart_phi[idx],
+                event.GenPart_mass[idx],
+            )
+            if p4.DeltaR(fatJet) >= 0.8:
+                continue
+            W_daughter_index = []
+            for idau in Process_GenMatching_daughterindex(event, idx):
+                p4d = TLorentzVector()
+                p4d.SetPtEtaPhiM(
+                    event.GenPart_pt[idau],
+                    event.GenPart_eta[idau],
+                    event.GenPart_phi[idau],
+                    event.GenPart_mass[idau],
+                )
+                if p4d.DeltaR(fatJet) >= 0.8:
+                    continue
+                W_daughter_index.append(idau)
+            W_daughter_PDG = sorted([abs(event.GenPart_pdgId[i]) for i in W_daughter_index])
+            if W_daughter_PDG == [1, 2]:
+                flags[cands.index("Wud")] = True
+            elif W_daughter_PDG == [3, 4]:
+                flags[cands.index("Wcs")] = True
+            elif W_daughter_PDG == [4, 5]:
+                flags[cands.index("Wcb")] = True
+            else:
+                flags[cands.index("WOther")] = True
+    for cand, flag in zip(cands, flags):
+        if flag:
+            return cand
+
+
 def Process_FatJets(self, event):
     fatJets = Collection(event, "FatJet")
     pt_list, eta_list, phi_list = [], [], []
     tau1_list, tau2_list, tau3_list, tau4_list = [], [], [], []
     sdmass_list, sdmass_nojec_list = [], []
+    is_lists = {
+        "Wcb": [],
+        "Wcs": [],
+        "Wud": [],
+        "WOther": [],
+        "Other": [],
+    }
 
     for iFatJet in sorted(range(event.nFatJet), key=lambda i: fatJets[i].pt, reverse=True):
         fatJet = TLorentzVector()
@@ -184,6 +238,9 @@ def Process_FatJets(self, event):
         tau4_list.append(fatJets[iFatJet].tau4)
         sdmass_list.append(fatJets[iFatJet].msoftdrop)
         sdmass_nojec_list.append(Process_FatJet_sdmass_nojec(event, iFatJet))
+        for is_list in is_lists.values():
+            is_list.append(False)
+        is_lists[Process_FatJet_GenMatching(self, event, fatJet)][-1] = True
 
     self.out.fillBranch("nAK8Jet", len(pt_list))
     self.out.fillBranch("AK8Jet_pt", pt_list)
@@ -195,6 +252,8 @@ def Process_FatJets(self, event):
     self.out.fillBranch("AK8Jet_tau4", tau4_list)
     self.out.fillBranch("AK8Jet_sdmass", sdmass_list)
     self.out.fillBranch("AK8Jet_sdmass_nojec", sdmass_nojec_list)
+    for is_key, is_value in is_lists.items():
+        self.out.fillBranch("AK8Jet_is" + is_key, is_value)
 
     if len(pt_list) < 2 or all(sdmass <= 30 for sdmass in sdmass_list):
         return False
