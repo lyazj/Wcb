@@ -210,7 +210,7 @@ class File_json():
             print(Files)
             Files = [i[0] for i in Files]
         else:
-            Files = getoutput('/cvmfs/cms.cern.ch/common/dasgoclient --query="file dataset=%s" -limit=0 '%(ds))
+            Files = getoutput('/cvmfs/cms.cern.ch/common/dasgoclient --query="file dataset=%s" -limit=0 | sort -V'%(ds))
             Files = [i.replace("\n","").replace(" ","") for i in Files.strip().split("\n")]
         return Files
 

@@ -4,12 +4,8 @@ import re
 import json
 
 def getoutput(cmd):
-    import subprocess
-    import shlex
-    command = shlex.split(cmd)
-    process = subprocess.Popen(command, stdout=subprocess.PIPE)
-    stdout, stderr = process.communicate()
-    return stdout.decode()
+    with os.popen(cmd) as p:
+        return p.read()
 
 class DAS:
     def __init__( self, DAS = {}, Nfiles = {} ):
