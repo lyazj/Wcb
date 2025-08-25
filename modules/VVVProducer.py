@@ -1,3 +1,4 @@
+from __future__ import print_function
 import ROOT
 from ROOT import TLorentzVector
 
@@ -75,14 +76,8 @@ class VVVProducer(Module):
         nLooseElectron = 0
         nTightElectron = 0
         for iElectron in range(0, event.nElectron):
-            passLooseElectron = (
-                event.Electron_corrected_pt[iElectron] > 20
-                and abs(electrons[iElectron].eta) < 2.5
-                and electrons[iElectron].Electron_mvaFall17V2Iso_WP90
-            )
-            passTightElectron = (
-                passLooseElectron and electrons[iElectron].Electron_mvaFall17V2Iso_WP80
-            )
+            passLooseElectron = event.Electron_corrected_pt[iElectron] > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].Electron_mvaFall17V2Iso_WP90
+            passTightElectron = passLooseElectron and electrons[iElectron].Electron_mvaFall17V2Iso_WP80
             nLooseElectron += passLooseElectron
             nTightElectron += passTightElectron
             if passLooseElectron:
@@ -99,19 +94,8 @@ class VVVProducer(Module):
         nLooseMuon = 0
         nTightMuon = 0
         for iMuon in range(0, event.nMuon):
-            passLooseMuon = (
-                event.Muon_corrected_pt[iMuon] > 20
-                and abs(muons[iMuon].eta) < 2.4
-                and muons[iMuon].Muon_looseId
-                and muons[iMuon].Muon_pfRelIso04_all < 0.25
-            )
-            passTightMuon = (
-                passLooseMuon
-                and muons[iMuon].Muon_tightId
-                and muons[iMuon].Muon_pfRelIso04_all < 0.06
-                and abs(muons[iMuon].Muon_dxy) < 0.05
-                and abs(muons[iMuon].Muon_dz) < 0.2
-            )
+            passLooseMuon = event.Muon_corrected_pt[iMuon] > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].Muon_looseId and muons[iMuon].Muon_pfRelIso04_all < 0.25
+            passTightMuon = passLooseMuon and muons[iMuon].Muon_tightId and muons[iMuon].Muon_pfRelIso04_all < 0.06 and abs(muons[iMuon].Muon_dxy) < 0.05 and abs(muons[iMuon].Muon_dz) < 0.2
             nLooseMuon += passLooseMuon
             nTightMuon += passTightMuon
             if passLooseMuon:
@@ -152,9 +136,7 @@ def Process_GenMatching_Wcb(self, event):
             if not (event.GenPart_statusFlags[ik] & (1 << 13)):
                 continue
             W_daughter_index = Process_GenMatching_daughterindex(event, ik)
-            W_daughter_PDG = sorted(
-                [abs(event.GenPart_pdgId[i]) for i in W_daughter_index]
-            )
+            W_daughter_PDG = sorted([abs(event.GenPart_pdgId[i]) for i in W_daughter_index])
             if W_daughter_PDG == [4, 5]:
                 isWcb = True
                 pt, eta, phi, mass = (
@@ -178,9 +160,7 @@ def Process_FatJets(self, event):
     tau1_list, tau2_list, tau3_list, tau4_list = [], [], [], []
     sdmass_list, sdmass_nojec_list = [], []
 
-    for iFatJet in sorted(
-        range(event.nFatJet), key=lambda i: fatJets[i].pt, reverse=True
-    ):
+    for iFatJet in sorted(range(event.nFatJet), key=lambda i: fatJets[i].pt, reverse=True):
         fatJet = TLorentzVector()
         fatJet.SetPtEtaPhiM(
             fatJets[iFatJet].pt,
@@ -226,18 +206,10 @@ def Process_FatJet_sdmass_nojec(event, iFatJet):
     FatJet_subJetIdx2 = event.FatJet_subJetIdx2[iFatJet]
     subjet1, subjet2, sum_p4 = TLorentzVector(), TLorentzVector(), TLorentzVector()
     if FatJet_subJetIdx1 >= 0 and FatJet_subJetIdx2 >= 0:
-        pt1 = event.SubJet_pt[FatJet_subJetIdx1] * (
-            1 - event.SubJet_rawFactor[FatJet_subJetIdx1]
-        )
-        pt2 = event.SubJet_pt[FatJet_subJetIdx2] * (
-            1 - event.SubJet_rawFactor[FatJet_subJetIdx2]
-        )
-        mass1 = event.SubJet_mass[FatJet_subJetIdx1] * (
-            1 - event.SubJet_rawFactor[FatJet_subJetIdx1]
-        )
-        mass2 = event.SubJet_mass[FatJet_subJetIdx2] * (
-            1 - event.SubJet_rawFactor[FatJet_subJetIdx2]
-        )
+        pt1 = event.SubJet_pt[FatJet_subJetIdx1] * (1 - event.SubJet_rawFactor[FatJet_subJetIdx1])
+        pt2 = event.SubJet_pt[FatJet_subJetIdx2] * (1 - event.SubJet_rawFactor[FatJet_subJetIdx2])
+        mass1 = event.SubJet_mass[FatJet_subJetIdx1] * (1 - event.SubJet_rawFactor[FatJet_subJetIdx1])
+        mass2 = event.SubJet_mass[FatJet_subJetIdx2] * (1 - event.SubJet_rawFactor[FatJet_subJetIdx2])
         subjet1.SetPtEtaPhiM(
             pt1,
             event.SubJet_eta[FatJet_subJetIdx1],
