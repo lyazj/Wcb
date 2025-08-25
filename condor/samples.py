@@ -480,6 +480,36 @@ DAS_2018_JetHT_ =[
     "/JetHT/Run2018D-UL2018_MiniAODv2-v2/MINIAOD",
 ]
 
+DAS_2016APV_SingleElectron_ = [
+    "/SingleElectron/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016E-HIPM_UL2016_MiniAODv2-v5/MINIAOD",
+    "/SingleElectron/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD",
+]
+
+DAS_2016_SingleElectron_ = [
+    "/SingleElectron/Run2016F-UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016G-UL2016_MiniAODv2-v2/MINIAOD",
+    "/SingleElectron/Run2016H-UL2016_MiniAODv2-v2/MINIAOD",
+]
+
+DAS_2017_SingleElectron_ = [
+    "/SingleElectron/Run2017B-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleElectron/Run2017C-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleElectron/Run2017D-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleElectron/Run2017E-UL2017_MiniAODv2-v1/MINIAOD",
+    "/SingleElectron/Run2017F-UL2017_MiniAODv2-v1/MINIAOD",
+]
+
+DAS_2018_EGamma = [
+    "/EGamma/Run2018A-UL2018_MiniAODv2-v1/MINIAOD",
+    "/EGamma/Run2018B-UL2018_MiniAODv2-v1/MINIAOD",
+    "/EGamma/Run2018C-UL2018_MiniAODv2-v1/MINIAOD",
+    "/EGamma/Run2018D-UL2018_MiniAODv2-v2/MINIAOD",
+]
+
 DAS_2016APV_SingleMuon_ = [
     "/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD",
     "/SingleMuon/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD",
@@ -586,6 +616,11 @@ DAS_2017_0lepton = lambda:DAS(DAS_2017_0lepton_)
 DAS_2016_0lepton = lambda:DAS(DAS_2016_0lepton_)
 DAS_2016APV_0lepton = lambda:DAS(DAS_2016APV_0lepton_)
 
+DAS_2018_EGamma = lambda : DAS(DAS_2018_EGamma_)
+DAS_2017_SingleElectron = lambda : DAS(DAS_2017_SingleElectron_)
+DAS_2016APV_SingleElectron = lambda : DAS(DAS_2016APV_SingleElectron_)
+DAS_2016_SingleElectron = lambda : DAS(DAS_2016_SingleElectron_)
+
 DAS_2018_SingleMuon = lambda : DAS(DAS_2018_SingleMuon_)
 DAS_2017_SingleMuon = lambda : DAS(DAS_2017_SingleMuon_)
 DAS_2016APV_SingleMuon = lambda : DAS(DAS_2016APV_SingleMuon_)
@@ -624,6 +659,13 @@ DAS_2016APVD_JetHT_ = ["/JetHT/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVE_JetHT_ = ["/JetHT/Run2016E-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVF_JetHT_ = ["/JetHT/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 
+DAS_2016APVB1_SingleElectron_ = ["/SingleElectron/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVB2_SingleElectron_ = ["/SingleElectron/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVC_SingleElectron_ = ["/SingleElectron/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVD_SingleElectron_ = ["/SingleElectron/Run2016D-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVE_SingleElectron_ = ["/SingleElectron/Run2016E-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016APVF_SingleElectron_ = ["/SingleElectron/Run2016F-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
+
 DAS_2016APVB1_SingleMuon_ = ["/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVB2_SingleMuon_ = ["/SingleMuon/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVC_SingleMuon_ = ["/SingleMuon/Run2016C-HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
@@ -635,6 +677,10 @@ DAS_2016F_JetHT_ = ["/JetHT/Run2016F-UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016G_JetHT_ = ["/JetHT/Run2016G-UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016H_JetHT_ = ["/JetHT/Run2016H-UL2016_MiniAODv2-v2/MINIAOD"]
 
+DAS_2016F_SingleElectron_ = ["/SingleElectron/Run2016F-UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016G_SingleElectron_ = ["/SingleElectron/Run2016G-UL2016_MiniAODv2-v2/MINIAOD"]
+DAS_2016H_SingleElectron_ = ["/SingleElectron/Run2016H-UL2016_MiniAODv2-v2/MINIAOD"]
+
 DAS_2016F_SingleMuon_ = ["/SingleMuon/Run2016F-UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016G_SingleMuon_ = ["/SingleMuon/Run2016G-UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016H_SingleMuon_ = ["/SingleMuon/Run2016H-UL2016_MiniAODv2-v2/MINIAOD"]
@@ -644,6 +690,14 @@ DAS_2017C_JetHT_ = ["/JetHT/Run2017C-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017D_JetHT_ = ["/JetHT/Run2017D-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017E_JetHT_ = ["/JetHT/Run2017E-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017F_JetHT_ = ["/JetHT/Run2017F-UL2017_MiniAODv2-v1/MINIAOD"]
+
+DAS_2017B_SingleElectron_ = ["/SingleElectron/Run2017B-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017C_SingleElectron_ = ["/SingleElectron/Run2017C-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017D_SingleElectron_ = ["/SingleElectron/Run2017D-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017E_SingleElectron_ = ["/SingleElectron/Run2017E-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017F_SingleElectron_ = ["/SingleElectron/Run2017F-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017G_SingleElectron_ = ["/SingleElectron/Run2017G-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
+DAS_2017H_SingleElectron_ = ["/SingleElectron/Run2017H-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
 
 DAS_2017B_SingleMuon_ = ["/SingleMuon/Run2017B-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
 DAS_2017C_SingleMuon_ = ["/SingleMuon/Run2017C-UL2017_MiniAODv2_GT36-v1/MINIAOD"]
@@ -657,6 +711,11 @@ DAS_2018A_JetHT_ = ["/JetHT/Run2018A-UL2018_MiniAODv2-v1/MINIAOD"]
 DAS_2018B_JetHT_ = ["/JetHT/Run2018B-UL2018_MiniAODv2-v1/MINIAOD"]
 DAS_2018C_JetHT_ = ["/JetHT/Run2018C-UL2018_MiniAODv2-v1/MINIAOD"]
 DAS_2018D_JetHT_ = ["/JetHT/Run2018D-UL2018_MiniAODv2-v2/MINIAOD"]
+
+DAS_2018A_EGamma_ = ["/EGamma/Run2018A-UL2018_MiniAODv2-v3/MINIAOD"]
+DAS_2018B_EGamma_ = ["/EGamma/Run2018B-UL2018_MiniAODv2-v2/MINIAOD"]
+DAS_2018C_EGamma_ = ["/EGamma/Run2018C-UL2018_MiniAODv2-v2/MINIAOD"]
+DAS_2018D_EGamma_ = ["/EGamma/Run2018D-UL2018_MiniAODv2-v3/MINIAOD"]
 
 DAS_2018A_SingleMuon_ = ["/SingleMuon/Run2018A-UL2018_MiniAODv2-v3/MINIAOD"]
 DAS_2018B_SingleMuon_ = ["/SingleMuon/Run2018B-UL2018_MiniAODv2-v2/MINIAOD"]
