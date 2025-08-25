@@ -81,14 +81,14 @@ class VVVProducer(Module):
         nLooseElectron = 0
         nTightElectron = 0
         for iElectron in range(0, event.nElectron):
-            passLooseElectron = event.Electron_corrected_pt[iElectron] > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].mvaFall17V2Iso_WP90
+            passLooseElectron = electrons[iElectron].pt > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].mvaFall17V2Iso_WP90
             passTightElectron = passLooseElectron and electrons[iElectron].mvaFall17V2Iso_WP80
             nLooseElectron += passLooseElectron
             nTightElectron += passTightElectron
             if passLooseElectron:
                 self.leptons.append(TLorentzVector())
                 self.leptons[-1].SetPtEtaPhiM(
-                    event.Electron_corrected_pt[iElectron],
+                    electrons[iElectron].pt,
                     electrons[iElectron].eta,
                     electrons[iElectron].phi,
                     electrons[iElectron].mass,
@@ -99,14 +99,14 @@ class VVVProducer(Module):
         nLooseMuon = 0
         nTightMuon = 0
         for iMuon in range(0, event.nMuon):
-            passLooseMuon = event.Muon_corrected_pt[iMuon] > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].looseId and muons[iMuon].pfRelIso04_all < 0.25
+            passLooseMuon = muons[iMuon].corrected_pt > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].looseId and muons[iMuon].pfRelIso04_all < 0.25
             passTightMuon = passLooseMuon and muons[iMuon].tightId and muons[iMuon].pfRelIso04_all < 0.06 and abs(muons[iMuon].dxy) < 0.05 and abs(muons[iMuon].dz) < 0.2
             nLooseMuon += passLooseMuon
             nTightMuon += passTightMuon
             if passLooseMuon:
                 self.leptons.append(TLorentzVector())
                 self.leptons[-1].SetPtEtaPhiM(
-                    event.Muon_corrected_pt[iMuon],
+                    muons[iMuon].corrected_pt,
                     muons[iMuon].eta,
                     muons[iMuon].phi,
                     muons[iMuon].mass,
