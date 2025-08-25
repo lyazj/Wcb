@@ -72,7 +72,6 @@ class VVVProducer(Module):
 
         if self.is_mc:
             isWcb = Process_GenMatching_Wcb(self, event)
-            # [TODO]
 
         self.leptons = []
 
