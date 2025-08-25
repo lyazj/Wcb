@@ -4,6 +4,8 @@ python Condor.py --DAS DAS_Wcb_sig_2018 --Filesjson "./json/DAS_Wcb_sig_2018.jso
 python Condor.py --DAS DAS_Wcb_bkg_2018 --Filesjson "./json/DAS_Wcb_bkg_2018.json" --createfilejson &
 wait
 
-python Condor.py --DAS DAS_Wcb_sig_2018 --Filesjson "./json/DAS_Wcb_sig_2018.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2018/MC" --year 2018 --excutable "exe_UL18_Wcb_NanoNtupleChain.sh" --TaskFolder "production/NanoNtupleChain_14_May_2024" --submitsh "NanoNtupleChain_14_May_2024.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2018 -M Wcb'" &
-python Condor.py --DAS DAS_Wcb_bkg_2018 --Filesjson "./json/DAS_Wcb_bkg_2018.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2018/MC" --year 2018 --excutable "exe_UL18_Wcb_NanoNtupleChain.sh" --TaskFolder "production/NanoNtupleChain_14_May_2024" --submitsh "NanoNtupleChain_14_May_2024.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2018'" &
+for MODE in Wcb ttWcb; do
+    python Condor.py --DAS DAS_Wcb_sig_2018 --Filesjson "./json/DAS_Wcb_sig_2018.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/${MODE}/2018/MC" --year 2018 --excutable "exe_UL18_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2018_MC" --submitsh "2018_MC.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2018 -M ${MODE}'" &
+    python Condor.py --DAS DAS_Wcb_bkg_2018 --Filesjson "./json/DAS_Wcb_bkg_2018.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/${MODE}/2018/MC" --year 2018 --excutable "exe_UL18_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2018_MC" --submitsh "2018_MC.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2018 -M ${MODE}'" &
+done
 wait
