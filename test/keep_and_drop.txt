@@ -1,70 +1,11 @@
-# this is a comment
-
 keep *
-
-drop 
-drop nTrigObj*
-drop TrigObj*
 drop *boostedTau*
+drop *MET*
+drop *Electron*
+drop *Photon*
+drop *Track*
 drop L1*
-drop Photon*
-drop *FsrPhoton*
-drop *GenJet*
-drop *LowPtElectron*
-drop *GenDressedLepton*
-drop HTXS*
-drop FatJet_inclParTMDV1_hidNeuron*
-
-drop HLT*
-# keepmatch HLT_PFHT[0-9]+
-keep HLT_PFHT*
-keep HLT_PFJet*
-keep HLT_AK8PF*
-
-drop FatJet_deepTagMD*
-drop FatJet_deepHWWMDV1*
-
-# drop *PuppiMET*
-# drop CaloMET*
-# drop ChsMET*
-# drop CorrT1MET*
-# drop DeepMET*
-# drop MET_MetUnclustEnUpDeltaX
-# drop MET_MetUnclustEnUpDeltaY
-# drop MET_covXX
-# drop MET_covXY
-# drop MET_covYY
-# drop MET_fiducialGenPhi
-# drop MET_fiducialGenPt
-# drop MET_sumPtUnclustered 
-# drop TkMET_*
-
-drop Electron_*
-
-drop GenIsolated*
-
-drop GenSubJetAK15*
-
-drop GenVisTau*
-
-drop Generator_*
-keep Generator_scalePDF
-keep Generator_weight
-keep Generator_xpdf1
-keep Generator_xpdf2
-
-drop IsoTrack_*
-
-drop LHE*
-keep LHEPdfWeight
-keep LHEReweightingWeight
-keep LHEScaleWeight
-keep LHEWeight_originalXWGTUP
-keep LHE_AlphaS
-
-drop Muon_*
-
-drop SoftActivity*
-
-drop Tau_*
-
+drop *Muon*
+drop *SoftActivity*
+drop *Tau*
+drop *TrigObj*
