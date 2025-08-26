@@ -3,4 +3,4 @@ x509up_u*
 *.out
 *.err
 supplyJobs.cmd
-NanoNtupleChain_*.txt
+201*_*_*.txt
