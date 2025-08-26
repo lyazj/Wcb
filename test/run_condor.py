@@ -43,7 +43,6 @@ def main():
         lumimask = "Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt"
 
     lumisToProcess = cms.untracked.VLuminosityBlockRange(LumiList.LumiList(filename=lumimask).getCMSSWString().split(","))
-    # print lumisToProcess
 
     runsAndLumis_special = {}
     for l in lumisToProcess:
@@ -76,8 +75,6 @@ def main():
             jmeCorrections = createJMECorrector(opt.ismc, "UL2018", opt.year[4:].upper(), "Merged", "AK8PFPuppi")
             jetmetCorrector = createJMECorrector(opt.ismc, "UL2018", jesUncert="Total", metBranchName="MET", splitJER=True, applyHEMfix=True)
 
-    if opt.ismc:
-
         if opt.year == "2016post":
             p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2016(), PrefCorrUL16_postVFP(), muonIDISOSF2016post(), muonScaleRes2016b(), eleRECOSF2016post(), eleIDSF2016post(), jmeCorrections(), jetmetCorrector(), btagSFUL2016Post(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
         if opt.year == "2016pre":
@@ -86,21 +83,20 @@ def main():
         if opt.year == "2017":
             p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2017(), PrefCorrUL17(), muonIDISOSF2017(), muonScaleRes2017(), eleRECOSF2017(), eleIDSF2017(), jmeCorrections(), jetmetCorrector(), btagSFUL2017(), VVV2017(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
         if opt.year == "2018":
-            # note that although PrefCorr() is used here, but the prefire weight will not be used
+            # Note that although PrefCorr() is used here, the prefire weight will not be used.
             p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2018(), PrefCorr(), muonIDISOSF2018(), muonScaleRes2018(), eleRECOSF2018(), eleIDSF2018(), jmeCorrections(), jetmetCorrector(), btagSFUL2018(), VVV2018(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
 
-    # Sequence for data
-    if not (opt.ismc):
+    else:
         year_list = ["UL2016_preVFPB", "UL2016_preVFPC", "UL2016_preVFPD", "UL2016_preVFPE", "UL2016_preVFPF", "UL2016F", "UL2016G", "UL2016H", "UL2017B", "UL2017C", "UL2017D", "UL2017E", "UL2017F", "UL2017G", "UL2017H", "UL2018A", "UL2018B", "UL2018C", "UL2018D"]
-        if opt.year in year_list:
-            jmeCorrections = createJMECorrector(
-                opt.ismc,
-                dataYear=opt.year[:-1],
-                runPeriod=opt.year[-1:],
-                jesUncert="All",
-                jetType="AK8PFPuppi",
-            )
-            jetmetCorrector = createJMECorrector(opt.ismc, dataYear=opt.year[:-1], runPeriod=opt.year[-1:], metBranchName="MET")
+        assert opt.year in year_list
+        jmeCorrections = createJMECorrector(
+            opt.ismc,
+            dataYear=opt.year[:-1],
+            runPeriod=opt.year[-1:],
+            jesUncert="All",
+            jetType="AK8PFPuppi",
+        )
+        jetmetCorrector = createJMECorrector(opt.ismc, dataYear=opt.year[:-1], runPeriod=opt.year[-1:], metBranchName="MET")
         if opt.year in ["UL2016_preVFPB", "UL2016_preVFPC", "UL2016_preVFPD", "UL2016_preVFPE", "UL2016_preVFPF"]:
             p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2016a(), jetmetCorrector(), jmeCorrections(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
 
