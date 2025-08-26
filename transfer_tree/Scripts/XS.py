@@ -20,8 +20,9 @@ process_dict = {
     "ST_tW_antitop": 35850,
     "ST_tW_top": 35850,
 
-    "TTToHadronic": 380094,
-    "TTToSemiLeptonic": 364350.8,  # [FIXME] Vcb...
+    "TTToHadronic_TuneCP5": 380094,
+    "TTToSemiLeptonic_TuneCP5": 364350.8,
+    "TTToSemiLeptonic_Vcb_TuneCP5": 0.319,
 
     "WW_TuneCP5": 76250,
     "WZ_TuneCP5": 27550,
