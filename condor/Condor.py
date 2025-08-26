@@ -31,7 +31,7 @@ import time
 
 def makedirs(path, *args, **kwargs):
     if path[:4] == '/eos':
-        if os.system("xrdfs eosuser.cern.ch mkdir '%s'" % path):
+        if os.system("xrdfs eosuser.cern.ch mkdir -p '%s'" % path):
             raise RuntimeError('xrdfs mkdir failed:', path)
         return
     return os.makedirs(path, *args, **kwargs)
