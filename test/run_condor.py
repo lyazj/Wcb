@@ -76,15 +76,15 @@ def main():
             jetmetCorrector = createJMECorrector(opt.ismc, "UL2018", jesUncert="Total", metBranchName="MET", splitJER=True, applyHEMfix=True)
 
         if opt.year == "2016post":
-            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2016(), PrefCorrUL16_postVFP(), muonIDISOSF2016post(), muonScaleRes2016b(), eleRECOSF2016post(), eleIDSF2016post(), jmeCorrections(), jetmetCorrector(), btagSFUL2016Post(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2016(), PrefCorrUL16_postVFP(), muonIDISOSF2016post(), muonScaleRes2016b(), eleRECOSF2016post(), eleIDSF2016post(), jmeCorrections(), jetmetCorrector(), btagSFUL2016Post(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
         if opt.year == "2016pre":
-            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2016(), PrefCorrUL16_preVFP(), muonIDISOSF2016pre(), muonScaleRes2016a(), eleRECOSF2016pre(), eleIDSF2016pre(), jmeCorrections(), jetmetCorrector(), btagSFUL2016Pre(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2016(), PrefCorrUL16_preVFP(), muonIDISOSF2016pre(), muonScaleRes2016a(), eleRECOSF2016pre(), eleIDSF2016pre(), jmeCorrections(), jetmetCorrector(), btagSFUL2016Pre(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
         # Since btagSF errors have been fixed, btagSF has already been implement now.
         if opt.year == "2017":
-            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2017(), PrefCorrUL17(), muonIDISOSF2017(), muonScaleRes2017(), eleRECOSF2017(), eleIDSF2017(), jmeCorrections(), jetmetCorrector(), btagSFUL2017(), VVV2017(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2017(), PrefCorrUL17(), muonIDISOSF2017(), muonScaleRes2017(), eleRECOSF2017(), eleIDSF2017(), jmeCorrections(), jetmetCorrector(), btagSFUL2017(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
         if opt.year == "2018":
             # Note that although PrefCorr() is used here, the prefire weight will not be used.
-            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2018(), PrefCorr(), muonIDISOSF2018(), muonScaleRes2018(), eleRECOSF2018(), eleIDSF2018(), jmeCorrections(), jetmetCorrector(), btagSFUL2018(), VVV2018(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, opt.inputs.rstrip(",").split(","), modules=[countHistogramsModule(), puAutoWeight_2018(), PrefCorr(), muonIDISOSF2018(), muonScaleRes2018(), eleRECOSF2018(), eleIDSF2018(), jmeCorrections(), jetmetCorrector(), btagSFUL2018(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=runsAndLumis(), outputbranchsel="keep_and_drop.txt")
 
     else:
         year_list = ["UL2016_preVFPB", "UL2016_preVFPC", "UL2016_preVFPD", "UL2016_preVFPE", "UL2016_preVFPF", "UL2016F", "UL2016G", "UL2016H", "UL2017B", "UL2017C", "UL2017D", "UL2017E", "UL2017F", "UL2017G", "UL2017H", "UL2018A", "UL2018B", "UL2018C", "UL2018D"]
@@ -98,16 +98,16 @@ def main():
         )
         jetmetCorrector = createJMECorrector(opt.ismc, dataYear=opt.year[:-1], runPeriod=opt.year[-1:], metBranchName="MET")
         if opt.year in ["UL2016_preVFPB", "UL2016_preVFPC", "UL2016_preVFPD", "UL2016_preVFPE", "UL2016_preVFPF"]:
-            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2016a(), jetmetCorrector(), jmeCorrections(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2016a(), jetmetCorrector(), jmeCorrections(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
 
         if opt.year in ["UL2016F", "UL2016G", "UL2016H"]:
-            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2016b(), jetmetCorrector(), jmeCorrections(), VVV2016(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2016b(), jetmetCorrector(), jmeCorrections(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
 
         if opt.year in ["UL2017B", "UL2017C", "UL2017D", "UL2017E", "UL2017F", "UL2017G", "UL2017H"]:
-            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2017(), jetmetCorrector(), jmeCorrections(), VVV2017(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2017(), jetmetCorrector(), jmeCorrections(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
 
         if opt.year in ["UL2018A", "UL2018B", "UL2018C", "UL2018D"]:
-            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2018(), jetmetCorrector(), jmeCorrections(), VVV2018(opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
+            p = PostProcessor(opt.output, [opt.inputs], modules=[muonScaleRes2018(), jetmetCorrector(), jmeCorrections(), VVVProducer(opt.year, opt.MODE)], provenance=True, fwkJobReport=True, jsonInput=jsoninput, outputbranchsel="keep_and_drop.txt")
 
     p.run()
 
