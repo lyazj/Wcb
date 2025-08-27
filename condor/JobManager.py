@@ -56,8 +56,10 @@ class JobManager:
         # Collect finished/failed jobs then, as they are increasing.
         for odir in sorted(set(odirs), key=LooseVersion):
             print('Collecting finished jobs in %s' % odir)
+            command = "xrdfs eosuser.cern.ch ls -R '%s'" % odir
+            print('Running:', command)
             os.sys.stdout.flush()
-            ofiles = sorted(os.popen("xrdfs eosuser.cern.ch ls -R '%s'" % odir).read().strip().split('\n'), key=LooseVersion)
+            ofiles = sorted(os.popen(command).read().strip().split('\n'), key=LooseVersion)
             for ofile in ofiles:
                 if ofile == '': continue
                 odir = os.path.dirname(ofile)
