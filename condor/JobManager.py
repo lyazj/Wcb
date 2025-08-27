@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 from __future__ import print_function
 import os
@@ -72,7 +72,7 @@ class JobManager:
     def fetch_jobs_async(self, odir, jobs):
         import ROOT
         version = ROOT.gROOT.GetVersionInt()
-        assert version <= 62408
+        assert version < 63000
         for prefix in ['/data/bond', '/publicfs/cms/user']:
             if os.path.isdir(prefix): break
         fetch_dir = re.sub(r'^.*NtupleStore/', '%s/%s/Ntuple/' % (prefix, getpass.getuser()), odir)
