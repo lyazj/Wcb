@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 from __future__ import print_function
 import os
@@ -37,7 +37,8 @@ class JobManager:
 
         # Collect ongoing jobs first, as they are decreasing.
         if wdirs:
-            print('Collecting ongoing jobs', flush=True)
+            print('Collecting ongoing jobs')
+            os.sys.stdout.flush()
             jobs = json.loads(os.popen('condor_q -json').read() or '[]')
             for job in jobs:
                 if str(job['JobStatus']) in ['3', 'X']: continue  # removed
@@ -54,7 +55,8 @@ class JobManager:
     
         # Collect finished/failed jobs then, as they are increasing.
         for odir in sorted(set(odirs), key=LooseVersion):
-            print('Collecting finished jobs in %s' % odir, flush=True)
+            print('Collecting finished jobs in %s' % odir)
+            os.sys.stdout.flush()
             ofiles = sorted(os.popen("xrdfs eosuser.cern.ch ls -R '%s'" % odir).read().strip().split('\n'), key=LooseVersion)
             for ofile in ofiles:
                 if ofile == '': continue
@@ -81,10 +83,12 @@ class JobManager:
         all_finished = True
         for job in jobs:
             if job in self.failed.get(odir, set()):
-                print('WARNING: skipping bad job %d in %s' % (job, odir), flush=True)
+                print('WARNING: skipping bad job %d in %s' % (job, odir))
+                os.sys.stdout.flush()
                 continue
             if job not in self.finished[odir]:
-                print('INFO: waiting for job %d in %s' % (job, odir), flush=True)
+                print('INFO: waiting for job %d in %s' % (job, odir))
+                os.sys.stdout.flush()
                 all_finished = False
                 continue
             good_jobs.append(job)
@@ -96,14 +100,16 @@ class JobManager:
         fetch_args = ['hadd', '-f', '-j', str(self.nthread_per_task), fetch_name] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
         verify_args = ['root', '-b', '-l', '-q', 'Verify.C("' + fetch_name + '")']
         rename_args = ['mv', fetch_name, object_name]
-        print('Generating %s' % object_name, flush=True)
+        print('Generating %s' % object_name)
+        os.sys.stdout.flush()
         self.applications.append(self.pool.apply_async(run_and, [fetch_args, verify_args, rename_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:
             result, args = self.applications.pop(0).get()
             if result == False:
-                print('ERROR: Failed to generate %s' % args[1][2], flush=True)
+                print('ERROR: Failed to generate %s' % args[1][2])
+                os.sys.stdout.flush()
                 try: os.remove(args[1][1])
                 except: pass
     
@@ -128,7 +134,8 @@ class JobManager:
             if odir in self.ongoing: jobs = jobs.difference(self.ongoing[odir])
             if odir in self.finished: jobs = jobs.difference(self.finished[odir])
             if odir in self.failed: jobs = jobs.difference(self.failed[odir])
-            print('Missed jobs in %s: %s' % (odir, str(jobs)), flush=True)
+            print('Missed jobs in %s: %s' % (odir, str(jobs)))
+            os.sys.stdout.flush()
             if not jobs: continue
             wdir = self.wdirs[self.odirs.index(os.path.dirname(odir))]  # [XXX]
             with open(os.path.join(wdir, os.path.basename(odir), 'submit.cmd')) as wcmd:
