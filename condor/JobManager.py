@@ -42,7 +42,10 @@ class JobManager:
             jobs = json.loads(os.popen('condor_q -json').read() or '[]')
             for job in jobs:
                 if str(job['JobStatus']) in ['3', 'X']: continue  # removed
-                args = shlex.split(re.sub(r' +-a.*', '', job['Arguments']))
+                try:
+                    args = shlex.split(re.sub(r' +-a.*', '', job['Arguments']))
+                except Exception:
+                    continue
                 parser = argparse.ArgumentParser()
                 parser.add_argument('-f')
                 parser.add_argument('-o')
