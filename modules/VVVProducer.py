@@ -56,7 +56,10 @@ class VVVProducer(Module):
         self.out.branch("AK8Jet_sdmass_nojec", "F", lenVar="nAK8Jet")
         if self.is_mc:
             self.out.branch("AK8Jet_isWcb", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWub", "O", lenVar="nAK8Jet")
             self.out.branch("AK8Jet_isWcs", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWcd", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWus", "O", lenVar="nAK8Jet")
             self.out.branch("AK8Jet_isWud", "O", lenVar="nAK8Jet")
             self.out.branch("AK8Jet_isWOther", "O", lenVar="nAK8Jet")
             self.out.branch("AK8Jet_isOther", "O", lenVar="nAK8Jet")
@@ -150,8 +153,9 @@ def Process_GenMatching_Wcb(self, event):
 
 
 def Process_FatJet_GenMatching(self, event, fatJet):
-    cands = ["Wcb", "Wcs", "Wud", "WOther", "Other"]
-    flags = [False, False, False, False, True]
+    cands = ["Wcb", "Wub", "Wcs", "Wcd", "Wus", "Wud", "WOther", "Other"]
+    flags = [False for cand in cands]
+    flags[-1] = True  # last fall back
     for idx in range(event.nGenPart):
         if abs(event.GenPart_pdgId[idx]) == 24:  # W+/W-
             if not (event.GenPart_statusFlags[idx] & (1 << 13)):  # last copy
@@ -170,6 +174,12 @@ def Process_FatJet_GenMatching(self, event, fatJet):
             W_daughter_PDG = sorted([abs(event.GenPart_pdgId[i]) for i in W_daughter_index])
             if W_daughter_PDG == [1, 2]:
                 flags[cands.index("Wud")] = True
+            elif W_daughter_PDG == [2, 3]:
+                flags[cands.index("Wus")] = True
+            elif W_daughter_PDG == [2, 5]:
+                flags[cands.index("Wub")] = True
+            elif W_daughter_PDG == [1, 4]:
+                flags[cands.index("Wcd")] = True
             elif W_daughter_PDG == [3, 4]:
                 flags[cands.index("Wcs")] = True
             elif W_daughter_PDG == [4, 5]:
@@ -191,7 +201,10 @@ def Process_FatJets(self, event):
     if self.is_mc:
         is_lists = {
             "Wcb": [],
+            "Wub": [],
             "Wcs": [],
+            "Wcd": [],
+            "Wus": [],
             "Wud": [],
             "WOther": [],
             "Other": [],
