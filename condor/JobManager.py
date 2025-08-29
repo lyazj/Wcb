@@ -13,7 +13,7 @@ from run_and import run_and
 
 class JobManager:
 
-    def __init__(self, odirs, jsons, wdirs=None, ntask=16, nthread_per_task=1, nfile_per_group=50):
+    def __init__(self, odirs, jsons, wdirs=None, ntask=8, nthread_per_task=1, nfile_per_group=50):
         self.collect(odirs, jsons, wdirs)
         self.pool = multiprocessing.Pool(ntask)
         self.applications = [ ]
@@ -100,14 +100,15 @@ class JobManager:
         if not all_finished: return
         if not good_jobs: return
 
-        if odir[:4] == '/eos': odir = 'root://eosuser.cern.ch/' + odir
-        fetch_name = object_name + '.tmp'
-        fetch_args = ['hadd', '-f', '-j', str(self.nthread_per_task), fetch_name] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
-        verify_args = ['root', '-b', '-l', '-q', 'Verify.C("' + fetch_name + '")']
-        rename_args = ['mv', fetch_name, object_name]
+        clean_args = ['rm', '-rf', object_name + '.fetch']
+        setup_args = ['mkdir', '-p', object_name + '.fetch']
+        fetch_args = ['rsync', '-v'] + [os.path.join('lxplus.cern.ch:' + odir, 'out_%d.root') % job for job in good_jobs] + [object_name + '.fetch']
+        merge_args = ['hadd', '-f', '-j', str(self.nthread_per_task), object_name + '.tmp'] + [os.path.join(object_name + '.fetch', 'out_%d.root') % job for job in good_jobs]
+        verify_args = ['root', '-b', '-l', '-q', 'Verify.C("' + object_name + '.tmp")']
+        rename_args = ['mv', object_name + '.tmp', object_name]
         print('Generating %s' % object_name)
         os.sys.stdout.flush()
-        self.applications.append(self.pool.apply_async(run_and, [fetch_args, verify_args, rename_args]))
+        self.applications.append(self.pool.apply_async(run_and, [clean_args, setup_args, fetch_args, merge_args, verify_args, rename_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:
