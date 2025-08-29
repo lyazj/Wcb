@@ -106,8 +106,8 @@ class JobManager:
         merge_args = ['hadd', '-f', '-j', str(self.nthread_per_task), object_name + '.tmp'] + [os.path.join(object_name + '.fetch', 'out_%d.root') % job for job in good_jobs]
         verify_args = ['root', '-b', '-l', '-q', 'Verify.C("' + object_name + '.tmp")']
         rename_args = ['mv', object_name + '.tmp', object_name]
-        markup_args = ['ssh', 'lxplus.cern.ch', 'touch'] + [os.path.join('out_%d.root.out') % job for job in good_jobs]
-        delete_args = ['ssh', 'lxplus.cern.ch', 'rm'] + [os.path.join('out_%d.root') % job for job in good_jobs]
+        markup_args = ['ssh', 'lxplus.cern.ch', 'touch'] + [os.path.join(odir, 'out_%d.root.out') % job for job in good_jobs]
+        delete_args = ['ssh', 'lxplus.cern.ch', 'rm'] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
         print('Generating %s' % object_name)
         os.sys.stdout.flush()
         self.applications.append(self.pool.apply_async(run_and, [clean_args, setup_args, fetch_args, merge_args, verify_args, rename_args, clean_args, markup_args, delete_args]))
