@@ -108,7 +108,7 @@ class JobManager:
         rename_args = ['mv', object_name + '.tmp', object_name]
         print('Generating %s' % object_name)
         os.sys.stdout.flush()
-        self.applications.append(self.pool.apply_async(run_and, [clean_args, setup_args, fetch_args, merge_args, verify_args, rename_args]))
+        self.applications.append(self.pool.apply_async(run_and, [clean_args, setup_args, fetch_args, merge_args, verify_args, rename_args, clean_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:
