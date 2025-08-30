@@ -44,11 +44,12 @@ class VVVProducer(Module):
         self.out.branch("AK8Jet_phi", "F", lenVar="nAK8Jet")
         self.out.branch("AK8Jet_sdmass", "F", lenVar="nAK8Jet")
         self.out.branch("AK8Jet_sdmass_nojec", "F", lenVar="nAK8Jet")
-        self.out.branch("AK8Jet_isWcb", "O", lenVar="nAK8Jet")
-        self.out.branch("AK8Jet_isWcs", "O", lenVar="nAK8Jet")
-        self.out.branch("AK8Jet_isWud", "O", lenVar="nAK8Jet")
-        self.out.branch("AK8Jet_isWOther", "O", lenVar="nAK8Jet")
-        self.out.branch("AK8Jet_isOther", "O", lenVar="nAK8Jet")
+        if self.is_mc:
+            self.out.branch("AK8Jet_isWcb", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWcs", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWud", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isWOther", "O", lenVar="nAK8Jet")
+            self.out.branch("AK8Jet_isOther", "O", lenVar="nAK8Jet")
 
         self.out.branch("nAK4Jet", "I")
         self.out.branch("AK4Jet_index", "I", lenVar="nAK4Jet")
@@ -177,13 +178,14 @@ def Process_FatJets(self, event):
     index_list = []
     pt_list, eta_list, phi_list = [], [], []
     sdmass_list, sdmass_nojec_list = [], []
-    is_lists = {
-        "Wcb": [],
-        "Wcs": [],
-        "Wud": [],
-        "WOther": [],
-        "Other": [],
-    }
+    if self.is_mc:
+        is_lists = {
+            "Wcb": [],
+            "Wcs": [],
+            "Wud": [],
+            "WOther": [],
+            "Other": [],
+        }
 
     for iFatJet in sorted(range(event.nFatJet), key=lambda i: fatJets[i].pt, reverse=True):
         fatJet = TLorentzVector()
@@ -201,8 +203,9 @@ def Process_FatJets(self, event):
         phi_list.append(fatJets[iFatJet].phi)
         sdmass_list.append(fatJets[iFatJet].msoftdrop)
         sdmass_nojec_list.append(Process_FatJet_sdmass_nojec(event, iFatJet))
-        for is_list in is_lists.values():
-            is_list.append(False)
+        if self.is_mc:
+            for is_list in is_lists.values():
+                is_list.append(False)
         is_lists[Process_FatJet_GenMatching(self, event, fatJet)][-1] = True
         self.ak8Jets.append(fatJet)
 
@@ -213,8 +216,9 @@ def Process_FatJets(self, event):
     self.out.fillBranch("AK8Jet_phi", phi_list)
     self.out.fillBranch("AK8Jet_sdmass", sdmass_list)
     self.out.fillBranch("AK8Jet_sdmass_nojec", sdmass_nojec_list)
-    for is_key, is_value in is_lists.items():
-        self.out.fillBranch("AK8Jet_is" + is_key, is_value)
+    if self.is_mc:
+        for is_key, is_value in is_lists.items():
+            self.out.fillBranch("AK8Jet_is" + is_key, is_value)
 
     if len(pt_list) < 2 or all(sdmass <= 30 for sdmass in sdmass_list):
         return False
