@@ -13,7 +13,17 @@ import numpy as np
 
 class VVVProducer(Module):
     def __init__(self, year, mode="Wcb"):  # modes: Wcb, ttWcb
-        self.year = year
+        if "2016" in year:
+            if "pre" in year.lower() or "apv" in year.lower():
+                self.year = "2016pre"
+            else:
+                self.year = "2016post"
+        elif "2017" in year:
+            self.year = "2017"
+        elif "2018" in year:
+            self.year = "2018"
+        else:
+            raise ValueError("Unknown year: " + year)
         self.mode = mode
         self.is_mc = None
         self.out = None
