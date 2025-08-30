@@ -206,7 +206,7 @@ def Process_FatJets(self, event):
         if self.is_mc:
             for is_list in is_lists.values():
                 is_list.append(False)
-        is_lists[Process_FatJet_GenMatching(self, event, fatJet)][-1] = True
+            is_lists[Process_FatJet_GenMatching(self, event, fatJet)][-1] = True
         self.ak8Jets.append(fatJet)
 
     self.out.fillBranch("nAK8Jet", len(index_list))
