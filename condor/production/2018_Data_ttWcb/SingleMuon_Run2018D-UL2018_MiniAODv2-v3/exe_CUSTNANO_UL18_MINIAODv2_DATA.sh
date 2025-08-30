@@ -221,7 +221,7 @@ EOL
 #    fi
 #    exit 0  # We didn't succeed. But we don't want to try again.
 #fi
-if [ "$(python2 $(which count-events) tree.root | egrep -o '[0-9]+$')" = 0 ]; then
+if [ "$(python2 /afs/cern.ch/user/l/legao/.local/bin/count-events tree.root | egrep -o '[0-9]+$')" = 0 ]; then
     if [ "${OFILE:0:4}" = "/eos" ]; then
         xrdcp /dev/null root://eosuser.cern.ch/${OFILE}.out
     else
