@@ -35,26 +35,30 @@ if "genWeight" in events.fields:
     ]
 
 # Normalization. [TODO] B-tag reweighting.
-xs = options.xs
-if not xs:
-    process = os.path.basename(os.path.dirname(options.fin))
-    for proc, proc_xs in xs_dict.items():
-        if process.startswith(proc):
-            assert not xs
-            xs = proc_xs
-    assert xs
-print("Cross section:", xs, "fb")
-weight = xs * lumi_dict[options.year.replace("APV", "")]
 if "genWeight" in events.fields:
+    xs = options.xs
+    if not xs:
+        process = os.path.basename(os.path.dirname(options.fin))
+        for proc, proc_xs in xs_dict.items():
+            if process.startswith(proc):
+                assert not xs
+                xs = proc_xs
+        assert xs
+    print("Cross section:", xs, "fb")
+    weight = (
+        xs
+        * lumi_dict["2016pre" if options.year == "2016APV" else "2016post" if options.year == "2016" else options.year]
+    )
     weight = weight * np.sign(events["genWeight"])
-if "puWeight" in events.fields:
     weight = weight * events["puWeight"]
-if options.year < "2018" and "PrefireWeight" in events.fields:
-    weight = weight * events["PrefireWeight"]
-if "HLTWeight" in events.fields:
     weight = weight * events["HLTWeight"]
+    nevent = uproot.open(options.fin + ":nEvents").values().sum()
+else:
+    weight = 1.0
+    if options.year < "2018":
+        weight = weight * events["PrefireWeight"]
+    nevent = None
 events["weight"] = weight
-nevent = uproot.open(options.fin + ":nEvents").values().sum()
 
 # Filter.
 print("Applying filters")
@@ -75,35 +79,36 @@ output = events[
         "luminosityBlock",
         "event",
         "weight",
-        "genWeight",
-        "nPSWeight",
-        "PSWeight",
-        "puWeight",
-        "puWeightUp",
-        "puWeightDown",
     ]
 ]
-if "nLHEPdfWeight" in events.fields:
+if "genWeight" in events.fields:
+    output["genWeight"] = events["genWeight"]
+    output["nPSWeight"] = events["nPSWeight"]
+    output["PSWeight"] = events["PSWeight"]
+    output["puWeight"] = events["puWeight"]
+    output["puWeightUp"] = events["puWeightUp"]
+    output["puWeightDown"] = events["puWeightDown"]
     output["nLHEPdfWeight"] = events["nLHEPdfWeight"]
     output["LHEPdfWeight"] = events["LHEPdfWeight"]
-if "nLHEReweightingWeight" in events.fields:
     output["nLHEReweightingWeight"] = events["nLHEReweightingWeight"]
     output["LHEReweightingWeight"] = events["LHEReweightingWeight"]
-if "nLHEScaleWeight" in events.fields:
     output["nLHEScaleWeight"] = events["nLHEScaleWeight"]
     output["LHEScaleWeight"] = events["LHEScaleWeight"]
-if "isWcb" in events.fields:
     output["isWcb"] = events["isWcb"]
     output["genWcb_pt"] = events["genWcb_pt"]
     output["genWcb_eta"] = events["genWcb_eta"]
     output["genWcb_phi"] = events["genWcb_phi"]
     output["genWcb_mass"] = events["genWcb_mass"]
-if "PrefireWeight" in events.fields and options.year < "2018":
-    output["L1PrefiringWeight"] = events["PrefireWeight"]
-    output["L1PrefiringWeightUp"] = events["PrefireWeight_Up"]
-    output["L1PrefiringWeightDown"] = events["PrefireWeight_Down"]
-if "HLTWeight" in events.fields:
     output["HLTWeight"] = events["HLTWeight"]
+else:
+    if options.year < "2018":
+        output["L1PrefiringWeight"] = events["PrefireWeight"]
+        output["L1PrefiringWeightUp"] = events["PrefireWeight_Up"]
+        output["L1PrefiringWeightDown"] = events["PrefireWeight_Down"]
+    else:
+        output["L1PrefiringWeight"] = 1.0
+        output["L1PrefiringWeightUp"] = 1.0
+        output["L1PrefiringWeightDown"] = 1.0
 
 # AK8 jets.
 output["nAK8Jet"] = events["nAK8Jet"]
@@ -145,6 +150,7 @@ for hlt in hlt_dict[options.year.replace("APV", "")]:
 output["passHLT"] = events["passHLT"]
 
 ak.to_parquet(output, options.fout)
-with open(options.fout + ".nevent", "w") as f:
-    print(nevent, file=f)
+if nevent is not None:
+    with open(options.fout + ".nevent", "w") as f:
+        print(nevent, file=f)
 print(f"Written to {options.fout}")
