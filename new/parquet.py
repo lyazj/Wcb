@@ -95,6 +95,7 @@ output = events[
         "puWeight",
         "puWeightUp",
         "puWeightDown",
+        "HLTWeight",
     ]
 ]
 if "nLHEPdfWeight" in events.fields:
