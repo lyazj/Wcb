@@ -21,7 +21,9 @@ def per_row_index(array, index):
 parser = argparse.ArgumentParser(description="Process ROOT ntuples into parquet")
 parser.add_argument("--fin", type=str, required=True, help="Path to input ROOT file")
 parser.add_argument("--fout", type=str, required=True, help="Path to output parquet file")
-parser.add_argument("--year", type=str, choices=["2016", "2017", "2018"], required=True, help="Data taking year")
+parser.add_argument(
+    "--year", type=str, choices=["2016APV", "2016", "2017", "2018"], required=True, help="Data taking year"
+)
 parser.add_argument("--xs", type=float, default=0.0, help="Cross section in fb")
 parser.add_argument("--nmax", type=int, default=-1, help="Maximum number of events to process (default: -1 = use all)")
 options = parser.parse_args()
@@ -35,13 +37,15 @@ else:
 print(f"{len(events)} events loaded from {options.fin}")
 
 # HLT pre-scale weight.
-hlts = sorted(hlt_dict[options.year], key=lambda hlt: hlt[2], reverse=True)
+hlts = sorted(hlt_dict[options.year.replace("APV", "")], key=lambda hlt: hlt[2], reverse=True)
 first_pass = np.array([events[hlt[0]] for hlt in hlts] + np.ones(shape=len(events), dtype="bool")).argmax()
 events["passHLT"] = first_pass != len(hlts)
 if "genWeight" in events.fields:
     events["HLTWeight"] = 1.0
 else:
-    events["HLTWeight"] = np.array([hlt[2] / lumi_dict[options.year] for hlt in hlts] + [1.0])[first_pass]
+    events["HLTWeight"] = np.array([hlt[2] / lumi_dict[options.year.replace("APV", "")] for hlt in hlts] + [1.0])[
+        first_pass
+    ]
 
 # Normalization. [TODO] B-tag reweighting.
 xs = options.xs
@@ -53,7 +57,7 @@ if not xs:
             xs = proc_xs
     assert xs
 print("Cross section:", xs, "fb")
-weight = xs * lumi_dict[options.year]
+weight = xs * lumi_dict[options.year.replace("APV", "")]
 if "genWeight" in events.fields:
     weight = weight * np.sign(events["genWeight"])
 if "puWeight" in events.fields:
@@ -67,9 +71,14 @@ events["nevent"] = nevent / len(events)
 
 # Filter.
 print("Applying filters")
-for flag in filter_dict[options.year]:
+for flag in filter_dict[options.year.replace("APV", "")]:
     events = events[events[flag]]
 print(f"{len(events)} events passed filters")
+
+# Selection.
+print("Applying selections")
+events = events[events["AK8Jet_pt"][:,0] > 350]
+print(f"{len(events)} events passed selections")
 
 # Slim.
 print(f"Writing to {options.fout}")
@@ -145,7 +154,7 @@ for field in events.fields:
         output[field] = events[field]
 
 # HLT.
-for hlt in hlt_dict[options.year]:
+for hlt in hlt_dict[options.year.replace("APV", "")]:
     output[hlt[0]] = events[hlt[0]]
 output["passHLT"] = events["passHLT"]
 
