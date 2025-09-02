@@ -7,17 +7,6 @@ import numpy as np
 import argparse
 from config import lumi_dict, xs_dict, filter_dict, hlt_dict
 
-
-def per_row_index(array, index):
-    return ak.unflatten(
-        array[
-            ak.flatten(np.arange(len(index)).reshape(-1, 1) * ak.ones_like(index)),
-            ak.flatten(index),
-        ],
-        ak.num(index),
-    )
-
-
 parser = argparse.ArgumentParser(description="Process ROOT ntuples into parquet")
 parser.add_argument("--fin", type=str, required=True, help="Path to input ROOT file")
 parser.add_argument("--fout", type=str, required=True, help="Path to output parquet file")
@@ -38,7 +27,7 @@ print(f"{len(events)} events loaded from {options.fin}")
 
 # HLT pre-scale weight.
 hlts = sorted(hlt_dict[options.year.replace("APV", "")], key=lambda hlt: hlt[2], reverse=True)
-first_pass = np.array([events[hlt[0]] for hlt in hlts] + np.ones(shape=len(events), dtype="bool")).argmax()
+first_pass = np.argmax([ak.to_numpy(events[hlt[0]]) for hlt in hlts] + [np.ones(len(events), dtype=bool)], axis=0)
 events["passHLT"] = first_pass != len(hlts)
 if "genWeight" in events.fields:
     events["HLTWeight"] = np.array([hlt[2] / lumi_dict[options.year.replace("APV", "")] for hlt in hlts] + [1.0])[
@@ -66,7 +55,7 @@ if "HLTWeight" in events.fields:
     weight = weight * events["HLTWeight"]
 events["weight_single"] = weight
 nevent = uproot.open(options.fin + ":nEvents").values().sum()
-events["nevent"] = nevent / len(events)
+events["nevent"] = nevent / max(len(events), 1)
 
 # Filter.
 print("Applying filters")
@@ -123,18 +112,17 @@ output["nAK8Jet"] = events["nAK8Jet"]
 for field in events.fields:
     if field.startswith("AK8Jet_"):
         output[field] = events[field]
-output["AK8Jet_probQCD"] = per_row_index(
+output["AK8Jet_probQCD"] = (
     events["FatJet_inclParTMDV2_probQCDb"]
     + events["FatJet_inclParTMDV2_probQCDbb"]
     + events["FatJet_inclParTMDV2_probQCDc"]
     + events["FatJet_inclParTMDV2_probQCDcc"]
-    + events["FatJet_inclParTMDV2_probQCDothers"],
-    events["AK8Jet_index"],
-)
-output["AK8Jet_probHbc"] = per_row_index(events["FatJet_inclParTMDV2_probHbc"], events["AK8Jet_index"])
-output["AK8Jet_probHcs"] = per_row_index(events["FatJet_inclParTMDV2_probHcs"], events["AK8Jet_index"])
-output["AK8Jet_probHqq"] = per_row_index(events["FatJet_inclParTMDV2_probHqq"], events["AK8Jet_index"])
-output["AK8Jet_probHother"] = per_row_index(
+    + events["FatJet_inclParTMDV2_probQCDothers"]
+)[events["AK8Jet_index"]]
+output["AK8Jet_probHbc"] = events["FatJet_inclParTMDV2_probHbc"][events["AK8Jet_index"]]
+output["AK8Jet_probHcs"] = events["FatJet_inclParTMDV2_probHcs"][events["AK8Jet_index"]]
+output["AK8Jet_probHqq"] = events["FatJet_inclParTMDV2_probHqq"][events["AK8Jet_index"]]
+output["AK8Jet_probHother"] = (
     events["FatJet_inclParTMDV2_probHbb"]
     + events["FatJet_inclParTMDV2_probHbs"]
     + events["FatJet_inclParTMDV2_probHcc"]
@@ -144,9 +132,8 @@ output["AK8Jet_probHother"] = per_row_index(
     + events["FatJet_inclParTMDV2_probHss"]
     + events["FatJet_inclParTMDV2_probHtauhtaue"]
     + events["FatJet_inclParTMDV2_probHtauhtauh"]
-    + events["FatJet_inclParTMDV2_probHtauhtaum"],
-    events["AK8Jet_index"],
-)
+    + events["FatJet_inclParTMDV2_probHtauhtaum"]
+)[events["AK8Jet_index"]]
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
