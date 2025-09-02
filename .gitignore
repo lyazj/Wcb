@@ -3,3 +3,4 @@ __init__.py
 FrameworkJobReport.xml
 .ipynb_checkpoints
 *.pdf
+*.log
