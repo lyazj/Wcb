@@ -41,8 +41,6 @@ hlts = sorted(hlt_dict[options.year.replace("APV", "")], key=lambda hlt: hlt[2],
 first_pass = np.array([events[hlt[0]] for hlt in hlts] + np.ones(shape=len(events), dtype="bool")).argmax()
 events["passHLT"] = first_pass != len(hlts)
 if "genWeight" in events.fields:
-    events["HLTWeight"] = 1.0
-else:
     events["HLTWeight"] = np.array([hlt[2] / lumi_dict[options.year.replace("APV", "")] for hlt in hlts] + [1.0])[
         first_pass
     ]
@@ -64,7 +62,8 @@ if "puWeight" in events.fields:
     weight = weight * events["puWeight"]
 if options.year < "2018" and "PrefireWeight" in events.fields:
     weight = weight * events["PrefireWeight"]
-weight = weight * events["HLTWeight"]
+if "HLTWeight" in events.fields:
+    weight = weight * events["HLTWeight"]
 events["weight_single"] = weight
 nevent = uproot.open(options.fin + ":nEvents").values().sum()
 events["nevent"] = nevent / len(events)
@@ -77,7 +76,7 @@ print(f"{len(events)} events passed filters")
 
 # Selection.
 print("Applying selections")
-events = events[events["AK8Jet_pt"][:,0] > 350]
+events = events[events["AK8Jet_pt"][:, 0] > 350]
 print(f"{len(events)} events passed selections")
 
 # Slim.
@@ -95,7 +94,6 @@ output = events[
         "puWeight",
         "puWeightUp",
         "puWeightDown",
-        "HLTWeight",
     ]
 ]
 if "nLHEPdfWeight" in events.fields:
@@ -117,6 +115,8 @@ if "PrefireWeight" in events.fields and options.year < "2018":
     output["L1PrefiringWeight"] = events["PrefireWeight"]
     output["L1PrefiringWeightUp"] = events["PrefireWeight_Up"]
     output["L1PrefiringWeightDown"] = events["PrefireWeight_Down"]
+if "HLTWeight" in events.fields:
+    output["HLTWeight"] = events["HLTWeight"]
 
 # AK8 jets.
 output["nAK8Jet"] = events["nAK8Jet"]
