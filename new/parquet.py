@@ -53,9 +53,8 @@ if options.year < "2018" and "PrefireWeight" in events.fields:
     weight = weight * events["PrefireWeight"]
 if "HLTWeight" in events.fields:
     weight = weight * events["HLTWeight"]
-events["weight_single"] = weight
+events["weight"] = weight
 nevent = uproot.open(options.fin + ":nEvents").values().sum()
-events["nevent"] = nevent / max(len(events), 1)
 
 # Filter.
 print("Applying filters")
@@ -75,8 +74,7 @@ output = events[
         "run",
         "luminosityBlock",
         "event",
-        "nevent",
-        "weight_single",
+        "weight",
         "genWeight",
         "nPSWeight",
         "PSWeight",
@@ -147,4 +145,6 @@ for hlt in hlt_dict[options.year.replace("APV", "")]:
 output["passHLT"] = events["passHLT"]
 
 ak.to_parquet(output, options.fout)
+with open(options.fout + ".nevent", "w") as f:
+    print(nevent, file=f)
 print(f"Written to {options.fout}")

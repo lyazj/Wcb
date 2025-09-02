@@ -38,10 +38,14 @@ for proc, proc_infiles in infiles.items():
     if not proc_infiles:
         continue
     events = []
+    nevent = 0.0
     for infile in proc_infiles:
         print("Read:", infile)
         events.append(ak.from_parquet(infile))
+        with open(infile + ".nevent") as f:
+            nevent += float(f.read())
     events = ak.concatenate(events)
-    events["weight"] = events["weight_single"] / ak.sum(events["nevent"])
+    print(f"{proc}: {nevent} events in NanoAOD")
+    events["weight"] = events["weight"] / nevent
     print("Write:", proc + ".parquet")
     ak.to_parquet(events, os.path.join(INDIR, proc + ".parquet"))
