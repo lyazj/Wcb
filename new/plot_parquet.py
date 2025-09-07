@@ -89,7 +89,7 @@ proc_color = {
     "Other": list(plt.rcParams["axes.prop_cycle"])[5]["color"],
 }
 proc_cut = {
-    "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350],
+    "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
     "mode:Wcb": [lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "mode:ttWcb": [lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "Wcb": [lambda ev: ev["isWcb"]],
