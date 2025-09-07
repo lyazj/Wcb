@@ -75,32 +75,35 @@ print(f"{len(events)} events passed selections")
 print(f"Writing to {options.fout}")
 output = events[
     [
-        "run",
-        "luminosityBlock",
-        "event",
-        "weight",
+        field
+        for field in [
+            "run",
+            "luminosityBlock",
+            "event",
+            "weight",
+            "genWeight",
+            "nPSWeight",
+            "PSWeight",
+            "puWeight",
+            "puWeightUp",
+            "puWeightDown",
+            "nLHEPdfWeight",
+            "LHEPdfWeight",
+            "nLHEReweightingWeight",
+            "LHEReweightingWeight",
+            "nLHEScaleWeight",
+            "LHEScaleWeight",
+            "isWcb",
+            "genWcb_pt",
+            "genWcb_eta",
+            "genWcb_phi",
+            "genWcb_mass",
+            "HLTWeight",
+        ]
+        if field in events.fields
     ]
 ]
-if "genWeight" in events.fields:
-    output["genWeight"] = events["genWeight"]
-    output["nPSWeight"] = events["nPSWeight"]
-    output["PSWeight"] = events["PSWeight"]
-    output["puWeight"] = events["puWeight"]
-    output["puWeightUp"] = events["puWeightUp"]
-    output["puWeightDown"] = events["puWeightDown"]
-    output["nLHEPdfWeight"] = events["nLHEPdfWeight"]
-    output["LHEPdfWeight"] = events["LHEPdfWeight"]
-    output["nLHEReweightingWeight"] = events["nLHEReweightingWeight"]
-    output["LHEReweightingWeight"] = events["LHEReweightingWeight"]
-    output["nLHEScaleWeight"] = events["nLHEScaleWeight"]
-    output["LHEScaleWeight"] = events["LHEScaleWeight"]
-    output["isWcb"] = events["isWcb"]
-    output["genWcb_pt"] = events["genWcb_pt"]
-    output["genWcb_eta"] = events["genWcb_eta"]
-    output["genWcb_phi"] = events["genWcb_phi"]
-    output["genWcb_mass"] = events["genWcb_mass"]
-    output["HLTWeight"] = events["HLTWeight"]
-else:
+if "genWeight" not in events.fields:
     if options.year < "2018":
         output["L1PrefiringWeight"] = events["PrefireWeight"]
         output["L1PrefiringWeightUp"] = events["PrefireWeight_Up"]
