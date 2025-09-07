@@ -61,9 +61,8 @@ filter_dict = {
         "Flag_HBHENoiseFilter",
         "Flag_HBHENoiseIsoFilter",
         "Flag_EcalDeadCellTriggerPrimitiveFilter",
-        # [FIXME]
-        # "Flag_BadPFMuonFilter",
-        # "Flag_BadPFMuonDzFilter",
+        "Flag_BadPFMuonFilter",
+        "Flag_BadPFMuonDzFilter",
         "Flag_hfNoisyHitsFilter",
         "Flag_eeBadScFilter",
         "Flag_ecalBadCalibFilter",

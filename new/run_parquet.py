@@ -29,5 +29,7 @@ for dirpath, dirnames, filenames in natsort.natsorted(os.walk(INDIR)):
         if filename.endswith(".root"):
             INPATH = os.path.join(dirpath, filename)
             OUTPATH = os.path.join(OUTDIR, os.path.relpath(INPATH, INDIR)).rstrip(".root") + ".parquet"
+            if os.path.exists(OUTPATH):
+                continue
             args.append(["python3", "-u", "parquet.py", "--fin", INPATH, "--fout", OUTPATH, "--year", options.year])
 multiprocessing.Pool(8).map(subprocess.run, args)
