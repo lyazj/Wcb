@@ -18,13 +18,13 @@ def cms_label(year):
 
 
 year_match = {
-    # "2016APV": ["2016APV"],
-    # "2016": ["2016"],
-    # "2017": ["2017"],
+    #"2016APV": ["2016APV"],
+    #"2016": ["2016"],
+    #"2017": ["2017"],
     "2018": ["2018"],
 }
 modes = [
-    # "Wcb",
+    "Wcb",
     "ttWcb",
 ]
 proc_match = {
@@ -143,7 +143,7 @@ for mode in modes:
             for i, (n, l, ex, b, e, s) in enumerate(plot_list):
                 hists["all"][mode][proc][i] += hists[year][mode][proc][i]
 
-# for year in list(year_match) + ["all"]:
+#for year in list(year_match) + ["all"]:
 for year in list(year_match):
     for mode in modes:
         for i, (n, l, ex, b, e, s) in enumerate(plot_list):

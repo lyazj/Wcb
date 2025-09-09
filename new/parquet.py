@@ -119,7 +119,7 @@ for field in events.fields:
     if field.startswith("AK8Jet_"):
         output[field] = events[field]
 output["AK8Jet_pt_nom"] = events["FatJet_pt_nom"][events["AK8Jet_index"]]
-output["AK8Jet_msoftdrop_nom"] = events["FatJet_msoftdrop_nom"][events["AK8Jet_index"]]
+output["AK8Jet_sdmass_nom"] = events["FatJet_msoftdrop_nom"][events["AK8Jet_index"]]
 output["AK8Jet_probQCD"] = (
     events["FatJet_inclParTMDV2_probQCDb"]
     + events["FatJet_inclParTMDV2_probQCDbb"]
