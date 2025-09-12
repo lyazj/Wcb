@@ -13,6 +13,7 @@ parser.add_argument("--fout", type=str, required=True, help="Path to output parq
 parser.add_argument(
     "--year", type=str, choices=["2016APV", "2016", "2017", "2018"], required=True, help="Data taking year"
 )
+parser.add_argument("--mode", type=str, choices=["Wcb", "ttWcb"], required=True, help="Event selection mode")
 parser.add_argument("--xs", type=float, default=0.0, help="Cross section in fb")
 parser.add_argument("--nmax", type=int, default=-1, help="Maximum number of events to process (default: -1 = use all)")
 options = parser.parse_args()
@@ -26,7 +27,7 @@ else:
 print(f"{len(events)} events loaded from {options.fin}")
 
 # HLT pre-scale weight.
-hlts = sorted(hlt_dict[options.year.replace("APV", "")], key=lambda hlt: hlt[2], reverse=True)
+hlts = sorted(hlt_dict[options.mode][options.year.replace("APV", "")], key=lambda hlt: hlt[2], reverse=True)
 first_pass = np.argmax([ak.to_numpy(events[hlt[0]]) for hlt in hlts] + [np.ones(len(events), dtype=bool)], axis=0)
 events["passHLT"] = first_pass != len(hlts)
 if "genWeight" in events.fields:
@@ -150,7 +151,7 @@ for field in events.fields:
         output[field] = events[field]
 
 # HLT.
-for hlt in hlt_dict[options.year.replace("APV", "")]:
+for hlt in hlt_dict[options.mode][options.year.replace("APV", "")]:
     output[hlt[0]] = events[hlt[0]]
 output["passHLT"] = events["passHLT"]
 
