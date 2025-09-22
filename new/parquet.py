@@ -6,6 +6,7 @@ import awkward as ak
 import numpy as np
 import argparse
 from config import lumi_dict, xs_dict, filter_dict, hlt_dict
+from matching import match_tqqq
 
 parser = argparse.ArgumentParser(description="Process ROOT ntuples into parquet")
 parser.add_argument("--fin", type=str, required=True, help="Path to input ROOT file")
@@ -117,7 +118,7 @@ if "genWeight" not in events.fields:
 # AK8 jets.
 output["nAK8Jet"] = events["nAK8Jet"]
 for field in events.fields:
-    if field.startswith("AK8Jet_"):
+    if field.startswith("AK8Jet_") and not field.startswith("AK8Jet_is"):
         output[field] = events[field]
 output["AK8Jet_pt_nom"] = events["FatJet_pt_nom"][events["AK8Jet_index"]]
 output["AK8Jet_sdmass_nom"] = events["FatJet_msoftdrop_nom"][events["AK8Jet_index"]]
@@ -143,6 +144,7 @@ output["AK8Jet_probHother"] = (
     + events["FatJet_inclParTMDV2_probHtauhtauh"]
     + events["FatJet_inclParTMDV2_probHtauhtaum"]
 )[events["AK8Jet_index"]]
+match_tqqq(output, prefix="AK8Jet_")
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
