@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import mplhep as hep
 import natsort
 import multiprocessing
+import seaborn as sns
 
 plt.figure(figsize=(15, 12))
 hep.style.use("CMS")
@@ -59,24 +60,24 @@ proc_match = {
 proc_label = {
     "Data": r"Data",
     "Other": r"Other",
+    "Tbq": r"$t \to bq$ (except $t \to bc$)",
+    "Tbqq": r"$t \to bqq$",
+    "Tbc": r"$t \to bc$",
     "WOther": r"$W \to other$",
     "Wud": r"$W \to ud$",
     "Wcs": r"$W \to cs$",
     "Wcb": r"$W \to cb$",
-    "Tbqq": r"$t \to bqq$",
-    "Tbc": r"$t \to bc$",
-    "Tbq": r"$t \to bq$ (except $t \to bc$)",
 }
 proc_color = {
     "Data": "#000000",
-    "Tbqq": None,
-    "Tbc": None,
-    "Tbq": None,
-    "Wcb": None,
-    "Wcs": None,
-    "Wud": None,
-    "WOther": None,
-    "Other": None,
+    "Tbqq": sns.color_palette("tab10", 8)[0],
+    "Tbc": sns.color_palette("tab10", 8)[1],
+    "Tbq": sns.color_palette("tab10", 8)[2],
+    "Wcb": sns.color_palette("tab10", 8)[3],
+    "Wcs": sns.color_palette("tab10", 8)[4],
+    "Wud": sns.color_palette("tab10", 8)[5],
+    "WOther": sns.color_palette("tab10", 8)[6],
+    "Other": sns.color_palette("tab10", 8)[7],
 }
 proc_cut = {
     "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
