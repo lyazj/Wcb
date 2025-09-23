@@ -144,7 +144,7 @@ output["AK8Jet_probHother"] = (
     + events["FatJet_inclParTMDV2_probHtauhtauh"]
     + events["FatJet_inclParTMDV2_probHtauhtaum"]
 )[events["AK8Jet_index"]]
-match_tqqq(output, prefix="AK8Jet_")
+match_tqqq(0.8, events, output, jet_prefix="AK8Jet_", part_prefix="GenPart_")
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
