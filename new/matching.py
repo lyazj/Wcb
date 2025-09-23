@@ -51,6 +51,9 @@ def match_tqqq_worker(args):
 
 
 def match_tqqq(radius, events, output, jet_prefix, part_prefix, nproc=16):
+    if len(events) == 0:
+        return
+
     if nproc is None:
         nproc = cpu_count()
 
