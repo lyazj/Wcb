@@ -73,7 +73,7 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
   TLorentzVector p4;
   p4.SetPtEtaPhiM(pt, eta, phi, mass);
 
-  // Top decay
+  // Top decay, 3 prongs
   for(int ipart = 0; ipart < (int)parts.size(); ++ipart) {
     if(!IsLastCopy(ipart)) continue;
     if(abs(parts[ipart].pid) != 6) continue;  // Top quark
@@ -92,14 +92,9 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
     }
 
     if(pids.size() == 3) return MATCH_T_BQQ;
-    if(pids.size() == 2) {
-      sort(pids.begin(), pids.end());
-      if(pids == vector<int>{ 4, 5 }) return MATCH_T_BC;
-      return MATCH_T_BQ;
-    }
   }
 
-  // W decay
+  // W decay, 2 prongs
   for(int ipart = 0; ipart < (int)parts.size(); ++ipart) {
     if(!IsLastCopy(ipart)) continue;
     if(abs(parts[ipart].pid) != 24) continue;  // W boson
@@ -115,6 +110,31 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
       if(pids[0] % 2) swap(pids[0], pids[1]);
       int uc = (pids[0] - 2) / 2, dsb = (pids[1] - 1) / 2;
       return MATCH_W_UD + uc * 3 + dsb;
+    }
+  }
+
+  // Top decay, 2 prongs
+  for(int ipart = 0; ipart < (int)parts.size(); ++ipart) {
+    if(!IsLastCopy(ipart)) continue;
+    if(abs(parts[ipart].pid) != 6) continue;  // Top quark
+    if(p4.DeltaR(parts[ipart].p4) >= radius) continue;
+
+    vector<int> pids;
+    for(int idau : parts[ipart].daughters) {
+      vector<int> ids = { idau };
+      if(abs(parts[idau].pid) == 24) {  // W boson
+        ids = parts[idau].daughters;
+      }
+      for(int id : ids) {
+        if(p4.DeltaR(parts[id].p4) >= radius) continue;
+        pids.push_back(abs(parts[id].pid));
+      }
+    }
+
+    if(pids.size() == 2) {
+      sort(pids.begin(), pids.end());
+      if(pids == vector<int>{ 4, 5 }) return MATCH_T_BC;
+      return MATCH_T_BQ;
     }
   }
 
