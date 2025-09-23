@@ -97,6 +97,8 @@ os.makedirs(outdir, exist_ok=True)
 
 def parquet_to_hists(mode, proc, fpath):
     events = ak.from_parquet(fpath)
+    events["AK8Jet_pt"] = events["AK8Jet_pt_nom"]
+    events["AK8Jet_sdmass"] = events["AK8Jet_sdmass_nom"]
     nevent_precut = len(events)
     for cut in proc_cut.get("all", []) + proc_cut.get("mode:" + mode, []) + proc_cut.get(proc, []):
         events = events[cut(events)]

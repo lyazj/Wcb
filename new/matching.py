@@ -51,9 +51,6 @@ def match_tqqq_worker(args):
 
 
 def match_tqqq(radius, events, output, jet_prefix, part_prefix, nproc=16):
-    if len(events) == 0:
-        return
-
     if nproc is None:
         nproc = cpu_count()
 
@@ -80,7 +77,7 @@ def match_tqqq(radius, events, output, jet_prefix, part_prefix, nproc=16):
 
     # (2) partition evenly
     print("Partitioning events...")
-    chunksize = (len(events_list) + nproc - 1) // nproc
+    chunksize = max(1, (len(events_list) + nproc - 1) // nproc)
     chunks = [events_list[i : i + chunksize] for i in range(0, len(events_list), chunksize)]
 
     # (3) process
