@@ -59,13 +59,6 @@ void Matcher::Feed(int npart, const double *part_pt, const double *part_eta, con
     parts[ipart].flag = part_flag[ipart];
     if(parts[ipart].mother >= 0) parts[parts[ipart].mother].daughters.push_back(ipart);
   }
-  for(int ipart = 0; ipart < npart; ++ipart) {
-    if(!IsLastCopy(ipart)) continue;
-    for(int &idau : parts[ipart].daughters) {
-      idau = LastCopy(idau);
-      parts[idau].mother = ipart;
-    }
-  }
 }
 
 int Matcher::Match(double radius, double pt, double eta, double phi, double mass) const
@@ -83,7 +76,7 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
     for(int idau : parts[ipart].daughters) {
       vector<int> ids = { idau };
       if(abs(parts[idau].pid) == 24) {  // W boson
-        ids = parts[idau].daughters;
+        ids = parts[LastCopy(idau)].daughters;
       }
       for(int id : ids) {
         if(p4.DeltaR(parts[id].p4) >= radius) continue;
@@ -123,7 +116,7 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
     for(int idau : parts[ipart].daughters) {
       vector<int> ids = { idau };
       if(abs(parts[idau].pid) == 24) {  // W boson
-        ids = parts[idau].daughters;
+        ids = parts[LastCopy(idau)].daughters;
       }
       for(int id : ids) {
         if(p4.DeltaR(parts[id].p4) >= radius) continue;
