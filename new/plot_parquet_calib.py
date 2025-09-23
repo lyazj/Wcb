@@ -60,8 +60,8 @@ proc_match = {
 proc_label = {
     "Data": r"Data",
     "Other": r"Other",
-    "Tbq": r"$t \to bq$ (except $t \to bc$)",
     "Tbqq": r"$t \to bqq$",
+    "Tbq": r"$t \to bq$ (except $t \to bc$)",
     "Tbc": r"$t \to bc$",
     "WOther": r"$W \to other$",
     "Wud": r"$W \to ud$",
@@ -71,8 +71,8 @@ proc_label = {
 proc_color = {
     "Data": "#000000",
     "WOther": sns.color_palette("tab10", 8)[0],
-    "Tbq": sns.color_palette("tab10", 8)[1],
-    "Tbqq": sns.color_palette("tab10", 8)[2],
+    "Tbqq": sns.color_palette("tab10", 8)[1],
+    "Tbq": sns.color_palette("tab10", 8)[2],
     "Tbc": sns.color_palette("tab10", 8)[3],
     "Other": sns.color_palette("tab10", 8)[4],
     "Wud": sns.color_palette("tab10", 8)[5],
