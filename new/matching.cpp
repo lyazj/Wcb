@@ -57,6 +57,7 @@ void Matcher::Feed(int npart, const double *part_pt, const double *part_eta, con
     parts[ipart].pid = part_pid[ipart];
     parts[ipart].mother = part_mother[ipart];
     parts[ipart].flag = part_flag[ipart];
+    if(parts[ipart].mother >= npart) parts[ipart].mother = -1;
     if(parts[ipart].mother >= 0) parts[parts[ipart].mother].daughters.push_back(ipart);
   }
 }
@@ -101,6 +102,9 @@ int Matcher::Match(double radius, double pt, double eta, double phi, double mass
 
     if(pids.size() == 2) {
       if(pids[0] % 2) swap(pids[0], pids[1]);
+      if(pids[0] % 2 || pids[1] % 2 == 0) continue;
+      if(pids[0] <= 0 || pids[1] <= 0) continue;
+      if(pids[0] > 6 || pids[1] > 6) continue;
       int uc = (pids[0] - 2) / 2, dsb = (pids[1] - 1) / 2;
       return MATCH_W_UD + uc * 3 + dsb;
     }
