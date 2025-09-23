@@ -70,14 +70,14 @@ proc_label = {
 }
 proc_color = {
     "Data": "#000000",
-    "Tbqq": sns.color_palette("tab10", 8)[0],
-    "Tbc": sns.color_palette("tab10", 8)[1],
-    "Tbq": sns.color_palette("tab10", 8)[2],
-    "Wcb": sns.color_palette("tab10", 8)[3],
-    "Wcs": sns.color_palette("tab10", 8)[4],
+    "WOther": sns.color_palette("tab10", 8)[0],
+    "Tbq": sns.color_palette("tab10", 8)[1],
+    "Tbqq": sns.color_palette("tab10", 8)[2],
+    "Tbc": sns.color_palette("tab10", 8)[3],
+    "Other": sns.color_palette("tab10", 8)[4],
     "Wud": sns.color_palette("tab10", 8)[5],
-    "WOther": sns.color_palette("tab10", 8)[6],
-    "Other": sns.color_palette("tab10", 8)[7],
+    "Wcs": sns.color_palette("tab10", 8)[6],
+    "Wcb": sns.color_palette("tab10", 8)[7],
 }
 proc_cut = {
     "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],

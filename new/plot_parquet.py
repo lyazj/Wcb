@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import mplhep as hep
 import natsort
 import multiprocessing
+import seaborn as sns
 
 plt.figure(figsize=(15, 12))
 hep.style.use("CMS")
@@ -81,12 +82,12 @@ proc_label = {
 }
 proc_color = {
     "Data": "#000000",
-    "Wcb": list(plt.rcParams["axes.prop_cycle"])[0]["color"],
-    "QCD": list(plt.rcParams["axes.prop_cycle"])[1]["color"],
-    "WJets": list(plt.rcParams["axes.prop_cycle"])[2]["color"],
-    "TT": list(plt.rcParams["axes.prop_cycle"])[3]["color"],
-    "ST": list(plt.rcParams["axes.prop_cycle"])[4]["color"],
-    "Other": list(plt.rcParams["axes.prop_cycle"])[5]["color"],
+    "QCD": sns.color_palette("tab10", 6)[0],
+    "WJets": sns.color_palette("tab10", 6)[1],
+    "TT": sns.color_palette("tab10", 6)[2],
+    "ST": sns.color_palette("tab10", 6)[3],
+    "Other": sns.color_palette("tab10", 6)[4],
+    "Wcb": sns.color_palette("tab10", 6)[5],
 }
 proc_cut = {
     "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
