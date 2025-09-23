@@ -32,7 +32,7 @@ def match_tqqq_worker(args):
     return jet_match_i
 
 
-def match_tqqq(radius, events, output, jet_prefix, part_prefix, nproc=None):
+def match_tqqq(radius, events, output, jet_prefix, part_prefix, nproc=16):
     if nproc is None:
         nproc = cpu_count()
     args = [(radius, events, jet_prefix, part_prefix, i) for i in range(len(events))]
