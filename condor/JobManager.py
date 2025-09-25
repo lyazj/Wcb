@@ -8,7 +8,7 @@ import getpass
 import shlex
 import argparse
 import multiprocessing
-from distutils.version import LooseVersion
+import natsort
 from run_and import run_and
 
 class JobManager:
@@ -32,7 +32,7 @@ class JobManager:
     
         # Collect total jobs.
         for odir, jsonfile in zip(odirs, jsons):
-            for das, jobs in sorted(json.load(open(jsonfile)).items(), key=lambda x: LooseVersion(x[0])):
+            for das, jobs in natsort.natsorted(json.load(open(jsonfile)).items()):
                 self.total[os.path.join(odir, das)] = set(int(job) for job in jobs)
 
         # Collect ongoing jobs first, as they are decreasing.
@@ -57,12 +57,12 @@ class JobManager:
                 self.ongoing[odir] = self.ongoing.get(odir, set()) | {int(oname[4:-5])}
     
         # Collect finished/failed jobs then, as they are increasing.
-        for odir in sorted(set(odirs), key=LooseVersion):
+        for odir in natsort.natsorted(set(odirs)):
             print('Collecting finished jobs in %s' % odir)
             command = "xrdfs eosuser.cern.ch ls -R '%s'" % odir
             print('Running:', command)
             os.sys.stdout.flush()
-            ofiles = sorted(os.popen(command).read().strip().split('\n'), key=LooseVersion)
+            ofiles = natsort.natsorted(os.popen(command).read().strip().split('\n'))
             for ofile in ofiles:
                 if ofile == '': continue
                 odir = os.path.dirname(ofile)
