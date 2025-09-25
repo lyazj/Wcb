@@ -743,6 +743,14 @@ DAS_Wcb_sig_2017 = lambda: DAS(DAS_Wcb_sig_2017_)
 DAS_Wcb_bkg_2017 = lambda: DAS(DAS_Wcb_bkg_2017_)
 DAS_Wcb_sig_2018 = lambda: DAS(DAS_Wcb_sig_2018_)
 DAS_Wcb_bkg_2018 = lambda: DAS(DAS_Wcb_bkg_2018_)
+DAS_ttWcb_sig_2016APV = lambda: DAS(DAS_ttWcb_sig_2016APV_)
+DAS_ttWcb_bkg_2016APV = lambda: DAS(DAS_ttWcb_bkg_2016APV_)
+DAS_ttWcb_sig_2016 = lambda: DAS(DAS_ttWcb_sig_2016_)
+DAS_ttWcb_bkg_2016 = lambda: DAS(DAS_ttWcb_bkg_2016_)
+DAS_ttWcb_sig_2017 = lambda: DAS(DAS_ttWcb_sig_2017_)
+DAS_ttWcb_bkg_2017 = lambda: DAS(DAS_ttWcb_bkg_2017_)
+DAS_ttWcb_sig_2018 = lambda: DAS(DAS_ttWcb_sig_2018_)
+DAS_ttWcb_bkg_2018 = lambda: DAS(DAS_ttWcb_bkg_2018_)
 
 DAS_2016APVB1_JetHT_ = ["/JetHT/Run2016B-ver1_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
 DAS_2016APVB2_JetHT_ = ["/JetHT/Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2/MINIAOD"]
