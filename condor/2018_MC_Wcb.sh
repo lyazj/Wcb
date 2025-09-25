@@ -15,7 +15,6 @@ condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/ST_t-c
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/TTToHadronic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/submit.cmd 
-condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/TTToSemiLeptonic_Vcb_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/submit.cmd 
 condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2018_MC_Wcb/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/submit.cmd 
