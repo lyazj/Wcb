@@ -7,7 +7,7 @@ python Condor.py --DAS DAS_ttWcb_bkg_2016APV --Filesjson "./json/DAS_ttWcb_bkg_2
 wait
 
 for MODE in Wcb ttWcb; do
-    python Condor.py --DAS DAS_${MODE}_sig_2016APV --Filesjson "./json/DAS_${MODE}_sig_2016APV.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2016APV/${MODE}/MC" --year 2016APV --excutable "exe_UL16_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2016APV_MC_${MODE}" --submitsh "2016APV_MC_${MODE}.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2016pre -M ${MODE}'" &
-    python Condor.py --DAS DAS_${MODE}_bkg_2016APV --Filesjson "./json/DAS_${MODE}_bkg_2016APV.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2016APV/${MODE}/MC" --year 2016APV --excutable "exe_UL16_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2016APV_MC_${MODE}" --submitsh "2016APV_MC_${MODE}.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2016pre -M ${MODE}'" &
+    python Condor.py --DAS DAS_${MODE}_sig_2016APV --Filesjson "./json/DAS_${MODE}_sig_2016APV.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2016APV/${MODE}/MC" --year 2016APV --excutable "exe_UL16APV_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2016APV_MC_${MODE}" --submitsh "2016APV_MC_${MODE}.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2016pre -M ${MODE}'" &
+    python Condor.py --DAS DAS_${MODE}_bkg_2016APV --Filesjson "./json/DAS_${MODE}_bkg_2016APV.json" --outputPath "/eos/user/l/legao/NtupleStore/V0/2016APV/${MODE}/MC" --year 2016APV --excutable "exe_UL16APV_Wcb_NanoNtupleChain.sh" --TaskFolder "production/2016APV_MC_${MODE}" --submitsh "2016APV_MC_${MODE}.sh" --Condor --AddtionalArgs "-a '-o ./ -m --year 2016pre -M ${MODE}'" &
 done
 wait
