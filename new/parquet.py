@@ -72,6 +72,9 @@ print(f"{len(events)} events passed filters")
 print("Applying selections")
 events = events[events["AK8Jet_pt"][:, 0] > 350]
 print(f"{len(events)} events passed selections")
+#if options.mode == "ttWcb":
+#    events = events[ak.any(events["Electron_pt"] > 35, axis=1)]
+#    events = events[ak.any(events["Muon_corrected_pt"] > 30, axis=1)]
 
 # Slim.
 print(f"Writing to {options.fout}")
