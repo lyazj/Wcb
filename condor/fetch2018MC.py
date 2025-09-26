@@ -7,8 +7,8 @@ from JobManager import JobManager
 jsons = [
     'json/DAS_Wcb_sig_2018.json',
     'json/DAS_Wcb_bkg_2018.json',
-    'json/DAS_Wcb_sig_2018.json',
-    'json/DAS_Wcb_bkg_2018.json',
+    'json/DAS_ttWcb_sig_2018.json',
+    'json/DAS_ttWcb_bkg_2018.json',
 ]
 odirs = [
     '/eos/user/l/legao/NtupleStore/V0/2018/Wcb/MC',
