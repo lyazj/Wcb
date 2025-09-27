@@ -8,6 +8,7 @@ import mplhep as hep
 import natsort
 import multiprocessing
 import seaborn as sns
+from hist import Hist
 
 plt.figure(figsize=(15, 12))
 hep.style.use("CMS")
@@ -192,7 +193,9 @@ def parquet_to_hists(mode, proc, fpath):
                 bev = bev[mask]
                 bevex = bevex[mask]
         weights = bev["weight"]
-        hists.append(np.histogram(bevex.to_numpy(), bins=np.arange(b, e + s, s), weights=weights.to_numpy())[0])
+        hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
+        hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
+        hists.append(hist)
     return np.array(hists, dtype=object)
 
 
@@ -223,10 +226,9 @@ hists["all"] = {}
 for mode in modes:
     hists["all"][mode] = {}
     for proc in procs[mode]:
-        hists["all"][mode][proc] = [np.zeros(int(round((e - b) / s))) for (n, l, ex, b, e, s) in plot_list]
-        for year in year_match:
-            for i, (n, l, ex, b, e, s) in enumerate(plot_list):
-                hists["all"][mode][proc][i] += hists[year][mode][proc][i]
+        hists["all"][mode][proc] = []
+        for i, (n, l, ex, b, e, s) in enumerate(plot_list):
+            hists["all"][mode][proc].append(sum(hists[year][mode][proc][i] for year in year_match))
 
 #for year in year_match + ["all"]:
 for year in year_match:
@@ -237,15 +239,15 @@ for year in year_match:
             ls = []
             cs = []
             for proc in procs[mode]:
-                hs.append((hists[year][mode][proc][i], np.arange(b, e + s, s)))
+                hs.append(hists[year][mode][proc][i])
                 ls.append(proc_label[proc])
                 cs.append(proc_color[proc])
             hep.histplot(hs[0], histtype="errorbar", label=ls[0], color=cs[0])
             hep.histplot(hs[1:-1], stack=True, histtype="fill", label=ls[1:-1], color=cs[1:-1])
-            sf = np.sum(hs[0][0]) / np.sum(hs[-1][0])
+            sf = hs[0].sum().value / hs[-1].sum().value
             sf_down = 10 ** int(np.log10(sf))
             sf = sf_down * 10 if sf >= sf_down * 7.5 else sf_down * 5 if sf >= sf_down * 2.5 else sf_down
-            hep.histplot((hs[-1][0] * sf, hs[-1][1]), histtype="step", label=ls[-1] + f" (×{sf})", color=cs[-1])
+            hep.histplot(hs[-1] * sf, histtype="step", label=ls[-1] + f" (×{sf})", color=cs[-1])
             cms_label(year + " " + mode)
             plt.legend(loc="upper left", ncols=3)
             plt.grid()

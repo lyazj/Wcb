@@ -8,6 +8,7 @@ import mplhep as hep
 import natsort
 import multiprocessing
 import seaborn as sns
+from hist import Hist
 
 plt.figure(figsize=(15, 12))
 hep.style.use("CMS")
@@ -78,14 +79,14 @@ proc_label = {
 }
 proc_color = {
     "Data": "#000000",
-    "WOther": sns.color_palette("tab10", 8)[0],
-    "Tbqq": sns.color_palette("tab10", 8)[1],
-    "Tbq": sns.color_palette("tab10", 8)[2],
-    "Tbc": sns.color_palette("tab10", 8)[3],
-    "Other": sns.color_palette("tab10", 8)[4],
-    "Wud": sns.color_palette("tab10", 8)[5],
-    "Wcs": sns.color_palette("tab10", 8)[6],
-    "Wcb": sns.color_palette("tab10", 8)[7],
+    "WOther": sns.color_palette("tab10", 10)[0],
+    "Tbqq": sns.color_palette("tab10", 10)[1],
+    "Tbq": sns.color_palette("tab10", 10)[2],
+    "Tbc": sns.color_palette("tab10", 10)[3],
+    "Other": sns.color_palette("tab10", 10)[4],
+    "Wud": sns.color_palette("tab10", 10)[5],
+    "Wcs": sns.color_palette("tab10", 10)[6],
+    "Wcb": "#3f3f3f",
 }
 proc_cut = {
     "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
@@ -104,10 +105,21 @@ plot_list = [
     ("ak8_1_eta", r"leading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"leading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
+    ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
+    ("ak8_2_pt", r"subleading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 1], 350, 850, 10),
+    ("ak8_2_eta", r"subleading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 1], -2.5, 2.5, 0.2),
+    ("ak8_2_phi", r"subleading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 1], -np.pi, np.pi, 0.2 * np.pi),
+    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
+    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
+    ("ak8_2_cb_score", r"subleading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 1], 0, 1, 0.01),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],
 }
+ylog_match = [
+    "ak8_1_cb_score",
+    "ak8_2_cb_score",
+]
 indir = "/data/bond/lyazj/Parquet/V0"
 outdir = "parquet"
 os.makedirs(outdir, exist_ok=True)
@@ -117,6 +129,13 @@ def parquet_to_hists(mode, proc, fpath):
     events = ak.from_parquet(fpath)
     #events["AK8Jet_pt"] = events["AK8Jet_pt_nom"]
     #events["AK8Jet_sdmass"] = events["AK8Jet_sdmass_nom"]
+    events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
+        events["AK8Jet_probHbc"]
+        + events["AK8Jet_probQCD"]
+        + events["AK8Jet_probHcs"]
+        + events["AK8Jet_probHqq"]
+        + events["AK8Jet_probHother"]
+    )
     nevent_precut = len(events)
     for cut in proc_cut.get("all", []) + proc_cut.get("mode:" + mode, []) + proc_cut.get(proc, []):
         events = events[cut(events)]
@@ -132,7 +151,9 @@ def parquet_to_hists(mode, proc, fpath):
                 bev = bev[mask]
                 bevex = bevex[mask]
         weights = bev["weight"]
-        hists.append(np.histogram(bevex.to_numpy(), bins=np.arange(b, e + s, s), weights=weights.to_numpy())[0])
+        hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
+        hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
+        hists.append(hist)
     return np.array(hists, dtype=object)
 
 
@@ -163,10 +184,9 @@ hists["all"] = {}
 for mode in modes:
     hists["all"][mode] = {}
     for proc in procs[mode]:
-        hists["all"][mode][proc] = [np.zeros(int(round((e - b) / s))) for (n, l, ex, b, e, s) in plot_list]
-        for year in year_match:
-            for i, (n, l, ex, b, e, s) in enumerate(plot_list):
-                hists["all"][mode][proc][i] += hists[year][mode][proc][i]
+        hists["all"][mode][proc] = []
+        for i, (n, l, ex, b, e, s) in enumerate(plot_list):
+            hists["all"][mode][proc].append(sum(hists[year][mode][proc][i] for year in year_match))
 
 #for year in year_match + ["all"]:
 for year in year_match:
@@ -177,17 +197,26 @@ for year in year_match:
             ls = []
             cs = []
             for proc in procs[mode]:
-                hs.append((hists[year][mode][proc][i], np.arange(b, e + s, s)))
+                hs.append(hists[year][mode][proc][i])
                 ls.append(proc_label[proc])
                 cs.append(proc_color[proc])
             hep.histplot(hs[0], histtype="errorbar", label=ls[0], color=cs[0])
-            hep.histplot(hs[1:], stack=True, histtype="fill", label=ls[1:], color=cs[1:])
+            hep.histplot(hs[1:-1], stack=True, histtype="fill", label=ls[1:-1], color=cs[1:-1])
+            sf = hs[0].sum().value / hs[-1].sum().value
+            sf_down = 10 ** int(np.log10(sf))
+            sf = sf_down * 10 if sf >= sf_down * 7.5 else sf_down * 5 if sf >= sf_down * 2.5 else sf_down
+            hep.histplot(hs[-1] * sf, histtype="step", label=ls[-1] + f" (×{sf})", color=cs[-1])
             cms_label(year + " " + mode)
             plt.legend(loc="upper left", ncols=3)
             plt.grid()
             plt.xlabel(l)
             plt.ylabel("Events")
-            plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
+            if n in ylog_match:
+                plt.yscale("log")
+                plt.ylim(plt.ylim()[0], np.exp(np.log(plt.ylim()[0]) + (np.log(plt.ylim()[1]) - np.log(plt.ylim()[0])) * 1.15))
+            else:
+                plt.yscale("linear")
+                plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
             plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}.pdf"))
             plt.clf()
