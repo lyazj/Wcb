@@ -146,10 +146,21 @@ plot_list = [
     ("ak8_1_eta", r"leading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"leading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
+    ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
+    ("ak8_2_pt", r"subleading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 1], 350, 850, 10),
+    ("ak8_2_eta", r"subleading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 1], -2.5, 2.5, 0.2),
+    ("ak8_2_phi", r"subleading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 1], -np.pi, np.pi, 0.2 * np.pi),
+    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
+    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
+    ("ak8_2_cb_score", r"subleading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 1], 0, 1, 0.01),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],
 }
+ylog_match = [
+    "ak8_1_cb_score",
+    "ak8_2_cb_score",
+]
 indir = "/data/bond/lyazj/Parquet/V0"
 outdir = "parquet"
 os.makedirs(outdir, exist_ok=True)
@@ -159,6 +170,13 @@ def parquet_to_hists(mode, proc, fpath):
     events = ak.from_parquet(fpath)
     #events["AK8Jet_pt"] = events["AK8Jet_pt_nom"]
     #events["AK8Jet_sdmass"] = events["AK8Jet_sdmass_nom"]
+    events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
+        events["AK8Jet_probHbc"]
+        + events["AK8Jet_probQCD"]
+        + events["AK8Jet_probHcs"]
+        + events["AK8Jet_probHqq"]
+        + events["AK8Jet_probHother"]
+    )
     nevent_precut = len(events)
     for cut in proc_cut.get("all", []) + proc_cut.get("mode:" + mode, []) + proc_cut.get(proc, []):
         events = events[cut(events)]
@@ -233,7 +251,12 @@ for year in year_match:
             plt.grid()
             plt.xlabel(l)
             plt.ylabel("Events")
-            plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
+            if n in ylog_match:
+                plt.yscale("log")
+                plt.ylim(plt.ylim()[0], np.exp(np.log(plt.ylim()[0]) + (np.log(plt.ylim()[1]) - np.log(plt.ylim()[0])) * 1.15))
+            else:
+                plt.yscale("linear")
+                plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
             plt.savefig(os.path.join(outdir, f"parquet_{year}_{mode}_{n}.pdf"))
             plt.clf()
