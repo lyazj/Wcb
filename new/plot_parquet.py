@@ -41,7 +41,6 @@ proc_match["Wcb"] = {
         "WJetsToQQ_HT-400to600.parquet",
         "WJetsToQQ_HT-600to800.parquet",
         "WJetsToQQ_HT-800toInf.parquet",
-        "TTToSemiLeptonic_Vcb_TuneCP5.parquet",
     ],
     "QCD": [
         "QCD_HT500to700.parquet",
@@ -199,12 +198,6 @@ for year in year_match:
                 dirname = os.path.join(indir, ym, mode, "Data" if proc == "Data" else "MC")
                 for pm in natsort.natsorted(proc_match[mode][proc]):
                     if not pm.endswith(".parquet"):
-                        continue
-                    if mode == "Wcb" and proc == "Data" and "JetHT" not in pm:
-                        continue
-                    if mode == "Wcb" and proc == "Wcb" and "TT" in pm:
-                        continue
-                    if mode == "ttWcb" and proc == "Wcb" and "WJets" in pm:
                         continue
                     hists[year][mode][proc].append(parquet_to_hists_async(mode, proc, os.path.join(dirname, pm)))
             hists[year][mode][proc] = sum(hist.get() for hist in hists[year][mode][proc])

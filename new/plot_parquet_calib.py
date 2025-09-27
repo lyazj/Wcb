@@ -28,35 +28,43 @@ year_match = {
 modes = [
     "ttWcb",
 ]
-proc_match = {
+proc_match = {}
+proc_match["ttWcb"] = {
     "Data": [
-        # Place holder.
+        "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
+        "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.parquet",
     ],
     "MC": [
-        "QCD_HT500to700.parquet",
-        "QCD_HT700to1000.parquet",
-        "QCD_HT1000to1500.parquet",
-        "QCD_HT1500to2000.parquet",
-        "QCD_HT2000toInf.parquet",
-        "WJetsToQQ_HT-400to600.parquet",
-        "WJetsToQQ_HT-600to800.parquet",
-        "WJetsToQQ_HT-800toInf.parquet",
-        "TTToHadronic_TuneCP5.parquet",
+        "TTToSemiLeptonic_Vcb_TuneCP5.parquet",
+        "WJetsToLNu_Pt-250To400.parquet",
+        "WJetsToLNu_Pt-400To600.parquet",
+        "WJetsToLNu_Pt-600ToInf.parquet",
+        "TTTo2L2Nu_TuneCP5.parquet",
         "TTToSemiLeptonic_TuneCP5.parquet",
-        "ST_s-channel_4f_hadronicDecays.parquet",
+        "ST_s-channel_4f_leptonDecays.parquet",
         "ST_t-channel_antitop.parquet",
         "ST_t-channel_top.parquet",
         "ST_tW_antitop.parquet",
         "ST_tW_top.parquet",
-        "ZJetsToQQ_HT-400to600.parquet",
-        "ZJetsToQQ_HT-600to800.parquet",
-        "ZJetsToQQ_HT-800toInf.parquet",
+        "DYJetsToLL_LHEFilterPtZ-250To400.parquet",
+        "DYJetsToLL_LHEFilterPtZ-400To650.parquet",
+        "DYJetsToLL_LHEFilterPtZ-650ToInf.parquet",
         "WW_TuneCP5.parquet",
         "WZ_TuneCP5.parquet",
         "ZZ_TuneCP5_13TeV-pythia8.parquet",
-        "TTToSemiLeptonic_Vcb_TuneCP5.parquet",
     ],
 }
+procs = {}
+procs["ttWcb"] = ["Data", "Other", "Tbqq", "Tbq", "Tbc", "WOther", "Wud", "Wcs", "Wcb"]
+for proc in procs["ttWcb"]:
+    if proc != "Data":
+        proc_match["ttWcb"][proc] = proc_match["ttWcb"]["MC"]
 proc_label = {
     "Data": r"Data",
     "Other": r"Other",
@@ -141,22 +149,20 @@ for year in year_match:
     hists[year] = {}
     for mode in modes:
         hists[year][mode] = {}
-        for proc in proc_label:
+        for proc in procs[mode]:
             print(proc)
             hists[year][mode][proc] = []
             for ym in year_match[year]:
                 dirname = os.path.join(indir, ym, mode, "Data" if proc == "Data" else "MC")
-                for pm in natsort.natsorted(os.listdir(dirname)) if proc == "Data" else proc_match["MC"]:
+                for pm in natsort.natsorted(proc_match[mode][proc]):
                     if not pm.endswith(".parquet"):
-                        continue
-                    if mode == "ttWcb" and proc == "Wcb" and "WJets" in pm:
                         continue
                     hists[year][mode][proc].append(parquet_to_hists_async(mode, proc, os.path.join(dirname, pm)))
             hists[year][mode][proc] = sum(hist.get() for hist in hists[year][mode][proc])
 hists["all"] = {}
 for mode in modes:
     hists["all"][mode] = {}
-    for proc in proc_label:
+    for proc in procs[mode]:
         hists["all"][mode][proc] = [np.zeros(int(round((e - b) / s))) for (n, l, ex, b, e, s) in plot_list]
         for year in year_match:
             for i, (n, l, ex, b, e, s) in enumerate(plot_list):
@@ -170,7 +176,7 @@ for year in year_match:
             hs = []
             ls = []
             cs = []
-            for proc in proc_label:
+            for proc in procs[mode]:
                 hs.append((hists[year][mode][proc][i], np.arange(b, e + s, s)))
                 ls.append(proc_label[proc])
                 cs.append(proc_color[proc])
