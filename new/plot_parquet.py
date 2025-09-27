@@ -29,9 +29,13 @@ modes = [
     "Wcb",
     "ttWcb",
 ]
-proc_match = {
+proc_match = {}
+proc_match["Wcb"] = {
     "Data": [
-        # Place holder.
+        "JetHT_Run2018A-UL2018_MiniAODv2-v1.parquet",
+        "JetHT_Run2018B-UL2018_MiniAODv2-v1.parquet",
+        "JetHT_Run2018C-UL2018_MiniAODv2-v1.parquet",
+        "JetHT_Run2018D-UL2018_MiniAODv2-v2.parquet",
     ],
     "Wcb": [
         "WJetsToQQ_HT-400to600.parquet",
@@ -71,23 +75,65 @@ proc_match = {
         "ZZ_TuneCP5_13TeV-pythia8.parquet",
     ],
 }
+proc_match["ttWcb"] = {
+    "Data": [
+        "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
+        "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
+        "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
+        "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.parquet",
+    ],
+    "Wcb": [
+        "TTToSemiLeptonic_Vcb_TuneCP5.parquet",
+    ],
+    "WJets": [
+        "WJetsToLNu_Pt-250To400.parquet",
+        "WJetsToLNu_Pt-400To600.parquet",
+        "WJetsToLNu_Pt-600ToInf.parquet",
+    ],
+    "TT": [
+        "TTTo2L2Nu_TuneCP5.parquet",
+        "TTToSemiLeptonic_TuneCP5.parquet",
+    ],
+    "ST": [
+        "ST_s-channel_4f_leptonDecays.parquet",
+        "ST_t-channel_antitop.parquet",
+        "ST_t-channel_top.parquet",
+        "ST_tW_antitop.parquet",
+        "ST_tW_top.parquet",
+    ],
+    "Other": [
+        "DYJetsToLL_LHEFilterPtZ-250To400.parquet",
+        "DYJetsToLL_LHEFilterPtZ-400To650.parquet",
+        "DYJetsToLL_LHEFilterPtZ-650ToInf.parquet",
+        "WW_TuneCP5.parquet",
+        "WZ_TuneCP5.parquet",
+        "ZZ_TuneCP5_13TeV-pythia8.parquet",
+    ],
+}
+procs = {}
+procs["Wcb"] = ["Data", "Other", "WJets", "ST", "TT", "QCD", "Wcb"]
+procs["ttWcb"] = ["Data", "Other", "WJets", "ST", "TT", "Wcb"]
 proc_label = {
     "Data": r"Data",
+    "Wcb": r"$W \to cb$",
     "QCD": "QCD",
-    "WJets": r"$W + jets$ (except $W \to cb$)",
     "TT": r"$t\bar t$ (except $W \to cb$)",
     "ST": r"Single top",
+    "WJets": r"$W + jets$ (except $W \to cb$)",
     "Other": r"$Z + jets$ and $VV$",
-    "Wcb": r"$W \to cb$",
 }
 proc_color = {
     "Data": "#000000",
-    "QCD": sns.color_palette("tab10", 6)[0],
-    "WJets": sns.color_palette("tab10", 6)[1],
+    "Wcb": sns.color_palette("tab10", 6)[0],
+    "QCD": sns.color_palette("tab10", 6)[1],
     "TT": sns.color_palette("tab10", 6)[2],
     "ST": sns.color_palette("tab10", 6)[3],
-    "Other": sns.color_palette("tab10", 6)[4],
-    "Wcb": sns.color_palette("tab10", 6)[5],
+    "WJets": sns.color_palette("tab10", 6)[4],
+    "Other": sns.color_palette("tab10", 6)[5],
 }
 proc_cut = {
     "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
@@ -146,12 +192,12 @@ for year in year_match:
     hists[year] = {}
     for mode in modes:
         hists[year][mode] = {}
-        for proc in proc_label:
+        for proc in procs[mode]:
             print(proc)
             hists[year][mode][proc] = []
             for ym in year_match[year]:
                 dirname = os.path.join(indir, ym, mode, "Data" if proc == "Data" else "MC")
-                for pm in natsort.natsorted(os.listdir(dirname)) if proc == "Data" else proc_match[proc]:
+                for pm in natsort.natsorted(proc_match[mode][proc]):
                     if not pm.endswith(".parquet"):
                         continue
                     if mode == "Wcb" and proc == "Data" and "JetHT" not in pm:
@@ -165,7 +211,7 @@ for year in year_match:
 hists["all"] = {}
 for mode in modes:
     hists["all"][mode] = {}
-    for proc in proc_label:
+    for proc in procs[mode]:
         hists["all"][mode][proc] = [np.zeros(int(round((e - b) / s))) for (n, l, ex, b, e, s) in plot_list]
         for year in year_match:
             for i, (n, l, ex, b, e, s) in enumerate(plot_list):
@@ -179,7 +225,7 @@ for year in year_match:
             hs = []
             ls = []
             cs = []
-            for proc in proc_label:
+            for proc in procs[mode]:
                 hs.append((hists[year][mode][proc][i], np.arange(b, e + s, s)))
                 ls.append(proc_label[proc])
                 cs.append(proc_color[proc])
