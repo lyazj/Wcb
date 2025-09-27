@@ -43,6 +43,8 @@ for process in natsort.natsorted(os.listdir(INDIR)):
 for proc, proc_infiles in infiles.items():
     if not proc_infiles:
         continue
+    if os.path.exists(os.path.join(INDIR, proc + ".parquet")):
+        continue
     events = []
     if options.type == "MC":
         nevent = 0.0
