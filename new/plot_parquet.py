@@ -168,7 +168,11 @@ os.makedirs(outdir, exist_ok=True)
 
 
 def parquet_to_hists(mode, proc, fpath):
-    events = ak.from_parquet(fpath)
+    try:
+        events = ak.from_parquet(fpath)
+    except Exception:
+        print("ERROR: Corrupted file:", fpath)
+        raise
     #events["AK8Jet_pt"] = events["AK8Jet_pt_nom"]
     #events["AK8Jet_sdmass"] = events["AK8Jet_sdmass_nom"]
     events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
