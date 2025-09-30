@@ -244,9 +244,9 @@ for year in year_match:
                 cs.append(proc_color[proc])
             hep.histplot(hs[0], histtype="errorbar", label=ls[0], color=cs[0])
             hep.histplot(hs[1:-1], stack=True, histtype="fill", label=ls[1:-1], color=cs[1:-1])
-            sf = hs[0].sum().value / hs[-1].sum().value
+            sf = hs[0].values().max() / hs[-1].values().max()
             sf_down = 10 ** int(np.log10(sf))
-            sf = sf_down * 10 if sf >= sf_down * 7.5 else sf_down * 5 if sf >= sf_down * 2.5 else sf_down
+            sf = int(sf / sf_down) * sf_down
             hep.histplot(hs[-1] * sf, histtype="step", label=ls[-1] + f" (×{sf})", color=cs[-1])
             cms_label(year + " " + mode)
             plt.legend(loc="upper left", ncols=3)
