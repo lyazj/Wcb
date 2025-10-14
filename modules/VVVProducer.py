@@ -90,7 +90,7 @@ class VVVProducer(Module):
         nTightElectron = 0
         for iElectron in range(0, event.nElectron):
             passLooseElectron = electrons[iElectron].pt > 20 and abs(electrons[iElectron].eta) < 2.5 and electrons[iElectron].mvaFall17V2Iso_WP90
-            passTightElectron = passLooseElectron and electrons[iElectron].mvaFall17V2Iso_WP80
+            passTightElectron = passLooseElectron and electrons[iElectron].pt > 35 and electrons[iElectron].mvaFall17V2Iso_WP80
             nLooseElectron += passLooseElectron
             nTightElectron += passTightElectron
             if passLooseElectron:
@@ -103,7 +103,7 @@ class VVVProducer(Module):
         nTightMuon = 0
         for iMuon in range(0, event.nMuon):
             passLooseMuon = muons[iMuon].corrected_pt > 20 and abs(muons[iMuon].eta) < 2.4 and muons[iMuon].looseId and muons[iMuon].pfRelIso04_all < 0.25
-            passTightMuon = passLooseMuon and muons[iMuon].tightId and muons[iMuon].pfRelIso04_all < 0.06 and abs(muons[iMuon].dxy) < 0.05 and abs(muons[iMuon].dz) < 0.2
+            passTightMuon = passLooseMuon and muons[iMuon].corrected_pt > 30 and muons[iMuon].tightId and muons[iMuon].pfRelIso04_all < 0.06 and abs(muons[iMuon].dxy) < 0.05 and abs(muons[iMuon].dz) < 0.2
             nLooseMuon += passLooseMuon
             nTightMuon += passTightMuon
             if passLooseMuon:
