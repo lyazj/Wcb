@@ -244,7 +244,10 @@ def Process_FatJets(self, event):
             self.out.fillBranch("AK8Jet_is" + is_key, is_value)
 
     nAK8Jet_min = 2 if self.mode == "Wcb" else 1 if self.mode == "ttWcb" else None
+    lead_pt_min = 300 if self.mode == "Wcb" else 200 if self.mode == "ttWcb" else None
     if len(pt_list) < nAK8Jet_min or all(sdmass <= 30 for sdmass in sdmass_list):
+        return False
+    if pt_list[0] <= lead_pt_min:
         return False
     return True
 
