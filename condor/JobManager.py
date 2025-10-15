@@ -111,8 +111,14 @@ class JobManager:
         delete_args = ['ssh', 'lxplus.cern.ch', 'rm'] + [os.path.join(odir, 'out_%d.root') % job for job in good_jobs]
         print('Generating %s' % object_name)
         os.sys.stdout.flush()
-        #self.applications.append(self.pool.apply_async(run_and, [clean_args, setup_args, fetch_args, count_args, merge_args, verify_args, rename_args, clean_args, markup_args, delete_args]))
-        self.applications.append(self.pool.apply_async(run_and, [setup_args, fetch_args, merge_args, verify_args, rename_args, clean_args, markup_args, delete_args]))
+        data_or_mc = os.path.basename(os.path.dirname(odir.rstrip('/')))
+        is_data = data_or_mc.upper() == 'DATA'
+        is_mc = data_or_mc.upper() == 'MC'
+        assert is_data or is_mc
+        if is_data:
+            self.applications.append(self.pool.apply_async(run_and, [setup_args, fetch_args, count_args, merge_args, verify_args, rename_args, clean_args, markup_args, delete_args]))
+        else:
+            self.applications.append(self.pool.apply_async(run_and, [setup_args, fetch_args, merge_args, verify_args, rename_args, clean_args, markup_args, delete_args]))
 
     def wait_fetch_jobs(self):
         while self.applications:

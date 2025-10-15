@@ -221,19 +221,10 @@ EOL
 #    fi
 #    exit 0  # We didn't succeed. But we don't want to try again.
 #fi
-if [ "$(python2 $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/count-events tree.root | egrep -o '[0-9]+$')" = 0 ]; then
-    : > tree.root.out
-    if [ "${OFILE:0:4}" = "/eos" ]; then
-        xrdcp tree.root.out root://eosuser.cern.ch/${OFILE}.out
-    else
-        rsync tree.root.out ${OFILE}.out
-    fi
+if [ "${OFILE:0:4}" = "/eos" ]; then
+    xrdcp tree.root root://eosuser.cern.ch/${OFILE}
 else
-    if [ "${OFILE:0:4}" = "/eos" ]; then
-        xrdcp tree.root root://eosuser.cern.ch/${OFILE}
-    else
-        rsync tree.root ${OFILE}
-    fi
+    rsync tree.root ${OFILE}
 fi
 
 cd $BASEPATH
