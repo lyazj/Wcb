@@ -93,7 +93,7 @@ class VVVProducer(Module):
             passTightElectron = passLooseElectron and electrons[iElectron].pt > 35 and electrons[iElectron].mvaFall17V2Iso_WP80
             nLooseElectron += passLooseElectron
             nTightElectron += passTightElectron
-            if passLooseElectron:
+            if passTightElectron:
                 self.leptons.append(TLorentzVector())
                 self.leptons[-1].SetPtEtaPhiM(electrons[iElectron].pt, electrons[iElectron].eta, electrons[iElectron].phi, electrons[iElectron].mass)
 
@@ -106,7 +106,7 @@ class VVVProducer(Module):
             passTightMuon = passLooseMuon and muons[iMuon].corrected_pt > 30 and muons[iMuon].tightId and muons[iMuon].pfRelIso04_all < 0.06 and abs(muons[iMuon].dxy) < 0.05 and abs(muons[iMuon].dz) < 0.2
             nLooseMuon += passLooseMuon
             nTightMuon += passTightMuon
-            if passLooseMuon:
+            if passTightMuon:
                 self.leptons.append(TLorentzVector())
                 self.leptons[-1].SetPtEtaPhiM(muons[iMuon].corrected_pt, muons[iMuon].eta, muons[iMuon].phi, muons[iMuon].mass)
 
