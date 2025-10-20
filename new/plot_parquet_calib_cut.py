@@ -158,7 +158,7 @@ def parquet_to_hists(mode, proc, fpath):
         hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
         hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
         hists.append(hist)
-    return np.array(hists, dtype=object)
+    return np.array([*hists, None], dtype=object)[:-1]
 
 
 def parquet_to_hists_async(mode, proc, fpath):
