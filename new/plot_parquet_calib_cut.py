@@ -88,8 +88,14 @@ proc_color = {
     "Wcs": sns.color_palette("tab10", 10)[6],
     "Wcb": "#3f3f3f",
 }
+cb_score_range = [0.98, 1]
+cb_score_bin_width = (cb_score_range[1] - cb_score_range[0]) / 100
 proc_cut = {
-    "all": [lambda ev: ev["passHLT"]],
+    "all": [
+        lambda ev: ev["passHLT"],
+        lambda ev: (ev["AK8Jet_cb_score"][..., 0] > cb_score_range[0])
+        & (ev["AK8Jet_cb_score"][..., 0] < cb_score_range[1]),
+    ],
     "mode:ttWcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 200, lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "Tbqq": [lambda ev: ev["AK8Jet_match"][..., 0] == 1],
     "Tbc": [lambda ev: ev["AK8Jet_match"][..., 0] == 2],
@@ -106,13 +112,13 @@ plots["ttWcb"] = [
     ("ak8_1_eta", r"leading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"leading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
-    ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
+    ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],
 }
 ylog_match = [
-    "ak8_1_cb_score",
+    #"ak8_1_cb_score",
 ]
 indir = "/data/bond/lyazj/Parquet/V0"
 outdir = "parquet"
@@ -216,5 +222,5 @@ for year in year_match:
                 plt.yscale("linear")
                 plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
-            plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}.pdf"))
+            plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}_cb_score_{cb_score_range[0]}_{cb_score_range[1]}.pdf"))
             plt.clf()
