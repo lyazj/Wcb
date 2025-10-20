@@ -128,12 +128,12 @@ proc_label = {
 }
 proc_color = {
     "Data": "#000000",
-    "Wcb": sns.color_palette("tab10", 6)[0],
-    "QCD": sns.color_palette("tab10", 6)[1],
-    "TT": sns.color_palette("tab10", 6)[2],
-    "ST": sns.color_palette("tab10", 6)[3],
-    "WJets": sns.color_palette("tab10", 6)[4],
-    "Other": sns.color_palette("tab10", 6)[5],
+    "Wcb": sns.color_palette("tab10", 10)[0],
+    "QCD": sns.color_palette("tab10", 10)[1],
+    "TT": sns.color_palette("tab10", 10)[2],
+    "ST": sns.color_palette("tab10", 10)[3],
+    "WJets": sns.color_palette("tab10", 10)[4],
+    "Other": sns.color_palette("tab10", 10)[5],
 }
 proc_cut = {
     "all": [lambda ev: ev["passHLT"]],

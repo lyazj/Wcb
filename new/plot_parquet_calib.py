@@ -89,8 +89,8 @@ proc_color = {
     "Wcb": "#3f3f3f",
 }
 proc_cut = {
-    "all": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ev["passHLT"]],
-    "mode:ttWcb": [lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
+    "all": [lambda ev: ev["passHLT"]],
+    "mode:ttWcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 200, lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "Tbqq": [lambda ev: ev["AK8Jet_match"][..., 0] == 1],
     "Tbc": [lambda ev: ev["AK8Jet_match"][..., 0] == 2],
     "Tbq": [lambda ev: ev["AK8Jet_match"][..., 0] == 3],
@@ -100,18 +100,13 @@ proc_cut = {
     "WOther": [lambda ev: (ev["AK8Jet_match"][..., 0] == 5) | (ev["AK8Jet_match"][..., 0] == 6) | (ev["AK8Jet_match"][..., 0] == 7)],
     "Other": [lambda ev: ev["AK8Jet_match"][..., 0] == 0],
 }
-plot_list = [
-    ("ak8_1_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 350, 850, 10),
+plots = {}
+plots["ttWcb"] = [
+    ("ak8_1_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 800, 10),
     ("ak8_1_eta", r"leading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"leading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
     ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
-    ("ak8_2_pt", r"subleading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 1], 350, 850, 10),
-    ("ak8_2_eta", r"subleading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 1], -2.5, 2.5, 0.2),
-    ("ak8_2_phi", r"subleading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 1], -np.pi, np.pi, 0.2 * np.pi),
-    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
-    ("ak8_2_sdmass", r"subleading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 1], 30, 230, 10),
-    ("ak8_2_cb_score", r"subleading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 1], 0, 1, 0.01),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],
@@ -126,7 +121,11 @@ os.makedirs(outdir, exist_ok=True)
 
 
 def parquet_to_hists(mode, proc, fpath):
-    events = ak.from_parquet(fpath)
+    try:
+        events = ak.from_parquet(fpath)
+    except Exception:
+        print("ERROR: Corrupted file:", fpath)
+        raise
     #events["AK8Jet_pt"] = events["AK8Jet_pt_nom"]
     #events["AK8Jet_sdmass"] = events["AK8Jet_sdmass_nom"]
     events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
@@ -142,7 +141,7 @@ def parquet_to_hists(mode, proc, fpath):
     nevent_postcut = len(events)
     print(f"{fpath}: {nevent_precut} -> {nevent_postcut}")
     hists = []
-    for n, l, ex, b, e, s in plot_list:
+    for n, l, ex, b, e, s in plots[mode]:
         bev = events
         bevex = ex(bev)
         if proc == "Data":
@@ -185,13 +184,13 @@ for mode in modes:
     hists["all"][mode] = {}
     for proc in procs[mode]:
         hists["all"][mode][proc] = []
-        for i, (n, l, ex, b, e, s) in enumerate(plot_list):
+        for i, (n, l, ex, b, e, s) in enumerate(plots[mode]):
             hists["all"][mode][proc].append(sum(hists[year][mode][proc][i] for year in year_match))
 
 #for year in year_match + ["all"]:
 for year in year_match:
     for mode in modes:
-        for i, (n, l, ex, b, e, s) in enumerate(plot_list):
+        for i, (n, l, ex, b, e, s) in enumerate(plots[mode]):
             print(year, mode, n)
             hs = []
             ls = []
