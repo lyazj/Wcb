@@ -124,7 +124,7 @@ for mode in modes:
 def make_trigeff(h, h0):
     c, c0 = map(lambda h: h.counts(flow=True), (h, h0))
     v, v0 = map(lambda h: h.variances(flow=True), (h, h0))
-    c, c0, v, v0 = map(lambda x: np.cumsum(x[:-1]), (c, c0, v, v0))
+    c, c0, v, v0 = map(lambda x: np.cumsum(x[1:][::-1])[::-1], (c, c0, v, v0))
     eff = c / c0
     unc = eff * np.sqrt(v / c**2 + v0 / c0**2)
     return h.axes[0].edges, eff, unc
