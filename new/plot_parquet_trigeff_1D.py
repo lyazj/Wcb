@@ -75,14 +75,14 @@ def parquet_to_hists(year, mode, proc, fpath):
                 bev = events
             elif hlt == "HLT_OR":
                 mask = ak.zeros_like(events["weight"], dtype=bool)
-                for h in hlts[1:-1]:
+                for h in hlt_dict[mode][year]:
                     mask = mask | events[h[0]]
                 bev = events[mask]
             else:
                 bev = events[events[hlt]]
             bevex = ex(bev)
             weights = bev["weight"]
-            hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=str(hlt), label=str(hlt)).Weight()
+            hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
             hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
             hists[-1].append(hist)
         hists[-1] = np.array([*hists[-1], None], dtype=object)[:-1]
