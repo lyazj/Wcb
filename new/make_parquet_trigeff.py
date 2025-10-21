@@ -9,6 +9,7 @@ import natsort
 import multiprocessing
 from hist import Hist
 from config import hlt_dict
+import pickle as pkl
 
 plt.figure(figsize=(16.5, 15))
 hep.style.use("CMS")
@@ -164,7 +165,7 @@ for year in year_match:
         plt.imshow(esf.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis")
         for i, xc in enumerate(x_centers):
             for j, yc in enumerate(y_centers):
-                plt.text(xc, yc, f"{esf[i, j]:.1f}", ha="center", va="center", color="white", fontsize="small")
+                plt.text(xc, yc, f"{esf[i, j]:.2f}", ha="center", va="center", color="white", fontsize="small")
         plt.colorbar(label="HLT efficiency scale factor")
         cms_label(year + " " + mode)
         plt.xlabel(plots[0][1])
@@ -176,11 +177,13 @@ for year in year_match:
         plt.imshow(unc.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis")
         for i, xc in enumerate(x_centers):
             for j, yc in enumerate(y_centers):
-                plt.text(xc, yc, f"{unc[i, j]:.1f}", ha="center", va="center", color="white", fontsize="small")
-        plt.colorbar(label="HLT efficiency scale factor")
+                plt.text(xc, yc, f"{unc[i, j]:.2f}", ha="center", va="center", color="white", fontsize="small")
+        plt.colorbar(label="HLT efficiency scale factor uncertainty")
         cms_label(year + " " + mode)
         plt.xlabel(plots[0][1])
         plt.ylabel(plots[1][1])
         plt.tight_layout()
         plt.savefig(os.path.join(outdir, f"parquet_trigeff_{year}_{mode}_unc.pdf"))
         plt.clf()
+
+        pkl.dump((x, y, esf, unc), open(f"parquet_trigeff_{year}_{mode}.pkl", "wb"))
