@@ -37,13 +37,11 @@ proc_match["Wcb"] = {
         "JetHT_Run2018C-UL2018_MiniAODv2-v1.parquet",
         "JetHT_Run2018D-UL2018_MiniAODv2-v2.parquet",
     ],
-    "EGamma": [
+    "EMuon": [
         "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
         "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
         "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
         "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
-    ],
-    "SingleMuon": [
         "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
         "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
         "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
@@ -58,7 +56,7 @@ proc_match["Wcb"] = {
     ],
 }
 procs = {}
-procs["Wcb"] = ["SingleMuon", "QCD"]
+procs["Wcb"] = ["EMuon", "QCD"]
 proc_cut = {
     "all": [],
     "mode:Wcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
@@ -155,10 +153,10 @@ for year in year_match:
             print(year, mode, proc)
             hs = hists[year][mode][proc]
             effs[proc] = make_trigeff(hs[1], hs[0])
-        x = effs["SingleMuon"][0]
-        y = effs["SingleMuon"][1]
-        esf = effs["SingleMuon"][2] / effs["QCD"][2]
-        unc = esf * np.hypot(effs["SingleMuon"][3] / effs["SingleMuon"][2], effs["QCD"][3] / effs["QCD"][2])
+        x = effs["EMuon"][0]
+        y = effs["EMuon"][1]
+        esf = effs["EMuon"][2] / effs["QCD"][2]
+        unc = esf * np.hypot(effs["EMuon"][3] / effs["EMuon"][2], effs["QCD"][3] / effs["QCD"][2])
         x_centers = 0.5 * (x[:-1] + x[1:])
         y_centers = 0.5 * (y[:-1] + y[1:])
 
