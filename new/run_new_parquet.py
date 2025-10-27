@@ -44,4 +44,4 @@ for filename in natsort.natsorted(os.listdir(INDIR)):
                 options.mode,
             ]
         )
-multiprocessing.Pool(8).map(subprocess.run, args)
+multiprocessing.Pool(4).map(subprocess.run, args)
