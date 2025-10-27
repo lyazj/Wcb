@@ -18,7 +18,7 @@ options = parser.parse_args()
 
 # Load events.
 print(f"Loading events from {options.fin}")
-events = awkward.from_parquet(options.fin)
+events = ak.from_parquet(options.fin)
 if options.nmax >= 0:
     events = events[: options.nmax]
 print(f"{len(events)} events loaded from {options.fin}")
@@ -33,9 +33,9 @@ elif options.mode == "ttWcb":
     events = (events[ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)],)
 print(f"{len(events)} events passed selections")
 
-# Apply HLT efficiency scale factor.
+# Apply HLT efficiency scale factor. [XXX] Should be applied on the Wcb candidate jet.
 if "genWeight" in events.fields and options.mode == "Wcb":
-    pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{year}_Wcb.pkl", "rb"))
+    pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{options.year}_Wcb.pkl", "rb"))
     events = events[events["AK8Jet_pt"][:, 0] >= pt_bins[0]]
     events = events[events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0]]
     events = events[events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1]]
@@ -65,7 +65,7 @@ else:
 events["weight"] = events["weight"] * events["HLTScale"]
 
 # Drop AK4 jet branches.
-events = ak.without_field(events, ["nAK4Jet"] + [f for f in events.fields if f.startswith("AK4Jet_")])
+events = events[[f for f in events.fields if f != "nAK4Jet" and not f.startswith("AK4Jet_")]]
 
 # Create cb score for AK8 jets and sort AK8 jets by it.
 events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
@@ -81,10 +81,7 @@ for field in events.fields:
         events[field] = events[field][AK8Jet_indexes]
 
 # Drop HLT branches.
-events = ak.without_field(events, ["passHLT"] + [f for f in events.fields if f.startswith("HLT_")])
-
-# Sort the branches by names.
-events = ak.with_field(events, sorted(events.fields))
+events = events[[f for f in events.fields if f != "passHLT" and not f.startswith("HLT_")]]
 
 ak.to_parquet(events, options.fout)
 print(f"Written to {options.fout}")
