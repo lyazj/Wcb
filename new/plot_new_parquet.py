@@ -28,7 +28,7 @@ year_match = {
 }
 modes = [
     "Wcb",
-    "ttWcb",
+    #"ttWcb",
 ]
 proc_match = {}
 proc_match["Wcb"] = {
@@ -136,7 +136,9 @@ proc_color = {
     "Other": sns.color_palette("tab10", 10)[5],
 }
 proc_cut = {
-    "Data": [lambda ev: ev["passHLT"]],
+    "Data": [lambda ev: ev["passHLT"], lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
+    #"mode:Wcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
+    #"mode:ttWcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 200, lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "Wcb": [lambda ev: ev["isWcb"]],
     "WJets": [lambda ev: ~ev["isWcb"]],
 }

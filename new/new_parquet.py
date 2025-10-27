@@ -30,7 +30,7 @@ if options.mode == "Wcb":
     events = events[~ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
 elif options.mode == "ttWcb":
     events = events[events["AK8Jet_pt"][:, 0] > 200]
-    events = (events[ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)],)
+    events = events[ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
 print(f"{len(events)} events passed selections")
 
 # Apply HLT efficiency scale factor. [XXX] Should be applied on the Wcb candidate jet.
@@ -43,14 +43,14 @@ if "genWeight" in events.fields and options.mode == "Wcb":
     AK8Jet_pt_indexes = (
         np.minimum(
             len(pt_bins) - 1,
-            np.argmax(np.array(events["AK8Jet_pt"][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :]),
+            np.argmax(np.array(events["AK8Jet_pt"][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :], axis=1),
         )
         - 1
     )
     AK8Jet_sdmass_indexes = (
         np.minimum(
             len(sdmass_bins) - 1,
-            np.argmax(np.array(events["AK8Jet_sdmass"][:, 0])[:, None] < np.array([*sdmass_bins, np.inf])[None, :]),
+            np.argmax(np.array(events["AK8Jet_sdmass"][:, 0])[:, None] < np.array([*sdmass_bins, np.inf])[None, :], axis=1),
         )
         - 1
     )
@@ -67,18 +67,18 @@ events["weight"] = events["weight"] * events["HLTScale"]
 # Drop AK4 jet branches.
 events = events[[f for f in events.fields if f != "nAK4Jet" and not f.startswith("AK4Jet_")]]
 
-# Create cb score for AK8 jets and sort AK8 jets by it.
-events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
-    events["AK8Jet_probHbc"]
-    + events["AK8Jet_probQCD"]
-    + events["AK8Jet_probHcs"]
-    + events["AK8Jet_probHqq"]
-    + events["AK8Jet_probHother"]
-)
-AK8Jet_indexes = ak.argsort(events["AK8Jet_cb_score"], axis=-1, ascending=False)
-for field in events.fields:
-    if field.startswith("AK8Jet_"):
-        events[field] = events[field][AK8Jet_indexes]
+## Create cb score for AK8 jets and sort AK8 jets by it.
+#events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
+#    events["AK8Jet_probHbc"]
+#    + events["AK8Jet_probQCD"]
+#    + events["AK8Jet_probHcs"]
+#    + events["AK8Jet_probHqq"]
+#    + events["AK8Jet_probHother"]
+#)
+#AK8Jet_indexes = ak.argsort(events["AK8Jet_cb_score"], axis=-1, ascending=False)
+#for field in events.fields:
+#    if field.startswith("AK8Jet_"):
+#        events[field] = events[field][AK8Jet_indexes]
 
 # Drop HLT branches.
 events = events[[f for f in events.fields if f != "passHLT" and not f.startswith("HLT_")]]
