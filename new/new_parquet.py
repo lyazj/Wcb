@@ -34,7 +34,7 @@ elif options.mode == "ttWcb":
 print(f"{len(events)} events passed selections")
 
 # Apply HLT efficiency scale factor.
-if options.mode == "Wcb":
+if "genWeight" in events.fields and options.mode == "Wcb":
     pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{year}_Wcb.pkl", "rb"))
     events = events[events["AK8Jet_pt"][:, 0] >= pt_bins[0]]
     events = events[events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0]]
