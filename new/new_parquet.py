@@ -34,27 +34,34 @@ elif options.mode == "ttWcb":
 print(f"{len(events)} events passed selections")
 
 # Apply HLT efficiency scale factor.
-pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{year}_Wcb.pkl", "rb"))
-events = events[events["AK8Jet_pt"][:, 0] >= pt_bins[0]]
-events = events[events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0]]
-events = events[events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1]]
-print(f"{len(events)} events passed HLT scale plane selections")
-AK8Jet_pt_indexes = (
-    np.minimum(
-        len(pt_bins) - 1,
-        np.argmax(np.array(events["AK8Jet_pt"][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :]),
+if options.mode == "Wcb":
+    pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{year}_Wcb.pkl", "rb"))
+    events = events[events["AK8Jet_pt"][:, 0] >= pt_bins[0]]
+    events = events[events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0]]
+    events = events[events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1]]
+    print(f"{len(events)} events passed HLT scale plane selections")
+    AK8Jet_pt_indexes = (
+        np.minimum(
+            len(pt_bins) - 1,
+            np.argmax(np.array(events["AK8Jet_pt"][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :]),
+        )
+        - 1
     )
-    - 1
-)
-AK8Jet_sdmass_indexes = (
-    np.minimum(
-        len(sdmass_bins) - 1,
-        np.argmax(np.array(events["AK8Jet_sdmass"][:, 0])[:, None] < np.array([*sdmass_bins, np.inf])[None, :]),
+    AK8Jet_sdmass_indexes = (
+        np.minimum(
+            len(sdmass_bins) - 1,
+            np.argmax(np.array(events["AK8Jet_sdmass"][:, 0])[:, None] < np.array([*sdmass_bins, np.inf])[None, :]),
+        )
+        - 1
     )
-    - 1
-)
-events["HLTScale"] = HLTScale[AK8Jet_pt_indexes, AK8Jet_sdmass_indexes]
-events["HLTScaleError"] = HLTScaleError[AK8Jet_pt_indexes, AK8Jet_sdmass_indexes]
+    events["HLTScale"] = HLTScale[AK8Jet_pt_indexes, AK8Jet_sdmass_indexes]
+    events["HLTScaleError"] = HLTScaleError[AK8Jet_pt_indexes, AK8Jet_sdmass_indexes]
+    HLTNaNMask = np.isnan(events["HLTScale"]) | np.isnan(events["HLTScaleError"])
+    events["HLTScale"] = ak.where(HLTNaNMask, 1.0, events["HLTScale"])
+    events["HLTScaleError"] = ak.where(HLTNaNMask, 1.0, events["HLTScaleError"])
+else:
+    events["HLTScale"] = 1.0
+    events["HLTScaleError"] = 0.0
 events["weight"] = events["weight"] * events["HLTScale"]
 
 # Drop AK4 jet branches.
