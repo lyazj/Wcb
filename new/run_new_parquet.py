@@ -26,7 +26,7 @@ args = []
 for filename in natsort.natsorted(os.listdir(INDIR)):
     if filename.endswith(".parquet") and not filename.endswith(".new.parquet"):
         INPATH = os.path.join(INDIR, filename)
-        OUTPATH = os.path.join(INDIR, filename.rstrip(".parquet") + ".new.parquet")
+        OUTPATH = os.path.join(INDIR, filename[:-8] + ".new.parquet")
         if os.path.exists(OUTPATH):
             continue
         args.append(

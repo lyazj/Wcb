@@ -28,7 +28,7 @@ for dirpath, dirnames, filenames in natsort.natsorted(os.walk(INDIR)):
         os.makedirs(os.path.join(OUTDIR, os.path.relpath(dirpath, INDIR)), exist_ok=True)
         if filename.endswith(".root"):
             INPATH = os.path.join(dirpath, filename)
-            OUTPATH = os.path.join(OUTDIR, os.path.relpath(INPATH, INDIR)).rstrip(".root") + ".parquet"
+            OUTPATH = os.path.join(OUTDIR, os.path.relpath(INPATH, INDIR))[:-5] + ".parquet"
             if os.path.exists(OUTPATH):
                 continue
             args.append(
