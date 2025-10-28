@@ -171,7 +171,7 @@ for year in year_match:
         plt.savefig(os.path.join(outdir, f"parquet_trigeff_{year}_{mode}.pdf"))
         plt.clf()
 
-        plt.imshow(unc.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis")
+        plt.imshow(unc.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis", vmin=0.0, vmax=0.1)
         for i, xc in enumerate(x_centers):
             for j, yc in enumerate(y_centers):
                 plt.text(xc, yc, f"{unc[i, j]:.2f}", ha="center", va="center", color="white", fontsize="small")
