@@ -1,0 +1,2420 @@
+{
+    "WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2": {
+        "0": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1A0EB1A7-22A4-4442-B046-D410A0CA4D39.root"
+        ],
+        "1": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/2BDE8F07-D6E2-BC42-9816-129DD3276954.root"
+        ],
+        "2": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3EAC491A-4231-B243-9FD8-B25D6938DCD3.root"
+        ],
+        "3": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5E62E32A-BF97-9144-B70F-D0B0FD7C45A6.root"
+        ],
+        "4": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/64DB9101-E494-F94B-9192-CD685267DE8F.root"
+        ],
+        "5": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/66F84CD8-A56F-0D4C-A3C8-B9EC67227F39.root"
+        ],
+        "6": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/93C60ED0-10A4-4345-8F82-0D35EB88715A.root"
+        ],
+        "7": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/93F63AFD-31AB-6349-A4D4-D6798889033F.root"
+        ],
+        "8": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/297F5D85-F558-A34F-A15F-0D9D10861A13.root"
+        ],
+        "9": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/703F51B7-0635-3244-87AA-1C33970B380C.root"
+        ],
+        "10": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/737F2A9E-BCF0-864E-B8DE-7B3AFA55942D.root"
+        ],
+        "11": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/792C63C3-7B83-AD46-8146-9C5A4490A05D.root"
+        ],
+        "12": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/817FF49D-6E79-BD42-A313-1656DCF414DF.root"
+        ],
+        "13": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7081EF06-F30B-2345-B5C3-B2B9AA9D20B7.root"
+        ],
+        "14": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8416F6D8-9E2E-3C4B-B4AB-45D6C0F7ACAE.root"
+        ],
+        "15": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/54730EAD-4070-1A40-811D-C2A506669A0A.root"
+        ],
+        "16": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/57797AE8-B9C2-E24D-9E81-BA7963912F4A.root"
+        ],
+        "17": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/887495B1-E658-9443-86A7-8CF295922F26.root"
+        ],
+        "18": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/66052169-1F7E-C24C-8871-05ABD40C3663.root"
+        ],
+        "19": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/92937475-F589-7C44-A72D-644690009AF8.root"
+        ],
+        "20": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B53B6DE4-8F00-C246-84C7-78181DD01300.root"
+        ],
+        "21": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BBF8A741-58A4-9041-8A64-DB8D4B7CFBBE.root"
+        ],
+        "22": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BE41EF20-B291-1042-8480-F95CC6205AC6.root"
+        ],
+        "23": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C5B23BE3-D5B3-8542-8FE7-20CCE7EEA9EE.root"
+        ],
+        "24": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C9CF6D0F-5783-5847-9D3E-FD1944449FD9.root"
+        ],
+        "25": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C67F8F99-5A66-2641-8923-8A459C173A5C.root"
+        ],
+        "26": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CD599FFB-4FD9-DE4F-AFDB-80B5B42E17A9.root"
+        ],
+        "27": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D15B57DF-A248-F04D-895F-15BF4738B435.root"
+        ],
+        "28": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E5ACA60B-3F7A-BF4E-8AB9-52E23A4510D2.root"
+        ],
+        "29": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FA9E6888-EC59-D444-B172-C96807FF3D9A.root"
+        ],
+        "30": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/5C999E19-B666-7B4F-A658-E47DCAC821D2.root"
+        ],
+        "31": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/5E93DB4B-B9C4-0B4B-8938-B3DCB6990F26.root"
+        ],
+        "32": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/7F16620B-5790-AC47-881F-322416772E6C.root"
+        ],
+        "33": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/8A397994-6F21-E64D-B165-8666C866E3E9.root"
+        ],
+        "34": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/14C73DD5-AD81-4F42-8CFD-94FE2B578C3A.root"
+        ],
+        "35": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/22B356CE-C3D5-694F-8157-611CBDD8B746.root"
+        ],
+        "36": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/35BD2EE1-B995-A34A-BEE8-296CE04A9787.root"
+        ],
+        "37": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/36AE0882-3552-CA46-884E-7DA6121B4E8B.root"
+        ],
+        "38": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/42842E91-4B17-1A42-8E51-A16AB2F29715.root"
+        ],
+        "39": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/47085DB8-5CEC-264A-A3C0-8AC93DA5E17E.root"
+        ],
+        "40": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/53609EE8-2676-A947-B905-CCD9656FFFD3.root"
+        ],
+        "41": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/650982D4-628C-7C41-8E98-099BF1C620ED.root"
+        ],
+        "42": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/81250727-925F-5744-AF8F-A2C4C935DDCB.root"
+        ],
+        "43": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/A4AF032B-1424-9A41-A864-476731192CCB.root"
+        ],
+        "44": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/A33F4A21-1D0A-D84F-9AF6-00CBD35C7CC4.root"
+        ],
+        "45": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/AD678F33-F5D5-7C42-8F74-6C7D7B1046C6.root"
+        ],
+        "46": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/AEDF4FA8-0AB3-0940-9AA3-A2D2CCC7CE1B.root"
+        ],
+        "47": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/B23E103A-9B4F-7746-879A-60306A594940.root"
+        ],
+        "48": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/BAD9AC95-9E0F-784D-A629-85E174E5F717.root"
+        ],
+        "49": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/CA55865B-D0EB-FE40-AEDD-777EDBD377C5.root"
+        ],
+        "50": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/D12AD215-96D7-614C-A0B9-298D848B3A55.root"
+        ],
+        "51": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/D39F5C76-14A9-804E-BCA0-651DC6CFCD49.root"
+        ],
+        "52": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/DBB7847C-243E-004F-894D-B6D25D33844A.root"
+        ],
+        "53": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/E9881769-CE2F-524C-A231-147B6B2679FE.root"
+        ],
+        "54": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/F88A3FDC-B7BF-CA4A-A5A1-BA6BC6A0B0B3.root"
+        ],
+        "55": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/FC8DD105-4A9A-344E-BD4B-B2C9415BF66A.root"
+        ],
+        "56": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/0274BAC5-B1AB-AC4A-B84A-87B19931E915.root"
+        ],
+        "57": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/C3E002D7-C806-9341-9428-9452C7A81AFD.root"
+        ],
+        "58": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/CCBD859D-33D3-1148-B43E-070BD4AF75AC.root"
+        ],
+        "59": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E38DF837-375C-5E4F-9451-D6A280D1433D.root"
+        ],
+        "60": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E0442069-5A26-A645-9D91-F7FC139B11B7.root"
+        ],
+        "61": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0A96CF14-8A8D-BE4D-B4FE-CD2DC2F76106.root"
+        ],
+        "62": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1E5564FB-CEE3-1A43-8805-E35E24B1423F.root"
+        ],
+        "63": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/002B7A38-84A8-6F44-9CFC-625AF368B002.root"
+        ],
+        "64": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2C244E30-64BB-E44E-8BE3-8C31148D37B7.root"
+        ],
+        "65": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2C354D7F-81A1-A048-B9E7-F488761BBCA2.root"
+        ],
+        "66": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6A90ADF9-1BDB-8149-AFA9-6894BD4F2708.root"
+        ],
+        "67": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6AA4874E-2991-9747-968D-4018470AEEB2.root"
+        ],
+        "68": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7A897879-0B6A-E946-9127-9F314027EBF6.root"
+        ],
+        "69": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8E850A1B-01C4-A542-AEAC-65582828286B.root"
+        ],
+        "70": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8F26E028-FEF6-5640-BF75-5B301A4EC00A.root"
+        ],
+        "71": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9E7FD50B-06C8-694E-BB5C-784B49D9AE64.root"
+        ],
+        "72": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/09FBF0CC-0F8E-8444-A87A-BA6C30507BC3.root"
+        ],
+        "73": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/53FD1964-7DB4-314B-8F5C-F96A969E17D5.root"
+        ],
+        "74": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/56AEB124-A9FD-0147-A572-1C6389D5E4A9.root"
+        ],
+        "75": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/57BD0407-B8EE-4945-855F-F08F80A682E2.root"
+        ],
+        "76": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/61D0179A-F9A2-9449-A8F4-5486EA032DAF.root"
+        ],
+        "77": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/65B2C15B-1ACD-3B46-B89D-28EC017C5C6A.root"
+        ],
+        "78": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/90A6B466-9759-C348-A10A-975D31278C7D.root"
+        ],
+        "79": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/95F426CC-6ECE-8A46-A742-28C4B6431623.root"
+        ],
+        "80": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/139FA54C-51C2-5845-8ECA-D210890D05A9.root"
+        ],
+        "81": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/176BDDED-EA3F-8C4E-89CF-F437EBBA806C.root"
+        ],
+        "82": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/391F58F7-9DDC-B944-83E6-EAE07D07CA0B.root"
+        ],
+        "83": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/466C1C94-0C4B-094C-89FA-FB21B6597BE9.root"
+        ],
+        "84": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/978D2198-1E1D-C446-812B-51C001A52026.root"
+        ],
+        "85": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9040D42E-DBFE-F549-AED3-6A09BCD12412.root"
+        ],
+        "86": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/66277AF2-42A8-FD41-A064-AD22FA0CB831.root"
+        ],
+        "87": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/89410A75-4594-C048-BB78-14D237E3E61D.root"
+        ],
+        "88": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/151598DB-EC0F-4A43-8910-E8B538C3DD6D.root"
+        ],
+        "89": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0259329D-797A-8B47-B778-B4B93A995741.root"
+        ],
+        "90": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/457701BC-445C-F149-A37E-2CE7C72C5EEC.root"
+        ],
+        "91": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/703254BC-3111-8245-AD69-DC8354CDF707.root"
+        ],
+        "92": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A8509A8E-168B-0743-80E2-6837B9BC1F20.root"
+        ],
+        "93": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AA4F290E-DB7A-1744-96B3-6C3E374A9C08.root"
+        ],
+        "94": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B12C1E9D-5D45-9B4D-B636-08A2BED1388F.root"
+        ],
+        "95": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B535B54E-AE49-0E4E-AD72-56F2397D1B5F.root"
+        ],
+        "96": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/CE442E69-FD15-E643-9BE9-1B44F7DE2707.root"
+        ],
+        "97": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E5DC50AF-E0C5-3A4F-B40B-8375044CB916.root"
+        ],
+        "98": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E12BEDBB-1DAE-314B-90D5-F9BC7FA65FA1.root"
+        ],
+        "99": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F6952B59-B191-3546-9530-4A9130A8B243.root"
+        ],
+        "100": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/FB4BF0CA-E962-E641-BEE7-0C497AFBAC25.root"
+        ],
+        "101": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/0E5D7A44-D808-8648-AE8B-485AC02F03D3.root"
+        ],
+        "102": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/2EE3FC5B-8346-3448-AF26-B78CB94E2D70.root"
+        ],
+        "103": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/3B3E8D28-73CA-424A-970B-DBF6A840D87C.root"
+        ],
+        "104": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/4BFD326C-CE96-A44A-8822-775F8F77F919.root"
+        ],
+        "105": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/7CCD3186-4A53-8347-83F3-FA60F3C5CD34.root"
+        ],
+        "106": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/9A47CE82-16D3-1243-B114-A395E4B57224.root"
+        ],
+        "107": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/14FE8A4F-8947-7A4E-A6DF-5535BBB6FE9C.root"
+        ],
+        "108": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/15D71237-ED98-8A4A-B6D5-ED55FCDC63ED.root"
+        ],
+        "109": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/55D261CA-F24C-FE4D-8189-23C4787FB6D9.root"
+        ],
+        "110": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/58BAF1A5-9C78-1245-BFA2-0088A9856A57.root"
+        ],
+        "111": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/86C42458-844F-D44D-A3CA-6E718754D65C.root"
+        ],
+        "112": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/166B2B95-D253-A94C-8DBC-B36FA68272D7.root"
+        ],
+        "113": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/902D7C28-F318-5347-A24E-9FE0C8B92519.root"
+        ],
+        "114": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/383725FB-F846-0B41-A600-EACCF5F521DC.root"
+        ],
+        "115": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/1434052A-0E59-2644-83D0-579C6BB3B507.root"
+        ],
+        "116": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/A02DA3A6-57E1-0B4B-A73D-BA5E45A487F8.root"
+        ],
+        "117": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/C5686526-2146-854D-8576-D3ABF2C2C0DF.root"
+        ],
+        "118": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/D469F044-2D85-774B-A658-93D84201B399.root"
+        ],
+        "119": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/E9B228A6-67FB-EE49-97FF-6ADF9FA6B98E.root"
+        ],
+        "120": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/E24EC57F-37CD-0845-B726-4F1F0CD081F0.root"
+        ],
+        "121": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/F47DCAD6-F267-904F-BC39-59C229135C66.root"
+        ],
+        "122": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/F466E9CD-69C3-6043-99EB-CE077D39ECF6.root"
+        ],
+        "123": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/260000/FBB55BEE-D6AD-BA48-8A41-D245542FB6A8.root"
+        ],
+        "124": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/0BDF9D58-3C02-464D-B1B3-F4DDCAE463BE.root"
+        ],
+        "125": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/0CE22619-5FE9-BC49-B092-4D541C39E554.root"
+        ],
+        "126": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/1CD86DA9-6BFC-A749-A0DA-156DD203BFC6.root"
+        ],
+        "127": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/1E9FE3E2-86D5-F24C-9167-2672D6F885DC.root"
+        ],
+        "128": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/1E7219B4-76BD-1349-8F40-E8E6A6FF6BE1.root"
+        ],
+        "129": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/1FC40E6F-98A0-B14C-803A-C7748745E54D.root"
+        ],
+        "130": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/2A9878DA-23B8-EB45-94A8-89F280CB58FC.root"
+        ],
+        "131": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/2D289104-591D-A44F-8847-4423C3DFC15D.root"
+        ],
+        "132": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/3DB305B7-59EE-9145-8505-6E33A3543A24.root"
+        ],
+        "133": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/4C3DE844-86C7-884E-8686-D1212D636AA9.root"
+        ],
+        "134": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/4D533E0F-82A6-5947-8C95-E7AC2495492B.root"
+        ],
+        "135": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/4E8E229F-9998-6D4E-882C-F1D2B30C7084.root"
+        ],
+        "136": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/4E42076E-B1F7-804E-9BCD-53C3FCA4EEF7.root"
+        ],
+        "137": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/6BE43870-BED4-0141-8BA7-3377111E4148.root"
+        ],
+        "138": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/6F36DD58-2BCD-1040-9A2C-50008BC147CA.root"
+        ],
+        "139": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/6F85C79B-1EB0-DA48-BC71-549CFE31A256.root"
+        ],
+        "140": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/7AD13373-0F1E-5844-88C6-E6D1C048960A.root"
+        ],
+        "141": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/7D8F425F-6C4E-2048-A7E3-8566BAD2A22A.root"
+        ],
+        "142": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/8B110288-7947-F946-9154-6B780716DC12.root"
+        ],
+        "143": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/08E455EA-450B-E743-9A53-ADD18759DBE9.root"
+        ],
+        "144": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/8F610A61-D629-734B-A03F-35F5199F132F.root"
+        ],
+        "145": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/08FD91C3-93AB-664E-B4D6-D1AF32908D7E.root"
+        ],
+        "146": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/9B809BD3-FFE2-EE4C-86BA-2EB40B6FECF8.root"
+        ],
+        "147": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/9BFA80E1-8489-A344-9A4D-C798E195BC8B.root"
+        ],
+        "148": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/09E54314-1EC6-224E-9AF1-6686A52EFB51.root"
+        ],
+        "149": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/010FBF86-ABAA-7D47-95FD-166E55C986E6.root"
+        ],
+        "150": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/012B6D8D-9736-0A4F-8AFF-2BE5687D4924.root"
+        ],
+        "151": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/12C59280-2AB5-2147-9D0B-FD06EDD162D3.root"
+        ],
+        "152": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/37EA09DC-6C25-E648-85DA-898DBC9BB9FB.root"
+        ],
+        "153": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/43A113FA-89C0-4147-9890-CC8C1008FDB2.root"
+        ],
+        "154": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/56CB4965-896E-2E4B-8DCC-FFEA54044B15.root"
+        ],
+        "155": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/58D81339-2CAB-B846-A07F-D406D2BD2BDB.root"
+        ],
+        "156": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/65BD11AC-ECCD-C14D-B623-8A2D9A746614.root"
+        ],
+        "157": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/66DD0E29-9BDD-D445-80CE-7018FC8F0EC2.root"
+        ],
+        "158": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/76CB812F-EF42-734B-AD12-2880ABC62CDB.root"
+        ],
+        "159": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/85BF3E89-786F-1C4A-9861-79FBCA46AD40.root"
+        ],
+        "160": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/87CCD36A-600A-C545-85B2-9A0523565356.root"
+        ],
+        "161": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/95F44E9E-0F8C-BF49-9FF4-D61657283B18.root"
+        ],
+        "162": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/205D3E95-1AAB-724D-8116-1664BCC4B8F9.root"
+        ],
+        "163": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/247A0D7F-CC35-9A4E-B9DF-547A1916CE4F.root"
+        ],
+        "164": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/361DB8CC-09AF-754B-B9A4-69D487B3C80B.root"
+        ],
+        "165": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/443CDD5D-EF4C-6B48-B266-8FA16331DCA7.root"
+        ],
+        "166": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/484C0B09-434E-A04D-97C5-4B034049D37D.root"
+        ],
+        "167": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/2057A5B3-6B9F-1741-81DC-DADCED2849BB.root"
+        ],
+        "168": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/9290C13D-9071-A544-9F98-3B55535CA79E.root"
+        ],
+        "169": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/32557E5D-550D-8743-BEBB-EFB41382E61A.root"
+        ],
+        "170": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/86768B0E-25FE-AC48-A0B2-AB3D1CCA0FA7.root"
+        ],
+        "171": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/662754CD-779B-914E-A97A-1F63D2D9ACEF.root"
+        ],
+        "172": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/986974D8-2B6B-7A4B-AAAD-17FF29AAC6EE.root"
+        ],
+        "173": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/3118970F-2B60-7648-BD09-38F3C7A9A255.root"
+        ],
+        "174": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/A70AFFCC-84AE-1E4B-B6A4-6B0E356E4078.root"
+        ],
+        "175": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/ABB9D013-773B-FB40-A3DB-C3F32543C161.root"
+        ],
+        "176": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/AF8A045A-AE6A-904D-B4DA-E49FA228285E.root"
+        ],
+        "177": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/B0C06930-DD71-8E41-8C5D-36299D320F08.root"
+        ],
+        "178": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/B3ACBBCB-A8BF-5C44-8BAD-77022B67E30D.root"
+        ],
+        "179": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/B7D40E33-D9FA-CF4E-9467-DE6A4637FF91.root"
+        ],
+        "180": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/B711B096-DF82-C64C-BB11-597B0E3D77EC.root"
+        ],
+        "181": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/BAEFAC98-0174-4240-B093-4EB1CEC258F5.root"
+        ],
+        "182": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/BF23D03D-4BA8-7340-84AD-BC892E632D84.root"
+        ],
+        "183": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/C8E1305E-1D9B-5042-B606-BF8D689B0D0D.root"
+        ],
+        "184": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/C27EDBD4-1E37-1E46-8992-CD8ED887E6F0.root"
+        ],
+        "185": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/C4616573-1EFB-594A-88F9-D51C17107E45.root"
+        ],
+        "186": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/CB6F6E07-B3ED-9241-86E2-16CF16DE7F6B.root"
+        ],
+        "187": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/CD447D86-A271-8843-89BA-3B150546643F.root"
+        ],
+        "188": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/D1AAED86-32BA-4145-B392-BFA6997C2903.root"
+        ],
+        "189": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/D451F359-DE48-0A4F-8A12-05FB14C906F0.root"
+        ],
+        "190": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/D08874D7-A202-7D42-A191-936296809B32.root"
+        ],
+        "191": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/D0319166-FEE5-AE4B-83D3-AC69BD916F2F.root"
+        ],
+        "192": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/DA7A9EEF-1346-4242-9A27-7105A6A08E75.root"
+        ],
+        "193": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/DA8DCC4D-2AFA-C24C-B732-F58B15C682CC.root"
+        ],
+        "194": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/DFEB2269-BA98-F344-954D-9EA974F77CBF.root"
+        ],
+        "195": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/E1D98D12-CB6B-B042-BB56-96B658135DA9.root"
+        ],
+        "196": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/E12B0817-EF22-A144-A224-081B178CB57E.root"
+        ],
+        "197": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/E93F150C-91F1-7C4D-952B-3585BCD292B7.root"
+        ],
+        "198": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/EC044287-E35B-6842-BF78-FC06E71F0715.root"
+        ],
+        "199": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/EE00621E-9BFE-A94C-9E16-01DFFCD73126.root"
+        ],
+        "200": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/EEB444DA-82D0-BA4B-937F-009DFE6FD2C4.root"
+        ],
+        "201": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/EF06533C-3C54-9D4F-A3F5-9A97239699E9.root"
+        ],
+        "202": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/F1C7B4F8-25AF-B245-B81A-0F68DC009C83.root"
+        ],
+        "203": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/F6458C33-66CC-9647-9736-9CC09A72E239.root"
+        ],
+        "204": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/FD0DD04A-016D-9947-82B9-72882F192800.root"
+        ],
+        "205": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/5E5D213F-B312-314E-86F1-C08751B37341.root"
+        ],
+        "206": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/8EE14619-C7FC-C946-BA9E-B36BB886C8D4.root"
+        ],
+        "207": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/36A61AA4-3E89-4440-AA93-DC59F3E9469C.root"
+        ],
+        "208": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/82C09967-4665-F24C-AF6F-66DEC06A505F.root"
+        ],
+        "209": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/388BB8EC-2712-CD4D-8A59-5FDD8DC44C52.root"
+        ],
+        "210": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/399FAD61-4863-344F-9536-B13B7F407617.root"
+        ],
+        "211": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/4771B094-04C5-7A4E-A775-4C7BA57701F5.root"
+        ],
+        "212": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/B7428F96-769C-D041-B038-D5FA5BB059E9.root"
+        ],
+        "213": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/BEAE8872-73FD-4645-A6E2-699E5165FD6F.root"
+        ],
+        "214": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/FBC3F3E1-3312-574A-BD9A-74949077F75E.root"
+        ],
+        "215": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2500000/FC0B2439-9D42-8848-8000-6D7BD0133D59.root"
+        ],
+        "216": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/0BBE8654-E58A-AD45-9E85-16DFE8001457.root"
+        ],
+        "217": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/000BE673-AC0C-BA4E-8B29-CFB4A8422D95.root"
+        ],
+        "218": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/3999573F-90EB-3547-823E-8DBEF182AB0C.root"
+        ],
+        "219": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/BB204644-2615-D44F-885C-5556996B8F3F.root"
+        ],
+        "220": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-400to600_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/EEF12192-2B2A-924C-86B4-F5100E43FBF6.root"
+        ]
+    },
+    "WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2": {
+        "0": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/0C508A78-5A09-514E-86E1-FCDF14BD59CF.root"
+        ],
+        "1": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1AA0D4DF-23B1-9A49-AAB7-1C9DAFC31168.root"
+        ],
+        "2": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1B40E83B-57AE-6D4E-880D-9E51B9554F0F.root"
+        ],
+        "3": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/02D67E90-FAC7-C347-AD2E-840F5A825EB0.root"
+        ],
+        "4": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/2DC6291A-37FB-BD45-AD34-2B4C1743CCD0.root"
+        ],
+        "5": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3C4192A0-565B-DE49-A590-CCC69256AB84.root"
+        ],
+        "6": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3CCBF1A2-16E3-A64B-868C-FF951631FB94.root"
+        ],
+        "7": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/04AB0CC1-9AAC-AE42-B516-785CC69A4DFA.root"
+        ],
+        "8": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4E04E87F-30AE-DE42-8901-9709BA857030.root"
+        ],
+        "9": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5A6F0FE7-CA72-D544-BE1D-609D7BE21579.root"
+        ],
+        "10": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5B91CEBB-32A3-974C-9C25-1E4E80A9D673.root"
+        ],
+        "11": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5F7FFA40-216E-174A-8A64-8BF487985D32.root"
+        ],
+        "12": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5F40DBD2-DF7B-4342-9A92-0F885A3229A5.root"
+        ],
+        "13": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6A423484-22D7-9448-9156-8E28C0DB7FC3.root"
+        ],
+        "14": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6E9278C1-F77B-BA48-918A-A4079B1B4616.root"
+        ],
+        "15": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7A0BAA2A-B6A4-244F-8A56-9D48FB7603E7.root"
+        ],
+        "16": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7E500063-7DF9-534D-9BAB-0365F05C246A.root"
+        ],
+        "17": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8ADBEC5B-842F-7F45-9270-14D7A659C2F7.root"
+        ],
+        "18": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8AE3DAC2-F7A6-C24B-B28F-288DF35A4751.root"
+        ],
+        "19": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8E26D6ED-7EFD-3B42-AC5C-E5B23062F261.root"
+        ],
+        "20": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8E499529-4858-FE4F-B8FE-64CBA691F00C.root"
+        ],
+        "21": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8EA8CDBF-7179-AC42-9109-54FEF421C9F9.root"
+        ],
+        "22": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9AE6C06B-8EA9-D64F-BBAC-BA3CC59FFF8F.root"
+        ],
+        "23": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9C088DA5-7A46-144B-95B5-49BB126201F7.root"
+        ],
+        "24": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9E57A4F8-5CBF-F34B-B4AD-9C35556B939C.root"
+        ],
+        "25": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/28D856C3-EBAE-8940-94E8-38906AD52B40.root"
+        ],
+        "26": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/30AE8101-6E83-8344-B320-77233B7EA084.root"
+        ],
+        "27": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/35AB3995-85B4-644F-9776-6B5A1FF96DAD.root"
+        ],
+        "28": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/43CDB2C0-EA20-714D-8A1B-39CF45E6F825.root"
+        ],
+        "29": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/43F3F84E-52DC-544B-9B99-8A6540DB9FB6.root"
+        ],
+        "30": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/56D66EA4-93F3-E440-93EE-3883081DE115.root"
+        ],
+        "31": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/57AB1271-D942-F34F-AABB-CF9A67968EC9.root"
+        ],
+        "32": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/83BEE2A7-0A7B-F843-B2E3-03F5DE0613FC.root"
+        ],
+        "33": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/84C568D0-5A1C-F74D-B9F5-772F26647FF4.root"
+        ],
+        "34": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/88EEC138-C16E-C642-9B3F-A4E57F803FA7.root"
+        ],
+        "35": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/89A8F988-F476-5043-B849-DAC80C1B19A0.root"
+        ],
+        "36": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/91DCD032-8A9A-E747-88D4-DF5DB672E1E4.root"
+        ],
+        "37": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/098A6770-FC3D-B841-A502-8E02B634B721.root"
+        ],
+        "38": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/99E48713-1AA2-6B41-89E6-EAD193A10226.root"
+        ],
+        "39": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/112CD713-5476-A945-9D98-64114B3D9F12.root"
+        ],
+        "40": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/124B0803-D717-3345-B893-8FC35C5CD767.root"
+        ],
+        "41": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/320C15A8-4757-E942-AB04-8818455780FA.root"
+        ],
+        "42": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/349BCC22-4D03-E746-986B-84DA62439164.root"
+        ],
+        "43": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/380F4616-0D52-5A42-8F8B-F9D2DDE724A4.root"
+        ],
+        "44": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/610F21A2-CE94-474D-87A3-BDEA13CF2CAD.root"
+        ],
+        "45": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/623CF127-8EE1-E846-B34A-C1EFBEE06A9C.root"
+        ],
+        "46": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/745F5AE0-5611-1045-AD21-41DDBDC2C00B.root"
+        ],
+        "47": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/868E5324-79E1-5546-B065-7350DEF62E42.root"
+        ],
+        "48": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/0914FC9A-6B76-594C-893F-09729BC05293.root"
+        ],
+        "49": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/999B3FD3-1A41-C34D-BD74-E36D208090A9.root"
+        ],
+        "50": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5553E307-EF89-BA4D-BC76-249511F174D4.root"
+        ],
+        "51": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9763BDF8-A0DF-D84B-8000-A6DDEC1C0619.root"
+        ],
+        "52": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/40617AA3-676B-5047-80C8-5774FA690E29.root"
+        ],
+        "53": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/0350867F-206F-1243-916F-CB0BC90C5AB7.root"
+        ],
+        "54": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/353457C1-7EAB-5240-9ACB-D66B021ADD25.root"
+        ],
+        "55": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/372642B7-7F99-DF40-B396-CD88EE1DEC55.root"
+        ],
+        "56": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/581011DE-AB3E-8449-92B5-A82413E804FA.root"
+        ],
+        "57": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/878726CE-667C-F54F-9949-B2897C817526.root"
+        ],
+        "58": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/04368448-E4D4-8249-A216-FEEEAB66A1CF.root"
+        ],
+        "59": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4660062F-C272-634E-909A-9A3401E27612.root"
+        ],
+        "60": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/25122063-2016-5C40-A725-2892526CD356.root"
+        ],
+        "61": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/62417238-A92C-4448-A0C4-3D3CB9B2F3AA.root"
+        ],
+        "62": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/86146810-3A23-4949-BF10-8AB5ECE337E4.root"
+        ],
+        "63": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/95929602-7FE7-B541-805D-B5A15E840DBF.root"
+        ],
+        "64": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A0EEE96E-9392-2140-B5F5-5EE6B89D106A.root"
+        ],
+        "65": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A7A28435-16FD-F04E-8EB6-FA0406E1B975.root"
+        ],
+        "66": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A10BFD5F-E004-CE44-A133-6F613A4160B7.root"
+        ],
+        "67": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A309DBE6-C95B-774E-AE4F-1487F1B9DF7F.root"
+        ],
+        "68": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A668E591-93FF-E34E-8548-DA59EC611E2B.root"
+        ],
+        "69": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A919C5A7-2F5B-B74B-9B7C-C9FCD72DD77F.root"
+        ],
+        "70": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A1705663-887F-EF40-8049-1E74638B9331.root"
+        ],
+        "71": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/AB3803B8-44BB-3A46-84C7-FAB4E3F97C42.root"
+        ],
+        "72": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/AD6F4608-B162-FC42-99DF-C9671C61DF7D.root"
+        ],
+        "73": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/ADA8A06C-2350-3C45-B4A0-ABD14B4FAB58.root"
+        ],
+        "74": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/AFD888E3-216B-E341-906B-CAD05887489A.root"
+        ],
+        "75": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B0B850E2-CB6F-F44A-95BA-690268425509.root"
+        ],
+        "76": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B2F21046-EA4A-0044-B849-4DB3EB0B3F54.root"
+        ],
+        "77": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B4E94F1E-8FD1-3D45-8902-4C490968499C.root"
+        ],
+        "78": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B593B81F-6B03-DB49-958F-D731B20EA8D1.root"
+        ],
+        "79": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B0969923-8E2A-6C4A-9614-314A28C15E0C.root"
+        ],
+        "80": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BB82F502-7711-F241-B410-2198EA2A39A9.root"
+        ],
+        "81": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BF40BB7F-3F3F-7C4E-8D51-61E16198EB3B.root"
+        ],
+        "82": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C59EB6AE-C289-9B47-B4BB-90559323846E.root"
+        ],
+        "83": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C84FEE23-8FBA-5141-8415-858727F11670.root"
+        ],
+        "84": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C9681CBB-17B1-B346-97C0-47ABFE90CB18.root"
+        ],
+        "85": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CB3E74C0-2F09-3942-8E3B-A062A755DF8A.root"
+        ],
+        "86": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CC6AD51C-937F-4742-A818-509694613E66.root"
+        ],
+        "87": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CD0D2179-796C-CD48-B04F-38E86E4836ED.root"
+        ],
+        "88": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CE300017-ECF5-784F-9308-467C34568D41.root"
+        ],
+        "89": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D1BD154C-4093-B444-8019-7D6207FBE131.root"
+        ],
+        "90": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D155682D-C7B0-4647-AB75-5B1F025548F1.root"
+        ],
+        "91": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/DA078CDD-0769-AC4C-ABF5-CBD575F9992E.root"
+        ],
+        "92": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E3C1F6FA-A6F7-8E47-AFF3-958F356AA6D0.root"
+        ],
+        "93": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E682C10D-1423-E246-A430-D0BF97A0FC74.root"
+        ],
+        "94": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E3302CFB-1DC3-3C4C-B762-6C0FAA869BB3.root"
+        ],
+        "95": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/EB95C5CE-4C20-4840-A530-7BAFE7363F58.root"
+        ],
+        "96": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/ED8CB00F-A450-9245-8412-C86D3ED10F7A.root"
+        ],
+        "97": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/EDE4D368-AB7B-5640-AE4B-D930B464F98A.root"
+        ],
+        "98": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F3FF16D2-1609-3F46-B83D-C95476035159.root"
+        ],
+        "99": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F5D4CA2B-1724-5742-A93E-9C207FD34D0D.root"
+        ],
+        "100": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F83D071C-B925-0E44-BF2D-65915FCE9012.root"
+        ],
+        "101": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F0184DFB-4703-4A40-8B38-C7FFAC71DBE3.root"
+        ],
+        "102": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F198E9E1-6478-A04F-9750-338F8FB47EA3.root"
+        ],
+        "103": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F5163847-C0B1-9747-94CC-5D407FD32741.root"
+        ],
+        "104": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0A919364-5E40-0248-9846-1ABC48B0341E.root"
+        ],
+        "105": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0B0A49D2-0A29-2D49-BF8F-DDBF964EF97C.root"
+        ],
+        "106": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0CB4D2DE-4C3C-5349-8C0E-F28C9A1991F9.root"
+        ],
+        "107": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0D3DCB14-C9FE-E343-A98B-95DC62C1DD45.root"
+        ],
+        "108": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0DAE7D4A-CA93-484F-9F75-2B1485F26661.root"
+        ],
+        "109": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0E73BE1F-C471-6D46-BDDB-EC17BCF9A129.root"
+        ],
+        "110": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0FA5175F-38EB-E448-BB93-6FCD87DDC672.root"
+        ],
+        "111": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1AE5AE12-3939-E34E-AED3-25FEE3A596B5.root"
+        ],
+        "112": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1B8368F0-63A7-8A47-AE1C-51A6127C89FE.root"
+        ],
+        "113": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1C7DD54B-F536-D640-A817-3CFE499B52C5.root"
+        ],
+        "114": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1C547316-17A8-254A-A916-7516FE8AC556.root"
+        ],
+        "115": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1CE79072-0F22-5948-A2C1-56D9696BA24C.root"
+        ],
+        "116": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1D4C93E6-8235-F942-9874-ABA23A702C36.root"
+        ],
+        "117": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2D44F9DC-B834-FE42-A907-5966EE7735E1.root"
+        ],
+        "118": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2D625A22-1C44-B64F-8241-6021772ECB52.root"
+        ],
+        "119": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2E8E7E87-013A-0E4F-B6E6-739F046B6C86.root"
+        ],
+        "120": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2EF4131F-118A-D14F-9B89-0B7A237AB7EE.root"
+        ],
+        "121": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2F35D5F0-7968-334D-B684-AA3C6E71A349.root"
+        ],
+        "122": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2FD5C42C-7EAD-FF4E-8953-0951E07A2772.root"
+        ],
+        "123": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/3A05F671-6394-924E-9FB8-D28E70E0D144.root"
+        ],
+        "124": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/3CF4933D-1BCE-5B4F-8BC5-63A8DF0D9870.root"
+        ],
+        "125": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/3D92C634-19BD-A544-A487-E9BDE008CBFC.root"
+        ],
+        "126": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/3DF140A8-8278-804D-986A-B1111812C859.root"
+        ],
+        "127": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4A26DA33-EDE9-E443-AF33-685F8C5F8424.root"
+        ],
+        "128": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4AE1B4ED-F437-5A47-8129-0489DBFC66D6.root"
+        ],
+        "129": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4E28EF40-A213-0249-9D56-1069DB4D3F26.root"
+        ],
+        "130": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/5E72B0EC-C307-9F4E-9483-5F155FCAC06B.root"
+        ],
+        "131": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6A1C3473-83C3-BA47-9F95-C57801AD6BD7.root"
+        ],
+        "132": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6B9D10FA-1483-454D-8476-46C31A579D87.root"
+        ],
+        "133": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6BABED25-A075-5F4C-8CE9-D092F2FAD9AD.root"
+        ],
+        "134": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6CF74D48-91EA-6241-A97B-8448EDD1E507.root"
+        ],
+        "135": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/06EE335C-0EB4-E248-AD25-6E78299025F9.root"
+        ],
+        "136": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6EF112C3-83A1-3745-BBCE-284285E32AA7.root"
+        ],
+        "137": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/06F0A837-4322-6141-BB2C-724C9CCB2D2E.root"
+        ],
+        "138": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7A49986C-1670-B74B-81D7-5EF62AA6022D.root"
+        ],
+        "139": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7B30792E-037B-7544-B349-0B173F66F7F5.root"
+        ],
+        "140": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7CC90D28-095C-B64D-85DF-7A093DA08B13.root"
+        ],
+        "141": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7DC27734-E2EE-BD4E-8CC5-05DF876906E4.root"
+        ],
+        "142": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7FEC848A-A021-4B4C-879F-5DB393699AE8.root"
+        ],
+        "143": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8A31EFCC-FCE5-904A-A0A9-367EF1C6EB72.root"
+        ],
+        "144": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8BB81763-0481-B741-B826-5C3B3F39F6DB.root"
+        ],
+        "145": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8C152A00-8D75-3B40-A3C0-53C3F024F216.root"
+        ],
+        "146": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8C6202CA-16A8-2A47-961A-35321F0A9869.root"
+        ],
+        "147": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8DE58AFE-4221-364C-89AC-D3ED0EA31EE2.root"
+        ],
+        "148": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8E2DB581-60CD-8A4B-9E65-23241C57E87D.root"
+        ],
+        "149": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9AD74808-85AB-F645-858C-42DED0CAD2A4.root"
+        ],
+        "150": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9BD4CEFA-5041-994E-9816-8DD5E8B48541.root"
+        ],
+        "151": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9E3B9364-8564-DE4C-A5FD-EEB9AF06752F.root"
+        ],
+        "152": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9F348C79-BAB5-CF4F-B136-5C51D916BDFB.root"
+        ],
+        "153": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9FCDCA84-24CD-434C-B2A6-E61CE8682582.root"
+        ],
+        "154": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/10C0C3D2-58D4-2541-AFFC-30C98BEADEA3.root"
+        ],
+        "155": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/10D929C7-137F-034B-BADD-084714F01E30.root"
+        ],
+        "156": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/12B194E6-54C5-914E-BB55-A1300A3AE7C9.root"
+        ],
+        "157": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/20B8F7C1-1101-1C4B-ABE3-66CC4FF46C03.root"
+        ],
+        "158": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/21A4FDC7-0D42-D74A-BB71-E2D73ADDB38E.root"
+        ],
+        "159": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/23DC1A62-1235-6C49-BAED-55798BE584F2.root"
+        ],
+        "160": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/23DD5BEA-D6DE-5749-96C0-D1C543F88610.root"
+        ],
+        "161": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/24B9E5D0-0CFD-7E4F-A5F1-02679DE55416.root"
+        ],
+        "162": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/35EA9E5D-EE3F-2F40-B70C-57B5C55734B8.root"
+        ],
+        "163": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/47CC0A02-0085-4C4E-839C-8F99437122C1.root"
+        ],
+        "164": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/52B52FCD-A94F-4E4F-8910-DA9AF12BBD1E.root"
+        ],
+        "165": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/54CC5420-86C1-8D4C-BF96-63C687E1B6E9.root"
+        ],
+        "166": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/54FE46ED-6996-BA49-B87D-584DBC3C1DF3.root"
+        ],
+        "167": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/58C09B27-E8B4-F74B-B0FC-698DC8B8B723.root"
+        ],
+        "168": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/58C96EFC-D95D-954F-8E80-37A8D8641872.root"
+        ],
+        "169": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/61E2802B-4081-2E43-A757-8ECAD2DD0106.root"
+        ],
+        "170": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/61F7315D-6340-7649-91ED-C3CACFD8E2AE.root"
+        ],
+        "171": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/66B74E25-EA3F-3F4E-95FD-3627B9BB8772.root"
+        ],
+        "172": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/67E879D5-2112-BE42-8FE2-F40CF900F602.root"
+        ],
+        "173": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/73F39D76-CFEC-0846-A3AF-611B30FC60F2.root"
+        ],
+        "174": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/75CF8794-A194-8A46-8455-014D164D5F24.root"
+        ],
+        "175": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/79DD6BCF-5907-7C44-9631-9A28FDDA0746.root"
+        ],
+        "176": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/88E2E48B-261A-4D44-8D27-6E0A55DA84D7.root"
+        ],
+        "177": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/94AC873E-6D27-DB49-A39E-1CABB666E116.root"
+        ],
+        "178": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/94BA7200-52BD-C746-8DF9-73BBB569DE76.root"
+        ],
+        "179": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/97E482C3-0BE1-DB46-816F-86985E49A40F.root"
+        ],
+        "180": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/214FB774-0334-EB46-862E-111E594EDA48.root"
+        ],
+        "181": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/352D2AC5-7965-D84D-9697-D638A3353E04.root"
+        ],
+        "182": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/406E179D-6A5D-1040-AF9F-EC52ABAA30A4.root"
+        ],
+        "183": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/421D2329-FD8B-6F4D-A219-8357347BCFC7.root"
+        ],
+        "184": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/483EDF55-61C5-F443-B1CF-27FAAF4044BB.root"
+        ],
+        "185": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/543A1ECE-3A22-3549-A5BB-44E9C349F88C.root"
+        ],
+        "186": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/556FF3FE-D916-3044-8B86-9A1A0D569ACE.root"
+        ],
+        "187": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/589A3401-30C8-854B-BFD1-1FDF4828D9C7.root"
+        ],
+        "188": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/593FD335-F01F-8844-984C-09088321F12A.root"
+        ],
+        "189": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/635D86F9-700D-AE4E-A423-37C45EFA90F4.root"
+        ],
+        "190": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/651D756F-8E9A-3141-828E-C13E63852514.root"
+        ],
+        "191": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/689E5E6A-B26E-7D46-9037-0D79B5199F89.root"
+        ],
+        "192": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/744B93B7-DCF2-A740-AA6F-0C8682B00D8D.root"
+        ],
+        "193": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/772EFFE9-48B7-1643-8F50-D5AD3F1739D5.root"
+        ],
+        "194": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/787FC95D-1C22-8344-A4B2-EF597FCA177C.root"
+        ],
+        "195": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/789B65E6-E28A-AC4F-9635-3E3B3E5FC838.root"
+        ],
+        "196": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/807BFE79-4E32-C548-BD99-CDC0EF95B1FF.root"
+        ],
+        "197": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/826E00B5-C056-B54C-8906-134913D8E93B.root"
+        ],
+        "198": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/898AC6B5-0D61-EA40-9EF5-E0D7DE840ADA.root"
+        ],
+        "199": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/02342C51-DB39-DF4D-8E6C-A9DB8A8D1F83.root"
+        ],
+        "200": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2353B2D9-021B-ED49-8792-58EE53F2F03A.root"
+        ],
+        "201": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/2972CFA6-E09C-D84C-91E3-9C88B4F4B8C1.root"
+        ],
+        "202": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4812BECD-BEA8-1246-95BC-547654F438C6.root"
+        ],
+        "203": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/05983FBC-CCFC-6844-A094-BA29EED1ECD8.root"
+        ],
+        "204": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6453AA4B-7D94-2844-A7EF-D740E20606AE.root"
+        ],
+        "205": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6666BC93-22B3-8F47-B89A-01FE68B7D9FA.root"
+        ],
+        "206": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8363F3A0-084E-804C-B24A-43412ACFCD6F.root"
+        ],
+        "207": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8542DC0F-F63B-604C-8B9C-3DC7FBCC887C.root"
+        ],
+        "208": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9186C16C-0937-2F46-9BCE-E9A55A52FF13.root"
+        ],
+        "209": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/9839FA03-E135-2C47-92F3-5EC173B62042.root"
+        ],
+        "210": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/33367CFC-C100-C040-BCCD-E756F8016C44.root"
+        ],
+        "211": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/66372C92-664A-E24B-AE74-B8E4DF56CE70.root"
+        ],
+        "212": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/85364B6E-443A-BE44-8D67-40CD64D98CCD.root"
+        ],
+        "213": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0256468C-920A-9949-84C7-BBDA52A2BED8.root"
+        ],
+        "214": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/570276CF-E5CB-DF4F-AA2D-1CBE21F1E602.root"
+        ],
+        "215": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0915386A-01B7-EB43-A881-3CA7B449C8D9.root"
+        ],
+        "216": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6376470C-B9FA-F54E-837D-0BA9728650AB.root"
+        ],
+        "217": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6980224B-7E51-494C-A801-3F1F47704509.root"
+        ],
+        "218": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7533860B-9466-ED40-BC7D-816D0D11915C.root"
+        ],
+        "219": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/16524966-CFAA-C048-BAA0-E0357297ABBA.root"
+        ],
+        "220": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A3CED130-30D7-8048-8266-3B86F32E238B.root"
+        ],
+        "221": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A6B7C052-C4CC-5F46-8184-43D8E57584E2.root"
+        ],
+        "222": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A75F8991-34C3-7345-9896-2DEADF505E38.root"
+        ],
+        "223": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A359F389-4199-3246-8B21-E7241FACCE45.root"
+        ],
+        "224": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AAA6C6E3-4892-8044-A0C5-AD9EF06EAD3D.root"
+        ],
+        "225": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AAE52F31-3D1E-FE49-BC01-27B5353C8ABB.root"
+        ],
+        "226": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AAEA4654-07AA-4E41-87E2-F0727C810372.root"
+        ],
+        "227": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AC21FDB4-9485-B14B-A9EA-00F32E7A9476.root"
+        ],
+        "228": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/ACFBB09D-EB19-F946-A305-003D7F2295D3.root"
+        ],
+        "229": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B001A998-C272-3548-922C-1F180F06702C.root"
+        ],
+        "230": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B4FDBF06-36AD-C94D-B6A2-AC1D483624A4.root"
+        ],
+        "231": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B6C064B5-3FF3-E348-87C1-8D17A525161D.root"
+        ],
+        "232": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B56BF944-9303-7F4C-8EAE-843EC8A48BAD.root"
+        ],
+        "233": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B93C8E8D-8D34-2C4C-BB38-442678B26C60.root"
+        ],
+        "234": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B2617B73-3B91-324A-9234-B75BCD9001A6.root"
+        ],
+        "235": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/B42033A2-D034-F04B-BB5A-721CB9636B21.root"
+        ],
+        "236": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BA4E6C38-2FEF-F643-9318-E125E7C42708.root"
+        ],
+        "237": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BA948D06-9B76-484E-BBB7-A62B5BC1AFBE.root"
+        ],
+        "238": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BB2D2689-0DFB-634E-A194-02FEA4306FBB.root"
+        ],
+        "239": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BD8F15F8-3372-B146-B990-BA34741CBDB1.root"
+        ],
+        "240": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BD6135DF-0E86-F649-8AFE-50F7BB504ACA.root"
+        ],
+        "241": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/BF2FCB3E-72D5-A640-A3FA-9DEF1A88A72C.root"
+        ],
+        "242": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C00E3246-73D6-8E46-AA35-9828C52CB267.root"
+        ],
+        "243": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C9AE270D-D6A3-0C4E-8840-50A5FECDF4A7.root"
+        ],
+        "244": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C39DFF45-2FA4-8E4E-80BF-40C59B2DB46E.root"
+        ],
+        "245": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C352D885-15B7-034C-B73B-65F08DFAFF1F.root"
+        ],
+        "246": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C861C0E4-9D2E-6944-994E-A255860CBFE3.root"
+        ],
+        "247": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C4336CAE-58ED-B445-966F-F5649F830FB0.root"
+        ],
+        "248": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/C174774A-0C8C-734F-AF64-60995AA5CD8A.root"
+        ],
+        "249": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/CA414D2D-4347-874B-B1DA-9DBCDE6D467A.root"
+        ],
+        "250": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/CCBEF00F-EEA9-F246-BEB0-D6F0CCC58FE4.root"
+        ],
+        "251": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/CF721816-1EA0-A145-9CBC-4C3F28C50380.root"
+        ],
+        "252": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D0B39429-6C21-FB43-85A6-1A5DA9D28BD2.root"
+        ],
+        "253": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D6A247EA-7FFF-1B47-B3CD-23378378E3A9.root"
+        ],
+        "254": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D9A93CAB-8AAC-3E4F-859B-0BE8B0175676.root"
+        ],
+        "255": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D17F5BAC-6D7B-0A44-A43F-5A43EDEC0601.root"
+        ],
+        "256": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D49D1F2B-5F55-084E-8188-3417CCCEE5E2.root"
+        ],
+        "257": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D144D480-04DF-0643-95EE-B84C0F5095F2.root"
+        ],
+        "258": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/D8802490-93B7-2842-9B0E-4EAB4BC5850C.root"
+        ],
+        "259": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/DB8E5C57-5975-7B46-A899-AC5DB369CA9D.root"
+        ],
+        "260": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/DC6DB818-72B0-E040-B26A-2222A501EEDD.root"
+        ],
+        "261": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/DF7CFCB5-F9D3-9B46-A386-37F477C3B97D.root"
+        ],
+        "262": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E64BAE4C-7A78-6246-9C43-D38AC7600514.root"
+        ],
+        "263": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/EA5CB135-A695-584E-9193-46D374090E39.root"
+        ],
+        "264": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/EB00BE1F-D996-1B40-9B9E-DF09EEE1DC38.root"
+        ],
+        "265": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/EBA88859-6494-6946-B46C-FC73EFB0A7AA.root"
+        ],
+        "266": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/EBBCE953-C556-BC41-82F0-D2DE5B7A5AD9.root"
+        ],
+        "267": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/ED80C224-A262-DF4B-AA11-7C24134C432F.root"
+        ],
+        "268": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/ED094E28-EED7-3E41-A0D4-092429050B20.root"
+        ],
+        "269": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/EDADE663-40A3-A84C-9296-186E226073A9.root"
+        ],
+        "270": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F2EFF843-B649-F146-B1CA-731CF6C8B9DE.root"
+        ],
+        "271": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F3B3879B-AF8C-A94A-9D13-90E17987A389.root"
+        ],
+        "272": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F5E0AD64-EC30-6140-8720-C21FBD50C917.root"
+        ],
+        "273": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F6F05ADA-3765-B445-9993-82F11CFD93C6.root"
+        ],
+        "274": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F9A71E92-8383-AB45-92B2-D500B5A3C771.root"
+        ],
+        "275": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F18E3676-133A-8A4C-B99E-E90FF513F5D2.root"
+        ],
+        "276": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F29CDFEB-529C-7A4E-B9F0-892AFC3A1F3E.root"
+        ],
+        "277": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F51BC3FF-0210-2D4F-B229-222A015C8256.root"
+        ],
+        "278": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F148FFD0-0851-9845-AB4D-742994761BCA.root"
+        ],
+        "279": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F632380B-ABFE-3748-B753-DB51CEB2F9E7.root"
+        ],
+        "280": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F4788820-6607-1945-B96F-152455601343.root"
+        ],
+        "281": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/FAEF5B4B-7646-484B-B149-1FA53A6F91D7.root"
+        ],
+        "282": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/FCA3EBB9-5695-D246-B48B-7450C3E434DE.root"
+        ]
+    },
+    "WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2": {
+        "0": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1A78D3AE-78BF-9B42-A7D7-12FA8E46A743.root"
+        ],
+        "1": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1CC807AB-6000-AC4E-A190-0697447B8672.root"
+        ],
+        "2": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/2BD5A996-C970-E24E-9E1C-B1D3637794FD.root"
+        ],
+        "3": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/02F63E3F-F555-5D49-AFE9-84BF37F82319.root"
+        ],
+        "4": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/2F117A1E-3B83-1B4C-9739-06768782EDC9.root"
+        ],
+        "5": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3A32CDC7-01F4-2345-91C5-21930AB364F9.root"
+        ],
+        "6": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3A44EBDC-9DF9-404C-BF73-B10AA0B66724.root"
+        ],
+        "7": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3F3F4437-E058-8B49-B0E5-4C1F3909394C.root"
+        ],
+        "8": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/3F8648DA-D47C-C04A-B989-41F0059F98FA.root"
+        ],
+        "9": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4A3056B6-33AE-6944-896F-BA83D3A8C58D.root"
+        ],
+        "10": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4C0F66D4-EABA-FC45-A48C-EE986DB1690B.root"
+        ],
+        "11": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4C29AAB4-2B70-5A4D-B842-FD9144FA014D.root"
+        ],
+        "12": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4E7DA202-6EDB-744A-9338-30306CE8CCF0.root"
+        ],
+        "13": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/4FB61648-2E2E-1145-B679-0E4B0129E4A0.root"
+        ],
+        "14": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5D76197C-FD5E-DC47-AA0E-ED7F6AEE72E8.root"
+        ],
+        "15": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6C2FB4C2-8796-E941-A095-71C59230221D.root"
+        ],
+        "16": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6D8DE29D-C844-A046-8817-09021D2BA2BA.root"
+        ],
+        "17": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6FE706DD-C10E-6141-B882-348F9BC4A626.root"
+        ],
+        "18": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7E5EDB8C-1D54-A34E-A092-557DCB6A59BE.root"
+        ],
+        "19": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7FFDA60B-C6DD-374D-837E-7013805D5C0A.root"
+        ],
+        "20": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8B30E3D0-3922-CF4C-96F7-22A9822CB394.root"
+        ],
+        "21": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8C9B71D9-03AD-414E-BAC3-0FB5A03E974D.root"
+        ],
+        "22": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8DC29288-BB3C-C944-A4F6-1CF2AF70724A.root"
+        ],
+        "23": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8EEB777E-BE88-694B-9101-CCBCC3F0E577.root"
+        ],
+        "24": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8F1BCCE0-2F41-C947-BC23-139236498940.root"
+        ],
+        "25": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9A5BFEFB-0C26-3147-8AC9-EF763BE34F82.root"
+        ],
+        "26": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9ACA0C09-0D52-4F41-BD67-0BF4D37F2BA5.root"
+        ],
+        "27": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9B3E5CA8-040A-C44F-B3FD-3749CBBD090D.root"
+        ],
+        "28": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9B7BE2B0-1E61-994D-8551-2CB65AD46BE7.root"
+        ],
+        "29": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9C7A63B5-F194-C743-9FE1-A7B7F9364ED1.root"
+        ],
+        "30": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9F76039F-6219-534A-8059-2A11217855CA.root"
+        ],
+        "31": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/22E40DE7-9736-2A46-9724-AD8835C27597.root"
+        ],
+        "32": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/28D71327-1B7A-C84A-A871-E75AFD1D97C2.root"
+        ],
+        "33": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/31B21265-ED90-154B-AF07-6E6827E122D9.root"
+        ],
+        "34": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/41D4AE3A-9C59-8E43-9DBA-CB4F760B4B5C.root"
+        ],
+        "35": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/42D065DC-2F95-CA4F-A818-09579842AFBC.root"
+        ],
+        "36": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/51D0D5FD-E948-764D-9F23-C893A46AD6A3.root"
+        ],
+        "37": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/72EF4D13-4A86-C048-81D3-17623E3233A1.root"
+        ],
+        "38": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/77F77E37-441C-7942-9EB5-11E9CC6083D2.root"
+        ],
+        "39": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/83F220DA-6889-DC46-961A-9EA3282456BE.root"
+        ],
+        "40": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/84FBA02E-4878-BA4E-BA13-97EE001A1C96.root"
+        ],
+        "41": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/88CE3900-1728-D245-BD54-806AAE19B0DC.root"
+        ],
+        "42": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/157A57F9-53B3-9443-B778-BE1C911346F5.root"
+        ],
+        "43": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/225C261D-3CDB-384F-B612-75288F15AE27.root"
+        ],
+        "44": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/259C7344-E5C2-E840-9C37-4CC8A4113161.root"
+        ],
+        "45": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/317A9AD8-47CD-5C49-B672-8D4CEAB03095.root"
+        ],
+        "46": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/0379B92D-24B5-D847-AB8E-4480583F73EF.root"
+        ],
+        "47": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/472A4447-AC07-784F-99DF-5468DA58177F.root"
+        ],
+        "48": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/519CEB87-EBD7-F74D-8B3B-A2F5D245D44D.root"
+        ],
+        "49": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/531BF7CB-607B-8041-AC4B-DB8A1CF485BF.root"
+        ],
+        "50": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/606BD47D-60DA-3C42-BE9D-F8EAAB805E98.root"
+        ],
+        "51": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/0665BBEB-9473-0D41-9205-D3FB8F07E648.root"
+        ],
+        "52": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/1442C36A-7B89-4341-B18F-AECDBAA92357.root"
+        ],
+        "53": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/2312EA67-972C-1F46-8476-01A73B54DF51.root"
+        ],
+        "54": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5369CFC1-7CC9-F946-B4AB-3B5D4AE04373.root"
+        ],
+        "55": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6284BBCA-52E0-F84B-8346-15A6FA560835.root"
+        ],
+        "56": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6293B15B-35B1-BC43-97F9-5B63B4DC558D.root"
+        ],
+        "57": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6693F577-2ED3-B042-B73B-1FCD068D224C.root"
+        ],
+        "58": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/6795E4C9-4AD1-F34D-ACB0-820AD1CA842D.root"
+        ],
+        "59": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/8268C53D-B566-D04E-912C-ECE88D92643A.root"
+        ],
+        "60": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/09358B85-46D7-3E44-9A91-758E3BEA24F9.root"
+        ],
+        "61": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/9541CE35-CC42-9242-BA62-B6CB08325203.root"
+        ],
+        "62": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/19038C03-0EC6-F54F-88ED-5230BAF05BCF.root"
+        ],
+        "63": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/34902B3E-4D00-EF47-905B-B57A710B7715.root"
+        ],
+        "64": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/36480A6F-97F0-6442-A436-DA28FEE9440D.root"
+        ],
+        "65": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/52081DB8-0A01-254E-87AB-02FE76FB3F61.root"
+        ],
+        "66": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/59669D46-D5EE-9B4A-AF0D-270139E01C68.root"
+        ],
+        "67": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/077823AB-F6D3-AB47-8472-3978A57B606C.root"
+        ],
+        "68": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/512315A0-90EF-ED4A-BAC4-3891CC1A265D.root"
+        ],
+        "69": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/758384EB-4980-AD48-95D8-49A10DC0F121.root"
+        ],
+        "70": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/957497AD-432A-C541-8F06-DC7988A50AB9.root"
+        ],
+        "71": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/5089820D-95FB-6946-9234-AE758A2BC0CD.root"
+        ],
+        "72": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/7566393E-B18D-9D43-B862-DFEF9972B773.root"
+        ],
+        "73": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/20694572-BAAA-7F44-A6E5-A681493C85B9.root"
+        ],
+        "74": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/23865354-E482-604B-8F69-6728CEE6071E.root"
+        ],
+        "75": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/32853973-90D2-7648-8CB8-A3CA605B7580.root"
+        ],
+        "76": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/62590133-3443-6641-875F-B82E7D839B74.root"
+        ],
+        "77": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A0E5A988-0AB1-E045-BF2F-F4417939F12A.root"
+        ],
+        "78": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A15C3DE3-C8BE-9E42-9D5A-B5ED7FB4E845.root"
+        ],
+        "79": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A62E8E4A-D696-774D-8EB1-D24DCB24148E.root"
+        ],
+        "80": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A65A173E-AED3-7C4C-96C9-883A78E8DF27.root"
+        ],
+        "81": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/A340BE90-C5CC-BD49-B9B3-2073B8C5414F.root"
+        ],
+        "82": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/AC2C82B4-7E0B-904E-8494-5153C1B949C9.root"
+        ],
+        "83": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/AC2933DC-B1D3-4944-A295-5F20471340ED.root"
+        ],
+        "84": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B15B7F81-80E3-FF47-88CE-AA2F27A8D910.root"
+        ],
+        "85": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/B550CB82-7D0C-CC4A-8088-ACCF91267963.root"
+        ],
+        "86": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BAE0765D-CA81-FD4C-B798-2DDB1A2FBC55.root"
+        ],
+        "87": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BB884251-D390-5448-988D-15EBD6A76461.root"
+        ],
+        "88": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BF7886F9-E359-904D-A7B8-C2EB9A79C8FC.root"
+        ],
+        "89": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BFAFC155-B888-1D4B-8D30-FEBB0F472D28.root"
+        ],
+        "90": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/BFDF02A2-DF9C-9246-9876-57A2FFDE9B0E.root"
+        ],
+        "91": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C1D1FD5F-5257-2F46-A4C7-C538A8C5287D.root"
+        ],
+        "92": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C1F38665-1ED7-8C46-A66A-722B73A27DF4.root"
+        ],
+        "93": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C3B90171-435F-B444-8413-F42571FCCAD4.root"
+        ],
+        "94": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C4FB7C21-B767-724D-933A-E36E042E0E8F.root"
+        ],
+        "95": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C5C34377-E268-1D49-8A20-BD7E85D532F4.root"
+        ],
+        "96": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C9E5AA0C-AA4C-FD46-A3A0-7B6707584D1E.root"
+        ],
+        "97": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C79C9D64-3A5E-5F4C-A854-B0D3D013B0F6.root"
+        ],
+        "98": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C369691A-E660-C842-B71F-FD715F27BB50.root"
+        ],
+        "99": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/C981155B-207B-A841-A049-2F77F3A39208.root"
+        ],
+        "100": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CBD989DF-673F-654B-95E1-1CEA119146FE.root"
+        ],
+        "101": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CE772244-E708-C741-AF46-EEF3A87ABB26.root"
+        ],
+        "102": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/CFF92BD9-9558-AF45-950B-55F6C24D8517.root"
+        ],
+        "103": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D1C3BF0C-B647-324F-AB96-72BC1ABA8FEA.root"
+        ],
+        "104": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D3DFA303-5696-3144-8DE7-88C114F845C3.root"
+        ],
+        "105": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D6FE9F09-6FD1-C349-9106-8B51CBB4734B.root"
+        ],
+        "106": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D874F09D-6387-AF41-8C48-877136AB2478.root"
+        ],
+        "107": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/D0207148-A2BA-044A-B57F-9E86AF81E81A.root"
+        ],
+        "108": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/DD2970A4-C4E8-FD4F-963D-E987E65FCC2F.root"
+        ],
+        "109": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/DE42C040-FC1F-3440-AF90-633908D4DC3E.root"
+        ],
+        "110": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E55B7C5C-5A15-EF43-9F91-D1C4F4CA2D13.root"
+        ],
+        "111": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E148A50E-3640-D54C-9DC5-1C9E52551D0D.root"
+        ],
+        "112": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E594ABB6-6F45-AD49-9C03-DEE0CA6E9757.root"
+        ],
+        "113": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/E9623F4D-08CF-A347-A673-4E3BFD6568F5.root"
+        ],
+        "114": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/EA82354F-9BA0-8848-99AD-C4B65681A8C1.root"
+        ],
+        "115": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F4A1B2C3-E2BE-2A48-B05B-CAF02938DBD4.root"
+        ],
+        "116": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F6AD66F8-BF3B-8C40-B55E-5814DDC0CE1E.root"
+        ],
+        "117": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F81DC8AF-C064-334E-8D72-9ECF20D940B7.root"
+        ],
+        "118": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F1843DE3-7CEB-D94C-9FBB-56DD366DC82C.root"
+        ],
+        "119": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/F2999A6D-9DD8-FD48-AC03-720CA2455209.root"
+        ],
+        "120": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FA3747FA-1FD0-8F4A-BE00-C49E3513C039.root"
+        ],
+        "121": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FB75A3B2-6960-D643-B49A-9A83E703DDD1.root"
+        ],
+        "122": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FBF2F865-4314-3245-930D-BA3AE565DFC4.root"
+        ],
+        "123": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FC0C943E-AC77-B441-8C66-24326B716602.root"
+        ],
+        "124": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/40000/FFF9E0CC-5066-374E-A82E-7FB05BAFD5ED.root"
+        ],
+        "125": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/100000/4B25827E-F630-454E-8F6F-8F2B584AC953.root"
+        ],
+        "126": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/0A7CAFFA-98B4-DE4A-9420-DAE51475DF04.root"
+        ],
+        "127": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/0DC06A3C-DD7D-EB40-9A96-71E2A2B8FED3.root"
+        ],
+        "128": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/1A56A705-C34D-934A-AAC4-ACEDC8B7E354.root"
+        ],
+        "129": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/1A7946B9-5BEE-8245-88F4-C61DBF56642F.root"
+        ],
+        "130": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/1B3B5393-17C4-4849-8E61-16A706792B23.root"
+        ],
+        "131": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/1E34A236-8CC5-B04A-B5FF-0FE53D426429.root"
+        ],
+        "132": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/1F2E8DA6-CB07-B342-8199-19F69074005B.root"
+        ],
+        "133": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/2BCC4046-BC3E-374E-9F3F-1DDA42F85183.root"
+        ],
+        "134": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/2C999317-17B1-334B-9FBE-6A93CFB55CCC.root"
+        ],
+        "135": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/2F1DEB77-F19F-A845-88BE-041F1B511577.root"
+        ],
+        "136": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4A50836B-BE28-7E44-A742-C36485A0FB1E.root"
+        ],
+        "137": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4D51A34B-9E6E-3441-A594-767991854E85.root"
+        ],
+        "138": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4DA23B10-3CAE-A44F-BDF8-117E4DA88DFD.root"
+        ],
+        "139": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4FD08431-E1AF-A846-8440-E09FA6AA717B.root"
+        ],
+        "140": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/05E4B8C4-9112-CB4D-BB4E-B14227FFCC43.root"
+        ],
+        "141": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/5F292314-0891-764A-83B1-C0F9125924DE.root"
+        ],
+        "142": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/6F9772D9-F271-074F-B9BE-9CBA89121D32.root"
+        ],
+        "143": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/6FDBFC0C-D96E-854A-AFC3-5EE854E0F74A.root"
+        ],
+        "144": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/7D7DAC0E-EB8C-2B4E-AC60-BAAFC28BDF65.root"
+        ],
+        "145": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/7DDAA7C6-CC24-484C-971B-5BED94683D1F.root"
+        ],
+        "146": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/7F95A0F8-242D-A840-A80F-92B43F6B80CB.root"
+        ],
+        "147": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/8A273235-20D2-3341-BB8A-B3F8B63B3C96.root"
+        ],
+        "148": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/8C9B6FD0-A905-8D46-B269-D763F7D8AD01.root"
+        ],
+        "149": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/8D888E8A-B74E-174B-9401-6DBE754F78B2.root"
+        ],
+        "150": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/8EAA6DE3-7E2E-7144-8515-978C91E4F7B5.root"
+        ],
+        "151": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/9A6CA8E2-38B6-254C-8C8F-6AF73D1F7C94.root"
+        ],
+        "152": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/9CDC3B22-16BB-8E44-82C4-57B75561AABD.root"
+        ],
+        "153": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/9E9B5BCA-95A9-8D46-A8AB-2ADFA3B5E488.root"
+        ],
+        "154": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/9EBD4D0B-CC42-534D-9F5C-8E42EE214B08.root"
+        ],
+        "155": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/22A33B1F-908A-F94B-A551-72291FE85F83.root"
+        ],
+        "156": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/25DCC647-3575-0943-8024-12BFDA7055C7.root"
+        ],
+        "157": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/28DD1159-4C40-5741-BE67-51B39610ACF3.root"
+        ],
+        "158": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/45CE550E-492C-BD46-8988-DE4D271E379F.root"
+        ],
+        "159": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/50C18A0F-1D87-6A47-B050-736F688FCB62.root"
+        ],
+        "160": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/54ED8A52-3E69-AE4C-856B-9BD4EC683FE3.root"
+        ],
+        "161": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/60CBF49D-E2C6-024F-A0EA-6B4E5ADB94D8.root"
+        ],
+        "162": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/61BF98D4-C786-8540-8951-89D46C419F19.root"
+        ],
+        "163": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/72E15548-F33F-BE44-B8F0-CD33121905FA.root"
+        ],
+        "164": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/87D74D02-76B6-7E47-8E1E-BBDB7E6B6655.root"
+        ],
+        "165": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/93A6E1E2-830C-6442-8122-E0537464B6BD.root"
+        ],
+        "166": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/97D5C90B-651A-8C4D-845F-46CCA9A368E2.root"
+        ],
+        "167": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/100A7380-E167-EC45-A0C3-451E3E63A1D4.root"
+        ],
+        "168": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/162A80FE-DA58-A248-94B3-06A2BDC8FB03.root"
+        ],
+        "169": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/167C2222-C54C-6243-9E34-1E5BCE852D56.root"
+        ],
+        "170": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/167ED1B4-145C-DA48-BCE4-429D5932D6ED.root"
+        ],
+        "171": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/219A9C9B-9866-A449-99FD-0420371D619E.root"
+        ],
+        "172": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/229C09FD-9518-6243-95A3-2E20B3614D60.root"
+        ],
+        "173": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/474D30D3-D30E-BD47-B6C2-DEDF725D9A88.root"
+        ],
+        "174": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/527DD494-E578-AD48-AACB-661119A28CC3.root"
+        ],
+        "175": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/0654F5AA-0518-7445-BFCF-20CAC31143D7.root"
+        ],
+        "176": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/675CFF32-1D51-CA46-AF06-9AD7261EAAB1.root"
+        ],
+        "177": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/737FC99B-DCF8-C941-988A-98AED2C072FE.root"
+        ],
+        "178": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/741F98ED-FDB0-D54A-A5E3-B38C07497075.root"
+        ],
+        "179": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/823D24ED-C385-8941-A618-1BEA061CB5C2.root"
+        ],
+        "180": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/977B8976-8CBC-FF46-873E-1E8D377229B7.root"
+        ],
+        "181": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/2404F37A-267B-8A48-B4B6-0F9549DAF2C8.root"
+        ],
+        "182": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/3070B791-8435-C448-A860-4C5A3027A060.root"
+        ],
+        "183": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/3622B051-F931-3941-8BBC-7B24A70569C6.root"
+        ],
+        "184": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4234F9C5-7A56-E24E-8E3D-E218453A7AD8.root"
+        ],
+        "185": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4441E57A-8A6F-4347-B6DE-FA93E4AE4386.root"
+        ],
+        "186": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/4631CEA1-0C25-4C4D-8584-C40ED81751D8.root"
+        ],
+        "187": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/5802DFE0-148B-1F4E-8730-7CF4E7ECE247.root"
+        ],
+        "188": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/6083AECD-118E-8F4A-9DC6-A950E24C5084.root"
+        ],
+        "189": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/6968C300-0528-9F4E-8CC5-44BF4C964962.root"
+        ],
+        "190": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/8818FAC7-3321-304F-B65A-BA058094ABA3.root"
+        ],
+        "191": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/41878B04-48FE-E74A-8EE2-2BD5BE1E45A1.root"
+        ],
+        "192": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/045543C1-4163-CE4D-B9BA-105CFF3976F2.root"
+        ],
+        "193": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/54695F9C-73CB-8E45-AE9F-93DA84906DDE.root"
+        ],
+        "194": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/68510A3C-1DC8-7F4D-A230-07DAE159423A.root"
+        ],
+        "195": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/90016B57-337C-3D45-8AFA-DDB0C76CF2E1.root"
+        ],
+        "196": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/108696D9-763B-CE43-AB79-AAF9D3A9CF6C.root"
+        ],
+        "197": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/193157CA-17F8-7A4E-AAAC-CA930D2C354D.root"
+        ],
+        "198": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/251533E4-294B-6144-95E4-BE531E17BDD5.root"
+        ],
+        "199": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/349717D0-A184-534C-830E-41C6660F09A4.root"
+        ],
+        "200": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/350663FF-D058-1147-9829-737932835FFA.root"
+        ],
+        "201": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/7874706F-CB44-BE41-8AD5-C8AACE6E668C.root"
+        ],
+        "202": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/16507376-C180-D640-A39C-231809A1249F.root"
+        ],
+        "203": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/20128052-42C7-3A4F-A0ED-087C383D52D8.root"
+        ],
+        "204": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/A1C1D9BA-42FC-4D46-9272-CB6EB9578AC3.root"
+        ],
+        "205": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/A5CAA93A-CECF-CF47-ADF9-E472445F50E2.root"
+        ],
+        "206": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/A410B60F-51BD-1C47-9098-DDD7E9F42336.root"
+        ],
+        "207": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/A512FB70-406E-B94B-BAAA-656122E54B2C.root"
+        ],
+        "208": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/A739603C-AAC0-F24F-B0AA-289670773ADC.root"
+        ],
+        "209": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/AA8D0276-D297-B94B-B9C8-A8D7014140A8.root"
+        ],
+        "210": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/ABBAF2B8-0A95-1D4E-B445-EC21E66064B2.root"
+        ],
+        "211": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/AF0BA03A-56B7-B146-A549-510BD1ED62D0.root"
+        ],
+        "212": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B3D62DA4-DE47-0A44-BEE4-AFA100BE01B1.root"
+        ],
+        "213": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B5E84DF3-60DB-C94D-BC95-03400A45DC5C.root"
+        ],
+        "214": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B6F53A16-7559-6C46-A050-2E63B5DDBA11.root"
+        ],
+        "215": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B8FB5465-8327-E746-B423-A838ABD90280.root"
+        ],
+        "216": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B53FC5FB-A856-A347-A8A3-F1EEA4F5A31B.root"
+        ],
+        "217": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B68DA835-4E3A-984A-A97E-D07CA067EA68.root"
+        ],
+        "218": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B734BDA1-946F-8A4A-BE7D-9813355A55C0.root"
+        ],
+        "219": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B800C471-0F26-4349-B858-F497D8B45F97.root"
+        ],
+        "220": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B053383A-B7BC-A14E-B967-0D28459620A5.root"
+        ],
+        "221": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/B291751F-CD05-3642-8BBC-CDB27505958E.root"
+        ],
+        "222": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/BE94CB5F-E0A1-3F4B-AF3F-A49C42F86B34.root"
+        ],
+        "223": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/BE132D57-88E0-7742-BF3A-EE3BCF0E2C2C.root"
+        ],
+        "224": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/BF3D0CD5-4C9D-B843-BBD0-17A79A3D4991.root"
+        ],
+        "225": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/C6EB3EB4-B8A0-7348-8414-30F78CE3E82B.root"
+        ],
+        "226": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/C9E5AC55-21DE-014B-9458-2474C0302BB3.root"
+        ],
+        "227": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/C1065F52-9F4C-F840-9056-E9A2D83541F7.root"
+        ],
+        "228": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/C8322FA0-D4EE-D94E-BE8B-852928B43FD6.root"
+        ],
+        "229": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/CCF44D5E-08B9-B44D-83E6-4E1751E690BD.root"
+        ],
+        "230": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/CDF0D020-1D57-5743-9450-22983EC27489.root"
+        ],
+        "231": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/D6AFE788-7B20-6349-A8C2-01A83D252A2E.root"
+        ],
+        "232": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/D8E597F8-F1D4-8443-A95C-9A1ACE7C6668.root"
+        ],
+        "233": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/D86C5B63-A14B-E749-B140-CD13CB2BA7D5.root"
+        ],
+        "234": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/D97DF061-3FF4-384F-A18C-44CDE32B5C08.root"
+        ],
+        "235": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/DA40F5B2-B5EC-994F-BFD5-8BB4F13D218A.root"
+        ],
+        "236": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/DAC197D7-F639-D042-AA69-BA058BE35F90.root"
+        ],
+        "237": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/DB56C212-2AFD-774A-90CD-681CA9288B9C.root"
+        ],
+        "238": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/DC48D64B-208A-8441-A551-56AD12C59863.root"
+        ],
+        "239": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/DF117260-1916-D54C-AF30-A531F068F2DC.root"
+        ],
+        "240": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E0A6C27A-1BF7-BB45-AD4B-AB6F8100B551.root"
+        ],
+        "241": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E8EDFA14-131F-3043-92F6-18373D433C17.root"
+        ],
+        "242": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E45E0891-B684-6C4A-B065-22A76CA69E1D.root"
+        ],
+        "243": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E159B834-4696-FC4F-91D1-5BD6B7468818.root"
+        ],
+        "244": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E0006382-BF11-F344-86BE-01717716E0FB.root"
+        ],
+        "245": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/E1073056-4D70-584A-A87D-3F319B3915DA.root"
+        ],
+        "246": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/EC98F39E-F2E9-304B-82BA-0ED7ABF6969B.root"
+        ],
+        "247": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/ED26E8BB-D065-9C48-B489-BEF4F98B45CB.root"
+        ],
+        "248": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/EE6EBD56-0822-7C44-80FF-8DEABF9FA3F6.root"
+        ],
+        "249": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/EEB40B57-035E-C148-A1E4-A75A758FD774.root"
+        ],
+        "250": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/EEE5B117-B148-3142-97B2-1B515B80DEBA.root"
+        ],
+        "251": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F2F9B745-07CE-E048-A9E6-C588173BD171.root"
+        ],
+        "252": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F44DAD54-E063-C749-8976-4C4E0E588355.root"
+        ],
+        "253": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F48D3FD9-26B7-B54E-BAE2-10E8B1A54971.root"
+        ],
+        "254": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F89F2C32-5B1E-E142-B8C5-9B00524F38C6.root"
+        ],
+        "255": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F138C667-4984-B54F-B688-A362F347F96F.root"
+        ],
+        "256": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/F70287BD-8AE0-BF48-9608-E58AD41DE48E.root"
+        ],
+        "257": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/FA545D8D-D5EF-BB45-9847-A19ACC932D53.root"
+        ],
+        "258": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/230000/FCA58C50-D828-F94F-B62E-D29081E5044C.root"
+        ],
+        "259": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0A290C10-480A-C84B-B40F-4E7EFBEF7703.root"
+        ],
+        "260": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0C1A3041-D34F-4245-B614-A149456DC262.root"
+        ],
+        "261": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/1DD2F618-EC3A-DD46-AB6C-E6605A7908B7.root"
+        ],
+        "262": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4CF40DC7-E066-1242-ADAA-8776F346C0AF.root"
+        ],
+        "263": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/4F0E9E48-BFB9-8C4B-8BAE-DF216D1B6707.root"
+        ],
+        "264": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6A819542-F043-C64C-9A5B-FE64CF710B67.root"
+        ],
+        "265": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6DF69785-6149-9249-9E0F-EC63AA1E29E9.root"
+        ],
+        "266": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/7F8A9711-978C-4149-BE47-630FD5E1DC2F.root"
+        ],
+        "267": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8A9A9E7D-22D4-6749-A8E8-7EC707206581.root"
+        ],
+        "268": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/8E760759-8CFE-CE43-AD6E-31E5AD66904C.root"
+        ],
+        "269": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/12ACC6CB-92A5-AC49-8164-760890148916.root"
+        ],
+        "270": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/17BE5B08-2726-964C-9AA0-95A356102521.root"
+        ],
+        "271": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/69D407AA-E9C4-494A-985D-A27426F2005C.root"
+        ],
+        "272": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/70DCCA63-B7E9-C344-9DD8-127BAF7F58A4.root"
+        ],
+        "273": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/91FDD662-6AA1-374D-97D6-A35C41EE2098.root"
+        ],
+        "274": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/125DFD82-70FF-7445-9B7A-C112C61584DE.root"
+        ],
+        "275": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/386DFB13-2137-F447-824E-86252F922601.root"
+        ],
+        "276": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/483CFD31-9B1C-E245-B321-264EE9195CFD.root"
+        ],
+        "277": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/498D56B0-2951-C644-8608-CC6BA1688FDB.root"
+        ],
+        "278": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/904F9F9E-DFF1-7446-8F8D-E48A964C590A.root"
+        ],
+        "279": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6608F9A3-B6F2-EE49-8CAF-1B92F32607D1.root"
+        ],
+        "280": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/47985F74-83C4-2C4D-A5EC-390A552F8A48.root"
+        ],
+        "281": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/0873836E-531A-FD41-ABD5-F70E043F5430.root"
+        ],
+        "282": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/6778104A-17ED-3F4F-B4EB-BC3F2A0E4BCE.root"
+        ],
+        "283": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A0B529D5-5C52-964A-86D4-799AC04FD759.root"
+        ],
+        "284": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/A30279DF-8E09-574E-82BC-2F23007F6C76.root"
+        ],
+        "285": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AD089220-5237-9E44-8644-1A3B1E0D41E6.root"
+        ],
+        "286": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AD455965-131B-EF4A-A5E2-775176174FBB.root"
+        ],
+        "287": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/ADEDCDFC-80AA-6244-8526-D2B1BE8D7130.root"
+        ],
+        "288": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/AFB49490-4DA4-1D4C-B91C-E60024C83162.root"
+        ],
+        "289": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/CCCFB131-273D-AA44-8509-43B53AF4C2B8.root"
+        ],
+        "290": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/DA359B8A-3B67-1742-A7C3-67FE7DA8A742.root"
+        ],
+        "291": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/DE86E978-5594-1E4B-B20D-F0828D3B9464.root"
+        ],
+        "292": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E0A3FCF1-E342-204A-9CA3-7F5ED9871254.root"
+        ],
+        "293": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E8E246E4-AE3F-E64B-83B7-9F036F7F9478.root"
+        ],
+        "294": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/E80AFA49-6A4F-6749-B9EC-026F106788BE.root"
+        ],
+        "295": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F14D8274-E0F2-5148-9315-CDD4FDB07500.root"
+        ],
+        "296": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/250000/F7097D82-7B2E-2240-84C3-A7978ED746D0.root"
+        ],
+        "297": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2430000/AE31FE01-F2C6-4244-98C3-D8D67FF10DE3.root"
+        ],
+        "298": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/03EC2987-3052-8144-86B4-00CA3C718A87.root"
+        ],
+        "299": [
+            "/store/mc/RunIISummer20UL17MiniAODv2/WJetsToQQ_HT-800toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2510000/63E675FB-F640-A94E-BABA-6DAA4047E2D9.root"
+        ]
+    }
+}

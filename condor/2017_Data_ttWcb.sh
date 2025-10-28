@@ -1,0 +1,10 @@
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleElectron_Run2017B-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleElectron_Run2017C-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleElectron_Run2017D-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleElectron_Run2017E-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleElectron_Run2017F-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleMuon_Run2017B-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleMuon_Run2017C-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleMuon_Run2017D-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleMuon_Run2017E-UL2017_MiniAODv2-v1/submit.cmd 
+condor_submit /afs/cern.ch/user/l/legao/Wcb/condor/production/2017_Data_ttWcb/SingleMuon_Run2017F-UL2017_MiniAODv2-v1/submit.cmd 
