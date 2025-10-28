@@ -33,10 +33,10 @@ modes = [
 proc_match = {}
 proc_match["Wcb"] = {
     "Data": [
-        "JetHT_Run2018A-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018B-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018C-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018D-UL2018_MiniAODv2-v2.parquet",
+        "JetHT_Run2018A-UL2018_MiniAODv2-v1.new.parquet",
+        "JetHT_Run2018B-UL2018_MiniAODv2-v1.new.parquet",
+        "JetHT_Run2018C-UL2018_MiniAODv2-v1.new.parquet",
+        "JetHT_Run2018D-UL2018_MiniAODv2-v2.new.parquet",
     ],
     "Wcb": [
         "WJetsToQQ_HT-400to600.new.parquet",
@@ -143,7 +143,6 @@ proc_color = {
     "Other": sns.color_palette("tab10", 10)[5],
 }
 proc_cut = {
-    "Data": [lambda ev: ev["passHLT"]],
     "Wcb": [lambda ev: ev["isWcb"]],
     "WJets": [lambda ev: ~ev["isWcb"]],
 }
