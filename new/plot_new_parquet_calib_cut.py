@@ -32,38 +32,38 @@ modes = [
 proc_match = {}
 proc_match["ttWcb"] = {
     "Data": [
-        "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
-        "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.parquet",
+        "EGamma_Run2018A-UL2018_MiniAODv2-v1.new.parquet",
+        "EGamma_Run2018B-UL2018_MiniAODv2-v1.new.parquet",
+        "EGamma_Run2018C-UL2018_MiniAODv2-v1.new.parquet",
+        "EGamma_Run2018D-UL2018_MiniAODv2-v2.new.parquet",
+        "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.new.parquet",
+        "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.new.parquet",
+        "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.new.parquet",
+        "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.new.parquet",
     ],
     "MC": [
-        "TTToSemiLeptonic_Vcb_TuneCP5.parquet",
-        "WJetsToLNu_Pt-250To400.parquet",
-        "WJetsToLNu_Pt-400To600.parquet",
-        "WJetsToLNu_Pt-600ToInf.parquet",
-        "TTTo2L2Nu_TuneCP5.parquet",
-        "TTToSemiLeptonic_TuneCP5.parquet",
-        "ST_s-channel_4f_leptonDecays.parquet",
-        "ST_t-channel_antitop.parquet",
-        "ST_t-channel_top.parquet",
-        "ST_tW_antitop.parquet",
-        "ST_tW_top.parquet",
-        "QCD_HT500to700.parquet",
-        "QCD_HT700to1000.parquet",
-        "QCD_HT1000to1500.parquet",
-        "QCD_HT1500to2000.parquet",
-        "QCD_HT2000toInf.parquet",
-        "DYJetsToLL_LHEFilterPtZ-250To400.parquet",
-        "DYJetsToLL_LHEFilterPtZ-400To650.parquet",
-        "DYJetsToLL_LHEFilterPtZ-650ToInf.parquet",
-        "WW_TuneCP5.parquet",
-        "WZ_TuneCP5.parquet",
-        "ZZ_TuneCP5_13TeV-pythia8.parquet",
+        "TTToSemiLeptonic_Vcb_TuneCP5.new.parquet",
+        "WJetsToLNu_Pt-250To400.new.parquet",
+        "WJetsToLNu_Pt-400To600.new.parquet",
+        "WJetsToLNu_Pt-600ToInf.new.parquet",
+        "TTTo2L2Nu_TuneCP5.new.parquet",
+        "TTToSemiLeptonic_TuneCP5.new.parquet",
+        "ST_s-channel_4f_leptonDecays.new.parquet",
+        "ST_t-channel_antitop.new.parquet",
+        "ST_t-channel_top.new.parquet",
+        "ST_tW_antitop.new.parquet",
+        "ST_tW_top.new.parquet",
+        "QCD_HT500to700.new.parquet",
+        "QCD_HT700to1000.new.parquet",
+        "QCD_HT1000to1500.new.parquet",
+        "QCD_HT1500to2000.new.parquet",
+        "QCD_HT2000toInf.new.parquet",
+        "DYJetsToLL_LHEFilterPtZ-250To400.new.parquet",
+        "DYJetsToLL_LHEFilterPtZ-400To650.new.parquet",
+        "DYJetsToLL_LHEFilterPtZ-650ToInf.new.parquet",
+        "WW_TuneCP5.new.parquet",
+        "WZ_TuneCP5.new.parquet",
+        "ZZ_TuneCP5_13TeV-pythia8.new.parquet",
     ],
 }
 procs = {}
@@ -93,8 +93,13 @@ proc_color = {
     "Wcs": sns.color_palette("tab10", 10)[6],
     "Wcb": "#3f3f3f",
 }
+cb_score_range = [0.98, 1]
+cb_score_bin_width = (cb_score_range[1] - cb_score_range[0]) / 100
 proc_cut = {
-    "all": [lambda ev: ev["passHLT"]],
+    "all": [
+        lambda ev: (ev["AK8Jet_cb_score"][..., 0] > cb_score_range[0])
+        & (ev["AK8Jet_cb_score"][..., 0] < cb_score_range[1]),
+    ],
     "Tbqq": [lambda ev: ev["AK8Jet_match"][..., 0] == 1],
     "Tbc": [lambda ev: ev["AK8Jet_match"][..., 0] == 2],
     "Tbq": [lambda ev: ev["AK8Jet_match"][..., 0] == 3],
@@ -110,13 +115,13 @@ plots["ttWcb"] = [
     ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"$W \to cb$ candidate jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
-    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
+    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],
 }
 ylog_match = [
-    "ak8_1_cb_score",
+    #"ak8_1_cb_score",
 ]
 indir = "/data/bond/lyazj/Parquet/V0"
 outdir = "parquet"
@@ -220,5 +225,5 @@ for year in year_match:
                 plt.yscale("linear")
                 plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
-            plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}.pdf"))
+            plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}_cb_score_{cb_score_range[0]}_{cb_score_range[1]}.pdf"))
             plt.clf()
