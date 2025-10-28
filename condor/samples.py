@@ -848,8 +848,6 @@ DAS_2017C_SingleMuon_ = ["/SingleMuon/Run2017C-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017D_SingleMuon_ = ["/SingleMuon/Run2017D-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017E_SingleMuon_ = ["/SingleMuon/Run2017E-UL2017_MiniAODv2-v1/MINIAOD"]
 DAS_2017F_SingleMuon_ = ["/SingleMuon/Run2017F-UL2017_MiniAODv2-v1/MINIAOD"]
-DAS_2017G_SingleMuon_ = ["/SingleMuon/Run2017G-UL2017_MiniAODv2-v1/MINIAOD"]
-DAS_2017H_SingleMuon_ = ["/SingleMuon/Run2017H-UL2017_MiniAODv2-v1/MINIAOD"]
 
 DAS_2018A_JetHT_ = ["/JetHT/Run2018A-UL2018_MiniAODv2-v1/MINIAOD"]
 DAS_2018B_JetHT_ = ["/JetHT/Run2018B-UL2018_MiniAODv2-v1/MINIAOD"]
@@ -925,8 +923,6 @@ DAS_2017C_SingleMuon = lambda: DAS(DAS_2017C_SingleMuon_)
 DAS_2017D_SingleMuon = lambda: DAS(DAS_2017D_SingleMuon_)
 DAS_2017E_SingleMuon = lambda: DAS(DAS_2017E_SingleMuon_)
 DAS_2017F_SingleMuon = lambda: DAS(DAS_2017F_SingleMuon_)
-DAS_2017G_SingleMuon = lambda: DAS(DAS_2017G_SingleMuon_)
-DAS_2017H_SingleMuon = lambda: DAS(DAS_2017H_SingleMuon_)
 
 #split 2018 JetHT to eras
 DAS_2018A_JetHT = lambda: DAS(DAS_2018A_JetHT_)
