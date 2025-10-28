@@ -11,7 +11,7 @@ from hist import Hist
 from config import hlt_dict
 import pickle as pkl
 
-plt.figure(figsize=(20, 15))
+plt.figure(figsize=(40, 16))
 hep.style.use("CMS")
 
 
@@ -61,7 +61,7 @@ proc_cut = {
     "all": [],
 }
 plots = [
-    ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 800, 25),
+    ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 10),
     ("ak8_1_sdmass", r"$W \to cb$ candidate jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
 ]
 indir = "/data/bond/lyazj/Parquet/V0"
@@ -159,7 +159,7 @@ for year in year_match:
         x_centers = 0.5 * (x[:-1] + x[1:])
         y_centers = 0.5 * (y[:-1] + y[1:])
 
-        plt.imshow(esf.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis")
+        plt.imshow(esf.T, extent=[x[0], x[-1], y[0], y[-1]], origin="lower", aspect="auto", cmap="viridis", vmin=0.5, vmax=1.5)
         for i, xc in enumerate(x_centers):
             for j, yc in enumerate(y_centers):
                 plt.text(xc, yc, f"{esf[i, j]:.2f}", ha="center", va="center", color="white", fontsize="small")
