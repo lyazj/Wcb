@@ -174,7 +174,7 @@ for hlt in hlt_dict[options.mode][options.year.replace("APV", "")]:
     output[hlt[0]] = events[hlt[0]]
 output["passHLT"] = events["passHLT"]
 
-# Wcb candidate jet mass Selection.
+# Wcb candidate jet mass selection.
 print("Applying Wcb candidate jet mass selection")
 if options.mode == "Wcb":
     output = output[output["AK8Jet_sdmass"][:, 0] >= 30]
