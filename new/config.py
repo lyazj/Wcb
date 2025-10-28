@@ -33,7 +33,7 @@ xs_dict = {  # in fb
     "TTTo2L2Nu_TuneCP5": 88290,
     "TTToHadronic_TuneCP5": 377960,
     "TTToSemiLeptonic_TuneCP5": 365340,
-    "TTToSemiLeptonic_Vcb_TuneCP5": 0.319,
+    "TTToSemiLeptonic_Vcb_TuneCP5": 319,
     "WW_TuneCP5": 76250,
     "WZ_TuneCP5": 27550,
     "ZZ_TuneCP5_13TeV-pythia8": 12230,
