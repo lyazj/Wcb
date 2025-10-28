@@ -107,11 +107,11 @@ proc_cut = {
 }
 plots = {}
 plots["ttWcb"] = [
-    ("ak8_1_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 800, 10),
-    ("ak8_1_eta", r"leading AK8 jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
-    ("ak8_1_phi", r"leading AK8 jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
-    ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
-    ("ak8_1_cb_score", r"leading AK8 jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
+    ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 800, 10),
+    ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
+    ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
+    ("ak8_1_sdmass", r"$W \to cb$ candidate jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
+    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
 ]
 blind_match = {
     #"ak8_1_sdmass": [(50, 110)],

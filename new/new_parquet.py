@@ -27,7 +27,7 @@ print(f"{len(events)} events loaded from {options.fin}")
 events = events[events["passHLT"]]
 print(f"{len(events)} events passed selections")
 
-# Apply HLT efficiency scale factor. [XXX] Should be applied on the Wcb candidate jet.
+# Apply HLT efficiency scale factor.
 if "genWeight" in events.fields and options.mode == "Wcb":
     pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{options.year}_Wcb.pkl", "rb"))
     assert ak.all(events["AK8Jet_pt"][:, 0] >= pt_bins[0])
