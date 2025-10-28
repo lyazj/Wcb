@@ -30,13 +30,13 @@ print(f"{len(events)} events passed selections")
 # Apply HLT efficiency scale factor.
 if "genWeight" in events.fields and options.mode == "Wcb":
     pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{options.year}_Wcb.pkl", "rb"))
-    assert ak.all(events["AK8Jet_pt"][:, 0] >= pt_bins[0])
+    assert ak.all(events["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][:, 0] >= pt_bins[0])
     assert ak.all(events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0])
     assert ak.all(events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1])
     AK8Jet_pt_indexes = (
         np.minimum(
             len(pt_bins) - 1,
-            np.argmax(np.array(events["AK8Jet_pt"][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :], axis=1),
+            np.argmax(np.array(events["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][:, 0])[:, None] < np.array([*pt_bins, np.inf])[None, :], axis=1),
         )
         - 1
     )
