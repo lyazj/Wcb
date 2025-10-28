@@ -105,6 +105,13 @@ proc_match["ttWcb"] = {
         "ST_tW_antitop.parquet",
         "ST_tW_top.parquet",
     ],
+    "QCD": [
+        "QCD_HT500to700.parquet",
+        "QCD_HT700to1000.parquet",
+        "QCD_HT1000to1500.parquet",
+        "QCD_HT1500to2000.parquet",
+        "QCD_HT2000toInf.parquet",
+    ],
     "Other": [
         "DYJetsToLL_LHEFilterPtZ-250To400.parquet",
         "DYJetsToLL_LHEFilterPtZ-400To650.parquet",
@@ -116,7 +123,7 @@ proc_match["ttWcb"] = {
 }
 procs = {}
 procs["Wcb"] = ["Data", "Other", "WJets", "ST", "TT", "QCD", "Wcb"]
-procs["ttWcb"] = ["Data", "Other", "WJets", "ST", "TT", "Wcb"]
+procs["ttWcb"] = ["Data", "Other", "QCD", "WJets", "ST", "TT", "Wcb"]
 proc_label = {
     "Data": r"Data",
     "Wcb": r"$W \to cb$",

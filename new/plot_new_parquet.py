@@ -105,6 +105,13 @@ proc_match["ttWcb"] = {
         "ST_tW_antitop.new.parquet",
         "ST_tW_top.new.parquet",
     ],
+    "QCD": [
+        "QCD_HT500to700.new.parquet",
+        "QCD_HT700to1000.new.parquet",
+        "QCD_HT1000to1500.new.parquet",
+        "QCD_HT1500to2000.new.parquet",
+        "QCD_HT2000toInf.new.parquet",
+    ],
     "Other": [
         "DYJetsToLL_LHEFilterPtZ-250To400.new.parquet",
         "DYJetsToLL_LHEFilterPtZ-400To650.new.parquet",
