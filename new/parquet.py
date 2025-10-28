@@ -151,17 +151,17 @@ output["AK8Jet_probHother"] = (
 )[events["AK8Jet_index"]]
 if "genWeight" in events.fields:
     match_tqqq(0.8, events, output, jet_prefix="AK8Jet_", part_prefix="GenPart_")
-events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
-    events["AK8Jet_probHbc"]
-    + events["AK8Jet_probQCD"]
-    + events["AK8Jet_probHcs"]
-    + events["AK8Jet_probHqq"]
-    + events["AK8Jet_probHother"]
+output["AK8Jet_cb_score"] = output["AK8Jet_probHbc"] / (
+    output["AK8Jet_probHbc"]
+    + output["AK8Jet_probQCD"]
+    + output["AK8Jet_probHcs"]
+    + output["AK8Jet_probHqq"]
+    + output["AK8Jet_probHother"]
 )
-AK8Jet_index = ak.argsort(events["AK8Jet_cb_score"], axis=-1, ascending=False)
-for field in events.fields:
+AK8Jet_index = ak.argsort(output["AK8Jet_cb_score"], axis=-1, ascending=False)
+for field in output.fields:
     if field.startswith("AK8Jet_"):
-        events[field] = events[field][AK8Jet_index]
+        output[field] = output[field][AK8Jet_index]
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
