@@ -49,7 +49,6 @@ proc_color = {
 }
 proc_cut = {
     "all": [lambda ev: ev["passHLT"]],
-    "mode:Wcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1), lambda ev: ev["AK8Jet_sdmass"][..., 0] >= 30, lambda ev: ev["AK8Jet_sdmass"][..., 0] <= 230],
 }
 plots = {}
 plots["Wcb"] = [

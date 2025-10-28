@@ -25,21 +25,14 @@ print(f"{len(events)} events loaded from {options.fin}")
 
 # Selection.
 events = events[events["passHLT"]]
-if options.mode == "Wcb":
-    events = events[events["AK8Jet_pt"][:, 0] > 350]
-    events = events[~ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
-elif options.mode == "ttWcb":
-    events = events[events["AK8Jet_pt"][:, 0] > 200]
-    events = events[ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
 print(f"{len(events)} events passed selections")
 
 # Apply HLT efficiency scale factor. [XXX] Should be applied on the Wcb candidate jet.
 if "genWeight" in events.fields and options.mode == "Wcb":
     pt_bins, sdmass_bins, HLTScale, HLTScaleError = pkl.load(open(f"parquet_trigeff_{options.year}_Wcb.pkl", "rb"))
-    events = events[events["AK8Jet_pt"][:, 0] >= pt_bins[0]]
-    events = events[events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0]]
-    events = events[events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1]]
-    print(f"{len(events)} events passed HLT scale plane selections")
+    assert ak.all(events["AK8Jet_pt"][:, 0] >= pt_bins[0])
+    assert ak.all(events["AK8Jet_sdmass"][:, 0] >= sdmass_bins[0])
+    assert ak.all(events["AK8Jet_sdmass"][:, 0] <= sdmass_bins[-1])
     AK8Jet_pt_indexes = (
         np.minimum(
             len(pt_bins) - 1,
@@ -66,19 +59,6 @@ events["weight"] = events["weight"] * events["HLTScale"]
 
 # Drop AK4 jet branches.
 events = events[[f for f in events.fields if f != "nAK4Jet" and not f.startswith("AK4Jet_")]]
-
-## Create cb score for AK8 jets and sort AK8 jets by it.
-#events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
-#    events["AK8Jet_probHbc"]
-#    + events["AK8Jet_probQCD"]
-#    + events["AK8Jet_probHcs"]
-#    + events["AK8Jet_probHqq"]
-#    + events["AK8Jet_probHother"]
-#)
-#AK8Jet_indexes = ak.argsort(events["AK8Jet_cb_score"], axis=-1, ascending=False)
-#for field in events.fields:
-#    if field.startswith("AK8Jet_"):
-#        events[field] = events[field][AK8Jet_indexes]
 
 # Drop HLT branches.
 events = events[[f for f in events.fields if f != "passHLT" and not f.startswith("HLT_")]]

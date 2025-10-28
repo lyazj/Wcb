@@ -72,25 +72,10 @@ print(f"{len(events)} events passed filters")
 print("Applying selections")
 if options.mode == "Wcb":
     events = events[events["AK8Jet_pt"][:, 0] > 350]
+    events = events[~ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
 elif options.mode == "ttWcb":
     events = events[events["AK8Jet_pt"][:, 0] > 200]
-    events = events[
-        ak.any(
-            (events["Electron_pt"] > 35)
-            & (np.abs(events["Electron_eta"]) < 2.5)
-            & (events["Electron_mvaFall17V2Iso_WP80"]),
-            axis=1,
-        )
-        | ak.any(
-            (events["Muon_corrected_pt"] > 30)
-            & (np.abs(events["Muon_eta"]) < 2.4)
-            & (events["Muon_tightId"])
-            & (events["Muon_pfRelIso04_all"] < 0.06)
-            & (np.abs(events["Muon_dxy"]) < 0.05)
-            & (np.abs(events["Muon_dz"] < 0.2)),
-            axis=1,
-        )
-    ]
+    events = events[ak.any(events["AK4Jet_exclusive"] & events["AK4Jet_btag_tight"], axis=-1)]
 print(f"{len(events)} events passed selections")
 
 # Slim.
@@ -166,6 +151,17 @@ output["AK8Jet_probHother"] = (
 )[events["AK8Jet_index"]]
 if "genWeight" in events.fields:
     match_tqqq(0.8, events, output, jet_prefix="AK8Jet_", part_prefix="GenPart_")
+events["AK8Jet_cb_score"] = events["AK8Jet_probHbc"] / (
+    events["AK8Jet_probHbc"]
+    + events["AK8Jet_probQCD"]
+    + events["AK8Jet_probHcs"]
+    + events["AK8Jet_probHqq"]
+    + events["AK8Jet_probHother"]
+)
+AK8Jet_index = ak.argsort(events["AK8Jet_cb_score"], axis=-1, ascending=False)
+for field in events.fields:
+    if field.startswith("AK8Jet_"):
+        events[field] = events[field][AK8Jet_index]
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
@@ -177,6 +173,13 @@ for field in events.fields:
 for hlt in hlt_dict[options.mode][options.year.replace("APV", "")]:
     output[hlt[0]] = events[hlt[0]]
 output["passHLT"] = events["passHLT"]
+
+# Wcb candidate jet mass Selection.
+print("Applying Wcb candidate jet mass selection")
+if options.mode == "Wcb":
+    output = output[output["AK8Jet_sdmass"][:, 0] >= 30]
+    output = output[output["AK8Jet_sdmass"][:, 0] <= 230]
+print(f"{len(output)} events passed Wcb candidate jet mass selection")
 
 ak.to_parquet(output, options.fout)
 if nevent is not None:

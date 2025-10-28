@@ -136,10 +136,7 @@ proc_color = {
     "Other": sns.color_palette("tab10", 10)[5],
 }
 proc_cut = {
-    "all": [lambda ev: ev["AK8Jet_sdmass"][..., 0] >= 30, lambda ev: ev["AK8Jet_sdmass"][..., 0] <= 230],
-    "Data": [lambda ev: ev["passHLT"], lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
-    #"mode:Wcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
-    #"mode:ttWcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 200, lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
+    "Data": [lambda ev: ev["passHLT"]],
     "Wcb": [lambda ev: ev["isWcb"]],
     "WJets": [lambda ev: ~ev["isWcb"]],
 }

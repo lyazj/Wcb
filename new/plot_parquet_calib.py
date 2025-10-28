@@ -90,7 +90,6 @@ proc_color = {
 }
 proc_cut = {
     "all": [lambda ev: ev["passHLT"]],
-    "mode:ttWcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 200, lambda ev: ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
     "Tbqq": [lambda ev: ev["AK8Jet_match"][..., 0] == 1],
     "Tbc": [lambda ev: ev["AK8Jet_match"][..., 0] == 2],
     "Tbq": [lambda ev: ev["AK8Jet_match"][..., 0] == 3],

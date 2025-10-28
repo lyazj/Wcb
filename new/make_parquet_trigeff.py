@@ -11,7 +11,7 @@ from hist import Hist
 from config import hlt_dict
 import pickle as pkl
 
-plt.figure(figsize=(16.5, 15))
+plt.figure(figsize=(18, 15))
 hep.style.use("CMS")
 
 
@@ -59,10 +59,9 @@ procs = {}
 procs["Wcb"] = ["EMuon", "QCD"]
 proc_cut = {
     "all": [],
-    "mode:Wcb": [lambda ev: ev["AK8Jet_pt"][..., 0] > 350, lambda ev: ~ak.any(ev["AK4Jet_exclusive"] & ev["AK4Jet_btag_tight"], axis=-1)],
 }
-plots = [  # [XXX] pT leading -> cb-score leading
-    ("ak8_1_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 350, 800, 25),
+plots = [
+    ("ak8_1_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 25),
     ("ak8_1_sdmass", r"leading AK8 jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
 ]
 indir = "/data/bond/lyazj/Parquet/V0"
