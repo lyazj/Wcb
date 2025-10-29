@@ -123,7 +123,7 @@ proc_match["ttWcb"] = {
 }
 procs = {}
 procs["Wcb"] = ["Data", "Other", "WJets", "ST", "TT", "QCD", "Wcb"]
-procs["ttWcb"] = ["Data", "Other", "WJets", "ST", "TT", "Wcb"]
+procs["ttWcb"] = ["Data", "Other", "QCD", "WJets", "ST", "TT", "Wcb"]
 proc_label = {
     "Data": r"Data",
     "Wcb": r"$W \to cb$",
