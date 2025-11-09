@@ -162,10 +162,11 @@ output["AK8Jet_cb_score"] = output["AK8Jet_probHbc"] / (
     + output["AK8Jet_probHqq"]
     + output["AK8Jet_probHother"]
 )
-AK8Jet_index = ak.argsort(output["AK8Jet_cb_score"], axis=-1, ascending=False)
-for field in output.fields:
-    if field.startswith("AK8Jet_"):
-        output[field] = output[field][AK8Jet_index]
+if len(output):
+    AK8Jet_index = ak.argsort(output["AK8Jet_cb_score"], axis=-1, ascending=False)
+    for field in output.fields:
+        if field.startswith("AK8Jet_"):
+            output[field] = output[field][AK8Jet_index]
 
 # AK4 jets.
 output["nAK4Jet"] = events["nAK4Jet"]
