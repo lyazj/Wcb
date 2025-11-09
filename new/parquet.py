@@ -54,11 +54,11 @@ if "genWeight" in events.fields:
     weight = weight * np.sign(events["genWeight"])
     weight = weight * events["puWeight"]
     weight = weight * events["HLTWeight"]
+    if options.year < "2018":
+        weight = weight * events["PrefireWeight"]
     nevent = uproot.open(options.fin + ":nEvents").values().sum()
 else:
     weight = 1.0
-    if options.year < "2018":
-        weight = weight * events["PrefireWeight"]
     nevent = None
 events["weight"] = weight
 
@@ -110,7 +110,7 @@ output = events[
         if field in events.fields
     ]
 ]
-if "genWeight" not in events.fields:
+if "genWeight" in events.fields:
     if options.year < "2018":
         output["L1PrefiringWeight"] = events["PrefireWeight"]
         output["L1PrefiringWeightUp"] = events["PrefireWeight_Up"]
