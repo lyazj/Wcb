@@ -29,6 +29,10 @@ print(f"{len(events)} events loaded from {options.fin}")
 
 # HLT pre-scale weight.
 hlts = sorted(hlt_dict[options.mode][options.year.replace("APV", "")], key=lambda hlt: hlt[2], reverse=True)
+missing_hlts = [hlt for hlt in hlts if hlt[1] not in events.fields]
+if missing_hlts:
+    print("Warning: missing HLT paths in events:", missing_hlts)
+    hlts = [hlt for hlt in hlts if hlt[1] in events.fields]
 first_pass = np.argmax([ak.to_numpy(events[hlt[0]]) for hlt in hlts] + [np.ones(len(events), dtype=bool)], axis=0)
 events["passHLT"] = first_pass != len(hlts)
 if "genWeight" in events.fields:
