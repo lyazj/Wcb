@@ -1,19 +1,26 @@
 #!/usr/bin/env python3
 
+from __future__ import print_function
 import os
 from JobManager import JobManager
 
 jsons = [
     'json/DAS_Wcb_sig_2016.json',
     'json/DAS_Wcb_bkg_2016.json',
+    'json/DAS_ttWcb_sig_2016.json',
+    'json/DAS_ttWcb_bkg_2016.json',
 ]
 odirs = [
-    '/eos/user/l/legao/NtupleStore/V0/2016/MC'
-    for _ in jsons
+    '/eos/user/l/legao/NtupleStore/V0/2016/Wcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016/Wcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016/ttWcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016/ttWcb/MC',
 ]
 wdirs = [
-    'production/NanoNtupleChain_18_Sep_2024'
-    for _ in jsons
+    'production/2016_MC_Wcb',
+    'production/2016_MC_Wcb',
+    'production/2016_MC_ttWcb',
+    'production/2016_MC_ttWcb',
 ]
 
 name = os.path.basename(__file__)
