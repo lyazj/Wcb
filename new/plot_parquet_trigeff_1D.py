@@ -64,6 +64,7 @@ def parquet_to_hists(year, mode, proc, fpath):
         events = events[cut(events)]
     nevent_postcut = len(events)
     print(f"{fpath}: {nevent_precut} -> {nevent_postcut}")
+    hlt_dict[mode][year] = list(filter(lambda hlt: hlt[0] in events.fields, hlt_dict[mode][year]))
     hists = []
     for n, l, ex, b, e, s in plots:
         hists.append([])

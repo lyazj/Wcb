@@ -31,22 +31,45 @@ modes = [
 ]
 proc_match = {}
 proc_match["Wcb"] = {
-    "JetHT": [
-        "JetHT_Run2018A-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018B-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018C-UL2018_MiniAODv2-v1.parquet",
-        "JetHT_Run2018D-UL2018_MiniAODv2-v2.parquet",
-    ],
-    "EMuon": [
-        "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
-        "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
-        "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
-        "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.parquet",
-    ],
+    "JetHT": {
+        "2017": [
+            "JetHT_Run2017B-UL2017_MiniAODv2-v1.parquet",
+            "JetHT_Run2017C-UL2017_MiniAODv2-v1.parquet",
+            "JetHT_Run2017D-UL2017_MiniAODv2-v1.parquet",
+            "JetHT_Run2017E-UL2017_MiniAODv2-v1.parquet",
+            "JetHT_Run2017F-UL2017_MiniAODv2-v1.parquet",
+        ],
+        "2018": [
+            "JetHT_Run2018A-UL2018_MiniAODv2-v1.parquet",
+            "JetHT_Run2018B-UL2018_MiniAODv2-v1.parquet",
+            "JetHT_Run2018C-UL2018_MiniAODv2-v1.parquet",
+            "JetHT_Run2018D-UL2018_MiniAODv2-v2.parquet",
+        ],
+    },
+    "EMuon": {
+        "2017": [
+            "SingleElectron_Run2017B-UL2017_MiniAODv2-v1.parquet",
+            "SingleElectron_Run2017C-UL2017_MiniAODv2-v1.parquet",
+            "SingleElectron_Run2017D-UL2017_MiniAODv2-v1.parquet",
+            "SingleElectron_Run2017E-UL2017_MiniAODv2-v1.parquet",
+            "SingleElectron_Run2017F-UL2017_MiniAODv2-v1.parquet",
+            "SingleMuon_Run2017B-UL2017_MiniAODv2-v1.parquet",
+            "SingleMuon_Run2017C-UL2017_MiniAODv2-v1.parquet",
+            "SingleMuon_Run2017D-UL2017_MiniAODv2-v1.parquet",
+            "SingleMuon_Run2017E-UL2017_MiniAODv2-v1.parquet",
+            "SingleMuon_Run2017F-UL2017_MiniAODv2-v1.parquet",
+        ],
+        "2018": [
+            "EGamma_Run2018A-UL2018_MiniAODv2-v1.parquet",
+            "EGamma_Run2018B-UL2018_MiniAODv2-v1.parquet",
+            "EGamma_Run2018C-UL2018_MiniAODv2-v1.parquet",
+            "EGamma_Run2018D-UL2018_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2018A-UL2018_MiniAODv2-v3.parquet",
+            "SingleMuon_Run2018B-UL2018_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2018C-UL2018_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.parquet",
+        ],
+    },
     "QCD": [
         "QCD_HT500to700.parquet",
         "QCD_HT700to1000.parquet",
@@ -80,6 +103,7 @@ def parquet_to_hists(year, mode, proc, fpath):
         events = events[cut(events)]
     nevent_postcut = len(events)
     print(f"{fpath}: {nevent_precut} -> {nevent_postcut}")
+    hlt_dict[mode][year] = list(filter(lambda hlt: hlt[0] in events.fields, hlt_dict[mode][year]))
     hists = []
     hlts = [[True], ["HLT_OR"]]
     for hlt in hlts:
@@ -123,7 +147,10 @@ for year in year_match:
             hists[year][mode][proc] = []
             for ym in year_match[year]:
                 dirname = os.path.join(indir, ym, mode, "MC" if proc == "QCD" else "Data")
-                for pm in natsort.natsorted(proc_match[mode][proc]):
+                pms = proc_match[mode][proc]
+                if type(pms) is dict:
+                    pms = pms[year]
+                for pm in natsort.natsorted(pms):
                     if not pm.endswith(".parquet"):
                         continue
                     hists[year][mode][proc].append(parquet_to_hists_async(year, mode, proc, os.path.join(dirname, pm)))
