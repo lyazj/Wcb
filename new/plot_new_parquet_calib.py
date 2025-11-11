@@ -105,7 +105,7 @@ proc_cut = {
 }
 plots = {}
 plots["ttWcb"] = [
-    ("ak8_a_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][..., 0], 350, 800, 10),
+    ("ak8_a_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][..., 0], 200, 600, 10),
     ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 10),
     ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),

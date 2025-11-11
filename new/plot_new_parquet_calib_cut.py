@@ -111,6 +111,7 @@ proc_cut = {
 }
 plots = {}
 plots["ttWcb"] = [
+    ("ak8_a_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][..., 0], 200, 600, 10),
     ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 10),
     ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
@@ -225,5 +226,5 @@ for year in year_match:
                 plt.yscale("linear")
                 plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
-            plt.savefig(os.path.join(outdir, f"parquet_calib_{year}_{mode}_{n}_cb_score_{cb_score_range[0]}_{cb_score_range[1]}.pdf"))
+            plt.savefig(os.path.join(outdir, f"new_parquet_calib_{year}_{mode}_{n}_cb_score_{cb_score_range[0]}_{cb_score_range[1]}.pdf"))
             plt.clf()
