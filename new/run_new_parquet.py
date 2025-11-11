@@ -42,6 +42,8 @@ for filename in natsort.natsorted(os.listdir(INDIR)):
                 options.year,
                 "--mode",
                 options.mode,
+                "--is-qcd",
+                str(filename.startswith("QCD")),
             ]
         )
 multiprocessing.Pool(4).map(subprocess.run, args)
