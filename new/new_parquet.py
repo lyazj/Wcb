@@ -13,7 +13,7 @@ parser.add_argument(
     "--year", type=str, choices=["2016APV", "2016", "2017", "2018"], required=True, help="Data taking year"
 )
 parser.add_argument("--mode", type=str, choices=["Wcb", "ttWcb"], required=True, help="Event selection mode")
-parser.add_argument("--is-qcd", type=bool, required=True, help="Whether the events belong to QCD simulation")
+parser.add_argument("--is-qcd", type=eval, required=True, help="Whether the events belong to QCD simulation")
 parser.add_argument("--nmax", type=int, default=-1, help="Maximum number of events to process (default: -1 = use all)")
 options = parser.parse_args()
 
