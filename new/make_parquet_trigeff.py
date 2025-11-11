@@ -110,7 +110,9 @@ def parquet_to_hists(year, mode, proc, fpath):
         hlt = hlt[0]
         if hlt is True:
             bev = events
-            weights = bev["weight"] / bev["HLTWeight"]
+            weights = bev["weight"]
+            if "HLTWeight" in bev.fields:
+                weights = weights / bev["HLTWeight"]
         elif hlt == "HLT_OR":
             mask = ak.zeros_like(events["weight"], dtype=bool)
             for h in hlt_dict[mode][year]:
