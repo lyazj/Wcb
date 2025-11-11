@@ -6,14 +6,20 @@ from JobManager import JobManager
 jsons = [
     'json/DAS_Wcb_sig_2016APV.json',
     'json/DAS_Wcb_bkg_2016APV.json',
+    'json/DAS_ttWcb_sig_2016APV.json',
+    'json/DAS_ttWcb_bkg_2016APV.json',
 ]
 odirs = [
-    '/eos/user/l/legao/NtupleStore/V0/2016APV/MC'
-    for _ in jsons
+    '/eos/user/l/legao/NtupleStore/V0/2016APV/Wcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016APV/Wcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016APV/ttWcb/MC',
+    '/eos/user/l/legao/NtupleStore/V0/2016APV/ttWcb/MC',
 ]
 wdirs = [
-    'production/NanoNtupleChain_21_Sep_2024'
-    for _ in jsons
+    'production/2016APV_MC_Wcb',
+    'production/2016APV_MC_Wcb',
+    'production/2016APV_MC_ttWcb',
+    'production/2016APV_MC_ttWcb',
 ]
 
 name = os.path.basename(__file__)
