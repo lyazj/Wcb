@@ -86,14 +86,15 @@ def parquet_to_hists(year, mode, proc, fpath):
         hlt = hlt[0]
         if hlt is True:
             bev = events
+            weights = bev["weight"] / bev["HLTWeight"]
         elif hlt == "HLT_OR":
             mask = ak.zeros_like(events["weight"], dtype=bool)
             for h in hlt_dict[mode][year]:
                 mask = mask | events[h[0]]
             bev = events[mask]
+            weights = bev["weight"]
         else:
-            bev = events[events[hlt]]
-        weights = bev["weight"]
+            raise ValueError("Unknown HLT selection:", hlt)
         hist = Hist.new
         v = []
         for n, l, ex, b, e, s in plots:

@@ -9,7 +9,7 @@ import natsort
 import multiprocessing
 import seaborn as sns
 from hist import Hist
-from config import hlt_dict
+from config import hlt_dict, lumi_dict
 
 plt.figure(figsize=(20, 16))
 hep.style.use("CMS")
@@ -72,15 +72,17 @@ def parquet_to_hists(year, mode, proc, fpath):
             hlt = hlt[0]
             if hlt is True:
                 bev = events
+                weights = bev["weight"] / bev["HLTWeight"]
             elif hlt == "HLT_OR":
                 mask = ak.zeros_like(events["weight"], dtype=bool)
                 for h in hlt_dict[mode][year]:
                     mask = mask | events[h[0]]
                 bev = events[mask]
+                weights = bev["weight"]
             else:
                 bev = events[events[hlt]]
+                weights = bev["weight"] / bev["HLTWeight"] * (hlt[2] / lumi_dict[year])
             bevex = ex(bev)
-            weights = bev["weight"]
             hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
             hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
             hists[-1].append(hist)
