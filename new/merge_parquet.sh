@@ -1,3 +1,5 @@
+#!/bin/bash -v
+
 ./merge_parquet.py --version V0 --year 2018 --mode Wcb --type Data
 ./merge_parquet.py --version V0 --year 2018 --mode Wcb --type MC
 ./merge_parquet.py --version V0 --year 2018 --mode ttWcb --type Data
@@ -6,3 +8,11 @@
 ./merge_parquet.py --version V0 --year 2017 --mode Wcb --type MC
 ./merge_parquet.py --version V0 --year 2017 --mode ttWcb --type Data
 ./merge_parquet.py --version V0 --year 2017 --mode ttWcb --type MC
+./merge_parquet.py --version V0 --year 2016 --mode Wcb --type Data
+./merge_parquet.py --version V0 --year 2016 --mode Wcb --type MC
+./merge_parquet.py --version V0 --year 2016 --mode ttWcb --type Data
+./merge_parquet.py --version V0 --year 2016 --mode ttWcb --type MC
+./merge_parquet.py --version V0 --year 2016APV --mode Wcb --type Data
+./merge_parquet.py --version V0 --year 2016APV --mode Wcb --type MC
+./merge_parquet.py --version V0 --year 2016APV --mode ttWcb --type Data
+./merge_parquet.py --version V0 --year 2016APV --mode ttWcb --type MC

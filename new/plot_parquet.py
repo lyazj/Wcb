@@ -21,8 +21,8 @@ def cms_label(year):
 
 
 year_match = {
-    #"2016APV": ["2016APV"],
-    #"2016": ["2016"],
+    "2016APV": ["2016APV"],
+    "2016": ["2016"],
     "2017": ["2017"],
     "2018": ["2018"],
 }
@@ -33,6 +33,18 @@ modes = [
 proc_match = {}
 proc_match["Wcb"] = {
     "Data": {
+        "2016APV": [
+            "JetHT_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016C-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016D-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016E-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016F-HIPM_UL2016_MiniAODv2-v2.parquet",
+        ],
+        "2016": [
+            "JetHT_Run2016F-UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016G-UL2016_MiniAODv2-v2.parquet",
+            "JetHT_Run2016H-UL2016_MiniAODv2-v2.parquet",
+        ],
         "2017": [
             "JetHT_Run2017B-UL2017_MiniAODv2-v1.parquet",
             "JetHT_Run2017C-UL2017_MiniAODv2-v1.parquet",
@@ -86,6 +98,26 @@ proc_match["Wcb"] = {
 }
 proc_match["ttWcb"] = {
     "Data": {
+        "2016APV": [
+            "SingleElectron_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleElectron_Run2016C-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleElectron_Run2016D-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleElectron_Run2016E-HIPM_UL2016_MiniAODv2-v5.parquet",
+            "SingleElectron_Run2016F-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016C-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016D-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016E-HIPM_UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016F-HIPM_UL2016_MiniAODv2-v2.parquet",
+        ],
+        "2016": [
+            "SingleElectron_Run2016F-UL2016_MiniAODv2-v2.parquet",
+            "SingleElectron_Run2016G-UL2016_MiniAODv2-v2.parquet",
+            "SingleElectron_Run2016H-UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016F-UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016G-UL2016_MiniAODv2-v2.parquet",
+            "SingleMuon_Run2016H-UL2016_MiniAODv2-v2.parquet",
+        ],
         "2017": [
             "SingleElectron_Run2017B-UL2017_MiniAODv2-v1.parquet",
             "SingleElectron_Run2017C-UL2017_MiniAODv2-v1.parquet",
@@ -254,7 +286,7 @@ for year in year_match:
                 dirname = os.path.join(indir, ym, mode, "Data" if proc == "Data" else "MC")
                 pms = proc_match[mode][proc]
                 if type(pms) is dict:
-                    pms = pms[year]
+                    pms = pms[ym]
                 for pm in natsort.natsorted(pms):
                     if not pm.endswith(".parquet"):
                         continue

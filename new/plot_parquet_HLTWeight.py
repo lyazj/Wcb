@@ -21,8 +21,8 @@ def cms_label(year):
 
 
 year_match = {
-    #"2016APV": ["2016APV"],
-    #"2016": ["2016"],
+    "2016APV": ["2016APV"],
+    "2016": ["2016"],
     "2017": ["2017"],
     "2018": ["2018"],
 }
@@ -75,7 +75,7 @@ def parquet_to_hists(mode, proc, fpath):
     for n, l, ex, b, e, s in plots[mode]:
         bev = events
         bevex = ex(bev)
-        weights = ak.ones_like(bevex)
+        weights = bev["weight"] / bevex
         hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
         hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
         view = hist.view(flow=True)
