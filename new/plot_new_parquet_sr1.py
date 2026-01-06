@@ -8,7 +8,7 @@ import mplhep as hep
 import natsort
 import multiprocessing
 import seaborn as sns
-from hist import Hist
+import hist
 
 plt.figure(figsize=(15, 12))
 hep.style.use("CMS")
@@ -27,9 +27,75 @@ year_match = {
     "2018": ["2018"],
 }
 modes = [
+    "Wcb",
     "ttWcb",
 ]
 proc_match = {}
+proc_match["Wcb"] = {
+    "Data": {
+        "2016APV": [
+            "JetHT_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016C-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016D-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016E-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016F-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+        ],
+        "2016": [
+            "JetHT_Run2016F-UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016G-UL2016_MiniAODv2-v2.new.parquet",
+            "JetHT_Run2016H-UL2016_MiniAODv2-v2.new.parquet",
+        ],
+        "2017": [
+            "JetHT_Run2017B-UL2017_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2017C-UL2017_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2017D-UL2017_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2017E-UL2017_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2017F-UL2017_MiniAODv2-v1.new.parquet",
+        ],
+        "2018": [
+            "JetHT_Run2018A-UL2018_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2018B-UL2018_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2018C-UL2018_MiniAODv2-v1.new.parquet",
+            "JetHT_Run2018D-UL2018_MiniAODv2-v2.new.parquet",
+        ],
+    },
+    "Wcb": [
+        "WJetsToQQ_HT-400to600.new.parquet",
+        "WJetsToQQ_HT-600to800.new.parquet",
+        "WJetsToQQ_HT-800toInf.new.parquet",
+    ],
+    "QCD": [
+        "QCD_HT500to700.new.parquet",
+        "QCD_HT700to1000.new.parquet",
+        "QCD_HT1000to1500.new.parquet",
+        "QCD_HT1500to2000.new.parquet",
+        "QCD_HT2000toInf.new.parquet",
+    ],
+    "WJets": [
+        "WJetsToQQ_HT-400to600.new.parquet",
+        "WJetsToQQ_HT-600to800.new.parquet",
+        "WJetsToQQ_HT-800toInf.new.parquet",
+    ],
+    "TT": [
+        "TTToHadronic_TuneCP5.new.parquet",
+        "TTToSemiLeptonic_TuneCP5.new.parquet",
+    ],
+    "ST": [
+        "ST_s-channel_4f_hadronicDecays.new.parquet",
+        "ST_t-channel_antitop.new.parquet",
+        "ST_t-channel_top.new.parquet",
+        "ST_tW_antitop.new.parquet",
+        "ST_tW_top.new.parquet",
+    ],
+    "Other": [
+        "ZJetsToQQ_HT-400to600.new.parquet",
+        "ZJetsToQQ_HT-600to800.new.parquet",
+        "ZJetsToQQ_HT-800toInf.new.parquet",
+        "WW_TuneCP5.new.parquet",
+        "WZ_TuneCP5.new.parquet",
+        "ZZ_TuneCP5_13TeV-pythia8.new.parquet",
+    ],
+}
 proc_match["ttWcb"] = {
     "Data": {
         "2016APV": [
@@ -75,23 +141,33 @@ proc_match["ttWcb"] = {
             "SingleMuon_Run2018D-UL2018_MiniAODv2-v3.new.parquet",
         ],
     },
-    "MC": [
+    "Wcb": [
         "TTToSemiLeptonic_Vcb_TuneCP5.new.parquet",
+    ],
+    "WJets": [
         "WJetsToLNu_Pt-250To400.new.parquet",
         "WJetsToLNu_Pt-400To600.new.parquet",
         "WJetsToLNu_Pt-600ToInf.new.parquet",
+    ],
+    "TT": [
         "TTTo2L2Nu_TuneCP5.new.parquet",
         "TTToSemiLeptonic_TuneCP5.new.parquet",
+    ],
+    "ST": [
         "ST_s-channel_4f_leptonDecays.new.parquet",
         "ST_t-channel_antitop.new.parquet",
         "ST_t-channel_top.new.parquet",
         "ST_tW_antitop.new.parquet",
         "ST_tW_top.new.parquet",
+    ],
+    "QCD": [
         "QCD_HT500to700.new.parquet",
         "QCD_HT700to1000.new.parquet",
         "QCD_HT1000to1500.new.parquet",
         "QCD_HT1500to2000.new.parquet",
         "QCD_HT2000toInf.new.parquet",
+    ],
+    "Other": [
         "DYJetsToLL_LHEFilterPtZ-250To400.new.parquet",
         "DYJetsToLL_LHEFilterPtZ-400To650.new.parquet",
         "DYJetsToLL_LHEFilterPtZ-650ToInf.new.parquet",
@@ -101,56 +177,58 @@ proc_match["ttWcb"] = {
     ],
 }
 procs = {}
-procs["ttWcb"] = ["Data", "Other", "Tbqq", "Tbq", "Tbc", "WOther", "Wud", "Wcs", "Wcb"]
-for proc in procs["ttWcb"]:
-    if proc != "Data":
-        proc_match["ttWcb"][proc] = proc_match["ttWcb"]["MC"]
+procs["Wcb"] = ["Data", "Other", "WJets", "ST", "TT", "QCD", "Wcb"]
+procs["ttWcb"] = ["Data", "Other", "QCD", "WJets", "ST", "TT", "Wcb"]
 proc_label = {
     "Data": r"Data",
-    "Other": r"Other",
-    "Tbqq": r"$t \to bqq$",
-    "Tbq": r"$t \to bq$ (except $t \to bc$)",
-    "Tbc": r"$t \to bc$",
-    "WOther": r"$W \to other$",
-    "Wud": r"$W \to ud$",
-    "Wcs": r"$W \to cs$",
     "Wcb": r"$W \to cb$",
+    "QCD": "QCD",
+    "TT": r"$t\bar t$ (except $W \to cb$)",
+    "ST": r"Single top",
+    "WJets": r"$W + jets$ (except $W \to cb$)",
+    "Other": r"$Z + jets$ and $VV$",
 }
 proc_color = {
     "Data": "#000000",
-    "WOther": sns.color_palette("tab10", 10)[0],
-    "Tbqq": sns.color_palette("tab10", 10)[1],
-    "Tbq": sns.color_palette("tab10", 10)[2],
-    "Tbc": sns.color_palette("tab10", 10)[3],
-    "Other": sns.color_palette("tab10", 10)[4],
-    "Wud": sns.color_palette("tab10", 10)[5],
-    "Wcs": sns.color_palette("tab10", 10)[6],
-    "Wcb": "#3f3f3f",
+    "Wcb": sns.color_palette("tab10", 10)[0],
+    "QCD": sns.color_palette("tab10", 10)[1],
+    "TT": sns.color_palette("tab10", 10)[2],
+    "ST": sns.color_palette("tab10", 10)[3],
+    "WJets": sns.color_palette("tab10", 10)[4],
+    "Other": sns.color_palette("tab10", 10)[5],
 }
+cb_score_range = [0.80, 1.00]
+cb_score_bin_width = (cb_score_range[1] - cb_score_range[0]) / 100
 proc_cut = {
-    "Tbqq": [lambda ev: ev["AK8Jet_match"][..., 0] == 1],
-    "Tbc": [lambda ev: ev["AK8Jet_match"][..., 0] == 2],
-    "Tbq": [lambda ev: ev["AK8Jet_match"][..., 0] == 3],
-    "Wcb": [lambda ev: ev["AK8Jet_match"][..., 0] == 9],
-    "Wcs": [lambda ev: ev["AK8Jet_match"][..., 0] == 8],
-    "Wud": [lambda ev: ev["AK8Jet_match"][..., 0] == 4],
-    "WOther": [lambda ev: (ev["AK8Jet_match"][..., 0] == 5) | (ev["AK8Jet_match"][..., 0] == 6) | (ev["AK8Jet_match"][..., 0] == 7)],
-    "Other": [lambda ev: ev["AK8Jet_match"][..., 0] == 0],
+    "all": [
+        lambda ev: (ev["AK8Jet_cb_score"][..., 0] > cb_score_range[0])
+        & (ev["AK8Jet_cb_score"][..., 0] < cb_score_range[1]),
+    ],
+    "Wcb": [lambda ev: ev["isWcb"]],
+    "WJets": [lambda ev: ~ev["isWcb"]],
 }
 plots = {}
+plots["Wcb"] = [
+    ("ak8_a_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][..., 0], 350, 800, 10),
+    ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 10),
+    ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
+    ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
+    ("ak8_1_sdmass", r"$W \to cb$ candidate jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
+    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
+]
 plots["ttWcb"] = [
     ("ak8_a_pt", r"leading AK8 jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][ak.argmax(ev["AK8Jet_pt"], axis=-1)[:, None]][..., 0], 200, 600, 10),
     ("ak8_1_pt", r"$W \to cb$ candidate jet $p_\mathrm{T}$ [GeV]", lambda ev: ev["AK8Jet_pt"][..., 0], 200, 600, 10),
     ("ak8_1_eta", r"$W \to cb$ candidate jet $\eta$", lambda ev: ev["AK8Jet_eta"][..., 0], -2.5, 2.5, 0.2),
     ("ak8_1_phi", r"$W \to cb$ candidate jet $\phi$", lambda ev: ev["AK8Jet_phi"][..., 0], -np.pi, np.pi, 0.2 * np.pi),
     ("ak8_1_sdmass", r"$W \to cb$ candidate jet $m_\mathrm{SD}$ [GeV]", lambda ev: ev["AK8Jet_sdmass"][..., 0], 30, 230, 10),
-    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], 0, 1, 0.01),
+    ("ak8_1_cb_score", r"$W \to cb$ candidate jet $S_{cb}$", lambda ev: ev["AK8Jet_cb_score"][..., 0], *cb_score_range, cb_score_bin_width),
 ]
 blind_match = {
-    #"ak8_1_sdmass": [(50, 110)],
+    "ak8_1_sdmass": [(50, 110)],
 }
 ylog_match = [
-    "ak8_1_cb_score",
+    #"ak8_1_cb_score",
 ]
 indir = "/data/bond/lyazj/Parquet/V0"
 outdir = "parquet"
@@ -187,9 +265,9 @@ def parquet_to_hists(mode, proc, fpath):
                 bev = bev[mask]
                 bevex = bevex[mask]
         weights = bev["weight"]
-        hist = Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
-        hist.fill(bevex.to_numpy(), weight=weights.to_numpy())
-        hists.append(hist)
+        h = hist.Hist.new.Regular(int(round((e - b) / s)), b, e, name=n, label=l).Weight()
+        h.fill(bevex.to_numpy(), weight=weights.to_numpy())
+        hists.append(h)
     return np.array([*hists, None], dtype=object)[:-1]
 
 
@@ -218,7 +296,7 @@ for year in year_match:
                     if not pm.endswith(".parquet"):
                         continue
                     hists[year][mode][proc].append(parquet_to_hists_async(mode, proc, os.path.join(dirname, pm)))
-            hists[year][mode][proc] = sum(hist.get() for hist in hists[year][mode][proc])
+            hists[year][mode][proc] = sum(h.get() for h in hists[year][mode][proc])
 hists["all"] = {}
 for mode in modes:
     hists["all"][mode] = {}
@@ -227,8 +305,7 @@ for mode in modes:
         for i, (n, l, ex, b, e, s) in enumerate(plots[mode]):
             hists["all"][mode][proc].append(sum(hists[year][mode][proc][i] for year in year_match))
 
-#for year in year_match + ["all"]:
-for year in year_match:
+for year in ["all"]:
     for mode in modes:
         for i, (n, l, ex, b, e, s) in enumerate(plots[mode]):
             print(year, mode, n)
@@ -239,6 +316,12 @@ for year in year_match:
                 hs.append(hists[year][mode][proc][i])
                 ls.append(proc_label[proc])
                 cs.append(proc_color[proc])
+            if n == "ak8_1_sdmass":
+                mask = (hs[-1].axes[0].edges[:-1] >= 50) & (hs[-1].axes[0].edges[:-1] < 110)
+                s = hs[-1].values()[mask].sum()
+                b = hist.sum(hs[1:-1]).values()[mask].sum()
+                signif = s / np.sqrt(b + 1)
+                print(f"cb_score_range={cb_score_range} signif={signif:.3f}")
             hep.histplot(hs[0], histtype="errorbar", label=ls[0], color=cs[0])
             hep.histplot(hs[1:-1], stack=True, histtype="fill", label=ls[1:-1], color=cs[1:-1])
             sf = hs[0].values().max() / hs[-1].values().max()
@@ -257,5 +340,5 @@ for year in year_match:
                 plt.yscale("linear")
                 plt.ylim(plt.ylim()[0], plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 1.15)
             plt.tight_layout()
-            plt.savefig(os.path.join(outdir, f"new_parquet_calib_{year}_{mode}_{n}.pdf"))
+            plt.savefig(os.path.join(outdir, f"new_parquet_{year}_{mode}_{n}_cb_score_{cb_score_range[0]}_{cb_score_range[1]}.pdf"))
             plt.clf()

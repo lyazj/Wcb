@@ -21,8 +21,8 @@ def cms_label(year):
 
 
 year_match = {
-    #"2016APV": ["2016APV"],
-    #"2016": ["2016"],
+    "2016APV": ["2016APV"],
+    "2016": ["2016"],
     "2017": ["2017"],
     "2018": ["2018"],
 }
@@ -31,7 +31,28 @@ modes = [
 ]
 proc_match = {}
 proc_match["ttWcb"] = {
-    "Data": { "2017": [
+    "Data": {
+        "2016APV": [
+            "SingleElectron_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleElectron_Run2016C-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleElectron_Run2016D-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleElectron_Run2016E-HIPM_UL2016_MiniAODv2-v5.new.parquet",
+            "SingleElectron_Run2016F-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016B-ver2_HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016C-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016D-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016E-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016F-HIPM_UL2016_MiniAODv2-v2.new.parquet",
+        ],
+        "2016": [
+            "SingleElectron_Run2016F-UL2016_MiniAODv2-v2.new.parquet",
+            "SingleElectron_Run2016G-UL2016_MiniAODv2-v2.new.parquet",
+            "SingleElectron_Run2016H-UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016F-UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016G-UL2016_MiniAODv2-v2.new.parquet",
+            "SingleMuon_Run2016H-UL2016_MiniAODv2-v2.new.parquet",
+        ],
+        "2017": [
             "SingleElectron_Run2017B-UL2017_MiniAODv2-v1.new.parquet",
             "SingleElectron_Run2017C-UL2017_MiniAODv2-v1.new.parquet",
             "SingleElectron_Run2017D-UL2017_MiniAODv2-v1.new.parquet",
